@@ -1,0 +1,73 @@
+name: usgs-earthquake-refresh
+
+on:
+  workflow_dispatch:
+    inputs:
+      map_url:
+        description: Optional override for the USGS map URL
+        required: false
+        type: string
+  schedule:
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: usgs-earthquake-refresh
+  cancel-in-progress: false
+
+env:
+  DEFAULT_MAP_URL: https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852&extent=56.31654,-45.79102&range=week&magnitude=all
+
+jobs:
+  refresh:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish USGS exports
+        shell: powershell
+        env:
+          WORKFLOW_MAP_URL: ${{ github.event.inputs.map_url }}
+          REPO_MAP_URL: ${{ vars.USGS_MAP_URL }}
+        run: |
+          Set-StrictMode -Version Latest
+          $ErrorActionPreference = "Stop"
+
+          $mapUrl = if ($env:WORKFLOW_MAP_URL) {
+            $env:WORKFLOW_MAP_URL
+          }
+          elseif ($env:REPO_MAP_URL) {
+            $env:REPO_MAP_URL
+          }
+          else {
+            $env:DEFAULT_MAP_URL
+          }
+
+          powershell -NoProfile -ExecutionPolicy Bypass -File ".\usgs_seismic_stream\publish-usgs-earthquakes.ps1" -MapUrl $mapUrl
+
+      - name: Commit refreshed exports
+        shell: powershell
+        run: |
+          Set-StrictMode -Version Latest
+          $ErrorActionPreference = "Stop"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add usgs_seismic_stream/exports
+
+          $stagedChanges = git diff --cached --name-only
+          if (-not $stagedChanges) {
+            Write-Host "No export changes detected."
+            exit 0
+          }
+
+          $timestamp = Get-Date -AsUTC -Format "yyyy-MM-dd HH:mm:ss 'UTC'"
+          git commit -m "chore: refresh USGS earthquake exports ($timestamp)"
+          git push
