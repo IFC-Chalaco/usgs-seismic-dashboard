@@ -1,0 +1,132 @@
+name: usgs-earthquake-stale-alert
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "14,44 * * * *"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: usgs-earthquake-stale-alert
+  cancel-in-progress: false
+
+jobs:
+  stale-check:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Evaluate pipeline freshness
+        id: freshness
+        shell: powershell
+        run: |
+          Set-StrictMode -Version Latest
+          $ErrorActionPreference = "Stop"
+
+          $metaPath = ".\usgs_seismic_stream\exports\pipeline_meta.json"
+          if (-not (Test-Path -Path $metaPath)) {
+            "is_stale=true" >> $env:GITHUB_OUTPUT
+            "title=USGS earthquake pipeline stale alert" >> $env:GITHUB_OUTPUT
+            "body=The pipeline metadata file is missing at usgs_seismic_stream/exports/pipeline_meta.json." >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          $meta = Get-Content -Path $metaPath -Raw | ConvertFrom-Json
+          $generatedAt = [datetimeoffset]$meta.generated_at_utc
+          $thresholdMinutes = if ($meta.stale_after_minutes) { [int]$meta.stale_after_minutes } else { 30 }
+          $ageMinutes = [Math]::Round(((Get-Date).ToUniversalTime() - $generatedAt.UtcDateTime).TotalMinutes, 1)
+          $isStale = $ageMinutes -gt $thresholdMinutes
+
+          $body = @"
+The USGS earthquake refresh pipeline appears stale.
+
+- Last generated at (UTC): $($meta.generated_at_utc)
+- Age in minutes: $ageMinutes
+- Threshold in minutes: $thresholdMinutes
+- Total events in latest export: $($meta.total_events)
+"@
+
+          "is_stale=$($isStale.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          "title=USGS earthquake pipeline stale alert" >> $env:GITHUB_OUTPUT
+          $bodyDelimiter = [guid]::NewGuid().Guid
+          "body<<$bodyDelimiter" >> $env:GITHUB_OUTPUT
+          $body >> $env:GITHUB_OUTPUT
+          $bodyDelimiter >> $env:GITHUB_OUTPUT
+
+      - name: Open or update stale issue
+        if: steps.freshness.outputs.is_stale == 'true'
+        uses: actions/github-script@v7
+        env:
+          STALE_TITLE: ${{ steps.freshness.outputs.title }}
+          STALE_BODY: ${{ steps.freshness.outputs.body }}
+        with:
+          script: |
+            const title = process.env.STALE_TITLE;
+            const body = process.env.STALE_BODY;
+            const { owner, repo } = context.repo;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: "open",
+              per_page: 100,
+            });
+
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: existing.number,
+                body,
+              });
+              core.info(`Updated stale alert issue #${existing.number}.`);
+            } else {
+              const { data: created } = await github.rest.issues.create({
+                owner,
+                repo,
+                title,
+                body,
+              });
+              core.info(`Created stale alert issue #${created.number}.`);
+            }
+
+      - name: Close stale issue when healthy
+        if: steps.freshness.outputs.is_stale != 'true'
+        uses: actions/github-script@v7
+        env:
+          STALE_TITLE: ${{ steps.freshness.outputs.title }}
+        with:
+          script: |
+            const title = process.env.STALE_TITLE;
+            const { owner, repo } = context.repo;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: "open",
+              per_page: 100,
+            });
+
+            const existing = issues.find((issue) => issue.title === title);
+            if (!existing) {
+              core.info("No open stale alert issue to close.");
+              return;
+            }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: existing.number,
+              body: "The USGS earthquake pipeline is healthy again. Closing this alert automatically.",
+            });
+
+            await github.rest.issues.update({
+              owner,
+              repo,
+              issue_number: existing.number,
+              state: "closed",
+            });
