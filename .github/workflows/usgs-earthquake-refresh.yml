@@ -68,6 +68,6 @@ jobs:
             exit 0
           }
 
-          $timestamp = Get-Date -AsUTC -Format "yyyy-MM-dd HH:mm:ss 'UTC'"
+          $timestamp = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd HH:mm:ss 'UTC'")
           git commit -m "chore: refresh USGS earthquake exports ($timestamp)"
           git push
