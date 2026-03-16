@@ -3,9 +3,10 @@ name: usgs-earthquake-stale-alert
 on:
   workflow_dispatch:
   schedule:
-    - cron: "14,44 * * * *"
+    - cron: "4,14,24,34,44,54 * * * *"
 
 permissions:
+  actions: write
   contents: read
   issues: write
 
@@ -94,6 +95,38 @@ jobs:
               });
               core.info(`Created stale alert issue #${created.number}.`);
             }
+
+      - name: Request recovery refresh
+        if: steps.freshness.outputs.is_stale == 'true'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const workflow_id = "usgs-earthquake-refresh.yml";
+            const { owner, repo } = context.repo;
+            const ref = context.payload.repository.default_branch || "main";
+            const activeStatuses = new Set(["queued", "in_progress", "pending", "requested", "waiting"]);
+
+            const { data } = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id,
+              per_page: 20,
+            });
+
+            const activeRun = data.workflow_runs.find((run) => activeStatuses.has(run.status));
+            if (activeRun) {
+              core.info(`Refresh workflow already active via run ${activeRun.id}; skipping recovery dispatch.`);
+              return;
+            }
+
+            await github.rest.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id,
+              ref,
+            });
+
+            core.info(`Dispatched ${workflow_id} on ${ref} after stale check.`);
 
       - name: Close stale issue when healthy
         if: steps.freshness.outputs.is_stale != 'true'
