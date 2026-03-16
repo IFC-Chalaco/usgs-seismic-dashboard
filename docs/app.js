@@ -1,6 +1,8 @@
 const DATA_URL = "./data/earthquakes_live_curated.json";
 const META_URL = "./data/dashboard_meta.json";
 const GEOJSON_URL = "./data/earthquakes_live.geojson";
+const REFRESH_POLL_INTERVAL_MS = 30000;
+const TOAST_LIFETIME_MS = 2000;
 
 const magnitudeBands = [
   { label: "M < 1", min: -Infinity, max: 1 },
@@ -48,12 +50,17 @@ const elements = {
   strongestList: document.getElementById("strongestList"),
   recentTableBody: document.getElementById("recentTableBody"),
   chartTooltip: document.getElementById("chartTooltip"),
+  toastStack: document.getElementById("toastStack"),
 };
 
 let allEvents = [];
 let dashboardMeta = null;
 let map = null;
 let mapLayer = null;
+let knownEventIds = new Set();
+let toastQueue = [];
+let toastTimerId = null;
+let refreshTimerId = null;
 
 init().catch((error) => {
   console.error(error);
@@ -69,10 +76,12 @@ async function init() {
 
   allEvents = (dataPayload.events || []).map(normalizeEvent);
   dashboardMeta = metaPayload;
+  knownEventIds = new Set(allEvents.map((event) => event.id));
 
   bindControls();
   populateZoneFilter(allEvents);
   render();
+  startAutoRefresh();
 }
 
 function bindControls() {
@@ -122,8 +131,12 @@ function render() {
   renderMap(filteredEvents);
 }
 
-function fetchJson(url) {
-  return fetch(url).then((response) => {
+function fetchJson(url, options = {}) {
+  const requestUrl = options.bypassCache ? withCacheBust(url) : url;
+
+  return fetch(requestUrl, {
+    cache: options.bypassCache ? "no-store" : "default",
+  }).then((response) => {
     if (!response.ok) {
       throw new Error(`Unable to fetch ${url}: ${response.status}`);
     }
@@ -648,12 +661,57 @@ function renderMap(events) {
 
 function populateZoneFilter(events) {
   const zones = [...new Set(events.map((event) => event.zone).filter(Boolean))].sort();
+  const selectedZone = state.zone;
+
+  elements.zoneFilter.innerHTML = '<option value="all">All zones</option>';
   zones.forEach((zone) => {
     const option = document.createElement("option");
     option.value = zone;
     option.textContent = zone;
     elements.zoneFilter.appendChild(option);
   });
+
+  if (selectedZone !== "all" && zones.includes(selectedZone)) {
+    elements.zoneFilter.value = selectedZone;
+  } else {
+    state.zone = "all";
+    elements.zoneFilter.value = "all";
+  }
+}
+
+function startAutoRefresh() {
+  if (refreshTimerId) {
+    clearInterval(refreshTimerId);
+  }
+
+  refreshTimerId = window.setInterval(() => {
+    refreshPublishedFeed().catch((error) => {
+      console.error("Background dashboard refresh failed.", error);
+    });
+  }, REFRESH_POLL_INTERVAL_MS);
+}
+
+async function refreshPublishedFeed() {
+  const [dataPayload, metaPayload] = await Promise.all([
+    fetchJson(DATA_URL, { bypassCache: true }),
+    fetchJson(META_URL, { bypassCache: true }),
+  ]);
+
+  const nextEvents = (dataPayload.events || []).map(normalizeEvent);
+  const nextEventIds = new Set(nextEvents.map((event) => event.id));
+  const newEvents = nextEvents
+    .filter((event) => event.id && !knownEventIds.has(event.id))
+    .sort((left, right) => left.utcDate - right.utcDate);
+
+  allEvents = nextEvents;
+  dashboardMeta = metaPayload;
+  knownEventIds = nextEventIds;
+  populateZoneFilter(allEvents);
+  render();
+
+  if (newEvents.length) {
+    queueToasts(newEvents);
+  }
 }
 
 function bucketEvents(events, config) {
@@ -773,6 +831,38 @@ function attachTooltip(target, html) {
   target.addEventListener("mouseleave", hide);
 }
 
+function queueToasts(events) {
+  events.forEach((event) => {
+    toastQueue.push(event);
+  });
+
+  if (!toastTimerId) {
+    showNextToast();
+  }
+}
+
+function showNextToast() {
+  if (!toastQueue.length) {
+    toastTimerId = null;
+    return;
+  }
+
+  const event = toastQueue.shift();
+  const toast = document.createElement("article");
+  toast.className = "toast";
+  toast.innerHTML = `
+    <strong class="toast-title">New earthquake: M ${event.magnitude.toFixed(1)}</strong>
+    <span class="toast-copy">${escapeHtml(event.place)}<br>${escapeHtml(event.country || event.zone)} • ${event.depth.toFixed(1)} km deep</span>
+  `;
+  elements.toastStack.appendChild(toast);
+
+  toastTimerId = window.setTimeout(() => {
+    toast.remove();
+    toastTimerId = null;
+    showNextToast();
+  }, TOAST_LIFETIME_MS);
+}
+
 function positionTooltip(event) {
   elements.chartTooltip.style.left = `${event.clientX + 16}px`;
   elements.chartTooltip.style.top = `${event.clientY + 16}px`;
@@ -849,4 +939,9 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function withCacheBust(url) {
+  const separator = url.includes("?") ? "&" : "?";
+  return `${url}${separator}t=${Date.now()}`;
 }

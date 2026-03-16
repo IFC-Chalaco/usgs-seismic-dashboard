@@ -578,6 +578,65 @@ tbody td {
   font-size: 0.96rem;
 }
 
+.toast-stack {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10000;
+  display: grid;
+  gap: 12px;
+  width: min(360px, calc(100vw - 28px));
+  pointer-events: none;
+}
+
+.toast {
+  padding: 14px 16px;
+  border-radius: 18px;
+  color: #fffaf3;
+  background:
+    linear-gradient(135deg, rgba(18, 25, 34, 0.96), rgba(34, 47, 61, 0.94)),
+    radial-gradient(circle at top right, rgba(216, 95, 45, 0.3), transparent 40%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
+  transform: translateY(14px) scale(0.98);
+  opacity: 0;
+  animation: toast-in-out 2000ms ease forwards;
+}
+
+.toast-title {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.toast-copy {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: rgba(255, 250, 243, 0.82);
+}
+
+@keyframes toast-in-out {
+  0% {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+
+  12%,
+  78% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+}
+
 .is-empty {
   display: grid;
   place-items: center;
@@ -628,6 +687,12 @@ tbody td {
 
   .map-frame {
     min-height: 360px;
+  }
+
+  .toast-stack {
+    right: 14px;
+    left: 14px;
+    width: auto;
   }
 }
 
