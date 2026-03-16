@@ -43,7 +43,6 @@ const elements = {
   statusFilter: document.getElementById("statusFilter"),
   zoneFilter: document.getElementById("zoneFilter"),
   soundToggle: document.getElementById("soundToggle"),
-  soundStatus: document.getElementById("soundStatus"),
   quickRange: document.getElementById("quickRange"),
   statsGrid: document.getElementById("statsGrid"),
   activityChart: document.getElementById("activityChart"),
@@ -108,8 +107,8 @@ function bindControls() {
     render();
   });
 
-  elements.soundToggle.addEventListener("change", async (event) => {
-    setSoundEnabled(event.target.checked);
+  elements.soundToggle.addEventListener("click", async () => {
+    setSoundEnabled(!state.soundEnabled);
 
     if (state.soundEnabled) {
       try {
@@ -166,8 +165,9 @@ function setSoundEnabled(enabled) {
 }
 
 function updateSoundUi() {
-  elements.soundToggle.checked = state.soundEnabled;
-  elements.soundStatus.textContent = state.soundEnabled ? "On" : "Off";
+  elements.soundToggle.textContent = state.soundEnabled ? "Alert sound on" : "Alert sound off";
+  elements.soundToggle.setAttribute("aria-pressed", String(state.soundEnabled));
+  elements.soundToggle.classList.toggle("is-on", state.soundEnabled);
 }
 
 function armAudioUnlock() {
