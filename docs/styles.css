@@ -292,6 +292,38 @@ input[type="range"] {
   border: 1px solid rgba(22, 32, 43, 0.08);
 }
 
+.control-field-toggle {
+  align-content: start;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.toggle-row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.toggle-row strong {
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+.control-hint {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  line-height: 1.45;
+  text-transform: none;
+}
+
 select {
   width: 100%;
   padding: 12px 14px;

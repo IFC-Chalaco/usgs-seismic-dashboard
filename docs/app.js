@@ -1,9 +1,10 @@
 const DATA_URL = "./data/earthquakes_live_curated.json";
 const META_URL = "./data/dashboard_meta.json";
 const GEOJSON_URL = "./data/earthquakes_live.geojson";
-const REFRESH_POLL_INTERVAL_MS = 15000;
+const REFRESH_POLL_INTERVAL_MS = 10000;
 const TOAST_LIFETIME_MS = 2000;
 const DISPLAY_TIME_ZONE = "America/New_York";
+const SOUND_STORAGE_KEY = "usgs-dashboard-sound-enabled";
 
 const magnitudeBands = [
   { label: "M < 1", min: -Infinity, max: 1 },
@@ -27,6 +28,7 @@ const state = {
   minMagnitude: 0,
   status: "all",
   zone: "all",
+  soundEnabled: false,
 };
 
 const elements = {
@@ -40,6 +42,8 @@ const elements = {
   magnitudeValue: document.getElementById("magnitudeValue"),
   statusFilter: document.getElementById("statusFilter"),
   zoneFilter: document.getElementById("zoneFilter"),
+  soundToggle: document.getElementById("soundToggle"),
+  soundStatus: document.getElementById("soundStatus"),
   quickRange: document.getElementById("quickRange"),
   statsGrid: document.getElementById("statsGrid"),
   activityChart: document.getElementById("activityChart"),
@@ -62,6 +66,8 @@ let knownEventIds = new Set();
 let toastQueue = [];
 let toastTimerId = null;
 let refreshTimerId = null;
+let audioContext = null;
+let audioUnlockBound = false;
 
 init().catch((error) => {
   console.error(error);
@@ -79,6 +85,7 @@ async function init() {
   dashboardMeta = metaPayload;
   knownEventIds = new Set(allEvents.map((event) => event.id));
 
+  hydrateSoundPreference();
   bindControls();
   populateZoneFilter(allEvents);
   render();
@@ -101,6 +108,18 @@ function bindControls() {
     render();
   });
 
+  elements.soundToggle.addEventListener("change", async (event) => {
+    setSoundEnabled(event.target.checked);
+
+    if (state.soundEnabled) {
+      try {
+        await ensureAudioContext();
+      } catch (error) {
+        console.warn("Unable to initialize dashboard alert sound.", error);
+      }
+    }
+  });
+
   elements.quickRange.addEventListener("click", (event) => {
     const button = event.target.closest("[data-hours]");
     if (!button) {
@@ -113,6 +132,116 @@ function bindControls() {
       .forEach((item) => item.classList.toggle("is-active", item === button));
     render();
   });
+}
+
+function hydrateSoundPreference() {
+  try {
+    state.soundEnabled = window.localStorage.getItem(SOUND_STORAGE_KEY) === "true";
+  } catch (error) {
+    console.warn("Unable to read dashboard sound preference.", error);
+    state.soundEnabled = false;
+  }
+
+  updateSoundUi();
+
+  if (state.soundEnabled) {
+    armAudioUnlock();
+  }
+}
+
+function setSoundEnabled(enabled) {
+  state.soundEnabled = Boolean(enabled);
+
+  try {
+    window.localStorage.setItem(SOUND_STORAGE_KEY, String(state.soundEnabled));
+  } catch (error) {
+    console.warn("Unable to persist dashboard sound preference.", error);
+  }
+
+  if (state.soundEnabled) {
+    armAudioUnlock();
+  }
+
+  updateSoundUi();
+}
+
+function updateSoundUi() {
+  elements.soundToggle.checked = state.soundEnabled;
+  elements.soundStatus.textContent = state.soundEnabled ? "On" : "Off";
+}
+
+function armAudioUnlock() {
+  if (audioUnlockBound || !state.soundEnabled) {
+    return;
+  }
+
+  const unlock = () => {
+    ensureAudioContext().catch((error) => {
+      console.warn("Dashboard alert sound is still blocked by the browser.", error);
+    });
+  };
+
+  ["pointerdown", "keydown", "touchstart"].forEach((eventName) => {
+    window.addEventListener(eventName, unlock, { once: true, passive: true });
+  });
+
+  audioUnlockBound = true;
+}
+
+async function ensureAudioContext() {
+  if (!state.soundEnabled) {
+    return null;
+  }
+
+  const AudioContextCtor = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextCtor) {
+    return null;
+  }
+
+  if (!audioContext) {
+    audioContext = new AudioContextCtor();
+  }
+
+  if (audioContext.state === "suspended") {
+    await audioContext.resume();
+  }
+
+  return audioContext;
+}
+
+async function playToastCue(tone) {
+  if (!state.soundEnabled) {
+    return;
+  }
+
+  const context = await ensureAudioContext();
+  if (!context) {
+    return;
+  }
+
+  const frequenciesByTone = {
+    low: [523.25, 659.25],
+    mid: [659.25, 783.99],
+    high: [783.99, 987.77],
+  };
+  const [firstFrequency, secondFrequency] = frequenciesByTone[tone.key] || frequenciesByTone.low;
+  const oscillator = context.createOscillator();
+  const gainNode = context.createGain();
+  const startTime = context.currentTime;
+
+  oscillator.type = "sine";
+  oscillator.frequency.setValueAtTime(firstFrequency, startTime);
+  oscillator.frequency.setValueAtTime(secondFrequency, startTime + 0.1);
+
+  gainNode.gain.setValueAtTime(0.0001, startTime);
+  gainNode.gain.exponentialRampToValueAtTime(0.045, startTime + 0.015);
+  gainNode.gain.exponentialRampToValueAtTime(0.018, startTime + 0.085);
+  gainNode.gain.exponentialRampToValueAtTime(0.0001, startTime + 0.18);
+
+  oscillator.connect(gainNode);
+  gainNode.connect(context.destination);
+  oscillator.start(startTime);
+  oscillator.stop(startTime + 0.2);
 }
 
 function render() {
@@ -858,6 +987,9 @@ function showNextToast() {
     <span class="toast-copy">${escapeHtml(event.place)}<br>${escapeHtml(event.country || event.zone)} | ${event.depth.toFixed(1)} km deep</span>
   `;
   elements.toastStack.appendChild(toast);
+  playToastCue(tone).catch((error) => {
+    console.warn("Unable to play dashboard alert sound.", error);
+  });
 
   toastTimerId = window.setTimeout(() => {
     toast.remove();
