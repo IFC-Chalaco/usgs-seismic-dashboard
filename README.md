@@ -38,6 +38,19 @@ This repository closes that gap by turning a live USGS map configuration into a 
 
 That makes the project useful as both an analysis feed and a foundation for a future live dashboard.
 
+## 🤝 AI Collaboration Note
+
+This project was developed with Codex used as a copilot during the build and refinement process.
+
+In this repository, Codex was primarily used to help:
+
+- debug failing GitHub Actions workflows and automation edge cases
+- accelerate scripting and repetitive implementation tasks
+- test and refine data-quality guardrails for magnitude, depth, time, and geography
+- diagnose refresh, monitoring, and publishing issues in CI
+- improve documentation structure and README presentation
+- speed up iteration while keeping the project direction, judgment, and standards human-led
+
 ## 🏗 Architecture
 
 ### High-Level Flow
