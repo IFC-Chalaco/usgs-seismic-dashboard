@@ -1,5 +1,5 @@
 # 🌎 USGS Seismic Dashboard
-### Near-Live Earthquake Data Pipeline + Dashboard-Ready Feed
+### Near-Live Earthquake Data Pipeline + Live Public Dashboard
 
 Cloud-automated seismic data pipeline for USGS earthquake activity across a configurable map extent.
 
@@ -24,6 +24,24 @@ The pipeline currently combines:
 - 🤖 GitHub Actions automation for refresh, monitoring, and repository publishing
 
 All ingestion, transformation, export, and monitoring steps run in GitHub Actions. No local machine is required for production refreshes.
+
+## 📊 Interactive Dashboard
+
+Live GitHub Pages dashboard:
+
+- [https://ifc-chalaco.github.io/usgs-seismic-dashboard/](https://ifc-chalaco.github.io/usgs-seismic-dashboard/)
+
+The repository now includes a native HTML dashboard as the primary public-facing experience for the published feed.
+
+The dashboard is designed to give visitors a fast operational read on the current seven-day earthquake window through:
+
+- sync status and coverage annotations in Eastern Time
+- headline KPI cards for activity, magnitude, depth, felt reports, and review status
+- time-series views for cadence and recent clustering
+- magnitude-band breakdowns and top activity zones
+- epicenter mapping and strongest-event spotlights
+- a recent-events table tied to the active filters
+- near-live toast alerts when new earthquakes arrive in the published feed
 
 ## 🎯 Why This Project Exists
 
@@ -61,13 +79,15 @@ flowchart TD
     C --> D["Normalization + quality rules<br/>ET time, country, magnitude, depth"]
     D --> E["Published export layer<br/>CSV + JSON + GeoJSON + metadata"]
     E --> F["GitHub Actions refresh workflow<br/>scheduled + manual runs"]
-    F --> G["GitHub repository outputs<br/>stable raw URLs for downstream use"]
-    G --> H["BI / GIS / web consumers<br/>Power BI, maps, dashboards, custom apps"]
+    F --> G["Repository export layer<br/>raw files under usgs_seismic_stream/exports"]
+    G --> H["Website mirror under docs/data<br/>dashboard-ready payloads"]
+    H --> I["GitHub Pages dashboard<br/>interactive public web experience"]
+    G --> J["BI / GIS / research consumers<br/>Power BI, maps, dashboards, custom apps"]
 ```
 
 ### Delivery Pattern
 
-GitHub Actions runs the refresh pipeline on a schedule, regenerates the export layer, and pushes the latest derived files back into the repository. That means consumers can point to stable GitHub raw URLs instead of depending on a local machine or a manually refreshed spreadsheet.
+GitHub Actions runs the refresh pipeline on a schedule, regenerates the export layer, mirrors the website-facing files into `docs/data`, and pushes the latest derived outputs back into the repository. That means both the public dashboard and downstream consumers can point to stable GitHub-hosted files instead of depending on a local machine or a manually refreshed spreadsheet.
 
 ## 🔄 What the Pipeline Does
 
@@ -140,16 +160,28 @@ Freshness and coverage metadata for operational monitoring and sync checks:
 
 - [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/pipeline_meta.json](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/pipeline_meta.json)
 
-## 🌐 Dashboard Readiness
+### 🌐 Website Data
 
-This repository does not yet publish a front-end dashboard experience, but it already produces the exact kind of files a live dashboard would need:
+These are the files consumed directly by the public dashboard:
 
-- a curated tabular feed for KPI cards and tables
-- a GeoJSON feed for epicenter mapping
-- normalized ET timestamps for audience-facing time logic
-- metadata for freshness banners and sync indicators
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/earthquakes_live_curated.json](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/earthquakes_live_curated.json)
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/earthquakes_live.geojson](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/earthquakes_live.geojson)
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/dashboard_meta.json](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/docs/data/dashboard_meta.json)
 
-In other words, the data layer is already live and dashboard-ready even if the presentation layer is still to come.
+## 🌐 Dashboard Delivery
+
+The public site is now live and published from the `/docs` folder through GitHub Pages.
+
+Core dashboard files:
+
+- `docs/index.html`
+- `docs/app.js`
+- `docs/styles.css`
+- `docs/data/earthquakes_live_curated.json`
+- `docs/data/earthquakes_live.geojson`
+- `docs/data/dashboard_meta.json`
+
+The dashboard is fully client-side. It loads the published repository data directly in the browser, applies filters without server-side rendering, redraws charts and maps in place, and surfaces new events through near-live toast alerts.
 
 ## 🧠 Data Model
 
@@ -218,12 +250,27 @@ That design keeps the repository fully cloud-automated while reducing latency be
 - `data/ne_110m_admin_0_countries.geojson`  
   Local country boundary file used for coordinate-based enrichment.
 
+- `docs/index.html`  
+  Public GitHub Pages dashboard shell and layout.
+
+- `docs/app.js`  
+  Client-side data loading, filtering, charting, mapping, and alert logic.
+
+- `docs/styles.css`  
+  Dashboard visual system, layout styling, motion, and responsive behavior.
+
 ### Export Layer
 
 - `usgs_seismic_stream/exports/earthquakes_live_curated.csv`
 - `usgs_seismic_stream/exports/earthquakes_live_curated.json`
 - `usgs_seismic_stream/exports/earthquakes_live.geojson`
 - `usgs_seismic_stream/exports/pipeline_meta.json`
+
+### Website Mirror
+
+- `docs/data/earthquakes_live_curated.json`
+- `docs/data/earthquakes_live.geojson`
+- `docs/data/dashboard_meta.json`
 
 ## 🔐 Security & Data Integrity
 
