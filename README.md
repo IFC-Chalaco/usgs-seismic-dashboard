@@ -158,6 +158,7 @@ Automated capabilities:
 
 - scheduled ingestion and export regeneration
 - manual workflow dispatch with optional map URL override
+- effective one-minute refresh cadence inside each scheduled workflow run
 - serialized refresh runs to avoid overlapping workflow commits
 - published export refresh under `usgs_seismic_stream/exports`
 - heartbeat monitoring for stale pipeline detection
@@ -199,7 +200,7 @@ To finish connecting this local folder to the GitHub repository you already crea
 4. set repository workflow permissions so `GITHUB_TOKEN` can write contents
 5. optionally add a repository variable named `USGS_MAP_URL`
 
-The refresh workflow is currently scheduled every 5 minutes on an off-minute cadence to reduce contention.
+GitHub Actions does not support a native one-minute cron schedule. To work around that, this repository keeps the cron trigger at every 5 minutes and runs a one-minute internal refresh loop inside each scheduled workflow execution.
 
 ## Notes
 
