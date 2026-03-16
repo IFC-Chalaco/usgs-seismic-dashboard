@@ -1,184 +1,233 @@
-# USGS Seismic Dashboard
+# 🌎 USGS Seismic Dashboard
+### Near-Live Earthquake Data Pipeline + Dashboard-Ready Feed
 
-Map-Driven + Automated USGS Earthquake Feed
+Cloud-automated seismic data pipeline for USGS earthquake activity across a configurable map extent.
 
-Build status: GitHub Actions ready
-Data source: USGS Earthquake Catalog
-License posture: public-source data, derived exports only
+**Build:** GitHub Actions automated  
+**Data source:** USGS Earthquake Catalog  
+**Delivery:** Curated CSV, JSON, GeoJSON, and metadata exports  
+**Audience:** BI, GIS, research, newsroom, and web application consumers
 
-## Overview
+## 📌 Overview
 
-This project implements a cloud-automated earthquake data pipeline that continuously pulls public USGS earthquake data, applies data-quality cleanup, and publishes analysis-ready outputs for BI, GIS, and downstream web delivery.
+This project implements a cloud-automated seismic data pipeline that continuously ingests public earthquake data from official USGS sources, applies cleanup and presentation guardrails, and publishes analysis-ready outputs for downstream analytics and web delivery.
 
-The current pipeline combines:
+The repository is designed to act as the data backbone for a near-live seismic dashboard, while also serving teams that simply need clean exports they can trust.
 
-- official USGS earthquake catalog data retrieved through the FDSN event service
-- configurable map-scoped filtering driven by a USGS map URL
-- coordinate-based country enrichment using Natural Earth country boundaries
-- curated CSV, JSON, GeoJSON, and metadata export generation
-- GitHub Actions automation for refresh, monitoring, and repo publishing
+The pipeline currently combines:
 
-All ingestion, transformation, export, and monitoring steps can run in GitHub Actions. No local machine is required for production refreshes after the repository is connected and GitHub Actions is enabled.
+- 🌐 map-scoped filtering driven by a real USGS earthquake map URL
+- 📡 official USGS FDSN event queries for structured earthquake retrieval
+- 🧭 coordinate-based country enrichment using Natural Earth country boundaries
+- 🧹 data-quality cleanup for timestamps, magnitude, depth, and geographic labeling
+- 📦 curated CSV, JSON, GeoJSON, and freshness metadata exports
+- 🤖 GitHub Actions automation for refresh, monitoring, and repository publishing
 
-## Interactive Dashboard
+All ingestion, transformation, export, and monitoring steps run in GitHub Actions. No local machine is required for production refreshes.
 
-This repository is currently focused on the automated data pipeline and published export layer.
+## 🎯 Why This Project Exists
 
-A public dashboard layer can be added later against the curated outputs, but it is not required for the cloud refresh pipeline to run.
+USGS provides excellent public earthquake data, but operational teams often still need to bridge a gap between raw event feeds and dashboard-friendly delivery.
 
-## Architecture
+This repository closes that gap by turning a live USGS map configuration into a repeatable, cloud-hosted publishing pipeline:
+
+- a human can define scope visually in the USGS map
+- the pipeline translates that scope into API-ready parameters
+- the data is cleaned and normalized for public-facing use
+- refreshed exports are committed back to the repository automatically
+
+That makes the project useful as both an analysis feed and a foundation for a future live dashboard.
+
+## 🏗 Architecture
 
 ### High-Level Flow
 
-USGS map URL
-   -> filter parsing and API translation
-   -> USGS FDSN event queries
-   -> normalization and data-quality cleanup
-   -> curated CSV / JSON / GeoJSON / metadata exports
-   -> GitHub Actions scheduled refresh
-   -> repository-published outputs for BI, GIS, and app consumers
+```mermaid
+flowchart TD
+    A["USGS Map URL<br/>extent + time range + magnitude filters"] --> B["PowerShell ingestion layer<br/>parse filters and translate to API parameters"]
+    B --> C["USGS FDSN Event Service<br/>official earthquake catalog queries"]
+    C --> D["Normalization + quality rules<br/>ET time, country, magnitude, depth"]
+    D --> E["Published export layer<br/>CSV + JSON + GeoJSON + metadata"]
+    E --> F["GitHub Actions refresh workflow<br/>scheduled + manual runs"]
+    F --> G["GitHub repository outputs<br/>stable raw URLs for downstream use"]
+    G --> H["BI / GIS / web consumers<br/>Power BI, maps, dashboards, custom apps"]
+```
 
-### Repository Structure
+### Delivery Pattern
 
-Core files:
+GitHub Actions runs the refresh pipeline on a schedule, regenerates the export layer, and pushes the latest derived files back into the repository. That means consumers can point to stable GitHub raw URLs instead of depending on a local machine or a manually refreshed spreadsheet.
 
-- `usgs-earthquake-scraper.ps1`
-  Main ingestion and normalization script for the configured USGS map URL.
-- `usgs_seismic_stream/publish-usgs-earthquakes.ps1`
-  Production-style wrapper that regenerates published exports and pipeline metadata.
-- `data/ne_110m_admin_0_countries.geojson`
-  Country boundary file used for coordinate-based enrichment.
+## 🔄 What the Pipeline Does
 
-Automation:
-
-- `.github/workflows/usgs-earthquake-refresh.yml`
-  Scheduled and manual refresh workflow.
-- `.github/workflows/usgs-earthquake-stale-alert.yml`
-  Staleness monitor that opens or closes GitHub issues automatically.
-- `.github/dependabot.yml`
-  Tracks GitHub Actions dependency updates automatically.
-
-Published outputs:
-
-- `usgs_seismic_stream/exports/earthquakes_live_curated.csv`
-  Recommended curated dataset for BI tools, spreadsheets, and apps.
-- `usgs_seismic_stream/exports/earthquakes_live_curated.json`
-  Curated JSON payload for downstream consumers.
-- `usgs_seismic_stream/exports/earthquakes_live.geojson`
-  Geospatial-ready earthquake feed.
-- `usgs_seismic_stream/exports/pipeline_meta.json`
-  Lightweight metadata used for freshness monitoring and sync checks.
-
-## What the Pipeline Does
-
-- reads a USGS map URL and converts its visible filters into USGS catalog API parameters
-- paginates large result sets and automatically splits oversized time windows
+- reads a USGS map URL and converts visible filters into USGS catalog API parameters
+- paginates large result sets and splits oversized query windows when needed
 - normalizes timestamps into `time_utc` and `time_et`
-- enriches events with `country` based on latitude and longitude
-- applies guardrails so `country` does not export blank
-- cleans `magnitude` into a display field and preserves `magnitude_raw`
-- cleans `depth_km` into a display field and preserves `depth_km_raw`
-- exports curated CSV, curated JSON, GeoJSON, and pipeline metadata
-- refreshes automatically in the cloud on a schedule
+- enriches each event with a `country` label based on latitude, longitude, and place-aware fallback rules
+- applies display cleanup to `magnitude` while preserving `magnitude_raw`
+- applies display cleanup to `depth_km` while preserving `depth_km_raw`
+- preserves operational fields such as felt reports, tsunami flag, significance, status, and event type
+- exports curated CSV, JSON, GeoJSON, and pipeline metadata files
+- monitors freshness and opens GitHub issues automatically if the pipeline becomes stale
 
-## Data Source
+## 🧹 Data Quality Guardrails
 
-USGS Earthquake Catalog:
+This project intentionally does more than just mirror the raw feed.
 
-- Map interface: [USGS Earthquake Map](https://earthquake.usgs.gov/earthquakes/map/)
-- Event API: [USGS FDSN Event Service](https://earthquake.usgs.gov/fdsnws/event/1/)
+Quality adjustments include:
 
-The workflow can use:
+- 🕒 Eastern Time conversion for operational reporting
+- 🌍 country enrichment from local boundary geometry instead of per-row reverse geocoding
+- 🌊 offshore fallback logic so obvious near-shore events do not lose country context
+- 📏 display-friendly depth rounding to one decimal place
+- 📈 magnitude cleanup rules that reduce floating-point noise in presentation fields
+- 🧾 preservation of raw cleaned source values through `magnitude_raw` and `depth_km_raw`
+- 🚨 fallback labeling for remote oceanic events such as `International Waters`
 
-- the default map URL baked into the repository
-- a repository variable named `USGS_MAP_URL`
-- a one-off override supplied during `workflow_dispatch`
+The result is a feed that is better suited for dashboards, spreadsheets, charts, and public reporting than the raw API payload alone.
 
-## Outputs
+## 📂 Data Sources
 
-Recommended curated CSV:
+### Official Seismic Source
 
-- `usgs_seismic_stream/exports/earthquakes_live_curated.csv`
+- **USGS Earthquake Map:** [https://earthquake.usgs.gov/earthquakes/map/](https://earthquake.usgs.gov/earthquakes/map/)
+- **USGS FDSN Event Service:** [https://earthquake.usgs.gov/fdsnws/event/1/](https://earthquake.usgs.gov/fdsnws/event/1/)
 
-Curated JSON:
+### Geographic Enrichment Source
 
-- `usgs_seismic_stream/exports/earthquakes_live_curated.json`
+- **Natural Earth Country Boundaries:** [https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson](https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson)
 
-GeoJSON:
+### Configurable Scope
 
-- `usgs_seismic_stream/exports/earthquakes_live.geojson`
+The geographic and temporal scope is controlled by a USGS map URL. By default, this repository is configured around a one-week, all-magnitude map view, but the pipeline can be repointed to another USGS map URL without changing the ingestion logic.
 
-Pipeline metadata:
+## 📦 Published Outputs
 
-- `usgs_seismic_stream/exports/pipeline_meta.json`
+These files are the primary public deliverables of the repository.
 
-## Data Model
+### ✅ Curated CSV
 
-Primary curated fields:
+Analytics-ready flat file for BI tools, spreadsheets, SQL import, and lightweight apps:
 
-- `id`
-  USGS event identifier
-- `time_utc`
-  UTC event timestamp
-- `time_et`
-  Eastern Time event timestamp
-- `updated_utc`
-  UTC update timestamp from USGS
-- `magnitude`
-  Cleaned display magnitude
-- `magnitude_raw`
-  Cleaned source magnitude before display guardrails
-- `place`
-  USGS place description
-- `latitude`
-  Event latitude
-- `longitude`
-  Event longitude
-- `country`
-  Country or fallback label derived from coordinates and place context
-- `depth_km`
-  Cleaned display depth in kilometers
-- `depth_km_raw`
-  Cleaned source depth before display rounding
-- `event_type`
-  USGS event type
-- `detail_url`
-  USGS event page
-- `detail_api`
-  USGS detail API link
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live_curated.csv](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live_curated.csv)
 
-## Automation & Monitoring
+### 📄 Curated JSON
 
-GitHub Actions workflows:
+Structured JSON payload with metadata and the current event collection:
+
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live_curated.json](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live_curated.json)
+
+### 🗺 GeoJSON
+
+Geospatial-ready feed for map tools, GIS workflows, and custom spatial apps:
+
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live.geojson](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/earthquakes_live.geojson)
+
+### 🧾 Pipeline Metadata
+
+Freshness and coverage metadata for operational monitoring and sync checks:
+
+- [https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/pipeline_meta.json](https://raw.githubusercontent.com/IFC-Chalaco/usgs-seismic-dashboard/main/usgs_seismic_stream/exports/pipeline_meta.json)
+
+## 🌐 Dashboard Readiness
+
+This repository does not yet publish a front-end dashboard experience, but it already produces the exact kind of files a live dashboard would need:
+
+- a curated tabular feed for KPI cards and tables
+- a GeoJSON feed for epicenter mapping
+- normalized ET timestamps for audience-facing time logic
+- metadata for freshness banners and sync indicators
+
+In other words, the data layer is already live and dashboard-ready even if the presentation layer is still to come.
+
+## 🧠 Data Model
+
+### Curated Feed Fields
+
+| Column | Description |
+| --- | --- |
+| `id` | USGS event identifier |
+| `time_utc` | Event timestamp in UTC |
+| `time_et` | Event timestamp in Eastern Time |
+| `updated_utc` | Last update timestamp from USGS |
+| `magnitude` | Public-facing cleaned display magnitude |
+| `magnitude_raw` | Preserved cleaned source magnitude before display guardrails |
+| `place` | USGS place description |
+| `latitude` | Epicenter latitude |
+| `longitude` | Epicenter longitude |
+| `country` | Country or geographic fallback label derived from coordinates and place context |
+| `depth_km` | Public-facing cleaned depth in kilometers |
+| `depth_km_raw` | Preserved cleaned source depth before display rounding |
+| `felt_reports` | Number of felt reports, when available |
+| `cdi` | Community Determined Intensity, when available |
+| `mmi` | Modified Mercalli Intensity, when available |
+| `alert` | USGS alert level, when available |
+| `status` | Event review status |
+| `tsunami` | Tsunami flag |
+| `significance` | USGS significance score |
+| `event_type` | Event type from USGS |
+| `title` | USGS event title |
+| `detail_url` | Public USGS event page |
+| `detail_api` | USGS detail API endpoint |
+
+## 🤖 Automation & Monitoring
+
+### GitHub Actions Workflows
 
 - `.github/workflows/usgs-earthquake-refresh.yml`
 - `.github/workflows/usgs-earthquake-stale-alert.yml`
 
-Automated capabilities:
+### Automated Capabilities
 
 - scheduled ingestion and export regeneration
-- manual workflow dispatch with optional map URL override
-- effective one-minute refresh cadence inside each scheduled workflow run
-- serialized refresh runs to avoid overlapping workflow commits
-- published export refresh under `usgs_seismic_stream/exports`
-- heartbeat monitoring for stale pipeline detection
-- automatic GitHub issue creation for stale pipeline alerts
-- automatic stale-issue closure when the pipeline is healthy again
-- compatibility with ephemeral GitHub-hosted runners
+- manual workflow dispatch with optional map URL overrides
+- repository-published outputs refreshed automatically on `main`
+- internal short-interval loop inside each scheduled run to reduce latency between updates
+- serialized workflow execution to avoid overlapping write conflicts
+- stale pipeline monitoring based on published metadata
+- automatic GitHub issue creation when freshness thresholds are exceeded
+- automatic stale issue closure when the pipeline is healthy again
 
-## Security & Data Integrity
+### Refresh Cadence
 
-- no credentials should be stored in the repository
+GitHub Actions does not offer a native one-minute cron schedule. To keep the project as close to live as possible within GitHub-hosted limits, the refresh workflow triggers every five minutes and then performs an internal minute-targeted refresh loop during that execution window.
+
+That design keeps the repository fully cloud-automated while reducing latency between published export updates.
+
+## 📁 Repository Structure
+
+### Core Files
+
+- `usgs-earthquake-scraper.ps1`  
+  Main ingestion and normalization script.
+
+- `usgs_seismic_stream/publish-usgs-earthquakes.ps1`  
+  Production publishing wrapper that regenerates the export layer and metadata.
+
+- `data/ne_110m_admin_0_countries.geojson`  
+  Local country boundary file used for coordinate-based enrichment.
+
+### Export Layer
+
+- `usgs_seismic_stream/exports/earthquakes_live_curated.csv`
+- `usgs_seismic_stream/exports/earthquakes_live_curated.json`
+- `usgs_seismic_stream/exports/earthquakes_live.geojson`
+- `usgs_seismic_stream/exports/pipeline_meta.json`
+
+## 🔐 Security & Data Integrity
+
+- no credentials are stored in the repository
 - no personal data is ingested or published
 - only derived public datasets are committed
-- raw scratch exports stay outside version control through `.gitignore`
-- schema-aware normalization is applied before export
-- country and display-field guardrails reduce blank and noisy values in public outputs
+- raw scratch outputs remain outside version control
+- schema-aware cleanup is applied before publication
+- the export layer is reproducible from the repository scripts and source configuration
 - `SECURITY.md` documents the repository security posture and reporting guidance
 
-## Run Locally
+## ▶️ Run Locally (Optional)
 
-Refresh the production-style published exports:
+Production refreshes are handled by GitHub Actions, but local execution is available for testing or development.
+
+Refresh the published export layer:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File ".\usgs_seismic_stream\publish-usgs-earthquakes.ps1"
@@ -190,24 +239,12 @@ Run the base scraper directly to a one-off file:
 powershell -NoProfile -ExecutionPolicy Bypass -File ".\usgs-earthquake-scraper.ps1" -OutputPath ".\earthquakes.csv"
 ```
 
-## GitHub Setup
+## 🪪 License & Source Posture
 
-To finish connecting this local folder to the GitHub repository you already created:
+This repository publishes derived outputs built from publicly accessible government earthquake data and open geographic boundary data. It is intended for analytical, operational, educational, and dashboard delivery use cases.
 
-1. connect this folder to the remote repository
-2. push the repo scaffold and workflow files
-3. enable GitHub Actions
-4. set repository workflow permissions so `GITHUB_TOKEN` can write contents
-5. optionally add a repository variable named `USGS_MAP_URL`
+## 🙌 Closing Note
 
-GitHub Actions does not support a native one-minute cron schedule. To work around that, this repository keeps the cron trigger at every 5 minutes and runs a one-minute internal refresh loop inside each scheduled workflow execution.
+The goal of this project is simple: make authoritative USGS earthquake data easier to consume, easier to monitor, and easier to publish.
 
-## Notes
-
-- this repository already has the cloud refresh pipeline and monitoring layer ready
-- a public dashboard layer can be added later against the curated exports if you want to mirror the Peru project more closely
-- raw GitHub URLs can be added to this README once the final remote repository URL is connected
-
-## Security
-
-See `SECURITY.md` for the repository security posture and reporting guidance.
+It is equal parts data engineering utility, dashboard foundation, and public-data product.
