@@ -48,7 +48,6 @@ In this repository, Codex was primarily used to help:
 - accelerate scripting and repetitive implementation tasks
 - test and refine data-quality guardrails for magnitude, depth, time, and geography
 - diagnose refresh, monitoring, and publishing issues in CI
-- improve documentation structure and README presentation
 - speed up iteration while keeping the project direction, judgment, and standards human-led
 
 ## 🏗 Architecture
