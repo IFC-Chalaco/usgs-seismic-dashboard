@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-16T01:16:03Z",
+    "generated_at_utc":  "2026-03-16T01:17:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ffyeyx",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.187,
+                                                              31.707,
+                                                              4.9491
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ffyeyx",
+                                            "time_utc":  "2026-03-16T01:14:10Z",
+                                            "time_et":  "2026-03-15T21:14:10-04:00",
+                                            "updated_utc":  "2026-03-16T01:16:31Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "54 km SSE of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.9",
+                                            "depth_km_raw":  4.9491,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 54 km SSE of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ffyeyx",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ffyeyx\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41204791",
@@ -42316,41 +42351,6 @@
                                             "title":  "M 2.0 - 4 km ESE of San Ramon, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324707",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75324707\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75324702",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.756164550781,
-                                                              38.792667388916,
-                                                              3.75
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75324702",
-                                            "time_utc":  "2026-03-09T01:16:12Z",
-                                            "time_et":  "2026-03-08T21:16:12-04:00",
-                                            "updated_utc":  "2026-03-09T01:17:47Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.75,
-                                            "place":  "2 km N of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.8",
-                                            "depth_km_raw":  3.75,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 2 km N of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324702",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75324702\u0026format=geojson"
                                         }
                      }
                  ]
