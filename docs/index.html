@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USGS Seismic Dashboard</title>
+    <meta
+      name="description"
+      content="Near-live USGS earthquake dashboard built from the repository's published 7-day feed."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    >
+    <link rel="stylesheet" href="./styles.css">
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      crossorigin=""
+    ></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">USGS seismic dashboard</p>
+          <h1>Seven days of motion, organized for humans.</h1>
+          <p class="lede">
+            A near-live view of the repository's published earthquake feed, refreshed
+            automatically from USGS and shaped for monitoring, analysis, and storytelling.
+          </p>
+          <div class="hero-meta">
+            <div class="meta-pill">
+              <span>Sync status</span>
+              <strong id="syncStamp">Loading</strong>
+            </div>
+            <div class="meta-pill">
+              <span>Coverage</span>
+              <strong id="coverageWindow">Loading</strong>
+            </div>
+            <div class="meta-pill">
+              <span>Feed scope</span>
+              <strong id="scopeLabel">Loading</strong>
+            </div>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <div class="hero-panel-label">Current reading</div>
+          <div class="hero-panel-value" id="heroEventCount">--</div>
+          <p class="hero-panel-copy">
+            events in the current published window, with the strongest recent event and
+            the latest sync surfaced below.
+          </p>
+          <div class="hero-panel-stack">
+            <div class="stack-row">
+              <span>Strongest event</span>
+              <strong id="heroStrongest">--</strong>
+            </div>
+            <div class="stack-row">
+              <span>Latest event</span>
+              <strong id="heroLatest">--</strong>
+            </div>
+          </div>
+        </aside>
+      </header>
+
+      <main class="dashboard">
+        <section class="control-card">
+          <div class="control-intro">
+            <p class="section-kicker">Filter window</p>
+            <h2>Dial the story up or down.</h2>
+            <p>
+              The dashboard follows the repository's current feed. If the pipeline scope
+              changes, the charts and map adjust automatically.
+            </p>
+          </div>
+          <div class="controls">
+            <div class="quick-range" id="quickRange">
+              <button class="quick-range-button is-active" data-hours="24">24H</button>
+              <button class="quick-range-button" data-hours="72">72H</button>
+              <button class="quick-range-button" data-hours="168">7D</button>
+            </div>
+            <label class="control-field">
+              <span>Minimum magnitude</span>
+              <input id="magnitudeRange" type="range" min="0" max="5" step="0.1" value="0">
+              <strong id="magnitudeValue">0.0+</strong>
+            </label>
+            <label class="control-field">
+              <span>Status</span>
+              <select id="statusFilter">
+                <option value="all">All statuses</option>
+                <option value="reviewed">Reviewed only</option>
+                <option value="automatic">Automatic only</option>
+              </select>
+            </label>
+            <label class="control-field">
+              <span>Activity zone</span>
+              <select id="zoneFilter">
+                <option value="all">All zones</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="stats-grid" id="statsGrid"></section>
+
+        <section class="dashboard-grid dashboard-grid-two">
+          <article class="chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Cadence</p>
+                <h2 id="activityTitle">Activity through the last 7 days</h2>
+              </div>
+              <p class="chart-note" id="activityNote"></p>
+            </div>
+            <svg id="activityChart" class="chart-svg" viewBox="0 0 720 320" role="img" aria-label="Earthquake activity over time"></svg>
+          </article>
+
+          <article class="chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Magnitude bands</p>
+                <h2>Where the intensity sits.</h2>
+              </div>
+              <p class="chart-note">Counts by public-facing magnitude band.</p>
+            </div>
+            <svg id="magnitudeChart" class="chart-svg" viewBox="0 0 720 320" role="img" aria-label="Magnitude band distribution"></svg>
+          </article>
+        </section>
+
+        <section class="dashboard-grid dashboard-grid-two">
+          <article class="chart-card map-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Epicenter field</p>
+                <h2>Spatial concentration at a glance.</h2>
+              </div>
+              <p class="chart-note">Point size and color scale with magnitude.</p>
+            </div>
+            <div id="map" class="map-frame" aria-label="Map of earthquake epicenters"></div>
+            <div class="map-legend">
+              <span><i class="legend-dot mag-low"></i> M &lt; 2</span>
+              <span><i class="legend-dot mag-mid"></i> M 2-3.9</span>
+              <span><i class="legend-dot mag-high"></i> M 4+</span>
+            </div>
+          </article>
+
+          <article class="chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Activity zones</p>
+                <h2>Where the feed is clustering.</h2>
+              </div>
+              <p class="chart-note">Top place suffixes extracted from the published feed.</p>
+            </div>
+            <svg id="zoneChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-label="Top activity zones"></svg>
+          </article>
+        </section>
+
+        <section class="dashboard-grid dashboard-grid-two">
+          <article class="chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Magnitude vs depth</p>
+                <h2>How strength and depth travel together.</h2>
+              </div>
+              <p class="chart-note">Depth plotted on the vertical axis, magnitude on the horizontal axis.</p>
+            </div>
+            <svg id="scatterChart" class="chart-svg" viewBox="0 0 720 360" role="img" aria-label="Magnitude versus depth scatterplot"></svg>
+          </article>
+
+          <article class="chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Strongest events</p>
+                <h2>The headliners in this window.</h2>
+              </div>
+              <p class="chart-note">Top events ranked by magnitude, then significance.</p>
+            </div>
+            <div id="strongestList" class="strongest-list"></div>
+          </article>
+        </section>
+
+        <section class="table-card">
+          <div class="card-header">
+            <div>
+              <p class="section-kicker">Recent feed</p>
+              <h2>Latest published earthquakes.</h2>
+            </div>
+            <p class="chart-note">Most recent events after applying the current filters.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Time (ET)</th>
+                  <th>Magnitude</th>
+                  <th>Place</th>
+                  <th>Country</th>
+                  <th>Depth</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="recentTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Built from the repository's published USGS feed. Dashboard time filtering uses
+          Eastern Time because the pipeline standardizes public-facing timestamps to ET.
+        </p>
+      </footer>
+    </div>
+
+    <div id="chartTooltip" class="chart-tooltip" hidden></div>
+  </body>
+</html>

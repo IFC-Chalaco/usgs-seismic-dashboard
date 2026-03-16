@@ -32,6 +32,12 @@ $curatedCsvPath = Join-Path -Path $OutputDirectory -ChildPath "earthquakes_live_
 $curatedJsonPath = Join-Path -Path $OutputDirectory -ChildPath "earthquakes_live_curated.json"
 $geoJsonPath = Join-Path -Path $OutputDirectory -ChildPath "earthquakes_live.geojson"
 $metadataPath = Join-Path -Path $OutputDirectory -ChildPath "pipeline_meta.json"
+$websiteDataDirectory = Join-Path -Path $repositoryRoot -ChildPath "docs\data"
+
+$websiteCuratedCsvPath = Join-Path -Path $websiteDataDirectory -ChildPath "earthquakes_live_curated.csv"
+$websiteCuratedJsonPath = Join-Path -Path $websiteDataDirectory -ChildPath "earthquakes_live_curated.json"
+$websiteGeoJsonPath = Join-Path -Path $websiteDataDirectory -ChildPath "earthquakes_live.geojson"
+$websiteMetaPath = Join-Path -Path $websiteDataDirectory -ChildPath "dashboard_meta.json"
 
 $records = @(
     & $scraperPath `
@@ -88,6 +94,9 @@ $geoJsonPayload | ConvertTo-Json -Depth 10 | Set-Content -Path $geoJsonPath -Enc
 
 $timeValuesUtc = @($records | Where-Object { $_.time_utc } | Select-Object -ExpandProperty time_utc)
 $timeValuesEt = @($records | Where-Object { $_.time_et } | Select-Object -ExpandProperty time_et)
+$magnitudeValues = @($records | Where-Object { $_.magnitude -and "$($_.magnitude)" -ne "" } | ForEach-Object { [double]$_.magnitude })
+$depthValues = @($records | Where-Object { $_.depth_km -and "$($_.depth_km)" -ne "" } | ForEach-Object { [double]$_.depth_km })
+$countryValues = @($records | Where-Object { $_.country } | Select-Object -ExpandProperty country)
 
 $metadata = [ordered]@{
     generated_at_utc = $generatedAtUtc.UtcDateTime.ToString("yyyy-MM-ddTHH:mm:ssZ")
@@ -107,5 +116,36 @@ $metadata = [ordered]@{
 }
 
 $metadata | ConvertTo-Json -Depth 6 | Set-Content -Path $metadataPath -Encoding UTF8
+
+$dashboardMeta = [ordered]@{
+    generated_at_utc = $generatedAtUtc.UtcDateTime.ToString("yyyy-MM-ddTHH:mm:ssZ")
+    total_events = @($records).Count
+    source_map_url = $MapUrl
+    coverage = [ordered]@{
+        earliest_event_time_utc = $metadata.earliest_event_time_utc
+        latest_event_time_utc = $metadata.latest_event_time_utc
+        earliest_event_time_et = $metadata.earliest_event_time_et
+        latest_event_time_et = $metadata.latest_event_time_et
+    }
+    summary = [ordered]@{
+        countries_count = @($countryValues | Sort-Object -Unique).Count
+        max_magnitude = if ($magnitudeValues.Count -gt 0) { [Math]::Round(($magnitudeValues | Measure-Object -Maximum).Maximum, 1) } else { $null }
+        avg_magnitude = if ($magnitudeValues.Count -gt 0) { [Math]::Round(($magnitudeValues | Measure-Object -Average).Average, 2) } else { $null }
+        avg_depth_km = if ($depthValues.Count -gt 0) { [Math]::Round(($depthValues | Measure-Object -Average).Average, 1) } else { $null }
+        reviewed_events = @($records | Where-Object { $_.status -eq "reviewed" }).Count
+        automatic_events = @($records | Where-Object { $_.status -eq "automatic" }).Count
+        felt_events = @($records | Where-Object { $_.felt_reports -and [int]$_.felt_reports -gt 0 }).Count
+        significant_events = @($records | Where-Object { $_.magnitude -and [double]$_.magnitude -ge 4 }).Count
+    }
+    scope = [ordered]@{
+        has_extent_filter = [bool]($MapUrl -match "(^|[?&])extent=")
+    }
+}
+
+$null = New-Item -ItemType Directory -Path $websiteDataDirectory -Force
+Copy-Item -Path $curatedCsvPath -Destination $websiteCuratedCsvPath -Force
+Copy-Item -Path $curatedJsonPath -Destination $websiteCuratedJsonPath -Force
+Copy-Item -Path $geoJsonPath -Destination $websiteGeoJsonPath -Force
+$dashboardMeta | ConvertTo-Json -Depth 6 | Set-Content -Path $websiteMetaPath -Encoding UTF8
 
 Write-Host ("Published {0} curated USGS earthquake records to {1}" -f @($records).Count, $OutputDirectory)

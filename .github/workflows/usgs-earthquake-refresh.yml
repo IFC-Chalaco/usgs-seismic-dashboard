@@ -102,7 +102,7 @@ jobs:
 
             powershell -NoProfile -ExecutionPolicy Bypass -File ".\usgs_seismic_stream\publish-usgs-earthquakes.ps1" -MapUrl $mapUrl
 
-            git add usgs_seismic_stream/exports
+            git add usgs_seismic_stream/exports docs/data
             $stagedChanges = git diff --cached --name-only
 
             if ($stagedChanges) {
