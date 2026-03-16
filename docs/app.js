@@ -2,7 +2,7 @@ const DATA_URL = "./data/earthquakes_live_curated.json";
 const META_URL = "./data/dashboard_meta.json";
 const GEOJSON_URL = "./data/earthquakes_live.geojson";
 const REFRESH_POLL_INTERVAL_MS = 10000;
-const TOAST_LIFETIME_MS = 2000;
+const TOAST_LIFETIME_MS = 5000;
 const DISPLAY_TIME_ZONE = "America/New_York";
 const SOUND_STORAGE_KEY = "usgs-dashboard-sound-enabled";
 
@@ -219,29 +219,44 @@ async function playToastCue(tone) {
     return;
   }
 
-  const frequenciesByTone = {
-    low: [523.25, 659.25],
-    mid: [659.25, 783.99],
-    high: [783.99, 987.77],
+  const profilesByTone = {
+    low: { fundamental: 392.0, accent: 493.88, glow: 587.33 },
+    mid: { fundamental: 440.0, accent: 554.37, glow: 659.25 },
+    high: { fundamental: 493.88, accent: 622.25, glow: 739.99 },
   };
-  const [firstFrequency, secondFrequency] = frequenciesByTone[tone.key] || frequenciesByTone.low;
-  const oscillator = context.createOscillator();
+  const profile = profilesByTone[tone.key] || profilesByTone.low;
+  const warmOscillator = context.createOscillator();
+  const glowOscillator = context.createOscillator();
+  const filterNode = context.createBiquadFilter();
   const gainNode = context.createGain();
   const startTime = context.currentTime;
 
-  oscillator.type = "sine";
-  oscillator.frequency.setValueAtTime(firstFrequency, startTime);
-  oscillator.frequency.setValueAtTime(secondFrequency, startTime + 0.1);
+  filterNode.type = "lowpass";
+  filterNode.frequency.setValueAtTime(1800, startTime);
+  filterNode.Q.setValueAtTime(0.75, startTime);
+
+  warmOscillator.type = "triangle";
+  warmOscillator.frequency.setValueAtTime(profile.fundamental, startTime);
+  warmOscillator.frequency.linearRampToValueAtTime(profile.accent, startTime + 0.12);
+
+  glowOscillator.type = "sine";
+  glowOscillator.frequency.setValueAtTime(profile.glow, startTime);
+  glowOscillator.detune.setValueAtTime(6, startTime);
 
   gainNode.gain.setValueAtTime(0.0001, startTime);
-  gainNode.gain.exponentialRampToValueAtTime(0.045, startTime + 0.015);
-  gainNode.gain.exponentialRampToValueAtTime(0.018, startTime + 0.085);
-  gainNode.gain.exponentialRampToValueAtTime(0.0001, startTime + 0.18);
+  gainNode.gain.exponentialRampToValueAtTime(0.03, startTime + 0.02);
+  gainNode.gain.exponentialRampToValueAtTime(0.015, startTime + 0.16);
+  gainNode.gain.exponentialRampToValueAtTime(0.0001, startTime + 0.34);
 
-  oscillator.connect(gainNode);
+  warmOscillator.connect(filterNode);
+  glowOscillator.connect(filterNode);
+  filterNode.connect(gainNode);
   gainNode.connect(context.destination);
-  oscillator.start(startTime);
-  oscillator.stop(startTime + 0.2);
+
+  warmOscillator.start(startTime);
+  glowOscillator.start(startTime);
+  warmOscillator.stop(startTime + 0.36);
+  glowOscillator.stop(startTime + 0.36);
 }
 
 function render() {

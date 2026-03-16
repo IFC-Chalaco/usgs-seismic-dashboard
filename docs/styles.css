@@ -656,7 +656,7 @@ tbody td {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
   transform: translateY(14px) scale(0.98);
   opacity: 0;
-  animation: toast-in-out 2000ms ease forwards;
+  animation: toast-in-out 5000ms ease forwards;
 }
 
 .toast::before {
@@ -712,8 +712,8 @@ tbody td {
     transform: translateY(16px) scale(0.98);
   }
 
-  12%,
-  78% {
+  8%,
+  86% {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
