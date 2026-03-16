@@ -42,14 +42,14 @@ jobs:
           $ageMinutes = [Math]::Round(((Get-Date).ToUniversalTime() - $generatedAt.UtcDateTime).TotalMinutes, 1)
           $isStale = $ageMinutes -gt $thresholdMinutes
 
-          $body = @"
-The USGS earthquake refresh pipeline appears stale.
-
-- Last generated at (UTC): $($meta.generated_at_utc)
-- Age in minutes: $ageMinutes
-- Threshold in minutes: $thresholdMinutes
-- Total events in latest export: $($meta.total_events)
-"@
+          $body = @(
+            "The USGS earthquake refresh pipeline appears stale."
+            ""
+            "- Last generated at (UTC): $($meta.generated_at_utc)"
+            "- Age in minutes: $ageMinutes"
+            "- Threshold in minutes: $thresholdMinutes"
+            "- Total events in latest export: $($meta.total_events)"
+          ) -join [Environment]::NewLine
 
           "is_stale=$($isStale.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
           "title=USGS earthquake pipeline stale alert" >> $env:GITHUB_OUTPUT
