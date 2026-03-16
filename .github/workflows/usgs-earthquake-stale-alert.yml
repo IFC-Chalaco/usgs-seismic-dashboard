@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Evaluate pipeline freshness
         id: freshness
@@ -60,7 +60,7 @@ The USGS earthquake refresh pipeline appears stale.
 
       - name: Open or update stale issue
         if: steps.freshness.outputs.is_stale == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           STALE_TITLE: ${{ steps.freshness.outputs.title }}
           STALE_BODY: ${{ steps.freshness.outputs.body }}
@@ -97,7 +97,7 @@ The USGS earthquake refresh pipeline appears stale.
 
       - name: Close stale issue when healthy
         if: steps.freshness.outputs.is_stale != 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           STALE_TITLE: ${{ steps.freshness.outputs.title }}
         with:
