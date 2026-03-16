@@ -1,8 +1,9 @@
 const DATA_URL = "./data/earthquakes_live_curated.json";
 const META_URL = "./data/dashboard_meta.json";
 const GEOJSON_URL = "./data/earthquakes_live.geojson";
-const REFRESH_POLL_INTERVAL_MS = 30000;
+const REFRESH_POLL_INTERVAL_MS = 15000;
 const TOAST_LIFETIME_MS = 2000;
+const DISPLAY_TIME_ZONE = "America/New_York";
 
 const magnitudeBands = [
   { label: "M < 1", min: -Infinity, max: 1 },
@@ -239,7 +240,7 @@ function renderHero(stats) {
     ? formatDateLabel(new Date(dashboardMeta.latest_event_time_et))
     : "Unknown";
   const generatedAt = dashboardMeta?.generated_at_utc
-    ? formatDateTimeLabel(new Date(dashboardMeta.generated_at_utc), "UTC")
+    ? formatDateTimeLabel(new Date(dashboardMeta.generated_at_utc), "ET")
     : "Unknown";
 
   elements.syncStamp.textContent = generatedAt;
@@ -848,11 +849,13 @@ function showNextToast() {
   }
 
   const event = toastQueue.shift();
+  const tone = getToastTone(event.magnitude);
   const toast = document.createElement("article");
-  toast.className = "toast";
+  toast.className = `toast toast-${tone.key}`;
   toast.innerHTML = `
+    <span class="toast-kicker">${tone.label}</span>
     <strong class="toast-title">New earthquake: M ${event.magnitude.toFixed(1)}</strong>
-    <span class="toast-copy">${escapeHtml(event.place)}<br>${escapeHtml(event.country || event.zone)} • ${event.depth.toFixed(1)} km deep</span>
+    <span class="toast-copy">${escapeHtml(event.place)}<br>${escapeHtml(event.country || event.zone)} | ${event.depth.toFixed(1)} km deep</span>
   `;
   elements.toastStack.appendChild(toast);
 
@@ -887,8 +890,22 @@ function magnitudeToColor(magnitude) {
   return "#57b6c5";
 }
 
+function getToastTone(magnitude) {
+  if (magnitude >= 4) {
+    return { key: "high", label: "Higher magnitude" };
+  }
+  if (magnitude >= 2) {
+    return { key: "mid", label: "Moderate activity" };
+  }
+  return { key: "low", label: "Micro event" };
+}
+
 function formatDateLabel(date) {
-  return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    timeZone: DISPLAY_TIME_ZONE,
+  });
 }
 
 function formatDateTimeLabel(date, suffix) {
@@ -901,6 +918,7 @@ function formatDateTimeLabel(date, suffix) {
     day: "numeric",
     hour: "numeric",
     minute: "2-digit",
+    timeZone: DISPLAY_TIME_ZONE,
   })} ${suffix}`;
 }
 
