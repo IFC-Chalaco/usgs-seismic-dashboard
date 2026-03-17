@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-17T20:58:15Z",
+    "generated_at_utc":  "2026-03-17T20:59:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75329157",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.81583404541,
+                                                              38.8310012817383,
+                                                              2.43
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75329157",
+                                            "time_utc":  "2026-03-17T20:57:00Z",
+                                            "time_et":  "2026-03-17T16:57:00-04:00",
+                                            "updated_utc":  "2026-03-17T20:58:35Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.43,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329157",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75329157\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75329137",
@@ -6056,6 +6091,41 @@
                                             "title":  "M 1.7 - 3 km NNW of Altadena, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205711",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41205711\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75328492",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.466166666667,
+                                                              37.0256666666667,
+                                                              9.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75328492",
+                                            "time_utc":  "2026-03-16T23:31:20Z",
+                                            "time_et":  "2026-03-16T19:31:20-04:00",
+                                            "updated_utc":  "2026-03-17T20:57:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.74,
+                                            "place":  "9 km ENE of Gilroy, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 9 km ENE of Gilroy, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328492",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75328492\u0026format=geojson"
                                         }
                      },
                      {
