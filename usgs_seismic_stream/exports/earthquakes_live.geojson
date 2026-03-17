@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-17T23:20:02Z",
+    "generated_at_utc":  "2026-03-17T23:21:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -4551,6 +4551,41 @@
                                             "title":  "M 1.1 - 5 km SE of Lytle Creek, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205887",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41205887\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71510028",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.9816666666667,
+                                                              19.0378333333333,
+                                                              20.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71510028",
+                                            "time_utc":  "2026-03-17T06:47:45Z",
+                                            "time_et":  "2026-03-17T02:47:45-04:00",
+                                            "updated_utc":  "2026-03-17T23:20:16Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.14,
+                                            "place":  "77 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "20.9",
+                                            "depth_km_raw":  20.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  152,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 77 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510028",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510028\u0026format=geojson"
                                         }
                      },
                      {
