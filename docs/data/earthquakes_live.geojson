@@ -1,16 +1,51 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-17T19:18:54Z",
+    "generated_at_utc":  "2026-03-17T19:40:39Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41206319",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.608,
+                                                              33.5776666666667,
+                                                              16.09
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41206319",
+                                            "time_utc":  "2026-03-17T19:33:04Z",
+                                            "time_et":  "2026-03-17T15:33:04-04:00",
+                                            "updated_utc":  "2026-03-17T19:36:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.65,
+                                            "place":  "7 km ENE of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.1",
+                                            "depth_km_raw":  16.09,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 7 km ENE of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206319",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41206319\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41206263",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.1885,
-                                                              34.9886666666667,
+                                                              -118.190666666667,
+                                                              34.992,
                                                               -0.91
                                                           ]
                                       },
@@ -18,10 +53,10 @@
                                             "id":  "ci41206263",
                                             "time_utc":  "2026-03-17T18:55:50Z",
                                             "time_et":  "2026-03-17T14:55:50-04:00",
-                                            "updated_utc":  "2026-03-17T19:02:04Z",
-                                            "magnitude":  "2.4",
-                                            "magnitude_raw":  2.36,
-                                            "place":  "7 km S of Mojave, CA",
+                                            "updated_utc":  "2026-03-17T19:33:23Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.09,
+                                            "place":  "7 km SSW of Mojave, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "-0.9",
                                             "depth_km_raw":  -0.91,
@@ -29,11 +64,11 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  86,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.4 - 7 km S of Mojave, CA",
+                                            "significance":  18,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.1 Quarry Blast - 7 km SSW of Mojave, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206263",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41206263\u0026format=geojson"
                                         }
@@ -193,7 +228,7 @@
                                             "id":  "nc75328967",
                                             "time_utc":  "2026-03-17T18:21:39Z",
                                             "time_et":  "2026-03-17T14:21:39-04:00",
-                                            "updated_utc":  "2026-03-17T18:42:20Z",
+                                            "updated_utc":  "2026-03-17T19:37:22Z",
                                             "magnitude":  "1.4",
                                             "magnitude_raw":  1.35,
                                             "place":  "5 km NNE of San Leandro, CA",
@@ -39240,6 +39275,76 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75325942",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.009666666667,
+                                                              37.59,
+                                                              1.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75325942",
+                                            "time_utc":  "2026-03-11T11:22:32Z",
+                                            "time_et":  "2026-03-11T07:22:32-04:00",
+                                            "updated_utc":  "2026-03-17T19:39:42Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "6 km SSW of Mammoth Lakes, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 6 km SSW of Mammoth Lakes, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325942",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325942\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75325932",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.012166666667,
+                                                              37.5876666666667,
+                                                              2.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75325932",
+                                            "time_utc":  "2026-03-11T11:06:38Z",
+                                            "time_et":  "2026-03-11T07:06:38-04:00",
+                                            "updated_utc":  "2026-03-17T19:35:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.73,
+                                            "place":  "6 km SSW of Mammoth Lakes, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  2.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km SSW of Mammoth Lakes, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325932",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325932\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "us7000s3qh",
                          "geometry":  {
                                           "type":  "Point",
@@ -40535,6 +40640,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75325777",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.5995,
+                                                              37.4818333333333,
+                                                              8.93
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75325777",
+                                            "time_utc":  "2026-03-11T06:41:34Z",
+                                            "time_et":  "2026-03-11T02:41:34-04:00",
+                                            "updated_utc":  "2026-03-17T19:32:39Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.05,
+                                            "place":  "7 km N of Round Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.9",
+                                            "depth_km_raw":  8.93,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 7 km N of Round Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325777",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325777\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "uu80006488",
                          "geometry":  {
                                           "type":  "Point",
@@ -41301,6 +41441,41 @@
                                             "title":  "M 0.5 - 14 km ENE of Temecula, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202103",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41202103\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75325687",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.871333333333,
+                                                              37.6093333333333,
+                                                              2.57
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75325687",
+                                            "time_utc":  "2026-03-11T03:45:11Z",
+                                            "time_et":  "2026-03-10T23:45:11-04:00",
+                                            "updated_utc":  "2026-03-17T19:28:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.51,
+                                            "place":  "10 km ESE of Mammoth Lakes, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.6",
+                                            "depth_km_raw":  2.57,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 10 km ESE of Mammoth Lakes, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325687",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325687\u0026format=geojson"
                                         }
                      },
                      {
@@ -43125,6 +43300,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75325547",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.463333333333,
+                                                              37.5946666666667,
+                                                              7.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75325547",
+                                            "time_utc":  "2026-03-10T19:52:00Z",
+                                            "time_et":  "2026-03-10T15:52:00-04:00",
+                                            "updated_utc":  "2026-03-17T19:24:57Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.95,
+                                            "place":  "3 km SE of Pacifica, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  7.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 3 km SE of Pacifica, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325547",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325547\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026ewiwjg",
                          "geometry":  {
                                           "type":  "Point",
@@ -43156,111 +43366,6 @@
                                             "title":  "M 1.8 - 9 km S of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ewiwjg",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ewiwjg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41201775",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.656,
-                                                              33.6036666666667,
-                                                              16.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41201775",
-                                            "time_utc":  "2026-03-10T19:40:09Z",
-                                            "time_et":  "2026-03-10T15:40:09-04:00",
-                                            "updated_utc":  "2026-03-11T17:43:54Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.04,
-                                            "place":  "6 km NNE of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "16.4",
-                                            "depth_km_raw":  16.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 6 km NNE of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41201775",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41201775\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75325537",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.756164550781,
-                                                              38.7888336181641,
-                                                              1.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75325537",
-                                            "time_utc":  "2026-03-10T19:25:08Z",
-                                            "time_et":  "2026-03-10T15:25:08-04:00",
-                                            "updated_utc":  "2026-03-10T19:26:43Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.07,
-                                            "place":  "1 km N of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 1 km N of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325537",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325537\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75325532",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.814331054688,
-                                                              38.8264999389648,
-                                                              1.9
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75325532",
-                                            "time_utc":  "2026-03-10T19:23:27Z",
-                                            "time_et":  "2026-03-10T15:23:27-04:00",
-                                            "updated_utc":  "2026-03-10T19:25:05Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.04,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.9,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325532",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75325532\u0026format=geojson"
                                         }
                      }
                  ]
