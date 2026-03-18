@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-18T18:33:47Z",
+    "generated_at_utc":  "2026-03-18T18:38:36Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026fkyasv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.382,
+                                                              31.618,
+                                                              3.9224
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fkyasv",
+                                            "time_utc":  "2026-03-18T18:31:32Z",
+                                            "time_et":  "2026-03-18T14:31:32-04:00",
+                                            "updated_utc":  "2026-03-18T18:36:44Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "61 km S of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.9",
+                                            "depth_km_raw":  3.9224,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 61 km S of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fkyasv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fkyasv\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41207151",
@@ -53,7 +88,7 @@
                                             "id":  "nc75329682",
                                             "time_utc":  "2026-03-18T18:18:58Z",
                                             "time_et":  "2026-03-18T14:18:58-04:00",
-                                            "updated_utc":  "2026-03-18T18:20:37Z",
+                                            "updated_utc":  "2026-03-18T18:37:18Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.34,
                                             "place":  "7 km NW of The Geysers, CA",
@@ -158,7 +193,7 @@
                                             "id":  "nc75329672",
                                             "time_utc":  "2026-03-18T17:52:30Z",
                                             "time_et":  "2026-03-18T13:52:30-04:00",
-                                            "updated_utc":  "2026-03-18T18:17:22Z",
+                                            "updated_utc":  "2026-03-18T18:37:19Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  1.04,
                                             "place":  "8 km NW of The Geysers, CA",
@@ -464,31 +499,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.270333333333,
-                                                              34.6276666666667,
-                                                              -0.14
+                                                              -117.295833333333,
+                                                              34.6315,
+                                                              -0.83
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41207071",
                                             "time_utc":  "2026-03-18T16:53:00Z",
                                             "time_et":  "2026-03-18T12:53:00-04:00",
-                                            "updated_utc":  "2026-03-18T16:58:35Z",
+                                            "updated_utc":  "2026-03-18T18:34:06Z",
                                             "magnitude":  "1.1",
-                                            "magnitude_raw":  1.11,
-                                            "place":  "10 km N of Victorville, CA",
+                                            "magnitude_raw":  1.09,
+                                            "place":  "11 km N of Victorville, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.1",
-                                            "depth_km_raw":  -0.14,
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.83,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 10 km N of Victorville, CA",
+                                            "significance":  18,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.1 Quarry Blast - 11 km N of Victorville, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207071",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207071\u0026format=geojson"
                                         }
@@ -44066,41 +44101,6 @@
                                             "title":  "M 0.8 Quarry Blast - 7 km SSW of Mojave, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202495",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41202495\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41202463",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.941333333333,
-                                                              32.9048333333333,
-                                                              -0.19
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41202463",
-                                            "time_utc":  "2026-03-11T18:33:37Z",
-                                            "time_et":  "2026-03-11T14:33:37-04:00",
-                                            "updated_utc":  "2026-03-11T19:32:04Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.21,
-                                            "place":  "6 km NNW of Lakeside, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.2",
-                                            "depth_km_raw":  -0.19,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  23,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.2 Quarry Blast - 6 km NNW of Lakeside, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202463",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41202463\u0026format=geojson"
                                         }
                      }
                  ]
