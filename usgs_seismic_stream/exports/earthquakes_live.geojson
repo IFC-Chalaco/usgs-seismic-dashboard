@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T20:20:29Z",
+    "generated_at_utc":  "2026-03-19T20:23:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41420312",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.986166666667,
+                                                              32.6018333333333,
+                                                              2.94
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41420312",
+                                            "time_utc":  "2026-03-19T20:17:51Z",
+                                            "time_et":  "2026-03-19T16:17:51-04:00",
+                                            "updated_utc":  "2026-03-19T20:21:16Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.17,
+                                            "place":  "6 km ESE of Chula Vista, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.94,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 6 km ESE of Chula Vista, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41420312",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41420312\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75330257",
@@ -10859,31 +10894,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.880333333333,
-                                                              36.1093333333333,
-                                                              2.81
+                                                              -117.877666666667,
+                                                              36.1071666666667,
+                                                              3.02
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41206591",
                                             "time_utc":  "2026-03-18T02:05:25Z",
                                             "time_et":  "2026-03-17T22:05:25-04:00",
-                                            "updated_utc":  "2026-03-18T13:42:24Z",
+                                            "updated_utc":  "2026-03-19T20:20:44Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
+                                            "magnitude_raw":  0.81,
                                             "place":  "9 km NE of Coso Junction, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.8",
-                                            "depth_km_raw":  2.81,
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  3.02,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  12,
+                                            "significance":  10,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 9 km NE of Coso Junction, CA",
+                                            "title":  "M 0.8 - 9 km NE of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206591",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41206591\u0026format=geojson"
                                         }
