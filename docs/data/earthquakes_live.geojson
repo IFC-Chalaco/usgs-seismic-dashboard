@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T17:16:35Z",
+    "generated_at_utc":  "2026-03-19T17:17:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75330177",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -124.533332824707,
+                                                              40.28466796875,
+                                                              3.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75330177",
+                                            "time_utc":  "2026-03-19T17:14:49Z",
+                                            "time_et":  "2026-03-19T13:14:49-04:00",
+                                            "updated_utc":  "2026-03-19T17:16:29Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.95,
+                                            "place":  "22 km WSW of Petrolia, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.5",
+                                            "depth_km_raw":  3.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  58,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 22 km WSW of Petrolia, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330177",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75330177\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75330162",
@@ -29996,6 +30031,41 @@
                                             "title":  "M 1.3 - 7 km N of Central, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80132051",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80132051\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026fdybmy",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -100.589,
+                                                              32.76,
+                                                              3.9307
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fdybmy",
+                                            "time_utc":  "2026-03-14T23:01:06Z",
+                                            "time_et":  "2026-03-14T19:01:06-04:00",
+                                            "updated_utc":  "2026-03-19T17:16:39Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.3,
+                                            "place":  "15 km SW of Rotan, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.9",
+                                            "depth_km_raw":  3.9307,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 15 km SW of Rotan, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fdybmy",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fdybmy\u0026format=geojson"
                                         }
                      },
                      {
