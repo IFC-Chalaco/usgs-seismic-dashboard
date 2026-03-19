@@ -1,39 +1,109 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T23:22:42Z",
+    "generated_at_utc":  "2026-03-19T23:38:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "nn00912948",
+                         "id":  "nc75330327",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.0483,
-                                                              40.3524,
-                                                              8.8521
+                                                              -122.766830444336,
+                                                              38.7911682128906,
+                                                              3.66
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "nn00912948",
-                                            "time_utc":  "2026-03-19T23:02:57Z",
-                                            "time_et":  "2026-03-19T19:02:57-04:00",
-                                            "updated_utc":  "2026-03-19T23:05:50Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.68,
-                                            "place":  "32 km SSE of Humboldt, Nevada",
+                                            "id":  "nc75330327",
+                                            "time_utc":  "2026-03-19T23:33:36Z",
+                                            "time_et":  "2026-03-19T19:33:36-04:00",
+                                            "updated_utc":  "2026-03-19T23:35:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.76,
+                                            "place":  "2 km NNW of The Geysers, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.8521,
+                                            "depth_km":  "3.7",
+                                            "depth_km_raw":  3.66,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  43,
+                                            "significance":  9,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 32 km SSE of Humboldt, Nevada",
+                                            "title":  "M 0.8 - 2 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330327",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75330327\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00912951",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.5146,
+                                                              35.4214,
+                                                              5.0076
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00912951",
+                                            "time_utc":  "2026-03-19T23:30:24Z",
+                                            "time_et":  "2026-03-19T19:30:24-04:00",
+                                            "updated_utc":  "2026-03-19T23:34:26Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.55,
+                                            "place":  "45 km SSE of Sandy Valley, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5.0076,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  37,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 45 km SSE of Sandy Valley, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912951",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00912951\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00912948",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.1495,
+                                                              40.2649,
+                                                              10.2647
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00912948",
+                                            "time_utc":  "2026-03-19T23:02:59Z",
+                                            "time_et":  "2026-03-19T19:02:59-04:00",
+                                            "updated_utc":  "2026-03-19T23:25:40Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.63,
+                                            "place":  "29 km ENE of Lovelock, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.3",
+                                            "depth_km_raw":  10.2647,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.6 Explosion - 29 km ENE of Lovelock, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912948",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00912948\u0026format=geojson"
                                         }
@@ -5924,31 +5994,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.265333333333,
-                                                              32.9963333333333,
-                                                              8.3
+                                                              -116.262666666667,
+                                                              32.9933333333333,
+                                                              10.23
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41207535",
-                                            "time_utc":  "2026-03-19T02:22:45Z",
-                                            "time_et":  "2026-03-18T22:22:45-04:00",
-                                            "updated_utc":  "2026-03-19T02:26:11Z",
+                                            "time_utc":  "2026-03-19T02:22:44Z",
+                                            "time_et":  "2026-03-18T22:22:44-04:00",
+                                            "updated_utc":  "2026-03-19T23:35:55Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.43,
+                                            "magnitude_raw":  0.45,
                                             "place":  "21 km SW of Ocotillo Wells, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.3,
+                                            "depth_km":  "10.2",
+                                            "depth_km_raw":  10.23,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  3,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 21 km SW of Ocotillo Wells, CA",
+                                            "title":  "M 0.5 - 21 km SW of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207535",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207535\u0026format=geojson"
                                         }
@@ -6414,31 +6484,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.774333333333,
-                                                              36.0168333333333,
-                                                              1.65
+                                                              -117.7745,
+                                                              36.0173333333333,
+                                                              1.84
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41207431",
                                             "time_utc":  "2026-03-18T22:44:00Z",
                                             "time_et":  "2026-03-18T18:44:00-04:00",
-                                            "updated_utc":  "2026-03-18T22:47:26Z",
+                                            "updated_utc":  "2026-03-19T23:26:37Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.82,
+                                            "magnitude_raw":  0.73,
                                             "place":  "15 km NE of Little Lake, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "1.7",
-                                            "depth_km_raw":  1.65,
+                                            "depth_km":  "1.8",
+                                            "depth_km_raw":  1.84,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  10,
+                                            "significance":  8,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 15 km NE of Little Lake, CA",
+                                            "title":  "M 0.7 - 15 km NE of Little Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207431",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207431\u0026format=geojson"
                                         }
@@ -45221,41 +45291,6 @@
                                             "title":  "M 0.8 - 9 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326697",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326697\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62234086",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.10466666666666,
-                                                              48.568333333333335,
-                                                              -0.02
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62234086",
-                                            "time_utc":  "2026-03-12T23:37:52Z",
-                                            "time_et":  "2026-03-12T19:37:52-04:00",
-                                            "updated_utc":  "2026-03-13T19:03:38Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "7 km WNW of Friday Harbor, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  -0.02,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "explosion",
-                                            "title":  "M 1.5 Explosion - 7 km WNW of Friday Harbor, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62234086",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62234086\u0026format=geojson"
                                         }
                      }
                  ]
