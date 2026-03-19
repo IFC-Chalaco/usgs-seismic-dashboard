@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T19:37:26Z",
+    "generated_at_utc":  "2026-03-19T19:52:36Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "ci41420272",
                                             "time_utc":  "2026-03-19T19:20:06Z",
                                             "time_et":  "2026-03-19T15:20:06-04:00",
-                                            "updated_utc":  "2026-03-19T19:23:33Z",
+                                            "updated_utc":  "2026-03-19T19:49:29Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.53,
                                             "place":  "4 km W of Lake Henshaw, CA",
@@ -29,7 +29,7 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  4,
                                             "event_type":  "earthquake",
@@ -88,7 +88,7 @@
                                             "id":  "nc75330232",
                                             "time_utc":  "2026-03-19T19:12:19Z",
                                             "time_et":  "2026-03-19T15:12:19-04:00",
-                                            "updated_utc":  "2026-03-19T19:13:54Z",
+                                            "updated_utc":  "2026-03-19T19:37:23Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.25,
                                             "place":  "6 km NW of The Geysers, CA",
@@ -3781,6 +3781,41 @@
                                             "title":  "M 2.9 - 61 km N of Cruz Bay, U.S. Virgin Islands",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510228",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510228\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026fluqds",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.916,
+                                                              32.376,
+                                                              7.5928
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fluqds",
+                                            "time_utc":  "2026-03-19T05:53:44Z",
+                                            "time_et":  "2026-03-19T01:53:44-04:00",
+                                            "updated_utc":  "2026-03-19T19:38:00Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "25 km SW of Ackerly, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.6",
+                                            "depth_km_raw":  7.5928,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 25 km SW of Ackerly, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fluqds",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fluqds\u0026format=geojson"
                                         }
                      },
                      {
@@ -44976,41 +45011,6 @@
                                             "title":  "M 0.8 - 3 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326612",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326612\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026ezke",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.04566667,
-                                                              35.6155,
-                                                              6.45
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026ezke",
-                                            "time_utc":  "2026-03-12T19:41:31Z",
-                                            "time_et":  "2026-03-12T15:41:31-04:00",
-                                            "updated_utc":  "2026-03-13T13:04:50Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.69,
-                                            "place":  "6 km ENE of Calumet, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.5",
-                                            "depth_km_raw":  6.45,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 6 km ENE of Calumet, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ezke",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026ezke\u0026format=geojson"
                                         }
                      }
                  ]
