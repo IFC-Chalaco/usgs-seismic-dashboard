@@ -1,39 +1,144 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T08:42:35Z",
+    "generated_at_utc":  "2026-03-19T09:02:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "tx2026flzjky",
+                         "id":  "nc75329977",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.119,
-                                                              31.617,
-                                                              4.0568
+                                                              -122.457168579102,
+                                                              37.5994987487793,
+                                                              7.99
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "tx2026flzjky",
-                                            "time_utc":  "2026-03-19T08:16:39Z",
-                                            "time_et":  "2026-03-19T04:16:39-04:00",
-                                            "updated_utc":  "2026-03-19T08:20:39Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "45 km NW of Toyah, Texas",
+                                            "id":  "nc75329977",
+                                            "time_utc":  "2026-03-19T08:59:12Z",
+                                            "time_et":  "2026-03-19T04:59:12-04:00",
+                                            "updated_utc":  "2026-03-19T09:00:49Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "3 km ESE of Pacifica, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.1",
-                                            "depth_km_raw":  4.0568,
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  7.99,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  44,
+                                            "significance":  15,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 45 km NW of Toyah, Texas",
+                                            "title":  "M 1.0 - 3 km ESE of Pacifica, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329977",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75329977\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75329972",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.75016784668,
+                                                              38.7879981994629,
+                                                              1.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75329972",
+                                            "time_utc":  "2026-03-19T08:47:59Z",
+                                            "time_et":  "2026-03-19T04:47:59-04:00",
+                                            "updated_utc":  "2026-03-19T08:49:33Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "1 km NNE of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.1",
+                                            "depth_km_raw":  1.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 1 km NNE of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329972",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75329972\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75329967",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.579330444336,
+                                                              36.8134994506836,
+                                                              8.97
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75329967",
+                                            "time_utc":  "2026-03-19T08:42:22Z",
+                                            "time_et":  "2026-03-19T04:42:22-04:00",
+                                            "updated_utc":  "2026-03-19T08:43:58Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.17,
+                                            "place":  "5 km SW of San Juan Bautista, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.0",
+                                            "depth_km_raw":  8.97,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 5 km SW of San Juan Bautista, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329967",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75329967\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026flzjky",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.093,
+                                                              31.622,
+                                                              6.0999
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026flzjky",
+                                            "time_utc":  "2026-03-19T08:16:39Z",
+                                            "time_et":  "2026-03-19T04:16:39-04:00",
+                                            "updated_utc":  "2026-03-19T08:50:46Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "44 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.1",
+                                            "depth_km_raw":  6.0999,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 44 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026flzjky",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026flzjky\u0026format=geojson"
                                         }
@@ -263,7 +368,7 @@
                                             "id":  "nc75329932",
                                             "time_utc":  "2026-03-19T07:30:33Z",
                                             "time_et":  "2026-03-19T03:30:33-04:00",
-                                            "updated_utc":  "2026-03-19T07:47:21Z",
+                                            "updated_utc":  "2026-03-19T08:47:22Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.57,
                                             "place":  "15 km WNW of Lake Pillsbury, CA",
@@ -43471,146 +43576,6 @@
                                             "title":  "M 2.1 - 3 km S of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326427",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326427\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ezetdy",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -100.99,
-                                                              32.185,
-                                                              8.4229
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ezetdy",
-                                            "time_utc":  "2026-03-12T09:00:09Z",
-                                            "time_et":  "2026-03-12T05:00:09-04:00",
-                                            "updated_utc":  "2026-03-12T11:34:30Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "19 km S of Westbrook, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.4",
-                                            "depth_km_raw":  8.4229,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 19 km S of Westbrook, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ezetdy",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ezetdy\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80131811",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.004666666667,
-                                                              44.396,
-                                                              6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80131811",
-                                            "time_utc":  "2026-03-12T08:58:40Z",
-                                            "time_et":  "2026-03-12T04:58:40-04:00",
-                                            "updated_utc":  "2026-03-12T15:49:47Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.99,
-                                            "place":  "29 km E of Island Park, Idaho",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  6,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 29 km E of Island Park, Idaho",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80131811",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80131811\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ezejcq",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -100.983,
-                                                              32.189,
-                                                              8.374
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ezejcq",
-                                            "time_utc":  "2026-03-12T08:48:35Z",
-                                            "time_et":  "2026-03-12T04:48:35-04:00",
-                                            "updated_utc":  "2026-03-12T11:21:58Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.3,
-                                            "place":  "18 km S of Westbrook, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.4",
-                                            "depth_km_raw":  8.374,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  81,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 18 km S of Westbrook, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ezejcq",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ezejcq\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75326417",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.193000793457,
-                                                              39.2363319396973,
-                                                              7.16
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75326417",
-                                            "time_utc":  "2026-03-12T08:48:14Z",
-                                            "time_et":  "2026-03-12T04:48:14-04:00",
-                                            "updated_utc":  "2026-03-12T09:52:22Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.21,
-                                            "place":  "3 km SSE of Redwood Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.2",
-                                            "depth_km_raw":  7.16,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  23,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 3 km SSE of Redwood Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326417",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326417\u0026format=geojson"
                                         }
                      }
                  ]
