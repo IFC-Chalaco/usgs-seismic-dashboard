@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-19T07:14:27Z",
+    "generated_at_utc":  "2026-03-19T07:15:22Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.685668945312,
-                                                              33.9931678771973,
-                                                              15.32
+                                                              -116.682166666667,
+                                                              33.9946666666667,
+                                                              15.31
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41207679",
                                             "time_utc":  "2026-03-19T07:11:12Z",
                                             "time_et":  "2026-03-19T03:11:12-04:00",
-                                            "updated_utc":  "2026-03-19T07:13:15Z",
+                                            "updated_utc":  "2026-03-19T07:14:43Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
+                                            "magnitude_raw":  0.68,
                                             "place":  "11 km WSW of Morongo Valley, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "15.3",
-                                            "depth_km_raw":  15.32,
+                                            "depth_km_raw":  15.31,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  15,
+                                            "significance":  7,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 11 km WSW of Morongo Valley, CA",
+                                            "title":  "M 0.7 - 11 km WSW of Morongo Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207679",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207679\u0026format=geojson"
                                         }
@@ -43751,41 +43751,6 @@
                                             "title":  "M 1.8 - 20 km NNE of Indio, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202943",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41202943\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41202935",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.619,
-                                                              33.8333333333333,
-                                                              9.74
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41202935",
-                                            "time_utc":  "2026-03-12T07:14:44Z",
-                                            "time_et":  "2026-03-12T03:14:44-04:00",
-                                            "updated_utc":  "2026-03-12T15:20:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.55,
-                                            "place":  "6 km SW of Corona, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.7",
-                                            "depth_km_raw":  9.74,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 6 km SW of Corona, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41202935",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41202935\u0026format=geojson"
                                         }
                      }
                  ]
