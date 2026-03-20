@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T16:43:34Z",
+    "generated_at_utc":  "2026-03-20T16:44:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.426834106445,
-                                                              33.9934997558594,
-                                                              2.08
+                                                              -116.426833333333,
+                                                              33.9938333333333,
+                                                              2.5
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41420920",
                                             "time_utc":  "2026-03-20T16:39:38Z",
                                             "time_et":  "2026-03-20T12:39:38-04:00",
-                                            "updated_utc":  "2026-03-20T16:41:44Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  1.99,
+                                            "updated_utc":  "2026-03-20T16:43:22Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.92,
                                             "place":  "8 km ENE of Desert Hot Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.08,
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.5,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  61,
+                                            "significance":  57,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 8 km ENE of Desert Hot Springs, CA",
+                                            "title":  "M 1.9 - 8 km ENE of Desert Hot Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41420920",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41420920\u0026format=geojson"
                                         }
@@ -9031,6 +9031,41 @@
                                             "title":  "M 2.4 - 22 km SW of Stella, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510218",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510218\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026flcs",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.45416667,
+                                                              34.418,
+                                                              5.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026flcs",
+                                            "time_utc":  "2026-03-19T05:32:08Z",
+                                            "time_et":  "2026-03-19T01:32:08-04:00",
+                                            "updated_utc":  "2026-03-20T16:42:56Z",
+                                            "magnitude":  "2.4",
+                                            "magnitude_raw":  2.35,
+                                            "place":  "6 km SE of Ratliff City, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.1",
+                                            "depth_km_raw":  5.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  85,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.4 - 6 km SE of Ratliff City, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026flcs",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026flcs\u0026format=geojson"
                                         }
                      },
                      {
