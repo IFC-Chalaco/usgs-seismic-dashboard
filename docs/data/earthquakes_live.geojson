@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T14:30:05Z",
+    "generated_at_utc":  "2026-03-20T14:31:05Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41420856",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.91283416748,
+                                                              36.1189994812012,
+                                                              4.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41420856",
+                                            "time_utc":  "2026-03-20T14:28:06Z",
+                                            "time_et":  "2026-03-20T10:28:06-04:00",
+                                            "updated_utc":  "2026-03-20T14:30:10Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.41,
+                                            "place":  "9 km NNE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 9 km NNE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41420856",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41420856\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75330637",
@@ -36,6 +71,41 @@
                                             "title":  "M 1.7 - 13 km E of Coalinga, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330637",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75330637\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71510388",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.673,
+                                                              18.6281666666667,
+                                                              83.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71510388",
+                                            "time_utc":  "2026-03-20T14:08:34Z",
+                                            "time_et":  "2026-03-20T10:08:34-04:00",
+                                            "updated_utc":  "2026-03-20T14:29:52Z",
+                                            "magnitude":  "3.0",
+                                            "magnitude_raw":  3,
+                                            "place":  "17 km NNE of Arecibo, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "83.8",
+                                            "depth_km_raw":  83.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  138,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.0 - 17 km NNE of Arecibo, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510388",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510388\u0026format=geojson"
                                         }
                      },
                      {
