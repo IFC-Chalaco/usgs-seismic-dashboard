@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T19:23:31Z",
+    "generated_at_utc":  "2026-03-20T19:28:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41421128",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.807333333333,
+                                                              33.2463333333333,
+                                                              12.82
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41421128",
+                                            "time_utc":  "2026-03-20T19:21:01Z",
+                                            "time_et":  "2026-03-20T15:21:01-04:00",
+                                            "updated_utc":  "2026-03-20T19:24:29Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.71,
+                                            "place":  "4 km W of Lake Henshaw, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.82,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 4 km W of Lake Henshaw, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41421128",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41421128\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75330727",
@@ -46411,76 +46446,6 @@
                                             "title":  "M 1.2 - 5 km WSW of Portola Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327007",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327007\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75327002",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.282333374023,
-                                                              37.3621673583984,
-                                                              3.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75327002",
-                                            "time_utc":  "2026-03-13T19:25:39Z",
-                                            "time_et":  "2026-03-13T15:25:39-04:00",
-                                            "updated_utc":  "2026-03-14T18:01:28Z",
-                                            "magnitude":  "2.4",
-                                            "magnitude_raw":  2.42,
-                                            "place":  "5 km WSW of Portola Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.1",
-                                            "depth_km_raw":  3.08,
-                                            "felt_reports":  7,
-                                            "cdi":  2.9,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  92,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.4 - 5 km WSW of Portola Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327002",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327002\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00912566",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.5893,
-                                                              36.7457,
-                                                              1.7538
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00912566",
-                                            "time_utc":  "2026-03-13T19:25:09Z",
-                                            "time_et":  "2026-03-13T15:25:09-04:00",
-                                            "updated_utc":  "2026-03-13T19:27:07Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.55,
-                                            "place":  "20 km NNE of Indian Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.7538,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 20 km NNE of Indian Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912566",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00912566\u0026format=geojson"
                                         }
                      }
                  ]
