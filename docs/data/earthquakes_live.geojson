@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T11:31:29Z",
+    "generated_at_utc":  "2026-03-20T11:53:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41420768",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.748666666667,
+                                                              33.5848333333333,
+                                                              12.26
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41420768",
+                                            "time_utc":  "2026-03-20T11:43:24Z",
+                                            "time_et":  "2026-03-20T07:43:24-04:00",
+                                            "updated_utc":  "2026-03-20T11:46:59Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.75,
+                                            "place":  "8 km WNW of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.3",
+                                            "depth_km_raw":  12.26,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 8 km WNW of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41420768",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41420768\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75330562",
@@ -18,7 +53,7 @@
                                             "id":  "nc75330562",
                                             "time_utc":  "2026-03-20T10:56:45Z",
                                             "time_et":  "2026-03-20T06:56:45-04:00",
-                                            "updated_utc":  "2026-03-20T11:17:22Z",
+                                            "updated_utc":  "2026-03-20T11:32:23Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.21,
                                             "place":  "4 km W of Cobb, CA",
@@ -1195,6 +1230,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026fnrekz",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.139,
+                                                              31.945,
+                                                              4.8096
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fnrekz",
+                                            "time_utc":  "2026-03-20T06:18:04Z",
+                                            "time_et":  "2026-03-20T02:18:04-04:00",
+                                            "updated_utc":  "2026-03-20T11:45:44Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "8 km SW of Midland, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.8096,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 8 km SW of Midland, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fnrekz",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fnrekz\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75330472",
                          "geometry":  {
                                           "type":  "Point",
@@ -1891,41 +1961,6 @@
                                             "title":  "M 0.7 - 6 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330402",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75330402\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fnkdpv",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.562,
-                                                              31.105,
-                                                              0
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fnkdpv",
-                                            "time_utc":  "2026-03-20T02:49:18Z",
-                                            "time_et":  "2026-03-19T22:49:18-04:00",
-                                            "updated_utc":  "2026-03-20T02:54:25Z",
-                                            "magnitude":  "2.7",
-                                            "magnitude_raw":  2.7,
-                                            "place":  "21 km NE of Balmorhea, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  112,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.7 - 21 km NE of Balmorhea, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fnkdpv",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fnkdpv\u0026format=geojson"
                                         }
                      },
                      {
@@ -44591,181 +44626,6 @@
                                             "title":  "M 0.7 - 6 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326872",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326872\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fbgaye",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.058,
-                                                              35.558,
-                                                              6.958
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fbgaye",
-                                            "time_utc":  "2026-03-13T11:48:23Z",
-                                            "time_et":  "2026-03-13T07:48:23-04:00",
-                                            "updated_utc":  "2026-03-13T15:16:40Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "18 km E of Boys Ranch, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.0",
-                                            "depth_km_raw":  6.958,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 18 km E of Boys Ranch, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fbgaye",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fbgaye\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71509733",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -65.662,
-                                                              17.8825,
-                                                              8.87
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71509733",
-                                            "time_utc":  "2026-03-13T11:42:45Z",
-                                            "time_et":  "2026-03-13T07:42:45-04:00",
-                                            "updated_utc":  "2026-03-13T22:04:45Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.6,
-                                            "place":  "26 km SE of El Negro, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.87,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  104,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 26 km SE of El Negro, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509733",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71509733\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80131956",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.895333333333,
-                                                              38.4961666666667,
-                                                              2.06
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80131956",
-                                            "time_utc":  "2026-03-13T11:40:53Z",
-                                            "time_et":  "2026-03-13T07:40:53-04:00",
-                                            "updated_utc":  "2026-03-13T17:12:40Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.26,
-                                            "place":  "14 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.06,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  24,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 14 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80131956",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80131956\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41203575",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.8485,
-                                                              33.0411666666667,
-                                                              3.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41203575",
-                                            "time_utc":  "2026-03-13T11:33:36Z",
-                                            "time_et":  "2026-03-13T07:33:36-04:00",
-                                            "updated_utc":  "2026-03-13T11:37:05Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.02,
-                                            "place":  "21 km W of Westmorland, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 21 km W of Westmorland, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41203575",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41203575\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fbfnla",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.536,
-                                                              32.136,
-                                                              5.2979
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fbfnla",
-                                            "time_utc":  "2026-03-13T11:32:44Z",
-                                            "time_et":  "2026-03-13T07:32:44-04:00",
-                                            "updated_utc":  "2026-03-14T01:21:15Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "13 km SSW of Big Spring, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.3",
-                                            "depth_km_raw":  5.2979,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 13 km SSW of Big Spring, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fbfnla",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fbfnla\u0026format=geojson"
                                         }
                      }
                  ]
