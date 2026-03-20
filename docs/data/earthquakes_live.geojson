@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T05:33:17Z",
+    "generated_at_utc":  "2026-03-20T05:34:16Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71510363",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9456666666667,
+                                                              17.9765,
+                                                              9.67
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71510363",
+                                            "time_utc":  "2026-03-20T05:04:20Z",
+                                            "time_et":  "2026-03-20T01:04:20-04:00",
+                                            "updated_utc":  "2026-03-20T05:33:07Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.04,
+                                            "place":  "3 km WSW of Fuig, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.67,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  64,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 3 km WSW of Fuig, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510363",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510363\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41420616",
@@ -44731,41 +44766,6 @@
                                             "title":  "M 2.3 - 2 km W of Redwood Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75326787",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75326787\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41203423",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.5535,
-                                                              35.7013333333333,
-                                                              8.34
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41203423",
-                                            "time_utc":  "2026-03-13T05:32:49Z",
-                                            "time_et":  "2026-03-13T01:32:49-04:00",
-                                            "updated_utc":  "2026-03-13T17:35:14Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.55,
-                                            "place":  "14 km NE of Ridgecrest, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.34,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  37,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 14 km NE of Ridgecrest, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41203423",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41203423\u0026format=geojson"
                                         }
                      }
                  ]
