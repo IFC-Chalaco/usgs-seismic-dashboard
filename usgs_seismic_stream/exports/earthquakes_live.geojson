@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-20T19:56:40Z",
+    "generated_at_utc":  "2026-03-20T19:57:41Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41421184",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.561,
+                                                              33.1673333333333,
+                                                              14.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41421184",
+                                            "time_utc":  "2026-03-20T19:52:40Z",
+                                            "time_et":  "2026-03-20T15:52:40-04:00",
+                                            "updated_utc":  "2026-03-20T19:56:08Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.92,
+                                            "place":  "11 km NNE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.1",
+                                            "depth_km_raw":  14.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  13,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 11 km NNE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41421184",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41421184\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41421176",
