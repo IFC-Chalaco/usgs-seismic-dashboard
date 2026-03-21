@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-21T21:44:30Z",
+    "generated_at_utc":  "2026-03-21T21:45:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -33321,6 +33321,41 @@
                                             "title":  "M 0.8 - 8 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328317",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75328317\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75328302",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.783166666667,
+                                                              38.839,
+                                                              1.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75328302",
+                                            "time_utc":  "2026-03-16T15:52:15Z",
+                                            "time_et":  "2026-03-16T11:52:15-04:00",
+                                            "updated_utc":  "2026-03-21T21:44:32Z",
+                                            "magnitude":  "-0.1",
+                                            "magnitude_raw":  -0.06,
+                                            "place":  "6 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.7",
+                                            "depth_km_raw":  1.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M -0.1 - 6 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328302",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75328302\u0026format=geojson"
                                         }
                      },
                      {
