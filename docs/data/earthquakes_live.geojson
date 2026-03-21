@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-21T12:40:09Z",
+    "generated_at_utc":  "2026-03-21T12:41:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -53,7 +53,7 @@
                                             "id":  "us6000si5l",
                                             "time_utc":  "2026-03-21T12:16:46Z",
                                             "time_et":  "2026-03-21T08:16:46-04:00",
-                                            "updated_utc":  "2026-03-21T12:34:04Z",
+                                            "updated_utc":  "2026-03-21T12:39:56Z",
                                             "magnitude":  "6.7",
                                             "magnitude_raw":  6.7,
                                             "place":  "northern Mid-Atlantic Ridge",
@@ -62,7 +62,7 @@
                                             "depth_km_raw":  10,
                                             "felt_reports":  null,
                                             "cdi":  null,
-                                            "mmi":  null,
+                                            "mmi":  0,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  1,
@@ -44661,41 +44661,6 @@
                                             "title":  "M 2.5 - 47 km N of Hatillo, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509873",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71509873\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00912627",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.2568,
-                                                              36.6724,
-                                                              7.3142
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00912627",
-                                            "time_utc":  "2026-03-14T12:40:08Z",
-                                            "time_et":  "2026-03-14T08:40:08-04:00",
-                                            "updated_utc":  "2026-03-14T12:41:48Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.92,
-                                            "place":  "51 km ESE of Beatty, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.3",
-                                            "depth_km_raw":  7.3142,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  13,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 51 km ESE of Beatty, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912627",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00912627\u0026format=geojson"
                                         }
                      }
                  ]
