@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-21T13:33:14Z",
+    "generated_at_utc":  "2026-03-21T13:52:55Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75331027",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.80883026123,
+                                                              38.8341674804688,
+                                                              2.83
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75331027",
+                                            "time_utc":  "2026-03-21T13:40:25Z",
+                                            "time_et":  "2026-03-21T09:40:25-04:00",
+                                            "updated_utc":  "2026-03-21T13:42:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.76,
+                                            "place":  "8 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.83,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 8 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331027",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331027\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026fqblxg",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.316,
+                                                              31.669,
+                                                              5.7332
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fqblxg",
+                                            "time_utc":  "2026-03-21T13:39:27Z",
+                                            "time_et":  "2026-03-21T09:39:27-04:00",
+                                            "updated_utc":  "2026-03-21T13:43:38Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2,
+                                            "place":  "56 km S of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.7332,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 56 km S of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fqblxg",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fqblxg\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026fqaztn",
@@ -491,6 +561,41 @@
                                             "title":  "M 0.4 - 2 km SSE of Lake Henshaw, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41421632",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41421632\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71510453",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9393333333333,
+                                                              17.9371666666667,
+                                                              6.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71510453",
+                                            "time_utc":  "2026-03-21T10:34:33Z",
+                                            "time_et":  "2026-03-21T06:34:33-04:00",
+                                            "updated_utc":  "2026-03-21T13:44:15Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.48,
+                                            "place":  "5 km SW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "6.1",
+                                            "depth_km_raw":  6.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  95,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 5 km SW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510453",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510453\u0026format=geojson"
                                         }
                      },
                      {
@@ -3238,20 +3343,20 @@
                                             "id":  "se60618951",
                                             "time_utc":  "2026-03-20T21:51:37Z",
                                             "time_et":  "2026-03-20T17:51:37-04:00",
-                                            "updated_utc":  "2026-03-21T13:21:25Z",
+                                            "updated_utc":  "2026-03-21T13:51:41Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.4,
                                             "place":  "11 km S of Woodlake, Virginia",
                                             "country":  "United States of America",
                                             "depth_km":  "0.0",
                                             "depth_km_raw":  0.03,
-                                            "felt_reports":  17,
+                                            "felt_reports":  20,
                                             "cdi":  4.3,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  96,
+                                            "significance":  97,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.4 - 11 km S of Woodlake, Virginia",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/se60618951",
@@ -44626,76 +44731,6 @@
                                             "title":  "M 0.7 - 12 km NE of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204111",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41204111\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75327302",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.5556640625,
-                                                              36.9501647949219,
-                                                              5.01
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75327302",
-                                            "time_utc":  "2026-03-14T13:49:06Z",
-                                            "time_et":  "2026-03-14T09:49:06-04:00",
-                                            "updated_utc":  "2026-03-14T13:50:41Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.05,
-                                            "place":  "6 km S of Gilroy, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.0",
-                                            "depth_km_raw":  5.01,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 6 km S of Gilroy, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327302",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327302\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75327297",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.947334289551,
-                                                              37.7569999694824,
-                                                              6.74
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75327297",
-                                            "time_utc":  "2026-03-14T13:46:32Z",
-                                            "time_et":  "2026-03-14T09:46:32-04:00",
-                                            "updated_utc":  "2026-03-14T15:07:23Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.84,
-                                            "place":  "4 km SE of San Ramon, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.7",
-                                            "depth_km_raw":  6.74,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  52,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 4 km SE of San Ramon, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327297",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327297\u0026format=geojson"
                                         }
                      }
                  ]
