@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T14:41:17Z",
+    "generated_at_utc":  "2026-03-22T14:48:41Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75331432",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.766166687012,
+                                                              38.785831451416,
+                                                              3.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75331432",
+                                            "time_utc":  "2026-03-22T14:43:05Z",
+                                            "time_et":  "2026-03-22T10:43:05-04:00",
+                                            "updated_utc":  "2026-03-22T14:44:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.75,
+                                            "place":  "1 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  3.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 1 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331432",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331432\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41422328",
@@ -42946,41 +42981,6 @@
                                             "title":  "M 1.6 - 58 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ffdmwb",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ffdmwb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75327712",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.158666666667,
-                                                              36.5373333333333,
-                                                              6.06
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75327712",
-                                            "time_utc":  "2026-03-15T14:43:58Z",
-                                            "time_et":  "2026-03-15T10:43:58-04:00",
-                                            "updated_utc":  "2026-03-17T20:44:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.03,
-                                            "place":  "2 km WNW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.06,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 2 km WNW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327712",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327712\u0026format=geojson"
                                         }
                      }
                  ]
