@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T14:20:41Z",
+    "generated_at_utc":  "2026-03-22T14:41:17Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -211,6 +211,41 @@
                                             "title":  "M 1.6 - 58 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026frxjyt",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026frxjyt\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71510538",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.983,
+                                                              18.2298333333333,
+                                                              15.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71510538",
+                                            "time_utc":  "2026-03-22T13:43:05Z",
+                                            "time_et":  "2026-03-22T09:43:05-04:00",
+                                            "updated_utc":  "2026-03-22T14:39:11Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.19,
+                                            "place":  "2 km SSE of Las Marías, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "15.5",
+                                            "depth_km_raw":  15.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 2 km SSE of Las Marías, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71510538",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71510538\u0026format=geojson"
                                         }
                      },
                      {
