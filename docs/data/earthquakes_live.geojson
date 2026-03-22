@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T19:56:01Z",
+    "generated_at_utc":  "2026-03-22T20:00:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75331532",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.763664245605,
+                                                              38.7960014343262,
+                                                              1.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75331532",
+                                            "time_utc":  "2026-03-22T19:57:11Z",
+                                            "time_et":  "2026-03-22T15:57:11-04:00",
+                                            "updated_utc":  "2026-03-22T19:58:50Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "2 km NNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.3",
+                                            "depth_km_raw":  1.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 2 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331532",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331532\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41422432",
@@ -29615,6 +29650,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75328977",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.658,
+                                                              38.5581666666667,
+                                                              -0.53
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75328977",
+                                            "time_utc":  "2026-03-17T18:38:41Z",
+                                            "time_et":  "2026-03-17T14:38:41-04:00",
+                                            "updated_utc":  "2026-03-22T19:57:04Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.31,
+                                            "place":  "7 km WSW of Calistoga, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.5",
+                                            "depth_km_raw":  -0.53,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.3 Quarry Blast - 7 km WSW of Calistoga, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75328977",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75328977\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci10231910",
                          "geometry":  {
                                           "type":  "Point",
@@ -43191,41 +43261,6 @@
                                             "title":  "M 0.8 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327842",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75327842\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41204687",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.245166666667,
-                                                              33.9936666666667,
-                                                              10.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41204687",
-                                            "time_utc":  "2026-03-15T19:56:06Z",
-                                            "time_et":  "2026-03-15T15:56:06-04:00",
-                                            "updated_utc":  "2026-03-16T21:37:50Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.82,
-                                            "place":  "6 km SSE of Loma Linda, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.9",
-                                            "depth_km_raw":  10.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km SSE of Loma Linda, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204687",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41204687\u0026format=geojson"
                                         }
                      }
                  ]
