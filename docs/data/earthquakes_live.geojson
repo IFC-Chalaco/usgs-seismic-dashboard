@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T20:38:30Z",
+    "generated_at_utc":  "2026-03-22T20:39:26Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913104",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.3847,
+                                                              37.5398,
+                                                              8.2337
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913104",
+                                            "time_utc":  "2026-03-22T20:35:56Z",
+                                            "time_et":  "2026-03-22T16:35:56-04:00",
+                                            "updated_utc":  "2026-03-22T20:38:33Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.76,
+                                            "place":  "57 km WSW of Rachel, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2337,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  48,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 57 km WSW of Rachel, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913104",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913104\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75331537",
