@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T19:40:31Z",
+    "generated_at_utc":  "2026-03-22T19:52:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41422432",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.137496948242,
+                                                              33.964168548584,
+                                                              14.66
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41422432",
+                                            "time_utc":  "2026-03-22T19:49:07Z",
+                                            "time_et":  "2026-03-22T15:49:07-04:00",
+                                            "updated_utc":  "2026-03-22T19:51:14Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.86,
+                                            "place":  "8 km WSW of Calimesa, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.7",
+                                            "depth_km_raw":  14.66,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  54,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 8 km WSW of Calimesa, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41422432",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41422432\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41422424",
@@ -43191,41 +43226,6 @@
                                             "title":  "M 0.8 - 6 km SSE of Loma Linda, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41204687",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41204687\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00912714",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.7227,
-                                                              38.3427,
-                                                              0.1382
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00912714",
-                                            "time_utc":  "2026-03-15T19:43:48Z",
-                                            "time_et":  "2026-03-15T15:43:48-04:00",
-                                            "updated_utc":  "2026-03-15T19:46:21Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.89,
-                                            "place":  "53 km NE of Tonopah, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.1",
-                                            "depth_km_raw":  0.1382,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  55,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 53 km NE of Tonopah, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912714",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00912714\u0026format=geojson"
                                         }
                      }
                  ]
