@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-22T23:52:24Z",
+    "generated_at_utc":  "2026-03-23T00:03:33Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nm60619026",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -89.5301666259766,
+                                                              36.4118347167969,
+                                                              9.27
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nm60619026",
+                                            "time_utc":  "2026-03-22T23:50:52Z",
+                                            "time_et":  "2026-03-22T19:50:52-04:00",
+                                            "updated_utc":  "2026-03-22T23:55:57Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.01,
+                                            "place":  "6 km NW of Tiptonville, Tennessee",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.3",
+                                            "depth_km_raw":  9.27,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 6 km NW of Tiptonville, Tennessee",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nm60619026",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nm60619026\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41422536",
@@ -228,7 +263,7 @@
                                             "id":  "pr71510603",
                                             "time_utc":  "2026-03-22T21:35:32Z",
                                             "time_et":  "2026-03-22T17:35:32-04:00",
-                                            "updated_utc":  "2026-03-22T22:02:32Z",
+                                            "updated_utc":  "2026-03-22T23:52:11Z",
                                             "magnitude":  "3.4",
                                             "magnitude_raw":  3.38,
                                             "place":  "105 km N of Charlotte Amalie, U.S. Virgin Islands",
@@ -946,6 +981,41 @@
                                             "title":  "M 1.5 - 44 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fshldo",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fshldo\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026fsgcek",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.066,
+                                                              31.999,
+                                                              7.6892
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026fsgcek",
+                                            "time_utc":  "2026-03-22T18:05:54Z",
+                                            "time_et":  "2026-03-22T14:05:54-04:00",
+                                            "updated_utc":  "2026-03-22T23:55:16Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "24 km S of Malaga, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.6892,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 24 km S of Malaga, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fsgcek",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fsgcek\u0026format=geojson"
                                         }
                      },
                      {
@@ -3063,15 +3133,15 @@
                                             "id":  "ok2026fqpv",
                                             "time_utc":  "2026-03-22T05:50:32Z",
                                             "time_et":  "2026-03-22T01:50:32-04:00",
-                                            "updated_utc":  "2026-03-22T13:23:00Z",
+                                            "updated_utc":  "2026-03-22T23:55:38Z",
                                             "magnitude":  "2.9",
                                             "magnitude_raw":  2.91,
                                             "place":  "5 km SE of Ratliff City, Oklahoma",
                                             "country":  "United States of America",
                                             "depth_km":  "4.8",
                                             "depth_km_raw":  4.83,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -8313,7 +8383,7 @@
                                             "id":  "nc75330787",
                                             "time_utc":  "2026-03-21T00:03:29Z",
                                             "time_et":  "2026-03-20T20:03:29-04:00",
-                                            "updated_utc":  "2026-03-22T23:33:00Z",
+                                            "updated_utc":  "2026-03-22T23:52:21Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.26,
                                             "place":  "7 km NW of The Geysers, CA",
