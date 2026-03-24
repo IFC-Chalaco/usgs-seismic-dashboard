@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-24T15:18:15Z",
+    "generated_at_utc":  "2026-03-24T15:19:14Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -7141,6 +7141,41 @@
                                             "title":  "M 1.2 - 5 km E of Pinnacles, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331757",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331757\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026fstv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.02866667,
+                                                              35.62316667,
+                                                              12.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026fstv",
+                                            "time_utc":  "2026-03-23T10:08:25Z",
+                                            "time_et":  "2026-03-23T06:08:25-04:00",
+                                            "updated_utc":  "2026-03-24T15:18:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.03,
+                                            "place":  "8 km ENE of Calumet, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.1",
+                                            "depth_km_raw":  12.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 8 km ENE of Calumet, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fstv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026fstv\u0026format=geojson"
                                         }
                      },
                      {
@@ -44836,41 +44871,6 @@
                                             "title":  "M 2.4 - 58 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fiwdoh",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fiwdoh\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41206055",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.8365,
-                                                              31.8031666666667,
-                                                              10.53
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41206055",
-                                            "time_utc":  "2026-03-17T15:18:30Z",
-                                            "time_et":  "2026-03-17T11:18:30-04:00",
-                                            "updated_utc":  "2026-03-17T15:34:52Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.22,
-                                            "place":  "70 km E of Maneadero, B.C., MX",
-                                            "country":  "Mexico",
-                                            "depth_km":  "10.5",
-                                            "depth_km_raw":  10.53,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  76,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 70 km E of Maneadero, B.C., MX",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206055",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41206055\u0026format=geojson"
                                         }
                      }
                  ]
