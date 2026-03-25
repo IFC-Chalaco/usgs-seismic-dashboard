@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-25T20:04:38Z",
+    "generated_at_utc":  "2026-03-25T20:05:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41424944",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.148,
+                                                              35.656,
+                                                              3.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41424944",
+                                            "time_utc":  "2026-03-25T20:01:17Z",
+                                            "time_et":  "2026-03-25T16:01:17-04:00",
+                                            "updated_utc":  "2026-03-25T20:04:43Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.92,
+                                            "place":  "27 km ESE of Kernville, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.7",
+                                            "depth_km_raw":  3.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  13,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 27 km ESE of Kernville, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424944",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41424944\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75332912",
