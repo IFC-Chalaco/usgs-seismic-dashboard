@@ -1,8 +1,113 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-25T21:29:02Z",
+    "generated_at_utc":  "2026-03-25T21:59:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75332962",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.795997619629,
+                                                              38.8191680908203,
+                                                              3.28
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75332962",
+                                            "time_utc":  "2026-03-25T21:38:52Z",
+                                            "time_et":  "2026-03-25T17:38:52-04:00",
+                                            "updated_utc":  "2026-03-25T21:40:30Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.05,
+                                            "place":  "6 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.3",
+                                            "depth_km_raw":  3.28,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332962",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75332962\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41425032",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.913,
+                                                              33.438,
+                                                              14.42
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41425032",
+                                            "time_utc":  "2026-03-25T21:27:59Z",
+                                            "time_et":  "2026-03-25T17:27:59-04:00",
+                                            "updated_utc":  "2026-03-25T21:38:20Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.32,
+                                            "place":  "4 km W of Aguanga, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.4",
+                                            "depth_km_raw":  14.42,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  27,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 4 km W of Aguanga, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425032",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425032\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80133286",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.896166666667,
+                                                              38.4878333333333,
+                                                              3.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80133286",
+                                            "time_utc":  "2026-03-25T21:27:55Z",
+                                            "time_et":  "2026-03-25T17:27:55-04:00",
+                                            "updated_utc":  "2026-03-25T21:39:56Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.83,
+                                            "place":  "14 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  3.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 14 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133286",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133286\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75332952",
@@ -53,7 +158,7 @@
                                             "id":  "nc75332947",
                                             "time_utc":  "2026-03-25T21:19:55Z",
                                             "time_et":  "2026-03-25T17:19:55-04:00",
-                                            "updated_utc":  "2026-03-25T21:21:29Z",
+                                            "updated_utc":  "2026-03-25T21:52:20Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.49,
                                             "place":  "3 km SE of Pacifica, CA",
@@ -316,6 +421,41 @@
                                             "title":  "M 1.0 - 14 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133266",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133266\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80133261",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.8965,
+                                                              38.4983333333333,
+                                                              3.26
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80133261",
+                                            "time_utc":  "2026-03-25T20:29:24Z",
+                                            "time_et":  "2026-03-25T16:29:24-04:00",
+                                            "updated_utc":  "2026-03-25T21:33:21Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.15,
+                                            "place":  "15 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.3",
+                                            "depth_km_raw":  3.26,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 15 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133261",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133261\u0026format=geojson"
                                         }
                      },
                      {
@@ -43296,181 +43436,6 @@
                                             "title":  "M 0.3 - 21 km N of Searles Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207391",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207391\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41207367",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.4845,
-                                                              33.823,
-                                                              2.4
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41207367",
-                                            "time_utc":  "2026-03-18T21:44:20Z",
-                                            "time_et":  "2026-03-18T17:44:20-04:00",
-                                            "updated_utc":  "2026-03-19T15:15:24Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.57,
-                                            "place":  "7 km SSE of Home Gardens, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.4",
-                                            "depth_km_raw":  2.4,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  38,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 7 km SSE of Home Gardens, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207367",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207367\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41207359",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.732666666667,
-                                                              33.6495,
-                                                              13.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41207359",
-                                            "time_utc":  "2026-03-18T21:38:45Z",
-                                            "time_et":  "2026-03-18T17:38:45-04:00",
-                                            "updated_utc":  "2026-03-20T19:15:06Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.06,
-                                            "place":  "10 km S of Idyllwild, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.2",
-                                            "depth_km_raw":  13.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 10 km S of Idyllwild, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207359",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207359\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10232774",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.745,
-                                                              33.6593333333333,
-                                                              13.82
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10232774",
-                                            "time_utc":  "2026-03-18T21:38:40Z",
-                                            "time_et":  "2026-03-18T17:38:40-04:00",
-                                            "updated_utc":  "2026-03-20T19:20:34Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.3,
-                                            "place":  "9 km SSW of Idyllwild, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.8",
-                                            "depth_km_raw":  13.82,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 9 km SSW of Idyllwild, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10232774",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10232774\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41207343",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.376833333333,
-                                                              33.2058333333333,
-                                                              15.2
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41207343",
-                                            "time_utc":  "2026-03-18T21:32:07Z",
-                                            "time_et":  "2026-03-18T17:32:07-04:00",
-                                            "updated_utc":  "2026-03-19T14:21:59Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.58,
-                                            "place":  "6 km S of Borrego Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "15.2",
-                                            "depth_km_raw":  15.2,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 6 km S of Borrego Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207343",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207343\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75329722",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.76000213623,
-                                                              38.8231658935547,
-                                                              2.13
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75329722",
-                                            "time_utc":  "2026-03-18T21:29:09Z",
-                                            "time_et":  "2026-03-18T17:29:09-04:00",
-                                            "updated_utc":  "2026-03-18T22:12:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "3 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.13,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 3 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329722",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75329722\u0026format=geojson"
                                         }
                      }
                  ]
