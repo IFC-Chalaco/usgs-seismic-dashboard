@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-25T19:32:52Z",
+    "generated_at_utc":  "2026-03-25T19:33:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1156,6 +1156,41 @@
                                             "title":  "M 1.0 - 24 km ESE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424600",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41424600\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80133191",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.330666666667,
+                                                              44.6045,
+                                                              2.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80133191",
+                                            "time_utc":  "2026-03-25T13:32:40Z",
+                                            "time_et":  "2026-03-25T09:32:40-04:00",
+                                            "updated_utc":  "2026-03-25T19:33:04Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.77,
+                                            "place":  "50 km SE of Mammoth, Wyoming",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.2",
+                                            "depth_km_raw":  2.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 50 km SE of Mammoth, Wyoming",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133191",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133191\u0026format=geojson"
                                         }
                      },
                      {
