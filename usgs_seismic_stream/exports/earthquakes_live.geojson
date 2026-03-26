@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-26T10:36:38Z",
+    "generated_at_utc":  "2026-03-26T10:37:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41425336",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.265666666667,
+                                                              32.8905,
+                                                              6.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41425336",
+                                            "time_utc":  "2026-03-26T10:33:29Z",
+                                            "time_et":  "2026-03-26T06:33:29-04:00",
+                                            "updated_utc":  "2026-03-26T10:36:57Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.74,
+                                            "place":  "26 km ENE of Pine Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 26 km ENE of Pine Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425336",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425336\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75333267",
@@ -42141,41 +42176,6 @@
                                             "title":  "M 0.4 - 15 km WSW of Searles Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41207751",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41207751\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fmeadz",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.626,
-                                                              32.094,
-                                                              8.374
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fmeadz",
-                                            "time_utc":  "2026-03-19T10:36:30Z",
-                                            "time_et":  "2026-03-19T06:36:30-04:00",
-                                            "updated_utc":  "2026-03-19T14:23:25Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "15 km ESE of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.4",
-                                            "depth_km_raw":  8.374,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 15 km ESE of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fmeadz",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fmeadz\u0026format=geojson"
                                         }
                      }
                  ]
