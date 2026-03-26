@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-26T09:44:08Z",
+    "generated_at_utc":  "2026-03-26T09:45:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75333257",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.464164733887,
+                                                              37.5973320007324,
+                                                              8.43
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75333257",
+                                            "time_utc":  "2026-03-26T09:42:18Z",
+                                            "time_et":  "2026-03-26T05:42:18-04:00",
+                                            "updated_utc":  "2026-03-26T09:43:56Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "3 km SE of Pacifica, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.43,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 3 km SE of Pacifica, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333257",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75333257\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41425304",
