@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-26T15:00:15Z",
+    "generated_at_utc":  "2026-03-26T15:04:14Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41425416",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.169833333333,
+                                                              33.8853333333333,
+                                                              5.28
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41425416",
+                                            "time_utc":  "2026-03-26T14:59:54Z",
+                                            "time_et":  "2026-03-26T10:59:54-04:00",
+                                            "updated_utc":  "2026-03-26T15:03:27Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.23,
+                                            "place":  "19 km NNE of Indio, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.28,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 19 km NNE of Indio, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425416",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425416\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75333352",
@@ -1086,6 +1121,41 @@
                                             "title":  "M 0.9 - 9 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333237",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75333237\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41425288",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.953333333333,
+                                                              34.469,
+                                                              9.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41425288",
+                                            "time_utc":  "2026-03-26T07:55:58Z",
+                                            "time_et":  "2026-03-26T03:55:58-04:00",
+                                            "updated_utc":  "2026-03-26T15:01:48Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.57,
+                                            "place":  "6 km SW of Pearblossom, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 6 km SW of Pearblossom, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425288",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425288\u0026format=geojson"
                                         }
                      },
                      {
