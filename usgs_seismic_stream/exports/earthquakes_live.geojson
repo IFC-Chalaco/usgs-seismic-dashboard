@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-27T20:08:26Z",
+    "generated_at_utc":  "2026-03-27T20:25:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41426528",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.711,
+                                                              33.649,
+                                                              13.56
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41426528",
+                                            "time_utc":  "2026-03-27T20:04:53Z",
+                                            "time_et":  "2026-03-27T16:04:53-04:00",
+                                            "updated_utc":  "2026-03-27T20:08:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.5,
+                                            "place":  "10 km S of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.6",
+                                            "depth_km_raw":  13.56,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 10 km S of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426528",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426528\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41426520",
@@ -75,6 +110,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80133521",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.909,
+                                                              38.4911666666667,
+                                                              3.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80133521",
+                                            "time_utc":  "2026-03-27T19:42:15Z",
+                                            "time_et":  "2026-03-27T15:42:15-04:00",
+                                            "updated_utc":  "2026-03-27T20:18:52Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.42,
+                                            "place":  "13 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  31,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 13 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133521",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133521\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41426448",
                          "geometry":  {
                                           "type":  "Point",
@@ -141,6 +211,41 @@
                                             "title":  "M 0.9 - 3 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334027",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334027\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nm60619191",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -89.802001953125,
+                                                              36.5625,
+                                                              12.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nm60619191",
+                                            "time_utc":  "2026-03-27T19:15:20Z",
+                                            "time_et":  "2026-03-27T15:15:20-04:00",
+                                            "updated_utc":  "2026-03-27T20:17:18Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.45,
+                                            "place":  "1 km NE of Risco, Missouri",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.1",
+                                            "depth_km_raw":  12.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  32,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 1 km NE of Risco, Missouri",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nm60619191",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nm60619191\u0026format=geojson"
                                         }
                      },
                      {
@@ -535,30 +640,30 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -102.042,
-                                                              32.046,
-                                                              5.9814
+                                                              32.048,
+                                                              5.7861
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026gbhagg",
                                             "time_utc":  "2026-03-27T16:16:43Z",
                                             "time_et":  "2026-03-27T12:16:43-04:00",
-                                            "updated_utc":  "2026-03-27T19:26:31Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.8,
+                                            "updated_utc":  "2026-03-27T20:18:20Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.7,
                                             "place":  "6 km NNE of Midland, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  5.9814,
+                                            "depth_km":  "5.8",
+                                            "depth_km_raw":  5.7861,
                                             "felt_reports":  40,
                                             "cdi":  4.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  138,
+                                            "significance":  130,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 6 km NNE of Midland, Texas",
+                                            "title":  "M 2.7 - 6 km NNE of Midland, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gbhagg",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gbhagg\u0026format=geojson"
                                         }
@@ -3404,31 +3509,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -119.8764,
-                                                              40.1404,
-                                                              10.7834
+                                                              -119.8885,
+                                                              40.1493,
+                                                              10.691
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nn00913379",
                                             "time_utc":  "2026-03-27T06:02:55Z",
                                             "time_et":  "2026-03-27T02:02:55-04:00",
-                                            "updated_utc":  "2026-03-27T06:05:10Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.84,
-                                            "place":  "22 km E of Herlong, California",
+                                            "updated_utc":  "2026-03-27T20:14:39Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.95,
+                                            "place":  "20 km E of Herlong, California",
                                             "country":  "United States of America",
-                                            "depth_km":  "10.8",
-                                            "depth_km_raw":  10.7834,
+                                            "depth_km":  "10.7",
+                                            "depth_km_raw":  10.691,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  52,
+                                            "significance":  58,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 22 km E of Herlong, California",
+                                            "title":  "M 2.0 - 20 km E of Herlong, California",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913379",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913379\u0026format=geojson"
                                         }
@@ -5364,31 +5469,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.549166666667,
-                                                              33.1415,
-                                                              5.67
+                                                              -116.549,
+                                                              33.1405,
+                                                              6.76
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41425864",
                                             "time_utc":  "2026-03-27T02:22:53Z",
                                             "time_et":  "2026-03-26T22:22:53-04:00",
-                                            "updated_utc":  "2026-03-27T02:50:04Z",
+                                            "updated_utc":  "2026-03-27T20:19:35Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.35,
-                                            "place":  "9 km NE of Julian, CA",
+                                            "place":  "8 km NE of Julian, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.7",
-                                            "depth_km_raw":  5.67,
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.76,
                                             "felt_reports":  1,
                                             "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  85,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.4 - 9 km NE of Julian, CA",
+                                            "title":  "M 2.4 - 8 km NE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425864",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425864\u0026format=geojson"
                                         }
@@ -42701,41 +42806,6 @@
                                             "title":  "M 0.8 - 15 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80132526",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80132526\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41421200",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.5435,
-                                                              33.1836666666667,
-                                                              12.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41421200",
-                                            "time_utc":  "2026-03-20T20:13:31Z",
-                                            "time_et":  "2026-03-20T16:13:31-04:00",
-                                            "updated_utc":  "2026-03-20T20:49:33Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.56,
-                                            "place":  "13 km NNE of Julian, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.1",
-                                            "depth_km_raw":  12.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 13 km NNE of Julian, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41421200",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41421200\u0026format=geojson"
                                         }
                      }
                  ]
