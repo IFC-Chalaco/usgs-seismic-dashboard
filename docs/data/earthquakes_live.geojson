@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-27T23:00:43Z",
+    "generated_at_utc":  "2026-03-27T23:29:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41426704",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.543333333333,
+                                                              33.1461666666667,
+                                                              7.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41426704",
+                                            "time_utc":  "2026-03-27T23:20:30Z",
+                                            "time_et":  "2026-03-27T19:20:30-04:00",
+                                            "updated_utc":  "2026-03-27T23:23:58Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.66,
+                                            "place":  "9 km NE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 9 km NE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426704",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426704\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41426696",
@@ -79,27 +114,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.416333333333,
-                                                              34.8333333333333,
-                                                              -1.18
+                                                              -116.412166666667,
+                                                              34.8425,
+                                                              1.65
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41426688",
                                             "time_utc":  "2026-03-27T22:28:24Z",
                                             "time_et":  "2026-03-27T18:28:24-04:00",
-                                            "updated_utc":  "2026-03-27T22:36:44Z",
+                                            "updated_utc":  "2026-03-27T23:21:55Z",
                                             "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
+                                            "magnitude_raw":  2.01,
                                             "place":  "27 km WNW of Ludlow, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-1.2",
-                                            "depth_km_raw":  -1.18,
+                                            "depth_km":  "1.7",
+                                            "depth_km_raw":  1.65,
                                             "felt_reports":  3,
                                             "cdi":  0,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  62,
                                             "event_type":  "earthquake",
@@ -110,31 +145,66 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10233646",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.423,
+                                                              34.841,
+                                                              1.49
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10233646",
+                                            "time_utc":  "2026-03-27T22:23:29Z",
+                                            "time_et":  "2026-03-27T18:23:29-04:00",
+                                            "updated_utc":  "2026-03-27T23:12:36Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.42,
+                                            "place":  "27 km WNW of Ludlow, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.5",
+                                            "depth_km_raw":  1.49,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  31,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 27 km WNW of Ludlow, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10233646",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10233646\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41426672",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -116.414333333333,
-                                                              34.8416666666667,
-                                                              1.91
+                                                              34.8426666666667,
+                                                              2.3
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41426672",
                                             "time_utc":  "2026-03-27T22:23:19Z",
                                             "time_et":  "2026-03-27T18:23:19-04:00",
-                                            "updated_utc":  "2026-03-27T22:26:57Z",
+                                            "updated_utc":  "2026-03-27T23:05:14Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.9,
                                             "place":  "27 km WNW of Ludlow, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.91,
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.3,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  56,
                                             "event_type":  "earthquake",
@@ -228,20 +298,20 @@
                                             "id":  "ci41426656",
                                             "time_utc":  "2026-03-27T22:13:14Z",
                                             "time_et":  "2026-03-27T18:13:14-04:00",
-                                            "updated_utc":  "2026-03-27T22:58:03Z",
+                                            "updated_utc":  "2026-03-27T23:26:49Z",
                                             "magnitude":  "4.2",
                                             "magnitude_raw":  4.17,
                                             "place":  "26 km WNW of Ludlow, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "1.4",
                                             "depth_km_raw":  1.43,
-                                            "felt_reports":  38,
+                                            "felt_reports":  43,
                                             "cdi":  3.8,
                                             "mmi":  4.693,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  282,
+                                            "significance":  284,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.2 - 26 km WNW of Ludlow, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426656",
@@ -42876,41 +42946,6 @@
                                             "title":  "M 1.6 - 14 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80132566",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80132566\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80132561",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.895166666667,
-                                                              38.4971666666667,
-                                                              2.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80132561",
-                                            "time_utc":  "2026-03-20T23:06:39Z",
-                                            "time_et":  "2026-03-20T19:06:39-04:00",
-                                            "updated_utc":  "2026-03-23T15:25:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
-                                            "place":  "15 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 15 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80132561",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80132561\u0026format=geojson"
                                         }
                      }
                  ]
