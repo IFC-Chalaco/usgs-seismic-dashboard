@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-27T00:05:11Z",
+    "generated_at_utc":  "2026-03-27T00:05:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41425768",
+                         "id":  "ci41425776",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.63200378418,
-                                                              33.5986671447754,
-                                                              14.24
+                                                              -116.623497009277,
+                                                              33.6064987182617,
+                                                              14.44
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41425768",
-                                            "time_utc":  "2026-03-27T00:01:54Z",
-                                            "time_et":  "2026-03-26T20:01:54-04:00",
-                                            "updated_utc":  "2026-03-27T00:04:00Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "6 km NE of Anza, CA",
+                                            "id":  "ci41425776",
+                                            "time_utc":  "2026-03-27T00:02:40Z",
+                                            "time_et":  "2026-03-26T20:02:40-04:00",
+                                            "updated_utc":  "2026-03-27T00:04:44Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.03,
+                                            "place":  "7 km NE of Anza, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "14.2",
-                                            "depth_km_raw":  14.24,
+                                            "depth_km":  "14.4",
+                                            "depth_km_raw":  14.44,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  16,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 6 km NE of Anza, CA",
+                                            "title":  "M 1.0 - 7 km NE of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425776",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425776\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41425768",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.639666666667,
+                                                              33.5988333333333,
+                                                              12.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41425768",
+                                            "time_utc":  "2026-03-27T00:01:55Z",
+                                            "time_et":  "2026-03-26T20:01:55-04:00",
+                                            "updated_utc":  "2026-03-27T00:05:26Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.82,
+                                            "place":  "6 km NNE of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.0",
+                                            "depth_km_raw":  12.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 6 km NNE of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425768",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41425768\u0026format=geojson"
                                         }
@@ -42281,41 +42316,6 @@
                                             "title":  "M 0.8 - 2 km NNE of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75330352",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75330352\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fnesfa",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.402,
-                                                              31.673,
-                                                              6.9714
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fnesfa",
-                                            "time_utc":  "2026-03-20T00:05:05Z",
-                                            "time_et":  "2026-03-19T20:05:05-04:00",
-                                            "updated_utc":  "2026-03-20T10:52:22Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "55 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.0",
-                                            "depth_km_raw":  6.9714,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 55 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fnesfa",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fnesfa\u0026format=geojson"
                                         }
                      }
                  ]
