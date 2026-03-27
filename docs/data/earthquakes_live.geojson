@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-27T16:07:38Z",
+    "generated_at_utc":  "2026-03-27T16:08:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75333912",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.791168212891,
+                                                              38.8361663818359,
+                                                              1.58
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75333912",
+                                            "time_utc":  "2026-03-27T16:05:53Z",
+                                            "time_et":  "2026-03-27T12:05:53-04:00",
+                                            "updated_utc":  "2026-03-27T16:07:30Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.7,
+                                            "place":  "6 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.58,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333912",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75333912\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75333907",
@@ -670,41 +705,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "ci41426208",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.5375,
-                                                              33.1518333333333,
-                                                              3.22
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41426208",
-                                            "time_utc":  "2026-03-27T13:05:56Z",
-                                            "time_et":  "2026-03-27T09:05:56-04:00",
-                                            "updated_utc":  "2026-03-27T16:03:59Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "10 km NE of Julian, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.22,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 10 km NE of Julian, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426208",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426208\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "ci41426216",
                          "geometry":  {
                                           "type":  "Point",
@@ -736,6 +736,41 @@
                                             "title":  "M 1.7 - 8 km NE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426216",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426216\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41426208",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.5375,
+                                                              33.1518333333333,
+                                                              3.22
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41426208",
+                                            "time_utc":  "2026-03-27T13:05:56Z",
+                                            "time_et":  "2026-03-27T09:05:56-04:00",
+                                            "updated_utc":  "2026-03-27T16:03:59Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "10 km NE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.22,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 10 km NE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426208",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426208\u0026format=geojson"
                                         }
                      },
                      {
