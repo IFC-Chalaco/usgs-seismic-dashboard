@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-28T22:15:02Z",
+    "generated_at_utc":  "2026-03-28T22:31:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41427208",
+                         "id":  "ci41427216",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.38516998291,
-                                                              33.5756683349609,
-                                                              14.63
+                                                              -116.5405,
+                                                              33.1413333333333,
+                                                              6.99
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41427208",
-                                            "time_utc":  "2026-03-28T22:11:06Z",
-                                            "time_et":  "2026-03-28T18:11:06-04:00",
-                                            "updated_utc":  "2026-03-28T22:14:28Z",
+                                            "id":  "ci41427216",
+                                            "time_utc":  "2026-03-28T22:21:17Z",
+                                            "time_et":  "2026-03-28T18:21:17-04:00",
+                                            "updated_utc":  "2026-03-28T22:24:41Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.98,
-                                            "place":  "12 km SW of La Quinta, CA",
+                                            "magnitude_raw":  0.92,
+                                            "place":  "9 km NE of Julian, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "14.6",
-                                            "depth_km_raw":  14.63,
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.99,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  15,
+                                            "significance":  13,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 12 km SW of La Quinta, CA",
+                                            "title":  "M 0.9 - 9 km NE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427216",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427216\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41427208",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.387,
+                                                              33.5685,
+                                                              9.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41427208",
+                                            "time_utc":  "2026-03-28T22:11:07Z",
+                                            "time_et":  "2026-03-28T18:11:07-04:00",
+                                            "updated_utc":  "2026-03-28T22:14:37Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.59,
+                                            "place":  "13 km SW of La Quinta, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.8",
+                                            "depth_km_raw":  9.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 13 km SW of La Quinta, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427208",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427208\u0026format=geojson"
                                         }
@@ -88,7 +123,7 @@
                                             "id":  "nc75334612",
                                             "time_utc":  "2026-03-28T21:32:46Z",
                                             "time_et":  "2026-03-28T17:32:46-04:00",
-                                            "updated_utc":  "2026-03-28T21:52:19Z",
+                                            "updated_utc":  "2026-03-28T22:27:20Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.89,
                                             "place":  "7 km NW of The Geysers, CA",
@@ -4730,6 +4765,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75334197",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.462,
+                                                              37.594,
+                                                              8.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75334197",
+                                            "time_utc":  "2026-03-28T00:22:35Z",
+                                            "time_et":  "2026-03-27T20:22:35-04:00",
+                                            "updated_utc":  "2026-03-28T22:19:49Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.99,
+                                            "place":  "3 km SE of Pacifica, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.7",
+                                            "depth_km_raw":  8.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 3 km SE of Pacifica, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334197",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334197\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41426744",
                          "geometry":  {
                                           "type":  "Point",
@@ -5338,7 +5408,7 @@
                                             "id":  "ci41426656",
                                             "time_utc":  "2026-03-27T22:13:14Z",
                                             "time_et":  "2026-03-27T18:13:14-04:00",
-                                            "updated_utc":  "2026-03-28T18:26:27Z",
+                                            "updated_utc":  "2026-03-28T22:30:08Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.11,
                                             "place":  "26 km WNW of Ludlow, CA",
@@ -42491,76 +42561,6 @@
                                             "title":  "M 2.4 - 22 km ESE of Forsan, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fqtgta",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fqtgta\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026fqaz",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.88616667,
-                                                              35.0075,
-                                                              8.64
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026fqaz",
-                                            "time_utc":  "2026-03-21T22:21:28Z",
-                                            "time_et":  "2026-03-21T18:21:28-04:00",
-                                            "updated_utc":  "2026-03-23T14:46:11Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.17,
-                                            "place":  "6 km SE of Chickasha, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.6",
-                                            "depth_km_raw":  8.64,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  21,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 6 km SE of Chickasha, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fqaz",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026fqaz\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fqstja",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.672,
-                                                              32.481,
-                                                              6.1035
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fqstja",
-                                            "time_utc":  "2026-03-21T22:19:03Z",
-                                            "time_et":  "2026-03-21T18:19:03-04:00",
-                                            "updated_utc":  "2026-03-23T14:01:26Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.5,
-                                            "place":  "6 km SE of Ackerly, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.1035,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 6 km SE of Ackerly, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fqstja",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fqstja\u0026format=geojson"
                                         }
                      }
                  ]
