@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-28T22:02:45Z",
+    "generated_at_utc":  "2026-03-28T22:15:02Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41427208",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.38516998291,
+                                                              33.5756683349609,
+                                                              14.63
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41427208",
+                                            "time_utc":  "2026-03-28T22:11:06Z",
+                                            "time_et":  "2026-03-28T18:11:06-04:00",
+                                            "updated_utc":  "2026-03-28T22:14:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.98,
+                                            "place":  "12 km SW of La Quinta, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.6",
+                                            "depth_km_raw":  14.63,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 12 km SW of La Quinta, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427208",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427208\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75334617",
@@ -42526,76 +42561,6 @@
                                             "title":  "M 0.5 - 6 km SE of Ackerly, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fqstja",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fqstja\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026fqsolb",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.432,
-                                                              31.652,
-                                                              6.0486
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026fqsolb",
-                                            "time_utc":  "2026-03-21T22:13:15Z",
-                                            "time_et":  "2026-03-21T18:13:15-04:00",
-                                            "updated_utc":  "2026-03-22T21:03:21Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "58 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  6.0486,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 58 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fqsolb",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026fqsolb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41422016",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.192166666667,
-                                                              34.0058333333333,
-                                                              14.23
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41422016",
-                                            "time_utc":  "2026-03-21T22:12:06Z",
-                                            "time_et":  "2026-03-21T18:12:06-04:00",
-                                            "updated_utc":  "2026-03-22T19:00:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.66,
-                                            "place":  "6 km S of Redlands, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.2",
-                                            "depth_km_raw":  14.23,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  7,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 6 km S of Redlands, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41422016",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41422016\u0026format=geojson"
                                         }
                      }
                  ]
