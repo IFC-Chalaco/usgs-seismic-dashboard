@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-29T21:00:39Z",
+    "generated_at_utc":  "2026-03-29T21:01:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75335137",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.800498962402,
+                                                              38.8321647644043,
+                                                              1.34
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75335137",
+                                            "time_utc":  "2026-03-29T20:58:54Z",
+                                            "time_et":  "2026-03-29T16:58:54-04:00",
+                                            "updated_utc":  "2026-03-29T21:00:29Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.63,
+                                            "place":  "7 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.3",
+                                            "depth_km_raw":  1.34,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 7 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335137",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335137\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75335132",
@@ -41231,41 +41266,6 @@
                                             "title":  "M 1.4 - 6 km SE of Mineral, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62228502",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62228502\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75331567",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.603332519531,
-                                                              37.4966659545898,
-                                                              5.59
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75331567",
-                                            "time_utc":  "2026-03-22T21:00:49Z",
-                                            "time_et":  "2026-03-22T17:00:49-04:00",
-                                            "updated_utc":  "2026-03-22T23:07:22Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.33,
-                                            "place":  "25 km NE of Alum Rock, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.6",
-                                            "depth_km_raw":  5.59,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  27,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 25 km NE of Alum Rock, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331567",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331567\u0026format=geojson"
                                         }
                      }
                  ]
