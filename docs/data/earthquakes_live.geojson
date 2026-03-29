@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-29T04:13:35Z",
+    "generated_at_utc":  "2026-03-29T05:01:27Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026geavnd",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.493,
+                                                              31.673,
+                                                              10.6976
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026geavnd",
+                                            "time_utc":  "2026-03-29T04:21:12Z",
+                                            "time_et":  "2026-03-29T00:21:12-04:00",
+                                            "updated_utc":  "2026-03-29T05:00:25Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "56 km S of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.7",
+                                            "depth_km_raw":  10.6976,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 56 km S of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026geavnd",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026geavnd\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71511243",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.9068333333333,
+                                                              18.991,
+                                                              23.39
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71511243",
+                                            "time_utc":  "2026-03-29T04:05:52Z",
+                                            "time_et":  "2026-03-29T00:05:52-04:00",
+                                            "updated_utc":  "2026-03-29T04:44:26Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.06,
+                                            "place":  "71 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "23.4",
+                                            "depth_km_raw":  23.39,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  144,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 71 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511243",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71511243\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41427320",
@@ -36,6 +106,41 @@
                                             "title":  "M 1.0 - 4 km NNW of Big Bear City, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427320",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427320\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr2026088000",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -68.4855,
+                                                              18.0333,
+                                                              81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr2026088000",
+                                            "time_utc":  "2026-03-29T03:35:58Z",
+                                            "time_et":  "2026-03-28T23:35:58-04:00",
+                                            "updated_utc":  "2026-03-29T04:33:17Z",
+                                            "magnitude":  "3.6",
+                                            "magnitude_raw":  3.56,
+                                            "place":  "40 km SSE of Boca de Yuma, Dominican Republic",
+                                            "country":  "Dominican Republic",
+                                            "depth_km":  "81.0",
+                                            "depth_km_raw":  81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  195,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.6 - 40 km SSE of Boca de Yuma, Dominican Republic",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026088000",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026088000\u0026format=geojson"
                                         }
                      },
                      {
@@ -42036,181 +42141,6 @@
                                             "title":  "M 1.7 - 6 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331282",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331282\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75331277",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.844329833984,
-                                                              38.8428344726562,
-                                                              2.62
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75331277",
-                                            "time_utc":  "2026-03-22T04:49:30Z",
-                                            "time_et":  "2026-03-22T00:49:30-04:00",
-                                            "updated_utc":  "2026-03-22T05:22:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.23,
-                                            "place":  "11 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.62,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 11 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75331277",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75331277\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41422208",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.07,
-                                                              33.9478333333333,
-                                                              13.77
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41422208",
-                                            "time_utc":  "2026-03-22T04:36:10Z",
-                                            "time_et":  "2026-03-22T00:36:10-04:00",
-                                            "updated_utc":  "2026-03-22T18:53:58Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.02,
-                                            "place":  "5 km SSW of Calimesa, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.8",
-                                            "depth_km_raw":  13.77,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 5 km SSW of Calimesa, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41422208",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41422208\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913069",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.5037,
-                                                              38.44,
-                                                              2.796
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913069",
-                                            "time_utc":  "2026-03-22T04:29:57Z",
-                                            "time_et":  "2026-03-22T00:29:57-04:00",
-                                            "updated_utc":  "2026-03-22T04:32:55Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.52,
-                                            "place":  "75 km ENE of Tonopah, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.8",
-                                            "depth_km_raw":  2.796,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 75 km ENE of Tonopah, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913069",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913069\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026fqmu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.444,
-                                                              34.42266667,
-                                                              4.48
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026fqmu",
-                                            "time_utc":  "2026-03-22T04:18:55Z",
-                                            "time_et":  "2026-03-22T00:18:55-04:00",
-                                            "updated_utc":  "2026-03-23T19:54:59Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.91,
-                                            "place":  "6 km ESE of Ratliff City, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.5",
-                                            "depth_km_raw":  4.48,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  13,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 6 km ESE of Ratliff City, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fqmu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026fqmu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026frelmg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.397,
-                                                              31.678,
-                                                              6.0999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026frelmg",
-                                            "time_utc":  "2026-03-22T04:13:50Z",
-                                            "time_et":  "2026-03-22T00:13:50-04:00",
-                                            "updated_utc":  "2026-03-22T19:19:39Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "55 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.0999,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  68,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 55 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026frelmg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026frelmg\u0026format=geojson"
                                         }
                      }
                  ]
