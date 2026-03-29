@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-29T21:34:09Z",
+    "generated_at_utc":  "2026-03-29T21:35:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75335172",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.946502685547,
+                                                              37.7496681213379,
+                                                              6.65
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75335172",
+                                            "time_utc":  "2026-03-29T21:32:31Z",
+                                            "time_et":  "2026-03-29T17:32:31-04:00",
+                                            "updated_utc":  "2026-03-29T21:34:10Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.39,
+                                            "place":  "4 km SE of San Ramon, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.65,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 4 km SE of San Ramon, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335172",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335172\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75335167",
