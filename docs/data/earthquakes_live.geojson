@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-29T11:04:04Z",
+    "generated_at_utc":  "2026-03-29T11:05:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026geodfo",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.137,
+                                                              31.659,
+                                                              4.1049
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026geodfo",
+                                            "time_utc":  "2026-03-29T11:02:12Z",
+                                            "time_et":  "2026-03-29T07:02:12-04:00",
+                                            "updated_utc":  "2026-03-29T11:04:32Z",
+                                            "magnitude":  "2.8",
+                                            "magnitude_raw":  2.8,
+                                            "place":  "50 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.1",
+                                            "depth_km_raw":  4.1049,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  121,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.8 - 50 km NW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026geodfo",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026geodfo\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41427376",
@@ -41336,41 +41371,6 @@
                                             "title":  "M 0.3 - 15 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80132861",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80132861\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026frsbyf",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.652,
-                                                              32.376,
-                                                              5.9814
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026frsbyf",
-                                            "time_utc":  "2026-03-22T11:03:54Z",
-                                            "time_et":  "2026-03-22T07:03:54-04:00",
-                                            "updated_utc":  "2026-03-23T10:43:24Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.4,
-                                            "place":  "17 km SSE of Ackerly, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  5.9814,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  30,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 17 km SSE of Ackerly, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026frsbyf",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026frsbyf\u0026format=geojson"
                                         }
                      }
                  ]
