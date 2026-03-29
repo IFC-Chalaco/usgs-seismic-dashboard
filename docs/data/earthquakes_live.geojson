@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-29T17:41:13Z",
+    "generated_at_utc":  "2026-03-29T17:42:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41427576",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.132667541504,
+                                                              33.2701683044434,
+                                                              10.93
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41427576",
+                                            "time_utc":  "2026-03-29T17:39:12Z",
+                                            "time_et":  "2026-03-29T13:39:12-04:00",
+                                            "updated_utc":  "2026-03-29T17:41:14Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "14 km N of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.9",
+                                            "depth_km_raw":  10.93,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 14 km N of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427576",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427576\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41427568",
@@ -9258,14 +9293,14 @@
                                             "id":  "ci41426656",
                                             "time_utc":  "2026-03-27T22:13:14Z",
                                             "time_et":  "2026-03-27T18:13:14-04:00",
-                                            "updated_utc":  "2026-03-29T07:30:48Z",
+                                            "updated_utc":  "2026-03-29T17:41:21Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.11,
                                             "place":  "26 km WNW of Ludlow, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "1.4",
                                             "depth_km_raw":  1.43,
-                                            "felt_reports":  56,
+                                            "felt_reports":  57,
                                             "cdi":  3.4,
                                             "mmi":  4.705,
                                             "alert":  "green",
@@ -11454,31 +11489,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.545333862305,
-                                                              33.1375007629395,
-                                                              7.53
+                                                              -116.549333333333,
+                                                              33.1425,
+                                                              5.81
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41426216",
                                             "time_utc":  "2026-03-27T13:05:56Z",
                                             "time_et":  "2026-03-27T09:05:56-04:00",
-                                            "updated_utc":  "2026-03-27T13:22:04Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.67,
-                                            "place":  "8 km NE of Julian, CA",
+                                            "updated_utc":  "2026-03-29T17:41:20Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.59,
+                                            "place":  "9 km NE of Julian, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.5",
-                                            "depth_km_raw":  7.53,
+                                            "depth_km":  "5.8",
+                                            "depth_km_raw":  5.81,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  43,
+                                            "significance":  39,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 8 km NE of Julian, CA",
+                                            "title":  "M 1.6 - 9 km NE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426216",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426216\u0026format=geojson"
                                         }
