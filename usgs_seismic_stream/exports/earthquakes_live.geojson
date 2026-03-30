@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-30T18:08:30Z",
+    "generated_at_utc":  "2026-03-30T18:09:31Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41428384",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.778503417969,
+                                                              36.025333404541,
+                                                              1.39
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41428384",
+                                            "time_utc":  "2026-03-30T18:05:53Z",
+                                            "time_et":  "2026-03-30T14:05:53-04:00",
+                                            "updated_utc":  "2026-03-30T18:07:58Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.28,
+                                            "place":  "15 km NE of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.4",
+                                            "depth_km_raw":  1.39,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  80,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 15 km NE of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428384",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428384\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75335677",
@@ -12531,6 +12566,41 @@
                                             "title":  "M 0.9 - 31 km SSE of Mammoth, Wyoming",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133666",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133666\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62229717",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.76516666666669,
+                                                              46.850166666666667,
+                                                              2.83
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62229717",
+                                            "time_utc":  "2026-03-28T20:08:30Z",
+                                            "time_et":  "2026-03-28T16:08:30-04:00",
+                                            "updated_utc":  "2026-03-30T18:08:56Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.53,
+                                            "place":  "22 km ENE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.83,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 22 km ENE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62229717",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62229717\u0026format=geojson"
                                         }
                      },
                      {
