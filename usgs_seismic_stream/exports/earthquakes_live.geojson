@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-30T15:12:13Z",
+    "generated_at_utc":  "2026-03-30T15:13:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75335537",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.874664306641,
+                                                              38.8320007324219,
+                                                              2.38
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75335537",
+                                            "time_utc":  "2026-03-30T15:10:06Z",
+                                            "time_et":  "2026-03-30T11:10:06-04:00",
+                                            "updated_utc":  "2026-03-30T15:11:44Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.62,
+                                            "place":  "12 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.38,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 12 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335537",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335537\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026ggrtce",
@@ -1786,6 +1821,41 @@
                                             "title":  "M 1.0 - 23 km ESE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427960",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427960\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41427952",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.7025,
+                                                              34.033,
+                                                              7.09
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41427952",
+                                            "time_utc":  "2026-03-30T08:31:29Z",
+                                            "time_et":  "2026-03-30T04:31:29-04:00",
+                                            "updated_utc":  "2026-03-30T15:12:10Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.59,
+                                            "place":  "1 km W of Malibu Beach, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.09,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 1 km W of Malibu Beach, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427952",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427952\u0026format=geojson"
                                         }
                      },
                      {
