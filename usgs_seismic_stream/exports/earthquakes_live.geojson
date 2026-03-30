@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-30T21:42:30Z",
+    "generated_at_utc":  "2026-03-30T21:43:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026gheydf",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.396,
+                                                              29.378,
+                                                              12.7659
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026gheydf",
+                                            "time_utc":  "2026-03-30T21:38:10Z",
+                                            "time_et":  "2026-03-30T17:38:10-04:00",
+                                            "updated_utc":  "2026-03-30T21:42:18Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.7,
+                                            "place":  "14 km SSE of Gonzales, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.7659,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  112,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.7 - 14 km SSE of Gonzales, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gheydf",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gheydf\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00913559",
@@ -45536,41 +45571,6 @@
                                             "title":  "M 1.7 - 18 km SE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423312",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41423312\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41423304",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.027333333333,
-                                                              36.1683333333333,
-                                                              3.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41423304",
-                                            "time_utc":  "2026-03-23T21:42:45Z",
-                                            "time_et":  "2026-03-23T17:42:45-04:00",
-                                            "updated_utc":  "2026-03-24T18:54:26Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.05,
-                                            "place":  "13 km S of Olancha, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 13 km S of Olancha, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423304",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41423304\u0026format=geojson"
                                         }
                      }
                  ]
