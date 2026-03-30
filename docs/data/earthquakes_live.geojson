@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-30T21:23:50Z",
+    "generated_at_utc":  "2026-03-30T21:42:30Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913559",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.0586,
+                                                              38.7277,
+                                                              15.3163
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913559",
+                                            "time_utc":  "2026-03-30T21:33:53Z",
+                                            "time_et":  "2026-03-30T17:33:53-04:00",
+                                            "updated_utc":  "2026-03-30T21:36:23Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.81,
+                                            "place":  "53 km S of Kingston, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.3",
+                                            "depth_km_raw":  15.3163,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 53 km S of Kingston, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913559",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913559\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80133961",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -113.440166666667,
+                                                              36.8926666666667,
+                                                              17.22
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80133961",
+                                            "time_utc":  "2026-03-30T21:26:52Z",
+                                            "time_et":  "2026-03-30T17:26:52-04:00",
+                                            "updated_utc":  "2026-03-30T21:41:31Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.46,
+                                            "place":  "26 km SSE of Saint George, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "17.2",
+                                            "depth_km_raw":  17.22,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  33,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 26 km SSE of Saint George, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133961",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133961\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026ghdukg",
@@ -228,7 +298,7 @@
                                             "id":  "nc75335827",
                                             "time_utc":  "2026-03-30T20:36:04Z",
                                             "time_et":  "2026-03-30T16:36:04-04:00",
-                                            "updated_utc":  "2026-03-30T21:07:21Z",
+                                            "updated_utc":  "2026-03-30T21:32:20Z",
                                             "magnitude":  "1.8",
                                             "magnitude_raw":  1.83,
                                             "place":  "3 km SW of Tres Pinos, CA",
@@ -320,6 +390,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw62229957",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.10233333333332,
+                                                              47.152666666666669,
+                                                              -0.21
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62229957",
+                                            "time_utc":  "2026-03-30T20:16:30Z",
+                                            "time_et":  "2026-03-30T16:16:30-04:00",
+                                            "updated_utc":  "2026-03-30T21:27:05Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.46,
+                                            "place":  "6 km S of Shelton, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.2",
+                                            "depth_km_raw":  -0.21,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  33,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.5 Explosion - 6 km S of Shelton, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62229957",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62229957\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41428544",
                          "geometry":  {
                                           "type":  "Point",
@@ -359,31 +464,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.1,
-                                                              31.636,
-                                                              4.0358
+                                                              -104.102,
+                                                              31.633,
+                                                              1.8573
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026ghbwoq",
-                                            "time_utc":  "2026-03-30T20:06:21Z",
-                                            "time_et":  "2026-03-30T16:06:21-04:00",
-                                            "updated_utc":  "2026-03-30T21:00:24Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "46 km NW of Toyah, Texas",
+                                            "time_utc":  "2026-03-30T20:06:20Z",
+                                            "time_et":  "2026-03-30T16:06:20-04:00",
+                                            "updated_utc":  "2026-03-30T21:29:51Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "45 km NW of Toyah, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.0",
-                                            "depth_km_raw":  4.0358,
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.8573,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  39,
+                                            "significance":  35,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 46 km NW of Toyah, Texas",
+                                            "title":  "M 1.5 - 45 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghbwoq",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ghbwoq\u0026format=geojson"
                                         }
@@ -1654,31 +1759,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.6525,
-                                                              34.6225,
-                                                              9.12
+                                                              -118.645666666667,
+                                                              34.6168333333333,
+                                                              10.51
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41428272",
                                             "time_utc":  "2026-03-30T16:53:25Z",
                                             "time_et":  "2026-03-30T12:53:25-04:00",
-                                            "updated_utc":  "2026-03-30T16:56:53Z",
+                                            "updated_utc":  "2026-03-30T21:40:18Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.96,
-                                            "place":  "15 km N of Castaic, CA",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "14 km N of Castaic, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.1",
-                                            "depth_km_raw":  9.12,
+                                            "depth_km":  "10.5",
+                                            "depth_km_raw":  10.51,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  14,
+                                            "significance":  12,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 15 km N of Castaic, CA",
+                                            "title":  "M 0.9 - 14 km N of Castaic, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428272",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428272\u0026format=geojson"
                                         }
@@ -6178,7 +6283,7 @@
                                             "id":  "us7000s8na",
                                             "time_utc":  "2026-03-30T02:22:47Z",
                                             "time_et":  "2026-03-29T22:22:47-04:00",
-                                            "updated_utc":  "2026-03-30T21:01:38Z",
+                                            "updated_utc":  "2026-03-30T21:37:49Z",
                                             "magnitude":  "3.9",
                                             "magnitude_raw":  3.9,
                                             "place":  "Gulf of America",
@@ -45466,41 +45571,6 @@
                                             "title":  "M 1.1 - 13 km S of Olancha, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423304",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41423304\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913164",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0199,
-                                                              39.0871,
-                                                              10.8648
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913164",
-                                            "time_utc":  "2026-03-23T21:28:42Z",
-                                            "time_et":  "2026-03-23T17:28:42-04:00",
-                                            "updated_utc":  "2026-03-23T21:30:46Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "16 km NE of Yerington, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.9",
-                                            "depth_km_raw":  10.8648,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 16 km NE of Yerington, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913164",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913164\u0026format=geojson"
                                         }
                      }
                  ]
