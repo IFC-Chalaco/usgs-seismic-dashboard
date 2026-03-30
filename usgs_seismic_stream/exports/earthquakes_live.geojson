@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-30T20:58:20Z",
+    "generated_at_utc":  "2026-03-30T20:59:20Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3221,6 +3221,41 @@
                                             "title":  "M 2.1 - 23 km WNW of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ggjamv",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ggjamv\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ggistj",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.445,
+                                                              29.381,
+                                                              6.7798
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ggistj",
+                                            "time_utc":  "2026-03-30T10:28:06Z",
+                                            "time_et":  "2026-03-30T06:28:06-04:00",
+                                            "updated_utc":  "2026-03-30T20:58:45Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "13 km S of Gonzales, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.7798,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 13 km S of Gonzales, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ggistj",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ggistj\u0026format=geojson"
                                         }
                      },
                      {
