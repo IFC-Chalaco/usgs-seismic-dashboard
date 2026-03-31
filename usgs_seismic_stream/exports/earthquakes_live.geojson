@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-31T20:27:38Z",
+    "generated_at_utc":  "2026-03-31T20:28:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913587",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.6479,
+                                                              39.5448,
+                                                              1.5478
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913587",
+                                            "time_utc":  "2026-03-31T20:24:56Z",
+                                            "time_et":  "2026-03-31T16:24:56-04:00",
+                                            "updated_utc":  "2026-03-31T20:27:15Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.01,
+                                            "place":  "9 km E of Sparks, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.5",
+                                            "depth_km_raw":  1.5478,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 9 km E of Sparks, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913587",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913587\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41429560",
@@ -141,6 +176,41 @@
                                             "title":  "M 1.2 - 2 km E of Corona, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429536",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429536\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr2026090011",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -63.7195,
+                                                              19.5148,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr2026090011",
+                                            "time_utc":  "2026-03-31T19:54:47Z",
+                                            "time_et":  "2026-03-31T15:54:47-04:00",
+                                            "updated_utc":  "2026-03-31T20:27:15Z",
+                                            "magnitude":  "3.7",
+                                            "magnitude_raw":  3.74,
+                                            "place":  "159 km NNW of The Valley, Anguilla",
+                                            "country":  "Anguilla",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  215,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.7 - 159 km NNW of The Valley, Anguilla",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090011",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026090011\u0026format=geojson"
                                         }
                      },
                      {
