@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-31T09:03:16Z",
+    "generated_at_utc":  "2026-03-31T09:04:14Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1615,6 +1615,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026ghnmen",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.397,
+                                                              31.298,
+                                                              1.8958
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ghnmen",
+                                            "time_utc":  "2026-03-31T01:55:52Z",
+                                            "time_et":  "2026-03-30T21:55:52-04:00",
+                                            "updated_utc":  "2026-03-31T09:03:00Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "15 km ESE of Lindsay, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.8958,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 15 km ESE of Lindsay, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghnmen",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ghnmen\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41428792",
                          "geometry":  {
                                           "type":  "Point",
@@ -1646,41 +1681,6 @@
                                             "title":  "M 1.1 - 8 km ENE of Ridgecrest, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428792",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428792\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ghnmen",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.39,
-                                                              31.281,
-                                                              7.7655
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ghnmen",
-                                            "time_utc":  "2026-03-31T01:55:51Z",
-                                            "time_et":  "2026-03-30T21:55:51-04:00",
-                                            "updated_utc":  "2026-03-31T03:01:00Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "17 km SE of Lindsay, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.8",
-                                            "depth_km_raw":  7.7655,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 17 km SE of Lindsay, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghnmen",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ghnmen\u0026format=geojson"
                                         }
                      },
                      {
