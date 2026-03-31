@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-03-31T11:59:21Z",
+    "generated_at_utc":  "2026-03-31T12:00:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41429048",
+                         "id":  "nc75336182",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.169334411621,
-                                                              33.8863334655762,
-                                                              5.54
+                                                              -122.800163269043,
+                                                              38.836498260498,
+                                                              1.62
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41429048",
-                                            "time_utc":  "2026-03-31T11:55:34Z",
-                                            "time_et":  "2026-03-31T07:55:34-04:00",
-                                            "updated_utc":  "2026-03-31T11:57:39Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "19 km NNE of Indio, CA",
+                                            "id":  "nc75336182",
+                                            "time_utc":  "2026-03-31T11:57:32Z",
+                                            "time_et":  "2026-03-31T07:57:32-04:00",
+                                            "updated_utc":  "2026-03-31T11:59:08Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.21,
+                                            "place":  "7 km WNW of Cobb, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.54,
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.62,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  1,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 19 km NNE of Indio, CA",
+                                            "title":  "M 0.2 - 7 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336182",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75336182\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41429048",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.172333333333,
+                                                              33.8835,
+                                                              4.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41429048",
+                                            "time_utc":  "2026-03-31T11:55:34Z",
+                                            "time_et":  "2026-03-31T07:55:34-04:00",
+                                            "updated_utc":  "2026-03-31T11:58:57Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.84,
+                                            "place":  "19 km NNE of Indio, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  4.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 19 km NNE of Indio, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429048",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429048\u0026format=geojson"
                                         }
