@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-01T23:02:12Z",
+    "generated_at_utc":  "2026-04-01T23:03:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.1 - 4 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337307",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75337307\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80134286",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.262,
+                                                              39.6386666666667,
+                                                              7.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80134286",
+                                            "time_utc":  "2026-04-01T22:47:02Z",
+                                            "time_et":  "2026-04-01T18:47:02-04:00",
+                                            "updated_utc":  "2026-04-01T23:02:05Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.53,
+                                            "place":  "9 km W of Clear Creek, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 9 km W of Clear Creek, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134286",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134286\u0026format=geojson"
                                         }
                      },
                      {
@@ -28114,31 +28149,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.044666666667,
-                                                              33.1315,
-                                                              8.79
+                                                              -116.0385,
+                                                              33.1298333333333,
+                                                              9.95
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41427400",
                                             "time_utc":  "2026-03-29T11:43:19Z",
                                             "time_et":  "2026-03-29T07:43:19-04:00",
-                                            "updated_utc":  "2026-04-01T23:01:07Z",
+                                            "updated_utc":  "2026-04-01T23:01:10Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
-                                            "place":  "8 km E of Ocotillo Wells, CA",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "9 km E of Ocotillo Wells, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.8",
-                                            "depth_km_raw":  8.79,
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  9.95,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  12,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 8 km E of Ocotillo Wells, CA",
+                                            "title":  "M 0.9 - 9 km E of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41427400",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41427400\u0026format=geojson"
                                         }
