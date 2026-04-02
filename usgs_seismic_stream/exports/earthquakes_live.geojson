@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-02T22:21:55Z",
+    "generated_at_utc":  "2026-04-02T22:22:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3728,14 +3728,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-02T22:15:55Z",
+                                            "updated_utc":  "2026-04-02T22:21:30Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  32311,
+                                            "felt_reports":  32325,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -15506,6 +15506,41 @@
                                             "title":  "M 2.2 - 9 km W of Rio Dell, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336577",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75336577\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62230137",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.66816666666666,
+                                                              42.019833333333331,
+                                                              -1.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62230137",
+                                            "time_utc":  "2026-03-31T21:57:10Z",
+                                            "time_et":  "2026-03-31T17:57:10-04:00",
+                                            "updated_utc":  "2026-04-02T22:21:42Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.19,
+                                            "place":  "5 km W of Merrill, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.6",
+                                            "depth_km_raw":  -1.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "explosion",
+                                            "title":  "M 2.2 Explosion - 5 km W of Merrill, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230137",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62230137\u0026format=geojson"
                                         }
                      },
                      {
@@ -51634,31 +51669,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.5071,
-                                                              37.985,
-                                                              0.808
+                                                              -118.5101,
+                                                              37.9894,
+                                                              6.7732
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nn00913374",
                                             "time_utc":  "2026-03-27T03:21:44Z",
                                             "time_et":  "2026-03-26T23:21:44-04:00",
-                                            "updated_utc":  "2026-03-27T03:23:59Z",
+                                            "updated_utc":  "2026-04-02T22:21:39Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.53,
-                                            "place":  "18 km N of Benton, California",
+                                            "place":  "19 km N of Benton, California",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.8",
-                                            "depth_km_raw":  0.808,
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.7732,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  36,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 18 km N of Benton, California",
+                                            "title":  "M 1.5 - 19 km N of Benton, California",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913374",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913374\u0026format=geojson"
                                         }
