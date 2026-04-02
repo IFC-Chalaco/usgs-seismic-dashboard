@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-02T07:50:29Z",
+    "generated_at_utc":  "2026-04-02T07:51:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41430912",
+                         "id":  "ci41430920",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.176330566406,
-                                                              34.0214996337891,
-                                                              9.09
+                                                              -117.179336547852,
+                                                              34.0273323059082,
+                                                              11.61
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41430912",
-                                            "time_utc":  "2026-04-02T07:47:28Z",
-                                            "time_et":  "2026-04-02T03:47:28-04:00",
-                                            "updated_utc":  "2026-04-02T07:49:36Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.51,
-                                            "place":  "4 km S of Redlands, CA",
+                                            "id":  "ci41430920",
+                                            "time_utc":  "2026-04-02T07:48:57Z",
+                                            "time_et":  "2026-04-02T03:48:57-04:00",
+                                            "updated_utc":  "2026-04-02T07:50:59Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.23,
+                                            "place":  "3 km S of Redlands, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.1",
-                                            "depth_km_raw":  9.09,
+                                            "depth_km":  "11.6",
+                                            "depth_km_raw":  11.61,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  23,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 4 km S of Redlands, CA",
+                                            "title":  "M 1.2 - 3 km S of Redlands, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430920",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41430920\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41430912",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.173333333333,
+                                                              34.02,
+                                                              9.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41430912",
+                                            "time_utc":  "2026-04-02T07:47:28Z",
+                                            "time_et":  "2026-04-02T03:47:28-04:00",
+                                            "updated_utc":  "2026-04-02T07:50:58Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.52,
+                                            "place":  "4 km SSE of Redlands, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.1",
+                                            "depth_km_raw":  9.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 4 km SSE of Redlands, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430912",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41430912\u0026format=geojson"
                                         }
