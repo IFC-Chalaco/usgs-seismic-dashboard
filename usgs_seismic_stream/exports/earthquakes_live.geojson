@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-02T19:13:35Z",
+    "generated_at_utc":  "2026-04-02T19:15:36Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1059,29 +1059,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.603166666667,
-                                                              35.6375,
-                                                              7.16
+                                                              -117.598666666667,
+                                                              35.639,
+                                                              8.68
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41431104",
                                             "time_utc":  "2026-04-02T15:37:04Z",
                                             "time_et":  "2026-04-02T11:37:04-04:00",
-                                            "updated_utc":  "2026-04-02T15:40:35Z",
+                                            "updated_utc":  "2026-04-02T19:14:21Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.59,
+                                            "magnitude_raw":  0.6,
                                             "place":  "7 km ENE of Ridgecrest, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.2",
-                                            "depth_km_raw":  7.16,
+                                            "depth_km":  "8.7",
+                                            "depth_km_raw":  8.68,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  5,
+                                            "significance":  6,
                                             "event_type":  "earthquake",
                                             "title":  "M 0.6 - 7 km ENE of Ridgecrest, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431104",
@@ -2315,6 +2315,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80134396",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.903833333333,
+                                                              38.4898333333333,
+                                                              3.1
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80134396",
+                                            "time_utc":  "2026-04-02T12:22:03Z",
+                                            "time_et":  "2026-04-02T08:22:03-04:00",
+                                            "updated_utc":  "2026-04-02T19:14:24Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.01,
+                                            "place":  "13 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.1",
+                                            "depth_km_raw":  3.1,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 13 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134396",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134396\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "pr71512428",
                          "geometry":  {
                                           "type":  "Point",
@@ -3203,14 +3238,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-02T19:08:22Z",
+                                            "updated_utc":  "2026-04-02T19:13:49Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  31915,
+                                            "felt_reports":  31929,
                                             "cdi":  5.8,
                                             "mmi":  5.675,
                                             "alert":  "green",
