@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-02T15:44:14Z",
+    "generated_at_utc":  "2026-04-02T15:45:17Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -2276,6 +2276,41 @@
                                             "title":  "M 1.4 - 14 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134376",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134376\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80134371",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.901666666667,
+                                                              38.4906666666667,
+                                                              1.56
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80134371",
+                                            "time_utc":  "2026-04-02T06:25:32Z",
+                                            "time_et":  "2026-04-02T02:25:32-04:00",
+                                            "updated_utc":  "2026-04-02T15:44:13Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.61,
+                                            "place":  "14 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.56,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  40,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 14 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134371",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134371\u0026format=geojson"
                                         }
                      },
                      {
@@ -52291,41 +52326,6 @@
                                             "title":  "M 1.1 - 13 km N of Cloverdale, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333367",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75333367\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026fyrk",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -96.52583333,
-                                                              36.0115,
-                                                              0
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026fyrk",
-                                            "time_utc":  "2026-03-26T15:44:39Z",
-                                            "time_et":  "2026-03-26T11:44:39-04:00",
-                                            "updated_utc":  "2026-03-27T13:15:39Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.41,
-                                            "place":  "7 km ENE of Drumright, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  31,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.4 Quarry Blast - 7 km ENE of Drumright, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026fyrk",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026fyrk\u0026format=geojson"
                                         }
                      }
                  ]
