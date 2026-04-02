@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-02T08:42:08Z",
+    "generated_at_utc":  "2026-04-02T08:43:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ew1775119290",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.1021,
+                                                              37.1183,
+                                                              9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ew1775119290",
+                                            "time_utc":  "2026-04-02T08:41:25Z",
+                                            "time_et":  "2026-04-02T04:41:25-04:00",
+                                            "updated_utc":  "2026-04-02T08:41:55Z",
+                                            "magnitude":  "5.0",
+                                            "magnitude_raw":  5,
+                                            "place":  "1 km NNE of Brookdale, California",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.0",
+                                            "depth_km_raw":  9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  385,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 5.0 - 1 km NNE of Brookdale, California",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ew1775119290",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ew1775119290\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75337432",
