@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T04:44:11Z",
+    "generated_at_utc":  "2026-04-03T04:45:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -701,6 +701,41 @@
                                             "title":  "M 0.6 - 9 km NE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431624",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431624\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62230927",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.93916666666668,
+                                                              45.914833333333334,
+                                                              8.21
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62230927",
+                                            "time_utc":  "2026-04-03T01:56:08Z",
+                                            "time_et":  "2026-04-02T21:56:08-04:00",
+                                            "updated_utc":  "2026-04-03T04:44:01Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.26,
+                                            "place":  "23 km NNW of Carson, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.21,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 23 km NNW of Carson, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230927",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62230927\u0026format=geojson"
                                         }
                      },
                      {
@@ -52361,41 +52396,6 @@
                                             "title":  "M 1.3 - 5 km E of Running Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426016",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426016\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gakdxp",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.386,
-                                                              29.379,
-                                                              8.598
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gakdxp",
-                                            "time_utc":  "2026-03-27T04:44:23Z",
-                                            "time_et":  "2026-03-27T00:44:23-04:00",
-                                            "updated_utc":  "2026-03-27T18:39:42Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.4,
-                                            "place":  "15 km SSE of Gonzales, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.6",
-                                            "depth_km_raw":  8.598,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  30,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 15 km SSE of Gonzales, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gakdxp",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gakdxp\u0026format=geojson"
                                         }
                      }
                  ]
