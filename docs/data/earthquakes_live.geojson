@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T21:57:15Z",
+    "generated_at_utc":  "2026-04-03T22:01:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71512768",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9095,
+                                                              17.9233333333333,
+                                                              14.98
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71512768",
+                                            "time_utc":  "2026-04-03T21:47:07Z",
+                                            "time_et":  "2026-04-03T17:47:07-04:00",
+                                            "updated_utc":  "2026-04-03T21:57:26Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.64,
+                                            "place":  "5 km S of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "15.0",
+                                            "depth_km_raw":  14.98,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 5 km S of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512768",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512768\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75338467",
@@ -18,14 +53,14 @@
                                             "id":  "nc75338467",
                                             "time_utc":  "2026-04-03T21:31:46Z",
                                             "time_et":  "2026-04-03T17:31:46-04:00",
-                                            "updated_utc":  "2026-04-03T21:53:38Z",
+                                            "updated_utc":  "2026-04-03T21:58:47Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.28,
                                             "place":  "3 km N of Hayward, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.1",
                                             "depth_km_raw":  5.13,
-                                            "felt_reports":  20,
+                                            "felt_reports":  22,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
@@ -52501,76 +52536,6 @@
                                             "title":  "M 0.4 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334147",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334147\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75334142",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.805,
-                                                              38.834,
-                                                              3.22
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75334142",
-                                            "time_utc":  "2026-03-27T21:58:56Z",
-                                            "time_et":  "2026-03-27T17:58:56-04:00",
-                                            "updated_utc":  "2026-04-03T17:24:58Z",
-                                            "magnitude":  "-0.2",
-                                            "magnitude_raw":  -0.22,
-                                            "place":  "7 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.22,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M -0.2 - 7 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334142",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334142\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41426616",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.754333333333,
-                                                              33.2191666666667,
-                                                              10.09
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41426616",
-                                            "time_utc":  "2026-03-27T21:58:28Z",
-                                            "time_et":  "2026-03-27T17:58:28-04:00",
-                                            "updated_utc":  "2026-04-03T00:57:59Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.56,
-                                            "place":  "3 km SSE of Lake Henshaw, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.1",
-                                            "depth_km_raw":  10.09,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 3 km SSE of Lake Henshaw, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426616",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426616\u0026format=geojson"
                                         }
                      }
                  ]
