@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T00:00:34Z",
+    "generated_at_utc":  "2026-04-03T00:01:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -71,6 +71,41 @@
                                             "title":  "M 2.5 - 6 km ESE of Carpinteria, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431552",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431552\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026gmvzdr",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.379,
+                                                              31.299,
+                                                              5.4806
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026gmvzdr",
+                                            "time_utc":  "2026-04-02T23:35:37Z",
+                                            "time_et":  "2026-04-02T19:35:37-04:00",
+                                            "updated_utc":  "2026-04-03T00:00:57Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "17 km ESE of Lindsay, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.5",
+                                            "depth_km_raw":  5.4806,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 17 km ESE of Lindsay, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gmvzdr",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gmvzdr\u0026format=geojson"
                                         }
                      },
                      {
