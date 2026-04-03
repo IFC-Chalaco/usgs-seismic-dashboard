@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T07:28:07Z",
+    "generated_at_utc":  "2026-04-03T07:49:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "nc75338092",
                                             "time_utc":  "2026-04-03T07:25:13Z",
                                             "time_et":  "2026-04-03T03:25:13-04:00",
-                                            "updated_utc":  "2026-04-03T07:26:49Z",
+                                            "updated_utc":  "2026-04-03T07:47:29Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.56,
                                             "place":  "14 km N of Brooktrails, CA",
@@ -53,7 +53,7 @@
                                             "id":  "nc75338087",
                                             "time_utc":  "2026-04-03T07:20:24Z",
                                             "time_et":  "2026-04-03T03:20:24-04:00",
-                                            "updated_utc":  "2026-04-03T07:23:07Z",
+                                            "updated_utc":  "2026-04-03T07:37:18Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.18,
                                             "place":  "8 km W of Cobb, CA",
@@ -71,6 +71,41 @@
                                             "title":  "M 1.2 - 8 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338087",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338087\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71512693",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9486666666667,
+                                                              18.5925,
+                                                              75.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71512693",
+                                            "time_utc":  "2026-04-03T07:14:04Z",
+                                            "time_et":  "2026-04-03T03:14:04-04:00",
+                                            "updated_utc":  "2026-04-03T07:31:57Z",
+                                            "magnitude":  "2.8",
+                                            "magnitude_raw":  2.77,
+                                            "place":  "12 km NE of Isabela, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "76.0",
+                                            "depth_km_raw":  75.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  118,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.8 - 12 km NE of Isabela, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512693",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512693\u0026format=geojson"
                                         }
                      },
                      {
@@ -158,7 +193,7 @@
                                             "id":  "nc75338072",
                                             "time_utc":  "2026-04-03T07:10:29Z",
                                             "time_et":  "2026-04-03T03:10:29-04:00",
-                                            "updated_utc":  "2026-04-03T07:17:26Z",
+                                            "updated_utc":  "2026-04-03T07:32:19Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.27,
                                             "place":  "3 km W of Cobb, CA",
@@ -2906,6 +2941,41 @@
                                             "title":  "M 1.8 - 6 km N of Carson City, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913684",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913684\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75337707",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.030666666667,
+                                                              35.5255,
+                                                              4.31
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75337707",
+                                            "time_utc":  "2026-04-02T17:25:34Z",
+                                            "time_et":  "2026-04-02T13:25:34-04:00",
+                                            "updated_utc":  "2026-04-03T07:44:46Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.86,
+                                            "place":  "20 km N of Simmler, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.3",
+                                            "depth_km_raw":  4.31,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 20 km N of Simmler, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337707",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75337707\u0026format=geojson"
                                         }
                      },
                      {
@@ -5758,14 +5828,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-03T07:24:15Z",
+                                            "updated_utc":  "2026-04-03T07:47:14Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  32833,
+                                            "felt_reports":  32837,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -51521,111 +51591,6 @@
                                             "title":  "M 0.8 - 23 km NNW of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426080",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426080\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gapsnd",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.256,
-                                                              32.033,
-                                                              8.9111
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gapsnd",
-                                            "time_utc":  "2026-03-27T07:32:16Z",
-                                            "time_et":  "2026-03-27T03:32:16-04:00",
-                                            "updated_utc":  "2026-03-27T08:13:23Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "11 km E of Gardendale, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.9111,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 11 km E of Gardendale, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gapsnd",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gapsnd\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gapriu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.246,
-                                                              32.032,
-                                                              9.0088
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gapriu",
-                                            "time_utc":  "2026-03-27T07:30:52Z",
-                                            "time_et":  "2026-03-27T03:30:52-04:00",
-                                            "updated_utc":  "2026-03-27T16:10:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "12 km E of Gardendale, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.0",
-                                            "depth_km_raw":  9.0088,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 12 km E of Gardendale, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gapriu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gapriu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62229487",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.9765,
-                                                              47.416166666666669,
-                                                              20.81
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62229487",
-                                            "time_utc":  "2026-03-27T07:28:03Z",
-                                            "time_et":  "2026-03-27T03:28:03-04:00",
-                                            "updated_utc":  "2026-03-27T17:54:25Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.82,
-                                            "place":  "11 km NE of Union, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "20.8",
-                                            "depth_km_raw":  20.81,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 11 km NE of Union, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62229487",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62229487\u0026format=geojson"
                                         }
                      }
                  ]
