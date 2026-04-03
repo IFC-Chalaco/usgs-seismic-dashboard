@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T19:56:20Z",
+    "generated_at_utc":  "2026-04-03T20:21:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71512763",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8901666666667,
+                                                              17.9435,
+                                                              13.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71512763",
+                                            "time_utc":  "2026-04-03T20:00:54Z",
+                                            "time_et":  "2026-04-03T16:00:54-04:00",
+                                            "updated_utc":  "2026-04-03T20:18:22Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.25,
+                                            "place":  "3 km SSE of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "13.2",
+                                            "depth_km_raw":  13.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  78,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 3 km SSE of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512763",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512763\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71512748",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8983333333333,
+                                                              17.9378333333333,
+                                                              14.66
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71512748",
+                                            "time_utc":  "2026-04-03T19:56:23Z",
+                                            "time_et":  "2026-04-03T15:56:23-04:00",
+                                            "updated_utc":  "2026-04-03T20:11:15Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "3 km SSE of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.7",
+                                            "depth_km_raw":  14.66,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 3 km SSE of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512748",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512748\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41432072",
@@ -403,7 +473,7 @@
                                             "id":  "nc75338307",
                                             "time_utc":  "2026-04-03T18:13:47Z",
                                             "time_et":  "2026-04-03T14:13:47-04:00",
-                                            "updated_utc":  "2026-04-03T18:42:21Z",
+                                            "updated_utc":  "2026-04-03T20:17:23Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.3,
                                             "place":  "5 km WNW of The Geysers, CA",
@@ -639,29 +709,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.592,
-                                                              35.6096666666667,
-                                                              6.84
+                                                              -117.591,
+                                                              35.6098333333333,
+                                                              6.62
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41431928",
                                             "time_utc":  "2026-04-03T17:06:11Z",
                                             "time_et":  "2026-04-03T13:06:11-04:00",
-                                            "updated_utc":  "2026-04-03T17:09:39Z",
+                                            "updated_utc":  "2026-04-03T20:19:06Z",
                                             "magnitude":  "1.3",
-                                            "magnitude_raw":  1.27,
+                                            "magnitude_raw":  1.3,
                                             "place":  "8 km E of Ridgecrest, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.84,
+                                            "depth_km":  "6.6",
+                                            "depth_km_raw":  6.62,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  25,
+                                            "significance":  26,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.3 - 8 km E of Ridgecrest, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431928",
@@ -1226,6 +1296,41 @@
                                             "title":  "M 1.5 - 6 km SW of Gilroy, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338192",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338192\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62230992",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.89583333333331,
+                                                              48.6435,
+                                                              15.09
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62230992",
+                                            "time_utc":  "2026-04-03T12:43:12Z",
+                                            "time_et":  "2026-04-03T08:43:12-04:00",
+                                            "updated_utc":  "2026-04-03T20:16:23Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
+                                            "place":  "14 km NW of Conconully, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.1",
+                                            "depth_km_raw":  15.09,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 14 km NW of Conconully, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230992",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62230992\u0026format=geojson"
                                         }
                      },
                      {
@@ -2180,26 +2285,26 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -117.231666666667,
-                                                              33.5835,
-                                                              16.19
+                                                              33.587,
+                                                              16.88
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41431768",
                                             "time_utc":  "2026-04-03T09:21:19Z",
                                             "time_et":  "2026-04-03T05:21:19-04:00",
-                                            "updated_utc":  "2026-04-03T09:24:47Z",
+                                            "updated_utc":  "2026-04-03T20:13:18Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
+                                            "magnitude_raw":  0.9,
                                             "place":  "4 km NNW of Murrieta, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "16.2",
-                                            "depth_km_raw":  16.19,
+                                            "depth_km":  "16.9",
+                                            "depth_km_raw":  16.88,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  12,
                                             "event_type":  "earthquake",
@@ -4691,6 +4796,41 @@
                                             "title":  "M 1.1 - 23 km NNW of Carson, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230912",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62230912\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41431600",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.400333333333,
+                                                              35.9533333333333,
+                                                              7.13
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41431600",
+                                            "time_utc":  "2026-04-03T00:51:41Z",
+                                            "time_et":  "2026-04-02T20:51:41-04:00",
+                                            "updated_utc":  "2026-04-03T20:11:15Z",
+                                            "magnitude":  "0.0",
+                                            "magnitude_raw":  -0.02,
+                                            "place":  "21 km N of Searles Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.13,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 21 km N of Searles Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431600",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431600\u0026format=geojson"
                                         }
                      },
                      {
@@ -9293,14 +9433,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-03T19:19:32Z",
+                                            "updated_utc":  "2026-04-03T20:12:44Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  32907,
+                                            "felt_reports":  32909,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -28876,6 +29016,41 @@
                                             "title":  "M 0.8 - 9 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335847",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335847\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci10234502",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.099833333333,
+                                                              33.2653333333333,
+                                                              10.08
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10234502",
+                                            "time_utc":  "2026-03-30T21:00:30Z",
+                                            "time_et":  "2026-03-30T17:00:30-04:00",
+                                            "updated_utc":  "2026-04-03T20:01:58Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.75,
+                                            "place":  "14 km WSW of Salton City, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.1",
+                                            "depth_km_raw":  10.08,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 14 km WSW of Salton City, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10234502",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10234502\u0026format=geojson"
                                         }
                      },
                      {
@@ -52536,111 +52711,6 @@
                                             "title":  "M 0.8 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334062",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334062\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71511063",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -67.0506666666667,
-                                                              18.4716666666667,
-                                                              17.45
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71511063",
-                                            "time_utc":  "2026-03-27T20:16:05Z",
-                                            "time_et":  "2026-03-27T16:16:05-04:00",
-                                            "updated_utc":  "2026-03-27T20:54:59Z",
-                                            "magnitude":  "2.9",
-                                            "magnitude_raw":  2.94,
-                                            "place":  "2 km WNW of Mora, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "17.5",
-                                            "depth_km_raw":  17.45,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  133,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.9 - 2 km WNW of Mora, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511063",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71511063\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41426528",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.711,
-                                                              33.649,
-                                                              13.56
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41426528",
-                                            "time_utc":  "2026-03-27T20:04:53Z",
-                                            "time_et":  "2026-03-27T16:04:53-04:00",
-                                            "updated_utc":  "2026-03-27T20:31:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.5,
-                                            "place":  "10 km S of Idyllwild, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.6",
-                                            "depth_km_raw":  13.56,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 10 km S of Idyllwild, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426528",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426528\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41426520",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.541333333333,
-                                                              33.1431666666667,
-                                                              6.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41426520",
-                                            "time_utc":  "2026-03-27T19:56:46Z",
-                                            "time_et":  "2026-03-27T15:56:46-04:00",
-                                            "updated_utc":  "2026-03-27T20:32:01Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.92,
-                                            "place":  "9 km NE of Julian, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.3",
-                                            "depth_km_raw":  6.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  13,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 9 km NE of Julian, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426520",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426520\u0026format=geojson"
                                         }
                      }
                  ]
