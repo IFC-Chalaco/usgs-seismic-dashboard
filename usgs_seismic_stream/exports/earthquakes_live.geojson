@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T21:37:27Z",
+    "generated_at_utc":  "2026-04-03T21:57:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,20 +18,20 @@
                                             "id":  "nc75338467",
                                             "time_utc":  "2026-04-03T21:31:46Z",
                                             "time_et":  "2026-04-03T17:31:46-04:00",
-                                            "updated_utc":  "2026-04-03T21:36:41Z",
+                                            "updated_utc":  "2026-04-03T21:53:38Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.28,
                                             "place":  "3 km N of Hayward, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.1",
                                             "depth_km_raw":  5.13,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  20,
+                                            "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  80,
+                                            "significance":  87,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.3 - 3 km N of Hayward, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338467",
@@ -368,7 +368,7 @@
                                             "id":  "ci41432056",
                                             "time_utc":  "2026-04-03T19:26:35Z",
                                             "time_et":  "2026-04-03T15:26:35-04:00",
-                                            "updated_utc":  "2026-04-03T19:30:03Z",
+                                            "updated_utc":  "2026-04-03T21:38:38Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.22,
                                             "place":  "18 km E of Little Lake, CA",
@@ -1965,6 +1965,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci41431800",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.614,
+                                                              33.1836666666667,
+                                                              5.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41431800",
+                                            "time_utc":  "2026-04-03T11:12:16Z",
+                                            "time_et":  "2026-04-03T07:12:16-04:00",
+                                            "updated_utc":  "2026-04-03T21:53:29Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.23,
+                                            "place":  "11 km SW of Niland, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.1",
+                                            "depth_km_raw":  5.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 11 km SW of Niland, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431800",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431800\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41431792",
                          "geometry":  {
                                           "type":  "Point",
@@ -2945,35 +2980,70 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10234526",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.852666666667,
+                                                              33.8756666666667,
+                                                              16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10234526",
+                                            "time_utc":  "2026-04-03T07:57:37Z",
+                                            "time_et":  "2026-04-03T03:57:37-04:00",
+                                            "updated_utc":  "2026-04-03T21:43:36Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.69,
+                                            "place":  "6 km SSE of Banning, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.0",
+                                            "depth_km_raw":  16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km SSE of Banning, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10234526",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10234526\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41431720",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.854166666667,
-                                                              33.8783333333333,
-                                                              15.13
+                                                              -116.852,
+                                                              33.8781666666667,
+                                                              15.7
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41431720",
                                             "time_utc":  "2026-04-03T07:57:32Z",
                                             "time_et":  "2026-04-03T03:57:32-04:00",
-                                            "updated_utc":  "2026-04-03T08:01:02Z",
+                                            "updated_utc":  "2026-04-03T21:38:53Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.68,
+                                            "magnitude_raw":  0.53,
                                             "place":  "6 km SSE of Banning, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "15.1",
-                                            "depth_km_raw":  15.13,
+                                            "depth_km":  "15.7",
+                                            "depth_km_raw":  15.7,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  7,
+                                            "significance":  4,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 6 km SSE of Banning, CA",
+                                            "title":  "M 0.5 - 6 km SSE of Banning, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431720",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431720\u0026format=geojson"
                                         }
@@ -9748,14 +9818,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-03T21:21:40Z",
+                                            "updated_utc":  "2026-04-03T21:42:45Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  32913,
+                                            "felt_reports":  32915,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -52501,76 +52571,6 @@
                                             "title":  "M 0.6 - 3 km SSE of Lake Henshaw, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426616",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426616\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75334137",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.82250213623,
-                                                              38.8291664123535,
-                                                              1.52
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75334137",
-                                            "time_utc":  "2026-03-27T21:43:48Z",
-                                            "time_et":  "2026-03-27T17:43:48-04:00",
-                                            "updated_utc":  "2026-03-27T21:45:25Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.44,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.5",
-                                            "depth_km_raw":  1.52,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334137",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334137\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41426600",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.544666666667,
-                                                              33.1453333333333,
-                                                              5.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41426600",
-                                            "time_utc":  "2026-03-27T21:39:29Z",
-                                            "time_et":  "2026-03-27T17:39:29-04:00",
-                                            "updated_utc":  "2026-03-29T14:04:15Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.25,
-                                            "place":  "9 km NE of Julian, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  5.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  24,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 9 km NE of Julian, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41426600",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41426600\u0026format=geojson"
                                         }
                      }
                  ]
