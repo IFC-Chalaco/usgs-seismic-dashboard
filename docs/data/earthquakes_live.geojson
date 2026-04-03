@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-03T21:34:29Z",
+    "generated_at_utc":  "2026-04-03T21:35:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75338467",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.074668884277,
+                                                              37.6674995422363,
+                                                              5.13
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75338467",
+                                            "time_utc":  "2026-04-03T21:31:46Z",
+                                            "time_et":  "2026-04-03T17:31:46-04:00",
+                                            "updated_utc":  "2026-04-03T21:34:44Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.28,
+                                            "place":  "3 km N of Hayward, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.1",
+                                            "depth_km_raw":  5.13,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  80,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 3 km N of Hayward, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338467",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338467\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75338462",
