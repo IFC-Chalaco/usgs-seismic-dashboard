@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-04T16:57:59Z",
+    "generated_at_utc":  "2026-04-04T16:59:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41432632",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.173667907715,
+                                                              34.0234985351562,
+                                                              9.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41432632",
+                                            "time_utc":  "2026-04-04T16:56:07Z",
+                                            "time_et":  "2026-04-04T12:56:07-04:00",
+                                            "updated_utc":  "2026-04-04T16:58:11Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "4 km SSE of Redlands, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.8",
+                                            "depth_km_raw":  9.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 4 km SSE of Redlands, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432632",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41432632\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41432624",
@@ -51031,41 +51066,6 @@
                                             "title":  "M 1.7 - 21 km NNW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gdehds",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gdehds\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75334507",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.814666748047,
-                                                              38.8343315124512,
-                                                              1.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75334507",
-                                            "time_utc":  "2026-03-28T16:57:49Z",
-                                            "time_et":  "2026-03-28T12:57:49-04:00",
-                                            "updated_utc":  "2026-03-28T16:59:27Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.02,
-                                            "place":  "8 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 8 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75334507",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75334507\u0026format=geojson"
                                         }
                      }
                  ]
