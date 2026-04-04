@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-04T03:33:49Z",
+    "generated_at_utc":  "2026-04-04T03:34:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -4341,6 +4341,41 @@
                                             "title":  "M 0.5 - 6 km SSE of Banning, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41431720",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41431720\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000smhh",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -74.8713,
+                                                              45.9411,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000smhh",
+                                            "time_utc":  "2026-04-03T07:57:03Z",
+                                            "time_et":  "2026-04-03T03:57:03-04:00",
+                                            "updated_utc":  "2026-04-04T03:33:22Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.7,
+                                            "place":  "18 km ESE of Notre-Dame-du-Mont-Carmel, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  44,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 18 km ESE of Notre-Dame-du-Mont-Carmel, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smhh",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000smhh\u0026format=geojson"
                                         }
                      },
                      {
