@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-05T21:08:09Z",
+    "generated_at_utc":  "2026-04-05T21:20:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 0.2 - 4 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339477",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75339477\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71512983",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.7573333333333,
+                                                              18.125,
+                                                              19.45
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71512983",
+                                            "time_utc":  "2026-04-05T20:30:56Z",
+                                            "time_et":  "2026-04-05T16:30:56-04:00",
+                                            "updated_utc":  "2026-04-05T21:15:47Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.25,
+                                            "place":  "5 km SW of Adjuntas, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "19.5",
+                                            "depth_km_raw":  19.45,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  78,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 5 km SW of Adjuntas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512983",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512983\u0026format=geojson"
                                         }
                      },
                      {
