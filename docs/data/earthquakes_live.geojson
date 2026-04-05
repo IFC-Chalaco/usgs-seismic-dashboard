@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-05T22:46:03Z",
+    "generated_at_utc":  "2026-04-05T23:05:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41433280",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.233166666667,
+                                                              34.0488333333333,
+                                                              12.34
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41433280",
+                                            "time_utc":  "2026-04-05T22:57:54Z",
+                                            "time_et":  "2026-04-05T18:57:54-04:00",
+                                            "updated_utc":  "2026-04-05T23:01:29Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "3 km E of Loma Linda, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.3",
+                                            "depth_km_raw":  12.34,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 3 km E of Loma Linda, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433280",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41433280\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75339527",
@@ -48546,111 +48581,6 @@
                                             "title":  "M 1.0 - 14 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133821",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133821\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75335227",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.234832763672,
-                                                              37.3740005493164,
-                                                              7.97
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75335227",
-                                            "time_utc":  "2026-03-29T22:59:02Z",
-                                            "time_et":  "2026-03-29T18:59:02-04:00",
-                                            "updated_utc":  "2026-03-29T23:00:40Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "1 km S of Portola Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.0",
-                                            "depth_km_raw":  7.97,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 1 km S of Portola Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335227",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335227\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gflrku",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.835,
-                                                              31.759,
-                                                              7.8302
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gflrku",
-                                            "time_utc":  "2026-03-29T22:52:38Z",
-                                            "time_et":  "2026-03-29T18:52:38-04:00",
-                                            "updated_utc":  "2026-03-30T15:27:07Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "23 km WNW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.8",
-                                            "depth_km_raw":  7.8302,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 23 km WNW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gflrku",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gflrku\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75335222",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.748832702637,
-                                                              38.7793350219727,
-                                                              -0.83
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75335222",
-                                            "time_utc":  "2026-03-29T22:50:44Z",
-                                            "time_et":  "2026-03-29T18:50:44-04:00",
-                                            "updated_utc":  "2026-03-30T00:12:21Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.73,
-                                            "place":  "1 km ENE of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.8",
-                                            "depth_km_raw":  -0.83,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  46,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 1 km ENE of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335222",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335222\u0026format=geojson"
                                         }
                      }
                  ]
