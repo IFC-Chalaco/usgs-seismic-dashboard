@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T22:24:05Z",
+    "generated_at_utc":  "2026-04-06T22:25:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -2424,22 +2424,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -98.166,
-                                                              28.731,
-                                                              0
+                                                              -98.162,
+                                                              28.703,
+                                                              9.9031
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026gtizws",
                                             "time_utc":  "2026-04-06T12:34:41Z",
                                             "time_et":  "2026-04-06T08:34:41-04:00",
-                                            "updated_utc":  "2026-04-06T13:00:25Z",
+                                            "updated_utc":  "2026-04-06T22:23:51Z",
                                             "magnitude":  "1.8",
                                             "magnitude_raw":  1.8,
-                                            "place":  "18 km WNW of Pawnee, Texas",
+                                            "place":  "16 km WNW of Pawnee, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
+                                            "depth_km":  "9.9",
+                                            "depth_km_raw":  9.9031,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -2448,7 +2448,7 @@
                                             "tsunami":  0,
                                             "significance":  50,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 18 km WNW of Pawnee, Texas",
+                                            "title":  "M 1.8 - 16 km WNW of Pawnee, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gtizws",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gtizws\u0026format=geojson"
                                         }
@@ -3365,41 +3365,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "pr71513028",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8416666666667,
-                                                              17.9541666666667,
-                                                              11.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71513028",
-                                            "time_utc":  "2026-04-06T07:39:53Z",
-                                            "time_et":  "2026-04-06T03:39:53-04:00",
-                                            "updated_utc":  "2026-04-06T22:18:59Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.01,
-                                            "place":  "5 km SSW of Indios, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "12.0",
-                                            "depth_km_raw":  11.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513028\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "pr71513023",
                          "geometry":  {
                                           "type":  "Point",
@@ -3431,6 +3396,41 @@
                                             "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513023",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513023\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71513028",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8416666666667,
+                                                              17.9541666666667,
+                                                              11.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71513028",
+                                            "time_utc":  "2026-04-06T07:39:53Z",
+                                            "time_et":  "2026-04-06T03:39:53-04:00",
+                                            "updated_utc":  "2026-04-06T22:18:59Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.01,
+                                            "place":  "5 km SSW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  11.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513028\u0026format=geojson"
                                         }
                      },
                      {
@@ -13161,6 +13161,41 @@
                                             "title":  "M 1.7 - 51 km W of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gpvxkl",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gpvxkl\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62231207",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.18833333333332,
+                                                              46.192833333333333,
+                                                              -1.81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62231207",
+                                            "time_utc":  "2026-04-04T14:35:55Z",
+                                            "time_et":  "2026-04-04T10:35:55-04:00",
+                                            "updated_utc":  "2026-04-06T22:24:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.23,
+                                            "place":  "37 km NNE of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.8",
+                                            "depth_km_raw":  -1.81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 37 km NNE of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62231207",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62231207\u0026format=geojson"
                                         }
                      },
                      {
@@ -47951,41 +47986,6 @@
                                             "title":  "M 0.8 - 5 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335922",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335922\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913561",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.8346,
-                                                              39.9541,
-                                                              0.7458
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913561",
-                                            "time_utc":  "2026-03-30T22:34:14Z",
-                                            "time_et":  "2026-03-30T18:34:14-04:00",
-                                            "updated_utc":  "2026-03-30T22:36:33Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.65,
-                                            "place":  "39 km SW of Lovelock, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.7",
-                                            "depth_km_raw":  0.7458,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  42,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 39 km SW of Lovelock, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913561",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913561\u0026format=geojson"
                                         }
                      }
                  ]
