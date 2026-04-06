@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T17:06:10Z",
+    "generated_at_utc":  "2026-04-06T17:07:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75339922",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.779663085938,
+                                                              38.7968330383301,
+                                                              3.24
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75339922",
+                                            "time_utc":  "2026-04-06T17:04:29Z",
+                                            "time_et":  "2026-04-06T13:04:29-04:00",
+                                            "updated_utc":  "2026-04-06T17:06:04Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.74,
+                                            "place":  "3 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.24,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 3 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339922",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75339922\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75339917",
@@ -2140,41 +2175,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "pr71513023",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8416666666667,
-                                                              17.9541666666667,
-                                                              11.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71513023",
-                                            "time_utc":  "2026-04-06T07:39:53Z",
-                                            "time_et":  "2026-04-06T03:39:53-04:00",
-                                            "updated_utc":  "2026-04-06T07:55:44Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.01,
-                                            "place":  "5 km SSW of Indios, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "12.0",
-                                            "depth_km_raw":  11.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513023",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513023\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "pr71513028",
                          "geometry":  {
                                           "type":  "Point",
@@ -2206,6 +2206,41 @@
                                             "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513028\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71513023",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8416666666667,
+                                                              17.9541666666667,
+                                                              11.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71513023",
+                                            "time_utc":  "2026-04-06T07:39:53Z",
+                                            "time_et":  "2026-04-06T03:39:53-04:00",
+                                            "updated_utc":  "2026-04-06T07:55:44Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.01,
+                                            "place":  "5 km SSW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  11.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513023",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513023\u0026format=geojson"
                                         }
                      },
                      {
@@ -46341,41 +46376,6 @@
                                             "title":  "M 0.3 - 6 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335627",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335627\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41428304",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.4835,
-                                                              32.8583333333333,
-                                                              7.93
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41428304",
-                                            "time_utc":  "2026-03-30T17:06:28Z",
-                                            "time_et":  "2026-03-30T13:06:28-04:00",
-                                            "updated_utc":  "2026-03-30T17:38:51Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.56,
-                                            "place":  "8 km E of Imperial, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.9",
-                                            "depth_km_raw":  7.93,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  37,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 8 km E of Imperial, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428304",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428304\u0026format=geojson"
                                         }
                      }
                  ]
