@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T22:25:06Z",
+    "generated_at_utc":  "2026-04-06T22:25:52Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913835",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.1551,
+                                                              38.6961,
+                                                              15.9538
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913835",
+                                            "time_utc":  "2026-04-06T22:22:03Z",
+                                            "time_et":  "2026-04-06T18:22:03-04:00",
+                                            "updated_utc":  "2026-04-06T22:24:39Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.16,
+                                            "place":  "57 km S of Kingston, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.0",
+                                            "depth_km_raw":  15.9538,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  72,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 57 km S of Kingston, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913835",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913835\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026gubyfn",
@@ -47986,6 +48021,41 @@
                                             "title":  "M 0.8 - 5 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75335922",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75335922\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913561",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.8346,
+                                                              39.9541,
+                                                              0.7458
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913561",
+                                            "time_utc":  "2026-03-30T22:34:14Z",
+                                            "time_et":  "2026-03-30T18:34:14-04:00",
+                                            "updated_utc":  "2026-03-30T22:36:33Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.65,
+                                            "place":  "39 km SW of Lovelock, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.7",
+                                            "depth_km_raw":  0.7458,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 39 km SW of Lovelock, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913561",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913561\u0026format=geojson"
                                         }
                      }
                  ]
