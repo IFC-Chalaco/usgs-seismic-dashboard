@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T22:53:53Z",
+    "generated_at_utc":  "2026-04-06T23:00:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -438,20 +438,20 @@
                                             "id":  "ci41433912",
                                             "time_utc":  "2026-04-06T21:06:33Z",
                                             "time_et":  "2026-04-06T17:06:33-04:00",
-                                            "updated_utc":  "2026-04-06T22:52:15Z",
+                                            "updated_utc":  "2026-04-06T22:57:17Z",
                                             "magnitude":  "3.5",
                                             "magnitude_raw":  3.51,
                                             "place":  "14 km N of Tecate, B.C., MX",
                                             "country":  "United States of America",
                                             "depth_km":  "24.0",
                                             "depth_km_raw":  24.01,
-                                            "felt_reports":  187,
+                                            "felt_reports":  188,
                                             "cdi":  3.6,
                                             "mmi":  3.14,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  256,
+                                            "significance":  257,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.5 - 14 km N of Tecate, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433912",
@@ -1121,6 +1121,41 @@
                                             "title":  "M 3.4 - 71 km NE of Cruz Bay, U.S. Virgin Islands",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513063",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513063\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62231472",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.507,
+                                                              46.05683333333333,
+                                                              16.8
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62231472",
+                                            "time_utc":  "2026-04-06T18:34:52Z",
+                                            "time_et":  "2026-04-06T14:34:52-04:00",
+                                            "updated_utc":  "2026-04-06T22:53:38Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.34,
+                                            "place":  "16 km NNW of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.8",
+                                            "depth_km_raw":  16.8,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 16 km NNW of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62231472",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62231472\u0026format=geojson"
                                         }
                      },
                      {
@@ -16179,31 +16214,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.4563,
-                                                              36.7106,
-                                                              0.048
+                                                              -115.4559,
+                                                              36.727,
+                                                              0
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nn00913739",
-                                            "time_utc":  "2026-04-04T06:25:34Z",
-                                            "time_et":  "2026-04-04T02:25:34-04:00",
-                                            "updated_utc":  "2026-04-04T06:29:32Z",
+                                            "time_utc":  "2026-04-04T06:25:35Z",
+                                            "time_et":  "2026-04-04T02:25:35-04:00",
+                                            "updated_utc":  "2026-04-06T22:53:16Z",
                                             "magnitude":  "1.5",
-                                            "magnitude_raw":  1.52,
-                                            "place":  "24 km NE of Indian Springs, Nevada",
+                                            "magnitude_raw":  1.51,
+                                            "place":  "25 km NE of Indian Springs, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "0.0",
-                                            "depth_km_raw":  0.048,
+                                            "depth_km_raw":  0,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  36,
+                                            "significance":  35,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 24 km NE of Indian Springs, Nevada",
+                                            "title":  "M 1.5 - 25 km NE of Indian Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913739",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913739\u0026format=geojson"
                                         }
@@ -47916,76 +47951,6 @@
                                             "title":  "M 1.5 Explosion - 2 km SE of Kapowsin, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62229992",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62229992\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41428680",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.785833333333,
-                                                              33.2381666666667,
-                                                              15.59
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41428680",
-                                            "time_utc":  "2026-03-30T22:59:02Z",
-                                            "time_et":  "2026-03-30T18:59:02-04:00",
-                                            "updated_utc":  "2026-03-31T13:52:58Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.79,
-                                            "place":  "2 km W of Lake Henshaw, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "15.6",
-                                            "depth_km_raw":  15.59,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 2 km W of Lake Henshaw, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428680",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428680\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71511458",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.1721666666667,
-                                                              18.3565,
-                                                              61.6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71511458",
-                                            "time_utc":  "2026-03-30T22:54:46Z",
-                                            "time_et":  "2026-03-30T18:54:46-04:00",
-                                            "updated_utc":  "2026-03-30T23:44:09Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.46,
-                                            "place":  "4 km ESE of Pájaros, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "61.6",
-                                            "depth_km_raw":  61.6,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  93,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 4 km ESE of Pájaros, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511458",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71511458\u0026format=geojson"
                                         }
                      }
                  ]
