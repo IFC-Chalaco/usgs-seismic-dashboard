@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T12:11:00Z",
+    "generated_at_utc":  "2026-04-06T12:37:56Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41433504",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.972333333333,
+                                                              35.9446666666667,
+                                                              5.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41433504",
+                                            "time_utc":  "2026-04-06T12:25:35Z",
+                                            "time_et":  "2026-04-06T08:25:35-04:00",
+                                            "updated_utc":  "2026-04-06T12:29:08Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.42,
+                                            "place":  "6 km W of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.4",
+                                            "depth_km_raw":  5.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 6 km W of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433504",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41433504\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75339802",
@@ -18,7 +53,7 @@
                                             "id":  "nc75339802",
                                             "time_utc":  "2026-04-06T11:40:00Z",
                                             "time_et":  "2026-04-06T07:40:00-04:00",
-                                            "updated_utc":  "2026-04-06T11:57:18Z",
+                                            "updated_utc":  "2026-04-06T12:12:19Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.47,
                                             "place":  "6 km NNW of The Geysers, CA",
@@ -639,31 +674,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -98.02631378,
-                                                              35.58904648,
-                                                              1.9718
+                                                              -98.03016667,
+                                                              35.622,
+                                                              6.68
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ok2026gsfs",
                                             "time_utc":  "2026-04-06T08:33:04Z",
                                             "time_et":  "2026-04-06T04:33:04-04:00",
-                                            "updated_utc":  "2026-04-06T08:35:33Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.55,
-                                            "place":  "8 km E of Calumet, Oklahoma",
+                                            "updated_utc":  "2026-04-06T12:16:38Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.29,
+                                            "place":  "8 km ENE of Calumet, Oklahoma",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.0",
-                                            "depth_km_raw":  1.9718,
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.68,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  37,
+                                            "significance":  26,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 8 km E of Calumet, Oklahoma",
+                                            "title":  "M 1.3 - 8 km ENE of Calumet, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026gsfs",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026gsfs\u0026format=geojson"
                                         }
@@ -3264,23 +3299,23 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -79.8805,
-                                                              35.8525,
-                                                              5.45
+                                                              -79.8735,
+                                                              35.858,
+                                                              5.66
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "se60619516",
                                             "time_utc":  "2026-04-05T18:15:41Z",
                                             "time_et":  "2026-04-05T14:15:41-04:00",
-                                            "updated_utc":  "2026-04-06T12:07:04Z",
+                                            "updated_utc":  "2026-04-06T12:37:00Z",
                                             "magnitude":  "2.3",
-                                            "magnitude_raw":  2.29,
-                                            "place":  "7 km WNW of Randleman, North Carolina",
+                                            "magnitude_raw":  2.25,
+                                            "place":  "7 km NW of Randleman, North Carolina",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.45,
-                                            "felt_reports":  16,
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.66,
+                                            "felt_reports":  22,
                                             "cdi":  4.1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -3288,7 +3323,7 @@
                                             "tsunami":  0,
                                             "significance":  87,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 7 km WNW of Randleman, North Carolina",
+                                            "title":  "M 2.3 - 7 km NW of Randleman, North Carolina",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/se60619516",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=se60619516\u0026format=geojson"
                                         }
@@ -45606,146 +45641,6 @@
                                             "title":  "M 1.4 - 31 km W of Veyo, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133916",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133916\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41428056",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.673166666667,
-                                                              35.9126666666667,
-                                                              3.38
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41428056",
-                                            "time_utc":  "2026-03-30T12:35:15Z",
-                                            "time_et":  "2026-03-30T08:35:15-04:00",
-                                            "updated_utc":  "2026-03-30T15:38:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.41,
-                                            "place":  "21 km E of Little Lake, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.38,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 21 km E of Little Lake, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428056",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428056\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41428032",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.8695,
-                                                              33.8761666666667,
-                                                              10.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41428032",
-                                            "time_utc":  "2026-03-30T12:25:10Z",
-                                            "time_et":  "2026-03-30T08:25:10-04:00",
-                                            "updated_utc":  "2026-03-30T18:20:44Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.15,
-                                            "place":  "0 km N of Placentia, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.1",
-                                            "depth_km_raw":  10.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  20,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 0 km N of Placentia, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428032",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428032\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ggmmdw",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.845,
-                                                              31.754,
-                                                              7.702
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ggmmdw",
-                                            "time_utc":  "2026-03-30T12:21:09Z",
-                                            "time_et":  "2026-03-30T08:21:09-04:00",
-                                            "updated_utc":  "2026-03-31T15:20:21Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.3,
-                                            "place":  "23 km WNW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.7",
-                                            "depth_km_raw":  7.702,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 23 km WNW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ggmmdw",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ggmmdw\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ggmdoo",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.946,
-                                                              32.244,
-                                                              8.3252
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ggmdoo",
-                                            "time_utc":  "2026-03-30T12:14:09Z",
-                                            "time_et":  "2026-03-30T08:14:09-04:00",
-                                            "updated_utc":  "2026-03-30T16:58:48Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "19 km NW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.3252,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 19 km NW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ggmdoo",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ggmdoo\u0026format=geojson"
                                         }
                      }
                  ]
