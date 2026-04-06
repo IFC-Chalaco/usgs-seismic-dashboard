@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-06T17:07:10Z",
+    "generated_at_utc":  "2026-04-06T17:08:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1090,6 +1090,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026gtkkjp",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.134,
+                                                              31.71,
+                                                              5.3317
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026gtkkjp",
+                                            "time_utc":  "2026-04-06T13:16:57Z",
+                                            "time_et":  "2026-04-06T09:16:57-04:00",
+                                            "updated_utc":  "2026-04-06T17:07:31Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "50 km W of Mentone, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.3317,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 50 km W of Mentone, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gtkkjp",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gtkkjp\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nn00913803",
                          "geometry":  {
                                           "type":  "Point",
@@ -2175,41 +2210,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "pr71513028",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8416666666667,
-                                                              17.9541666666667,
-                                                              11.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71513028",
-                                            "time_utc":  "2026-04-06T07:39:53Z",
-                                            "time_et":  "2026-04-06T03:39:53-04:00",
-                                            "updated_utc":  "2026-04-06T07:51:29Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.01,
-                                            "place":  "5 km SSW of Indios, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "12.0",
-                                            "depth_km_raw":  11.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513028\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "pr71513023",
                          "geometry":  {
                                           "type":  "Point",
@@ -2241,6 +2241,41 @@
                                             "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513023",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513023\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71513028",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8416666666667,
+                                                              17.9541666666667,
+                                                              11.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71513028",
+                                            "time_utc":  "2026-04-06T07:39:53Z",
+                                            "time_et":  "2026-04-06T03:39:53-04:00",
+                                            "updated_utc":  "2026-04-06T07:51:29Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.01,
+                                            "place":  "5 km SSW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  11.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 5 km SSW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513028",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513028\u0026format=geojson"
                                         }
                      },
                      {
