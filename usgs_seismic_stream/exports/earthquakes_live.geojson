@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-07T11:22:12Z",
+    "generated_at_utc":  "2026-04-07T11:40:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41434224",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.8193359375,
+                                                              36.0289993286133,
+                                                              0.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41434224",
+                                            "time_utc":  "2026-04-07T11:27:55Z",
+                                            "time_et":  "2026-04-07T07:27:55-04:00",
+                                            "updated_utc":  "2026-04-07T11:31:19Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "12 km E of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.5",
+                                            "depth_km_raw":  0.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 12 km E of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41434224",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41434224\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41434208",
@@ -88,15 +123,15 @@
                                             "id":  "ok2026gugk",
                                             "time_utc":  "2026-04-07T11:09:50Z",
                                             "time_et":  "2026-04-07T07:09:50-04:00",
-                                            "updated_utc":  "2026-04-07T11:12:22Z",
+                                            "updated_utc":  "2026-04-07T11:22:14Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.06,
                                             "place":  "6 km NNW of Verden, Oklahoma",
                                             "country":  "United States of America",
                                             "depth_km":  "1.1",
                                             "depth_km_raw":  1.091,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  0,
+                                            "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
@@ -30748,14 +30783,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-07T08:51:38Z",
+                                            "updated_utc":  "2026-04-07T11:21:48Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  32998,
+                                            "felt_reports":  32999,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -46866,181 +46901,6 @@
                                             "title":  "M 1.3 - 5 km NNW of Helper, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80133981",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80133981\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41429032",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.4215,
-                                                              34.2653333333333,
-                                                              10.61
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41429032",
-                                            "time_utc":  "2026-03-31T11:33:48Z",
-                                            "time_et":  "2026-03-31T07:33:48-04:00",
-                                            "updated_utc":  "2026-03-31T15:48:27Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.54,
-                                            "place":  "0 km W of Pacoima, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.6",
-                                            "depth_km_raw":  10.61,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 0 km W of Pacoima, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429032",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429032\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71511608",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -64.0373333333333,
-                                                              19.4788333333333,
-                                                              14.98
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71511608",
-                                            "time_utc":  "2026-03-31T11:32:04Z",
-                                            "time_et":  "2026-03-31T07:32:04-04:00",
-                                            "updated_utc":  "2026-04-01T11:28:29Z",
-                                            "magnitude":  "3.4",
-                                            "magnitude_raw":  3.4,
-                                            "place":  "149 km NNE of Cruz Bay, U.S. Virgin Islands",
-                                            "country":  "U.S. Virgin Islands",
-                                            "depth_km":  "15.0",
-                                            "depth_km_raw":  14.98,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  178,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.4 - 149 km NNE of Cruz Bay, U.S. Virgin Islands",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71511608",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71511608\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75336177",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.842834472656,
-                                                              38.8196678161621,
-                                                              2.4
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75336177",
-                                            "time_utc":  "2026-03-31T11:25:17Z",
-                                            "time_et":  "2026-03-31T07:25:17-04:00",
-                                            "updated_utc":  "2026-03-31T11:26:52Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.99,
-                                            "place":  "9 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.4",
-                                            "depth_km_raw":  2.4,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 9 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336177",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75336177\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41429024",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.585833333333,
-                                                              34.1268333333333,
-                                                              12.13
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41429024",
-                                            "time_utc":  "2026-03-31T11:24:27Z",
-                                            "time_et":  "2026-03-31T07:24:27-04:00",
-                                            "updated_utc":  "2026-03-31T13:55:46Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.31,
-                                            "place":  "1 km WNW of Rancho Cucamonga, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.1",
-                                            "depth_km_raw":  12.13,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 1 km WNW of Rancho Cucamonga, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429024",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429024\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gighly",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.732,
-                                                              31.69,
-                                                              8.5449
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gighly",
-                                            "time_utc":  "2026-03-31T11:23:39Z",
-                                            "time_et":  "2026-03-31T07:23:39-04:00",
-                                            "updated_utc":  "2026-03-31T12:44:01Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.2,
-                                            "place":  "30 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.5",
-                                            "depth_km_raw":  8.5449,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  22,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 30 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gighly",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gighly\u0026format=geojson"
                                         }
                      }
                  ]
