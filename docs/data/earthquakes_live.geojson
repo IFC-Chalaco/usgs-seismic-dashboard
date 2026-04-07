@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-07T18:14:17Z",
+    "generated_at_utc":  "2026-04-07T18:15:16Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -386,6 +386,41 @@
                                             "title":  "M 0.6 - 6 km SSW of Mammoth Lakes, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340487",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340487\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci10234854",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.0355,
+                                                              34.46,
+                                                              0.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10234854",
+                                            "time_utc":  "2026-04-07T15:57:54Z",
+                                            "time_et":  "2026-04-07T11:57:54-04:00",
+                                            "updated_utc":  "2026-04-07T18:14:12Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.38,
+                                            "place":  "17 km WNW of Isla Vista, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.9",
+                                            "depth_km_raw":  0.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  29,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 17 km WNW of Isla Vista, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10234854",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10234854\u0026format=geojson"
                                         }
                      },
                      {
