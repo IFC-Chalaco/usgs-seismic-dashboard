@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-07T09:21:24Z",
+    "generated_at_utc":  "2026-04-07T09:40:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41434176",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.706001281738,
+                                                              33.688835144043,
+                                                              16.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41434176",
+                                            "time_utc":  "2026-04-07T09:32:47Z",
+                                            "time_et":  "2026-04-07T05:32:47-04:00",
+                                            "updated_utc":  "2026-04-07T09:36:13Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.68,
+                                            "place":  "6 km SSE of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.9",
+                                            "depth_km_raw":  16.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  43,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 6 km SSE of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41434176",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41434176\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41434160",
@@ -47216,111 +47251,6 @@
                                             "title":  "M -0.1 - 13 km ESE of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428968",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41428968\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75336147",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.817169189453,
-                                                              38.8333320617676,
-                                                              1.89
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75336147",
-                                            "time_utc":  "2026-03-31T09:32:29Z",
-                                            "time_et":  "2026-03-31T05:32:29-04:00",
-                                            "updated_utc":  "2026-03-31T11:17:21Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.49,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.89,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  34,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336147",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75336147\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr2026090002",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -63.7398,
-                                                              19.543,
-                                                              31
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr2026090002",
-                                            "time_utc":  "2026-03-31T09:28:34Z",
-                                            "time_et":  "2026-03-31T05:28:34-04:00",
-                                            "updated_utc":  "2026-04-01T09:27:44Z",
-                                            "magnitude":  "4.0",
-                                            "magnitude_raw":  3.97,
-                                            "place":  "163 km NNW of The Valley, Anguilla",
-                                            "country":  "Anguilla",
-                                            "depth_km":  "31.0",
-                                            "depth_km_raw":  31,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  242,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 4.0 - 163 km NNW of The Valley, Anguilla",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090002",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026090002\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr2026090003",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -63.5653,
-                                                              19.5763,
-                                                              15
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr2026090003",
-                                            "time_utc":  "2026-03-31T09:22:37Z",
-                                            "time_et":  "2026-03-31T05:22:37-04:00",
-                                            "updated_utc":  "2026-03-31T17:25:59Z",
-                                            "magnitude":  "5.0",
-                                            "magnitude_raw":  5,
-                                            "place":  "159 km NNW of The Valley, Anguilla",
-                                            "country":  "Anguilla",
-                                            "depth_km":  "15.0",
-                                            "depth_km_raw":  15,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  385,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 5.0 - 159 km NNW of The Valley, Anguilla",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026090003",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026090003\u0026format=geojson"
                                         }
                      }
                  ]
