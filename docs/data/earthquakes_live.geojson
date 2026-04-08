@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-08T19:56:21Z",
+    "generated_at_utc":  "2026-04-08T19:57:19Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9941,6 +9941,41 @@
                                             "title":  "M 0.6 - 7 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340257",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340257\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75340252",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.000166666667,
+                                                              38.9173333333333,
+                                                              7.19
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75340252",
+                                            "time_utc":  "2026-04-07T03:01:39Z",
+                                            "time_et":  "2026-04-06T23:01:39-04:00",
+                                            "updated_utc":  "2026-04-08T19:56:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.95,
+                                            "place":  "13 km N of Cloverdale, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.19,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 13 km N of Cloverdale, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340252",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340252\u0026format=geojson"
                                         }
                      },
                      {
