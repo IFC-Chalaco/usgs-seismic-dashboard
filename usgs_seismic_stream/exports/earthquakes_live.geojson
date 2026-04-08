@@ -1,39 +1,179 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-08T07:50:13Z",
+    "generated_at_utc":  "2026-04-08T08:19:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41435288",
+                         "id":  "nc75340937",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.612503051758,
-                                                              34.5196647644043,
-                                                              11.6
+                                                              -122.807662963867,
+                                                              38.8250007629395,
+                                                              2.72
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41435288",
-                                            "time_utc":  "2026-04-08T07:47:35Z",
-                                            "time_et":  "2026-04-08T03:47:35-04:00",
-                                            "updated_utc":  "2026-04-08T07:49:41Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.56,
-                                            "place":  "4 km NNE of Castaic, CA",
+                                            "id":  "nc75340937",
+                                            "time_utc":  "2026-04-08T08:10:28Z",
+                                            "time_et":  "2026-04-08T04:10:28-04:00",
+                                            "updated_utc":  "2026-04-08T08:12:04Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "7 km NW of The Geysers, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "11.6",
-                                            "depth_km_raw":  11.6,
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.72,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  37,
+                                            "significance":  18,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 4 km NNE of Castaic, CA",
+                                            "title":  "M 1.1 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340937",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340937\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41435304",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.740166666667,
+                                                              33.195,
+                                                              9.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41435304",
+                                            "time_utc":  "2026-04-08T07:53:55Z",
+                                            "time_et":  "2026-04-08T03:53:55-04:00",
+                                            "updated_utc":  "2026-04-08T07:57:25Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.67,
+                                            "place":  "6 km SSE of Lake Henshaw, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km SSE of Lake Henshaw, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435304",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41435304\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75340932",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.816665649414,
+                                                              38.7983322143555,
+                                                              3.91
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75340932",
+                                            "time_utc":  "2026-04-08T07:49:19Z",
+                                            "time_et":  "2026-04-08T03:49:19-04:00",
+                                            "updated_utc":  "2026-04-08T07:50:53Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "6 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.9",
+                                            "depth_km_raw":  3.91,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 6 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340932",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340932\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41435296",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.743833333333,
+                                                              33.2953333333333,
+                                                              10.8
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41435296",
+                                            "time_utc":  "2026-04-08T07:47:53Z",
+                                            "time_et":  "2026-04-08T03:47:53-04:00",
+                                            "updated_utc":  "2026-04-08T07:51:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.34,
+                                            "place":  "6 km NNE of Lake Henshaw, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.8",
+                                            "depth_km_raw":  10.8,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 6 km NNE of Lake Henshaw, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435296",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41435296\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41435288",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.599333333333,
+                                                              34.528,
+                                                              11.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41435288",
+                                            "time_utc":  "2026-04-08T07:47:35Z",
+                                            "time_et":  "2026-04-08T03:47:35-04:00",
+                                            "updated_utc":  "2026-04-08T08:06:23Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "5 km NNE of Castaic, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.8",
+                                            "depth_km_raw":  11.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 5 km NNE of Castaic, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435288",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41435288\u0026format=geojson"
                                         }
@@ -499,27 +639,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.27,
-                                                              31.603,
-                                                              4.1888
+                                                              -104.253,
+                                                              31.619,
+                                                              7.4329
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026gwmoig",
                                             "time_utc":  "2026-04-08T05:35:19Z",
                                             "time_et":  "2026-04-08T01:35:19-04:00",
-                                            "updated_utc":  "2026-04-08T05:39:28Z",
+                                            "updated_utc":  "2026-04-08T07:55:56Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.7,
                                             "place":  "55 km NW of Toyah, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.2",
-                                            "depth_km_raw":  4.1888,
+                                            "depth_km":  "7.4",
+                                            "depth_km_raw":  7.4329,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  44,
                                             "event_type":  "earthquake",
@@ -37783,14 +37923,14 @@
                                             "id":  "nc75337442",
                                             "time_utc":  "2026-04-02T08:41:25Z",
                                             "time_et":  "2026-04-02T04:41:25-04:00",
-                                            "updated_utc":  "2026-04-08T07:12:05Z",
+                                            "updated_utc":  "2026-04-08T08:16:33Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.59,
                                             "place":  "1 km SE of Boulder Creek, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.4",
                                             "depth_km_raw":  10.43,
-                                            "felt_reports":  33008,
+                                            "felt_reports":  33009,
                                             "cdi":  5.8,
                                             "mmi":  5.674,
                                             "alert":  "green",
@@ -45781,181 +45921,6 @@
                                             "title":  "M 3.2 - 97 km N of Charlotte Amalie, U.S. Virgin Islands",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71512128",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71512128\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80134106",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.901166666667,
-                                                              38.4905,
-                                                              3.39
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80134106",
-                                            "time_utc":  "2026-04-01T08:16:05Z",
-                                            "time_et":  "2026-04-01T04:16:05-04:00",
-                                            "updated_utc":  "2026-04-01T15:18:22Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.67,
-                                            "place":  "14 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.39,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  7,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 14 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134106",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134106\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62230202",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.815,
-                                                              47.544166666666669,
-                                                              14.93
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62230202",
-                                            "time_utc":  "2026-04-01T08:12:59Z",
-                                            "time_et":  "2026-04-01T04:12:59-04:00",
-                                            "updated_utc":  "2026-04-02T22:55:52Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.23,
-                                            "place":  "1 km NNE of Snoqualmie, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.9",
-                                            "depth_km_raw":  14.93,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  23,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 1 km NNE of Snoqualmie, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62230202",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62230202\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41429968",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.6425,
-                                                              33.1645,
-                                                              3.31
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41429968",
-                                            "time_utc":  "2026-04-01T08:04:41Z",
-                                            "time_et":  "2026-04-01T04:04:41-04:00",
-                                            "updated_utc":  "2026-04-02T10:14:22Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.68,
-                                            "place":  "13 km WNW of Calipatria, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.31,
-                                            "felt_reports":  0,
-                                            "cdi":  1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  43,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 13 km WNW of Calipatria, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429968",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429968\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41429960",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.644333333333,
-                                                              33.1636666666667,
-                                                              3.54
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41429960",
-                                            "time_utc":  "2026-04-01T08:04:08Z",
-                                            "time_et":  "2026-04-01T04:04:08-04:00",
-                                            "updated_utc":  "2026-04-01T14:55:18Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.15,
-                                            "place":  "13 km WNW of Calipatria, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.5",
-                                            "depth_km_raw":  3.54,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  71,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 13 km WNW of Calipatria, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41429960",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41429960\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gjvefi",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.376,
-                                                              31.307,
-                                                              1.7419
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gjvefi",
-                                            "time_utc":  "2026-04-01T07:56:56Z",
-                                            "time_et":  "2026-04-01T03:56:56-04:00",
-                                            "updated_utc":  "2026-04-01T10:59:34Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.2,
-                                            "place":  "16 km ESE of Lindsay, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.7",
-                                            "depth_km_raw":  1.7419,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  22,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 16 km ESE of Lindsay, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gjvefi",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gjvefi\u0026format=geojson"
                                         }
                      }
                  ]
