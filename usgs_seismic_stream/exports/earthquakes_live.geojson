@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-08T09:43:05Z",
+    "generated_at_utc":  "2026-04-08T09:55:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41435312",
+                         "id":  "ci41435320",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.019332885742,
-                                                              33.6660003662109,
-                                                              10.98
+                                                              -117.680666666667,
+                                                              35.8465,
+                                                              7.71
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41435312",
-                                            "time_utc":  "2026-04-08T09:39:49Z",
-                                            "time_et":  "2026-04-08T05:39:49-04:00",
-                                            "updated_utc":  "2026-04-08T09:41:52Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "8 km SE of Winchester, CA",
+                                            "id":  "ci41435320",
+                                            "time_utc":  "2026-04-08T09:44:00Z",
+                                            "time_et":  "2026-04-08T05:44:00-04:00",
+                                            "updated_utc":  "2026-04-08T09:47:24Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.45,
+                                            "place":  "23 km ESE of Little Lake, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "11.0",
-                                            "depth_km_raw":  10.98,
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.71,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  3,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 8 km SE of Winchester, CA",
+                                            "title":  "M 0.5 - 23 km ESE of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435320",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41435320\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41435312",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.0225,
+                                                              33.6583333333333,
+                                                              10.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41435312",
+                                            "time_utc":  "2026-04-08T09:39:50Z",
+                                            "time_et":  "2026-04-08T05:39:50-04:00",
+                                            "updated_utc":  "2026-04-08T09:43:22Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.88,
+                                            "place":  "8 km SE of Winchester, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.7",
+                                            "depth_km_raw":  10.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 8 km SE of Winchester, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435312",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41435312\u0026format=geojson"
                                         }
@@ -45326,41 +45361,6 @@
                                             "title":  "M 2.2 - 13 km SSE of Gonzales, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gjzeyk",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gjzeyk\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41430000",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.635,
-                                                              32.8043333333333,
-                                                              17.75
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41430000",
-                                            "time_utc":  "2026-04-01T09:45:06Z",
-                                            "time_et":  "2026-04-01T05:45:06-04:00",
-                                            "updated_utc":  "2026-04-01T13:33:49Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.87,
-                                            "place":  "10 km W of Pine Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "17.8",
-                                            "depth_km_raw":  17.75,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 10 km W of Pine Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41430000",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41430000\u0026format=geojson"
                                         }
                      }
                  ]
