@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-09T15:59:57Z",
+    "generated_at_utc":  "2026-04-09T16:01:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41436520",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.417333333333,
+                                                              33.4648333333333,
+                                                              4.76
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41436520",
+                                            "time_utc":  "2026-04-09T15:56:44Z",
+                                            "time_et":  "2026-04-09T11:56:44-04:00",
+                                            "updated_utc":  "2026-04-09T16:00:10Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.57,
+                                            "place":  "24 km N of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.76,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 24 km N of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436520",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41436520\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75341652",
@@ -18481,41 +18516,6 @@
                                             "title":  "M 1.6 - 51 km W of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gtkijy",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gtkijy\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gtkkjp",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.134,
-                                                              31.71,
-                                                              5.3317
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gtkkjp",
-                                            "time_utc":  "2026-04-06T13:16:57Z",
-                                            "time_et":  "2026-04-06T09:16:57-04:00",
-                                            "updated_utc":  "2026-04-06T17:07:42Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "50 km W of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.3",
-                                            "depth_km_raw":  5.3317,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 50 km W of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gtkkjp",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gtkkjp\u0026format=geojson"
                                         }
                      },
                      {
