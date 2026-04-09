@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-09T05:25:36Z",
+    "generated_at_utc":  "2026-04-09T05:26:36Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41436232",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.967,
+                                                              33.456,
+                                                              5.83
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41436232",
+                                            "time_utc":  "2026-04-09T05:22:31Z",
+                                            "time_et":  "2026-04-09T01:22:31-04:00",
+                                            "updated_utc":  "2026-04-09T05:25:59Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.44,
+                                            "place":  "10 km W of Aguanga, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.8",
+                                            "depth_km_raw":  5.83,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 10 km W of Aguanga, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436232",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41436232\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75341442",
