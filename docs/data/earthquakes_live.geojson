@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-09T17:17:49Z",
+    "generated_at_utc":  "2026-04-09T17:18:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -4201,6 +4201,41 @@
                                             "title":  "M 0.8 - 16 km SSW of Searles Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436016",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41436016\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62232422",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.39733333333334,
+                                                              46.418166666666664,
+                                                              -0.81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62232422",
+                                            "time_utc":  "2026-04-08T20:24:31Z",
+                                            "time_et":  "2026-04-08T16:24:31-04:00",
+                                            "updated_utc":  "2026-04-09T17:18:10Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "14 km SSE of Mossyrock, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 14 km SSE of Mossyrock, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62232422",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62232422\u0026format=geojson"
                                         }
                      },
                      {
