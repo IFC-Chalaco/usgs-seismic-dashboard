@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-10T22:26:34Z",
+    "generated_at_utc":  "2026-04-10T22:57:41Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41437960",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.174833333333,
+                                                              33.8793333333333,
+                                                              4.37
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41437960",
+                                            "time_utc":  "2026-04-10T22:53:09Z",
+                                            "time_et":  "2026-04-10T18:53:09-04:00",
+                                            "updated_utc":  "2026-04-10T22:56:39Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.88,
+                                            "place":  "18 km NNE of Indio, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.4",
+                                            "depth_km_raw":  4.37,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 18 km NNE of Indio, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41437960",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41437960\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75342387",
@@ -429,31 +464,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -119.068166666667,
-                                                              35.0168333333333,
-                                                              15.42
+                                                              -119.075333333333,
+                                                              35.0196666666667,
+                                                              15.76
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41437808",
                                             "time_utc":  "2026-04-10T20:15:03Z",
                                             "time_et":  "2026-04-10T16:15:03-04:00",
-                                            "updated_utc":  "2026-04-10T20:25:39Z",
+                                            "updated_utc":  "2026-04-10T22:51:38Z",
                                             "magnitude":  "2.2",
-                                            "magnitude_raw":  2.18,
-                                            "place":  "15 km WNW of Grapevine, CA",
+                                            "magnitude_raw":  2.15,
+                                            "place":  "16 km WNW of Grapevine, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "15.4",
-                                            "depth_km_raw":  15.42,
+                                            "depth_km":  "15.8",
+                                            "depth_km_raw":  15.76,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  73,
+                                            "significance":  71,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 15 km WNW of Grapevine, CA",
+                                            "title":  "M 2.2 - 16 km WNW of Grapevine, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41437808",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41437808\u0026format=geojson"
                                         }
@@ -46236,216 +46271,6 @@
                                             "title":  "M 1.6 - 2 km SE of Pacifica, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338522",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338522\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913724",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.6866,
-                                                              41.1542,
-                                                              10.7826
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913724",
-                                            "time_utc":  "2026-04-03T22:57:05Z",
-                                            "time_et":  "2026-04-03T18:57:05-04:00",
-                                            "updated_utc":  "2026-04-04T00:54:50Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.54,
-                                            "place":  "54 km NE of Valmy, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.8",
-                                            "depth_km_raw":  10.7826,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 54 km NE of Valmy, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913724",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913724\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62231087",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.204,
-                                                              46.271,
-                                                              4.27
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62231087",
-                                            "time_utc":  "2026-04-03T22:54:02Z",
-                                            "time_et":  "2026-04-03T18:54:02-04:00",
-                                            "updated_utc":  "2026-04-06T18:50:31Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.6,
-                                            "place":  "32 km S of Morton, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.3",
-                                            "depth_km_raw":  4.27,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 32 km S of Morton, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62231087",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62231087\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913720",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.6917,
-                                                              41.159,
-                                                              10.9251
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913720",
-                                            "time_utc":  "2026-04-03T22:52:15Z",
-                                            "time_et":  "2026-04-03T18:52:15-04:00",
-                                            "updated_utc":  "2026-04-04T00:34:46Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.49,
-                                            "place":  "54 km NE of Valmy, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.9",
-                                            "depth_km_raw":  10.9251,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  95,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 54 km NE of Valmy, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913720",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913720\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026goqgxu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.843,
-                                                              31.756,
-                                                              6.9714
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026goqgxu",
-                                            "time_utc":  "2026-04-03T22:51:36Z",
-                                            "time_et":  "2026-04-03T18:51:36-04:00",
-                                            "updated_utc":  "2026-04-10T16:03:09Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "23 km WNW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.0",
-                                            "depth_km_raw":  6.9714,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 23 km WNW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026goqgxu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026goqgxu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026gopyey",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.837,
-                                                              31.754,
-                                                              7.6764
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026gopyey",
-                                            "time_utc":  "2026-04-03T22:41:29Z",
-                                            "time_et":  "2026-04-03T18:41:29-04:00",
-                                            "updated_utc":  "2026-04-05T00:01:23Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "23 km WNW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.7",
-                                            "depth_km_raw":  7.6764,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 23 km WNW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gopyey",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gopyey\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00913719",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -114.6202,
-                                                              37.1292,
-                                                              16
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00913719",
-                                            "time_utc":  "2026-04-03T22:26:20Z",
-                                            "time_et":  "2026-04-03T18:26:20-04:00",
-                                            "updated_utc":  "2026-04-03T22:28:54Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.64,
-                                            "place":  "49 km N of Moapa Town, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "16.0",
-                                            "depth_km_raw":  16,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  41,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 49 km N of Moapa Town, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913719",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913719\u0026format=geojson"
                                         }
                      }
                  ]
