@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-10T21:34:10Z",
+    "generated_at_utc":  "2026-04-10T21:47:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41437888",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.915168762207,
+                                                              33.9463348388672,
+                                                              22.83
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41437888",
+                                            "time_utc":  "2026-04-10T21:32:11Z",
+                                            "time_et":  "2026-04-10T17:32:11-04:00",
+                                            "updated_utc":  "2026-04-10T21:35:45Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.59,
+                                            "place":  "3 km ENE of La Habra, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "22.8",
+                                            "depth_km_raw":  22.83,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 3 km ENE of La Habra, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41437888",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41437888\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00913953",
@@ -403,20 +438,20 @@
                                             "id":  "nc75342297",
                                             "time_utc":  "2026-04-10T19:16:01Z",
                                             "time_et":  "2026-04-10T15:16:01-04:00",
-                                            "updated_utc":  "2026-04-10T21:17:24Z",
+                                            "updated_utc":  "2026-04-10T21:41:19Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.19,
                                             "place":  "9 km ENE of Vallejo, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "4.5",
                                             "depth_km_raw":  4.48,
-                                            "felt_reports":  2,
+                                            "felt_reports":  3,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  74,
+                                            "significance":  75,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.2 - 9 km ENE of Vallejo, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342297",
