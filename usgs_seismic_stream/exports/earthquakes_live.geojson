@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-10T18:08:53Z",
+    "generated_at_utc":  "2026-04-10T18:09:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41437664",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.709503173828,
+                                                              35.8733329772949,
+                                                              7.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41437664",
+                                            "time_utc":  "2026-04-10T18:06:42Z",
+                                            "time_et":  "2026-04-10T14:06:42-04:00",
+                                            "updated_utc":  "2026-04-10T18:08:46Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.05,
+                                            "place":  "19 km ESE of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 19 km ESE of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41437664",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41437664\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41437656",
@@ -2564,27 +2599,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.194666666667,
-                                                              33.9296666666667,
-                                                              13.41
+                                                              -117.193,
+                                                              33.9281666666667,
+                                                              13.19
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41437232",
                                             "time_utc":  "2026-04-10T08:14:29Z",
                                             "time_et":  "2026-04-10T04:14:29-04:00",
-                                            "updated_utc":  "2026-04-10T08:18:00Z",
+                                            "updated_utc":  "2026-04-10T18:09:04Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
+                                            "magnitude_raw":  0.75,
                                             "place":  "3 km E of Moreno Valley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "13.4",
-                                            "depth_km_raw":  13.41,
+                                            "depth_km":  "13.2",
+                                            "depth_km_raw":  13.19,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  9,
                                             "event_type":  "earthquake",
