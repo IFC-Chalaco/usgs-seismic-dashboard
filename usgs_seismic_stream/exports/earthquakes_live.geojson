@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-10T23:44:08Z",
+    "generated_at_utc":  "2026-04-10T23:45:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -7316,6 +7316,41 @@
                                             "title":  "M 0.8 - 5 km W of Entiat, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62232582",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62232582\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62232577",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.13583333333334,
+                                                              49.120333333333335,
+                                                              3.33
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62232577",
+                                            "time_utc":  "2026-04-09T16:16:08Z",
+                                            "time_et":  "2026-04-09T12:16:08-04:00",
+                                            "updated_utc":  "2026-04-10T23:43:35Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.66,
+                                            "place":  "10 km NE of Abbotsford, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "3.3",
+                                            "depth_km_raw":  3.33,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 10 km NE of Abbotsford, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62232577",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62232577\u0026format=geojson"
                                         }
                      },
                      {
