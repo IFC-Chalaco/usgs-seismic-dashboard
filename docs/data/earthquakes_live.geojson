@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-11T17:38:53Z",
+    "generated_at_utc":  "2026-04-11T18:01:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00913989",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.4847,
+                                                              38.2498,
+                                                              4.8216
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00913989",
+                                            "time_utc":  "2026-04-11T17:46:34Z",
+                                            "time_et":  "2026-04-11T13:46:34-04:00",
+                                            "updated_utc":  "2026-04-11T17:49:14Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.59,
+                                            "place":  "68 km ENE of Tonopah, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.8216,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 68 km ENE of Tonopah, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913989",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00913989\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41438464",
@@ -43296,41 +43331,6 @@
                                             "title":  "M 1.3 - 13 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134696",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134696\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80134691",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.905,
-                                                              38.4915,
-                                                              2.45
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80134691",
-                                            "time_utc":  "2026-04-04T17:50:05Z",
-                                            "time_et":  "2026-04-04T13:50:05-04:00",
-                                            "updated_utc":  "2026-04-06T04:07:56Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.28,
-                                            "place":  "13 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.45,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  25,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 13 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80134691",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80134691\u0026format=geojson"
                                         }
                      }
                  ]
