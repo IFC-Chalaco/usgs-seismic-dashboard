@@ -1,26 +1,26 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-11T09:33:37Z",
+    "generated_at_utc":  "2026-04-11T09:59:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41438200",
+                         "id":  "ci41438224",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.973663330078,
-                                                              36.2163314819336,
+                                                              -117.9755,
+                                                              36.2158333333333,
                                                               2.39
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41438200",
-                                            "time_utc":  "2026-04-11T09:30:27Z",
-                                            "time_et":  "2026-04-11T05:30:27-04:00",
-                                            "updated_utc":  "2026-04-11T09:32:32Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.59,
+                                            "id":  "ci41438224",
+                                            "time_utc":  "2026-04-11T09:41:32Z",
+                                            "time_et":  "2026-04-11T05:41:32-04:00",
+                                            "updated_utc":  "2026-04-11T09:44:52Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.25,
                                             "place":  "8 km SSE of Olancha, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "2.4",
@@ -31,9 +31,114 @@
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  39,
+                                            "significance":  24,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 8 km SSE of Olancha, CA",
+                                            "title":  "M 1.3 - 8 km SSE of Olancha, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438224",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438224\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438216",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.202,
+                                                              33.2965,
+                                                              1.48
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438216",
+                                            "time_utc":  "2026-04-11T09:35:57Z",
+                                            "time_et":  "2026-04-11T05:35:57-04:00",
+                                            "updated_utc":  "2026-04-11T09:47:04Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.86,
+                                            "place":  "17 km ENE of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.5",
+                                            "depth_km_raw":  1.48,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  53,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 17 km ENE of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438216",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438216\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438208",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.918666666667,
+                                                              34.4483333333333,
+                                                              8.81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438208",
+                                            "time_utc":  "2026-04-11T09:31:41Z",
+                                            "time_et":  "2026-04-11T05:31:41-04:00",
+                                            "updated_utc":  "2026-04-11T09:35:08Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.09,
+                                            "place":  "7 km S of Pearblossom, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.8",
+                                            "depth_km_raw":  8.81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 7 km S of Pearblossom, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438208",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438208\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438200",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.9705,
+                                                              36.22,
+                                                              2.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438200",
+                                            "time_utc":  "2026-04-11T09:30:27Z",
+                                            "time_et":  "2026-04-11T05:30:27-04:00",
+                                            "updated_utc":  "2026-04-11T09:34:00Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "8 km SSE of Olancha, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  2.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 8 km SSE of Olancha, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438200",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438200\u0026format=geojson"
                                         }
@@ -71,6 +176,76 @@
                                             "title":  "M 2.0 - 10 km SSW of Hunnewell, Kansas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026hbkx",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026hbkx\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80135706",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.915166666667,
+                                                              38.5015,
+                                                              -2.28
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80135706",
+                                            "time_utc":  "2026-04-11T09:19:19Z",
+                                            "time_et":  "2026-04-11T05:19:19-04:00",
+                                            "updated_utc":  "2026-04-11T09:47:07Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.27,
+                                            "place":  "14 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-2.3",
+                                            "depth_km_raw":  -2.28,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  79,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 14 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80135706",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80135706\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000spa3",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -92.2546,
+                                                              15.9234,
+                                                              204.849
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000spa3",
+                                            "time_utc":  "2026-04-11T09:16:12Z",
+                                            "time_et":  "2026-04-11T05:16:12-04:00",
+                                            "updated_utc":  "2026-04-11T09:57:04Z",
+                                            "magnitude":  "4.3",
+                                            "magnitude_raw":  4.3,
+                                            "place":  "5 km E of Nueva América, Mexico",
+                                            "country":  "Mexico",
+                                            "depth_km":  "204.8",
+                                            "depth_km_raw":  204.849,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  284,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.3 - 5 km E of Nueva América, Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spa3",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000spa3\u0026format=geojson"
                                         }
                      },
                      {
@@ -45050,107 +45225,37 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "nc75338727",
+                         "id":  "nc75338732",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -120.3835,
-                                                              35.8296666666667,
-                                                              4.89
+                                                              -121.4195,
+                                                              36.7595,
+                                                              10.78
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "nc75338727",
-                                            "time_utc":  "2026-04-04T09:44:18Z",
-                                            "time_et":  "2026-04-04T05:44:18-04:00",
-                                            "updated_utc":  "2026-04-11T07:13:04Z",
+                                            "id":  "nc75338732",
+                                            "time_utc":  "2026-04-04T10:06:03Z",
+                                            "time_et":  "2026-04-04T06:06:03-04:00",
+                                            "updated_utc":  "2026-04-11T09:49:34Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.65,
-                                            "place":  "9 km SSE of Parkfield, CA",
+                                            "magnitude_raw":  0.76,
+                                            "place":  "8 km SW of Ridgemark, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.9",
-                                            "depth_km_raw":  4.89,
+                                            "depth_km":  "10.8",
+                                            "depth_km_raw":  10.78,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  6,
+                                            "significance":  9,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 9 km SSE of Parkfield, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338727",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41432392",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.790166666667,
-                                                              33.33,
-                                                              16.96
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41432392",
-                                            "time_utc":  "2026-04-04T09:43:46Z",
-                                            "time_et":  "2026-04-04T05:43:46-04:00",
-                                            "updated_utc":  "2026-04-04T14:07:45Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.65,
-                                            "place":  "7 km ESE of Palomar Observatory, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "17.0",
-                                            "depth_km_raw":  16.96,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 7 km ESE of Palomar Observatory, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432392",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41432392\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41432384",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.795166666667,
-                                                              33.8781666666667,
-                                                              15.27
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41432384",
-                                            "time_utc":  "2026-04-04T09:34:31Z",
-                                            "time_et":  "2026-04-04T05:34:31-04:00",
-                                            "updated_utc":  "2026-04-04T14:08:00Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "4 km S of Cabazon, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "15.3",
-                                            "depth_km_raw":  15.27,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km S of Cabazon, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432384",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41432384\u0026format=geojson"
+                                            "title":  "M 0.8 - 8 km SW of Ridgemark, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75338732",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75338732\u0026format=geojson"
                                         }
                      }
                  ]
