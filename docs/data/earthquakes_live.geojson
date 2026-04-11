@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-11T23:21:11Z",
+    "generated_at_utc":  "2026-04-11T23:22:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438648",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.761665344238,
+                                                              34.2583351135254,
+                                                              3.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438648",
+                                            "time_utc":  "2026-04-11T23:18:52Z",
+                                            "time_et":  "2026-04-11T19:18:52-04:00",
+                                            "updated_utc":  "2026-04-11T23:20:58Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.25,
+                                            "place":  "8 km E of Big Bear City, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 8 km E of Big Bear City, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438648",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438648\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75342782",
@@ -42421,41 +42456,6 @@
                                             "title":  "M 1.7 - 51 km W of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gqnaqh",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026gqnaqh\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75339067",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.733166666667,
-                                                              38.7598333333333,
-                                                              2.18
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75339067",
-                                            "time_utc":  "2026-04-04T23:21:11Z",
-                                            "time_et":  "2026-04-04T19:21:11-04:00",
-                                            "updated_utc":  "2026-04-11T21:35:47Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.31,
-                                            "place":  "3 km SE of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.18,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 3 km SE of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339067",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75339067\u0026format=geojson"
                                         }
                      }
                  ]
