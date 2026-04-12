@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-12T07:46:23Z",
+    "generated_at_utc":  "2026-04-12T08:08:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438800",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.759166666667,
+                                                              33.2201666666667,
+                                                              9.94
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438800",
+                                            "time_utc":  "2026-04-12T07:50:51Z",
+                                            "time_et":  "2026-04-12T03:50:51-04:00",
+                                            "updated_utc":  "2026-04-12T07:54:20Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.65,
+                                            "place":  "2 km S of Lake Henshaw, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.9",
+                                            "depth_km_raw":  9.94,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 2 km S of Lake Henshaw, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438800",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438800\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00914004",
@@ -53,20 +88,20 @@
                                             "id":  "uu80135956",
                                             "time_utc":  "2026-04-12T07:40:45Z",
                                             "time_et":  "2026-04-12T03:40:45-04:00",
-                                            "updated_utc":  "2026-04-12T07:43:55Z",
+                                            "updated_utc":  "2026-04-12T08:05:56Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.63,
                                             "place":  "11 km ENE of Kanarraville, Utah",
                                             "country":  "United States of America",
                                             "depth_km":  "13.2",
                                             "depth_km_raw":  13.2,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  106,
+                                            "significance":  107,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.6 - 11 km ENE of Kanarraville, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80135956",
@@ -81,20 +116,20 @@
                                           "coordinates":  [
                                                               -103.367,
                                                               31.293,
-                                                              6.3093
+                                                              6.312
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hdzpad",
                                             "time_utc":  "2026-04-12T07:39:42Z",
                                             "time_et":  "2026-04-12T03:39:42-04:00",
-                                            "updated_utc":  "2026-04-12T07:44:45Z",
+                                            "updated_utc":  "2026-04-12T08:00:30Z",
                                             "magnitude":  "1.4",
                                             "magnitude_raw":  1.4,
                                             "place":  "18 km ESE of Lindsay, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "6.3",
-                                            "depth_km_raw":  6.3093,
+                                            "depth_km_raw":  6.312,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -106,6 +141,41 @@
                                             "title":  "M 1.4 - 18 km ESE of Lindsay, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hdzpad",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hdzpad\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000spfr",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -129.6019,
+                                                              46.804,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000spfr",
+                                            "time_utc":  "2026-04-12T07:30:40Z",
+                                            "time_et":  "2026-04-12T03:30:40-04:00",
+                                            "updated_utc":  "2026-04-12T07:53:27Z",
+                                            "magnitude":  "2.9",
+                                            "magnitude_raw":  2.9,
+                                            "place":  "off the coast of Washington",
+                                            "country":  "Unknown",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  129,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.9 - off the coast of Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spfr",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000spfr\u0026format=geojson"
                                         }
                      },
                      {
@@ -256,20 +326,20 @@
                                           "coordinates":  [
                                                               -104.144,
                                                               31.699,
-                                                              4.1768
+                                                              4.1871
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hdygst",
                                             "time_utc":  "2026-04-12T07:00:08Z",
                                             "time_et":  "2026-04-12T03:00:08-04:00",
-                                            "updated_utc":  "2026-04-12T07:05:04Z",
+                                            "updated_utc":  "2026-04-12T08:00:49Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.2,
                                             "place":  "51 km W of Mentone, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "4.2",
-                                            "depth_km_raw":  4.1768,
+                                            "depth_km_raw":  4.1871,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
