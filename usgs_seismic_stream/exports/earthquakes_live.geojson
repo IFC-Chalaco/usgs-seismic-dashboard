@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-12T09:26:04Z",
+    "generated_at_utc":  "2026-04-12T09:27:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41438840",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.293663024902,
+                                                              34.1033325195312,
+                                                              14.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41438840",
+                                            "time_utc":  "2026-04-12T09:24:20Z",
+                                            "time_et":  "2026-04-12T05:24:20-04:00",
+                                            "updated_utc":  "2026-04-12T09:26:23Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.22,
+                                            "place":  "3 km S of San Bernardino, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.8",
+                                            "depth_km_raw":  14.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 3 km S of San Bernardino, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438840",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41438840\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41438832",
