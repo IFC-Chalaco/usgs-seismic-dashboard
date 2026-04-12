@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-12T15:48:40Z",
+    "generated_at_utc":  "2026-04-12T15:58:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00914019",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.6833,
+                                                              37.5108,
+                                                              3.5943
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00914019",
+                                            "time_utc":  "2026-04-12T15:52:45Z",
+                                            "time_et":  "2026-04-12T11:52:45-04:00",
+                                            "updated_utc":  "2026-04-12T15:55:17Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.82,
+                                            "place":  "27 km S of Silver Peak, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.5943,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  51,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 27 km S of Silver Peak, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914019",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914019\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75343027",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.710998535156,
+                                                              38.7616653442383,
+                                                              1.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75343027",
+                                            "time_utc":  "2026-04-12T15:48:51Z",
+                                            "time_et":  "2026-04-12T11:48:51-04:00",
+                                            "updated_utc":  "2026-04-12T15:50:27Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "2 km SW of Anderson Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.1",
+                                            "depth_km_raw":  1.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 2 km SW of Anderson Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75343027",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75343027\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41438936",
@@ -88,7 +158,7 @@
                                             "id":  "nc75343012",
                                             "time_utc":  "2026-04-12T15:39:16Z",
                                             "time_et":  "2026-04-12T11:39:16-04:00",
-                                            "updated_utc":  "2026-04-12T15:40:52Z",
+                                            "updated_utc":  "2026-04-12T15:57:18Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.17,
                                             "place":  "2 km N of The Geysers, CA",
@@ -141,6 +211,41 @@
                                             "title":  "M 4.1 - off the coast of Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphz",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sphz\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000sphy",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.1533,
+                                                              42.6672,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000sphy",
+                                            "time_utc":  "2026-04-12T15:01:23Z",
+                                            "time_et":  "2026-04-12T11:01:23-04:00",
+                                            "updated_utc":  "2026-04-12T15:53:29Z",
+                                            "magnitude":  "3.4",
+                                            "magnitude_raw":  3.4,
+                                            "place":  "14 km W of Fairview, Wyoming",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  6,
+                                            "cdi":  3.6,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  180,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.4 - 14 km W of Fairview, Wyoming",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphy",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sphy\u0026format=geojson"
                                         }
                      },
                      {
@@ -41686,41 +41791,6 @@
                                             "title":  "M 0.0 - 27 km W of Hebgen Lake Estates, Montana",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90130163",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90130163\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41433176",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.311333333333,
-                                                              33.9626666666667,
-                                                              8.39
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41433176",
-                                            "time_utc":  "2026-04-05T15:57:24Z",
-                                            "time_et":  "2026-04-05T11:57:24-04:00",
-                                            "updated_utc":  "2026-04-06T15:39:37Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.68,
-                                            "place":  "3 km E of Inglewood, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.4",
-                                            "depth_km_raw":  8.39,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  43,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 3 km E of Inglewood, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41433176",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41433176\u0026format=geojson"
                                         }
                      }
                  ]
