@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-14T18:54:11Z",
+    "generated_at_utc":  "2026-04-14T18:55:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00914588",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.0441,
+                                                              39.321,
+                                                              9.3714
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00914588",
+                                            "time_utc":  "2026-04-14T18:51:51Z",
+                                            "time_et":  "2026-04-14T14:51:51-04:00",
+                                            "updated_utc":  "2026-04-14T18:53:47Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "18 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.4",
+                                            "depth_km_raw":  9.3714,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 18 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914588",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914588\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00914587",
@@ -613,20 +648,20 @@
                                             "id":  "us6000sq0v",
                                             "time_utc":  "2026-04-14T16:36:42Z",
                                             "time_et":  "2026-04-14T12:36:42-04:00",
-                                            "updated_utc":  "2026-04-14T18:47:24Z",
+                                            "updated_utc":  "2026-04-14T18:54:18Z",
                                             "magnitude":  "4.0",
                                             "magnitude_raw":  4,
                                             "place":  "19 km NNE of Shawville, Canada",
                                             "country":  "Canada",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  166,
+                                            "felt_reports":  168,
                                             "cdi":  4.8,
                                             "mmi":  4.753,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  326,
+                                            "significance":  327,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.0 - 19 km NNE of Shawville, Canada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sq0v",
@@ -50156,41 +50191,6 @@
                                             "title":  "M 1.3 - 14 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80135011",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80135011\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75340582",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.317169189453,
-                                                              37.228832244873,
-                                                              3.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75340582",
-                                            "time_utc":  "2026-04-07T18:53:39Z",
-                                            "time_et":  "2026-04-07T14:53:39-04:00",
-                                            "updated_utc":  "2026-04-07T19:47:25Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.15,
-                                            "place":  "8 km NNW of Big Pine, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  71,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 8 km NNW of Big Pine, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340582",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75340582\u0026format=geojson"
                                         }
                      }
                  ]
