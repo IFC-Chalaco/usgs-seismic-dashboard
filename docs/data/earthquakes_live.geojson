@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-15T16:16:08Z",
+    "generated_at_utc":  "2026-04-15T16:17:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00914852",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.0471,
+                                                              39.3253,
+                                                              0.0787
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00914852",
+                                            "time_utc":  "2026-04-15T16:13:48Z",
+                                            "time_et":  "2026-04-15T12:13:48-04:00",
+                                            "updated_utc":  "2026-04-15T16:15:56Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.86,
+                                            "place":  "18 km ESE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.1",
+                                            "depth_km_raw":  0.0787,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  53,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 18 km ESE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914852",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914852\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75345287",
@@ -15348,14 +15383,14 @@
                                             "id":  "nn00914068",
                                             "time_utc":  "2026-04-14T01:29:12Z",
                                             "time_et":  "2026-04-13T21:29:12-04:00",
-                                            "updated_utc":  "2026-04-15T15:45:59Z",
+                                            "updated_utc":  "2026-04-15T16:16:12Z",
                                             "magnitude":  "5.7",
                                             "magnitude_raw":  5.68,
                                             "place":  "20 km ESE of Silver Springs, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "5.0",
                                             "depth_km_raw":  5,
-                                            "felt_reports":  6455,
+                                            "felt_reports":  6456,
                                             "cdi":  6.8,
                                             "mmi":  6.981,
                                             "alert":  "green",
