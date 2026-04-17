@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-17T17:12:45Z",
+    "generated_at_utc":  "2026-04-17T17:28:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41443576",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.462333333333,
+                                                              32.8506666666667,
+                                                              17.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41443576",
+                                            "time_utc":  "2026-04-17T17:14:40Z",
+                                            "time_et":  "2026-04-17T13:14:40-04:00",
+                                            "updated_utc":  "2026-04-17T17:18:04Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.89,
+                                            "place":  "18 km W of La Jolla, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "17.2",
+                                            "depth_km_raw":  17.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  55,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 18 km W of La Jolla, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443576",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41443576\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75346427",
@@ -351,6 +386,41 @@
                                             "title":  "M 2.0 - 66 km NNE of Van Horn, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hntkny",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hntkny\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62244176",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.93716666666668,
+                                                              46.868166666666667,
+                                                              4.9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62244176",
+                                            "time_utc":  "2026-04-17T15:11:00Z",
+                                            "time_et":  "2026-04-17T11:11:00-04:00",
+                                            "updated_utc":  "2026-04-17T17:26:14Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.17,
+                                            "place":  "14 km NNE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.9",
+                                            "depth_km_raw":  4.9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 14 km NNE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62244176",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62244176\u0026format=geojson"
                                         }
                      },
                      {
@@ -37280,6 +37350,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75343147",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.458333333333,
+                                                              35.9465,
+                                                              5.09
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75343147",
+                                            "time_utc":  "2026-04-12T22:24:09Z",
+                                            "time_et":  "2026-04-12T18:24:09-04:00",
+                                            "updated_utc":  "2026-04-17T17:12:48Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.07,
+                                            "place":  "6 km NNW of Parkfield, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.1",
+                                            "depth_km_raw":  5.09,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 6 km NNW of Parkfield, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75343147",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75343147\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "uw62233357",
                          "geometry":  {
                                           "type":  "Point",
@@ -40058,7 +40163,7 @@
                                             "id":  "nc75342977",
                                             "time_utc":  "2026-04-12T12:39:11Z",
                                             "time_et":  "2026-04-12T08:39:11-04:00",
-                                            "updated_utc":  "2026-04-17T17:07:22Z",
+                                            "updated_utc":  "2026-04-17T17:17:23Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.67,
                                             "place":  "6 km WSW of Colma, CA",
@@ -54216,41 +54321,6 @@
                                             "title":  "M 1.9 - 6 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342227",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75342227\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026hbblbq",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.894,
-                                                              32.105,
-                                                              8.9111
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026hbblbq",
-                                            "time_utc":  "2026-04-10T17:22:18Z",
-                                            "time_et":  "2026-04-10T13:22:18-04:00",
-                                            "updated_utc":  "2026-04-10T18:28:11Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "10 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.9111,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 10 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hbblbq",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hbblbq\u0026format=geojson"
                                         }
                      }
                  ]
