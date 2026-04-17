@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-17T10:23:05Z",
+    "generated_at_utc":  "2026-04-17T10:43:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00915077",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.2674,
+                                                              36.7563,
+                                                              9.4334
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00915077",
+                                            "time_utc":  "2026-04-17T10:27:43Z",
+                                            "time_et":  "2026-04-17T06:27:43-04:00",
+                                            "updated_utc":  "2026-04-17T10:30:55Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.89,
+                                            "place":  "47 km ESE of Beatty, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.4",
+                                            "depth_km_raw":  9.4334,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  55,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 47 km ESE of Beatty, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915077",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915077\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41443296",
@@ -814,22 +849,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -99.09,
-                                                              28.912,
-                                                              7.7024
+                                                              -99.088,
+                                                              28.821,
+                                                              3.9923
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hnangr",
-                                            "time_utc":  "2026-04-17T05:48:04Z",
-                                            "time_et":  "2026-04-17T01:48:04-04:00",
-                                            "updated_utc":  "2026-04-17T05:51:34Z",
+                                            "time_utc":  "2026-04-17T05:48:05Z",
+                                            "time_et":  "2026-04-17T01:48:05-04:00",
+                                            "updated_utc":  "2026-04-17T10:23:25Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
-                                            "place":  "0 km ESE of North Pearsall, Texas",
+                                            "place":  "7 km S of Pearsall, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.7",
-                                            "depth_km_raw":  7.7024,
+                                            "depth_km":  "4.0",
+                                            "depth_km_raw":  3.9923,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -838,7 +873,7 @@
                                             "tsunami":  0,
                                             "significance":  39,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 0 km ESE of North Pearsall, Texas",
+                                            "title":  "M 1.6 - 7 km S of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hnangr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hnangr\u0026format=geojson"
                                         }
@@ -6585,6 +6620,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75345672",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.847166666667,
+                                                              38.8216666666667,
+                                                              2.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75345672",
+                                            "time_utc":  "2026-04-16T06:10:21Z",
+                                            "time_et":  "2026-04-16T02:10:21-04:00",
+                                            "updated_utc":  "2026-04-17T10:37:25Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.47,
+                                            "place":  "9 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  2.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 9 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345672",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345672\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nn00914924",
                          "geometry":  {
                                           "type":  "Point",
@@ -7460,6 +7530,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75345607",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.826,
+                                                              38.8175,
+                                                              2.58
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75345607",
+                                            "time_utc":  "2026-04-16T03:57:06Z",
+                                            "time_et":  "2026-04-15T23:57:06-04:00",
+                                            "updated_utc":  "2026-04-17T10:34:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.04,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.6",
+                                            "depth_km_raw":  2.58,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345607",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345607\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41442168",
                          "geometry":  {
                                           "type":  "Point",
@@ -8086,6 +8191,41 @@
                                             "title":  "M 1.7 - 16 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914908",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914908\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75345572",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.805333333333,
+                                                              38.8153333333333,
+                                                              2.81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75345572",
+                                            "time_utc":  "2026-04-16T02:26:36Z",
+                                            "time_et":  "2026-04-15T22:26:36-04:00",
+                                            "updated_utc":  "2026-04-17T10:30:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.42,
+                                            "place":  "6 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345572",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345572\u0026format=geojson"
                                         }
                      },
                      {
@@ -10470,6 +10610,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "nc75345352",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.720166666667,
+                                                              38.7713333333333,
+                                                              2.4
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75345352",
+                                            "time_utc":  "2026-04-15T18:24:54Z",
+                                            "time_et":  "2026-04-15T14:24:54-04:00",
+                                            "updated_utc":  "2026-04-17T10:27:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.37,
+                                            "place":  "2 km W of Anderson Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.4,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 2 km W of Anderson Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345352",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345352\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nn00914869",
                          "geometry":  {
                                           "type":  "Point",
@@ -11376,6 +11551,41 @@
                                             "title":  "M 1.8 - 17 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914848",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914848\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75345282",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.7985,
+                                                              38.8388333333333,
+                                                              2.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75345282",
+                                            "time_utc":  "2026-04-15T15:11:39Z",
+                                            "time_et":  "2026-04-15T11:11:39-04:00",
+                                            "updated_utc":  "2026-04-17T10:23:47Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.43,
+                                            "place":  "7 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 7 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345282",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345282\u0026format=geojson"
                                         }
                      },
                      {
@@ -52361,41 +52571,6 @@
                                             "title":  "M 0.8 - 6 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342082",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75342082\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41437272",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.278333333333,
-                                                              33.3786666666667,
-                                                              10.47
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41437272",
-                                            "time_utc":  "2026-04-10T10:41:49Z",
-                                            "time_et":  "2026-04-10T06:41:49-04:00",
-                                            "updated_utc":  "2026-04-15T22:24:23Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.18,
-                                            "place":  "16 km NNE of Borrego Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.5",
-                                            "depth_km_raw":  10.47,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  21,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 16 km NNE of Borrego Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41437272",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41437272\u0026format=geojson"
                                         }
                      }
                  ]
