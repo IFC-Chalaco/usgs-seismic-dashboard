@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-17T23:02:12Z",
+    "generated_at_utc":  "2026-04-17T23:07:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41443928",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.569166666667,
+                                                              33.4585,
+                                                              11.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41443928",
+                                            "time_utc":  "2026-04-17T23:00:13Z",
+                                            "time_et":  "2026-04-17T19:00:13-04:00",
+                                            "updated_utc":  "2026-04-17T23:03:41Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.69,
+                                            "place":  "14 km SE of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  11.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 14 km SE of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443928",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41443928\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75346677",
@@ -849,31 +884,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.340833333333,
-                                                              35.0636666666667,
-                                                              -0.14
+                                                              -118.3445,
+                                                              35.0573333333333,
+                                                              -0.84
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41443720",
                                             "time_utc":  "2026-04-17T19:23:40Z",
                                             "time_et":  "2026-04-17T15:23:40-04:00",
-                                            "updated_utc":  "2026-04-17T19:29:33Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.26,
-                                            "place":  "12 km SE of Tehachapi, CA",
+                                            "updated_utc":  "2026-04-17T23:06:29Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.11,
+                                            "place":  "13 km SE of Tehachapi, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.1",
-                                            "depth_km_raw":  -0.14,
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.84,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  24,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 12 km SE of Tehachapi, CA",
+                                            "significance":  19,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.1 Quarry Blast - 13 km SE of Tehachapi, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443720",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41443720\u0026format=geojson"
                                         }
