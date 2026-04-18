@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-18T22:49:46Z",
+    "generated_at_utc":  "2026-04-18T22:50:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -106,6 +106,41 @@
                                             "title":  "M 0.7 - 8 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347342",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347342\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71513908",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.2561666666667,
+                                                              19.6765,
+                                                              49.65
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71513908",
+                                            "time_utc":  "2026-04-18T22:21:37Z",
+                                            "time_et":  "2026-04-18T18:21:37-04:00",
+                                            "updated_utc":  "2026-04-18T22:49:26Z",
+                                            "magnitude":  "3.4",
+                                            "magnitude_raw":  3.4,
+                                            "place":  "159 km NNE of Cruz Bay, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "49.7",
+                                            "depth_km_raw":  49.65,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  178,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.4 - 159 km NNE of Cruz Bay, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513908",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513908\u0026format=geojson"
                                         }
                      },
                      {
