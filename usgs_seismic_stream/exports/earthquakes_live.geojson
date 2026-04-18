@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-18T14:11:10Z",
+    "generated_at_utc":  "2026-04-18T14:12:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -71,6 +71,41 @@
                                             "title":  "M 1.9 - 17 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915309",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915309\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41444272",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.408166666667,
+                                                              32.0458333333333,
+                                                              12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41444272",
+                                            "time_utc":  "2026-04-18T14:03:28Z",
+                                            "time_et":  "2026-04-18T10:03:28-04:00",
+                                            "updated_utc":  "2026-04-18T14:10:30Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.75,
+                                            "place":  "28 km NE of Ensenada, B.C., MX",
+                                            "country":  "Mexico",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  47,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 28 km NE of Ensenada, B.C., MX",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444272",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444272\u0026format=geojson"
                                         }
                      },
                      {
