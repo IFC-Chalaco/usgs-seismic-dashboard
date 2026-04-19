@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-19T21:01:11Z",
+    "generated_at_utc":  "2026-04-19T21:02:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -211,6 +211,41 @@
                                             "title":  "M 2.2 - 17 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915674",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915674\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71513973",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.4171666666667,
+                                                              18.942,
+                                                              17.94
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71513973",
+                                            "time_utc":  "2026-04-19T20:18:09Z",
+                                            "time_et":  "2026-04-19T16:18:09-04:00",
+                                            "updated_utc":  "2026-04-19T21:00:53Z",
+                                            "magnitude":  "2.8",
+                                            "magnitude_raw":  2.82,
+                                            "place":  "60 km NW of San Antonio, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "17.9",
+                                            "depth_km_raw":  17.94,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  122,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.8 - 60 km NW of San Antonio, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513973",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71513973\u0026format=geojson"
                                         }
                      },
                      {
