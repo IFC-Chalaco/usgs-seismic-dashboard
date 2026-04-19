@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-19T20:55:32Z",
+    "generated_at_utc":  "2026-04-19T20:59:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00915690",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.096,
+                                                              39.2896,
+                                                              10.2107
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00915690",
+                                            "time_utc":  "2026-04-19T20:53:15Z",
+                                            "time_et":  "2026-04-19T16:53:15-04:00",
+                                            "updated_utc":  "2026-04-19T20:55:19Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "17 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.2",
+                                            "depth_km_raw":  10.2107,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 17 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915690",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915690\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00915685",
@@ -9949,29 +9984,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.428833333333,
-                                                              36.6578333333333,
-                                                              -1.4
+                                                              -117.432833333333,
+                                                              36.664,
+                                                              -1.31
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41444152",
                                             "time_utc":  "2026-04-18T10:31:54Z",
                                             "time_et":  "2026-04-18T06:31:54-04:00",
-                                            "updated_utc":  "2026-04-18T10:38:36Z",
+                                            "updated_utc":  "2026-04-19T20:55:40Z",
                                             "magnitude":  "1.9",
-                                            "magnitude_raw":  1.86,
+                                            "magnitude_raw":  1.94,
                                             "place":  "26 km WNW of Stovepipe Wells, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-1.4",
-                                            "depth_km_raw":  -1.4,
+                                            "depth_km":  "-1.3",
+                                            "depth_km_raw":  -1.31,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  53,
+                                            "significance":  58,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.9 - 26 km WNW of Stovepipe Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444152",
