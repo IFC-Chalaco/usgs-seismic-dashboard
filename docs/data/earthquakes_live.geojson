@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-20T15:44:10Z",
+    "generated_at_utc":  "2026-04-20T15:45:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -14281,6 +14281,41 @@
                                             "title":  "M 1.8 - 78 km NE of Tonopah, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915344",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915344\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90132813",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.016833333333,
+                                                              46.5415,
+                                                              11.59
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90132813",
+                                            "time_utc":  "2026-04-18T16:44:55Z",
+                                            "time_et":  "2026-04-18T12:44:55-04:00",
+                                            "updated_utc":  "2026-04-20T15:43:33Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.14,
+                                            "place":  "2 km SW of South Hills, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.6",
+                                            "depth_km_raw":  11.59,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 2 km SW of South Hills, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90132813",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90132813\u0026format=geojson"
                                         }
                      },
                      {
