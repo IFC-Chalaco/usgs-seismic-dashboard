@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-20T17:46:20Z",
+    "generated_at_utc":  "2026-04-20T17:47:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3151,6 +3151,41 @@
                                             "title":  "M 1.2 - 8 km SSW of Kanosh, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137336",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137336\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62244776",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.92333333333332,
+                                                              46.733833333333337,
+                                                              5.66
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62244776",
+                                            "time_utc":  "2026-04-20T06:10:45Z",
+                                            "time_et":  "2026-04-20T02:10:45-04:00",
+                                            "updated_utc":  "2026-04-20T17:45:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.21,
+                                            "place":  "8 km ESE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.66,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 8 km ESE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62244776",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62244776\u0026format=geojson"
                                         }
                      },
                      {
