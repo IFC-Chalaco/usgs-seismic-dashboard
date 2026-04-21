@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-21T13:32:58Z",
+    "generated_at_utc":  "2026-04-21T13:33:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1401,6 +1401,41 @@
                                             "title":  "M 1.4 - 21 km NW of Tehachapi, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446144",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446144\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026hukwhf",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.103,
+                                                              32.098,
+                                                              8.4961
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026hukwhf",
+                                            "time_utc":  "2026-04-21T06:31:47Z",
+                                            "time_et":  "2026-04-21T02:31:47-04:00",
+                                            "updated_utc":  "2026-04-21T13:32:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "11 km NNW of Midland, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.5",
+                                            "depth_km_raw":  8.4961,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 11 km NNW of Midland, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hukwhf",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hukwhf\u0026format=geojson"
                                         }
                      },
                      {
