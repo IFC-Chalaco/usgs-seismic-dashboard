@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-22T18:48:05Z",
+    "generated_at_utc":  "2026-04-22T18:49:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -71,6 +71,41 @@
                                             "title":  "M 2.3 - 19 km SSE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916074",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916074\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80137986",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.719333333333,
+                                                              44.7066666666667,
+                                                              6.39
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80137986",
+                                            "time_utc":  "2026-04-22T18:00:53Z",
+                                            "time_et":  "2026-04-22T14:00:53-04:00",
+                                            "updated_utc":  "2026-04-22T18:48:21Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.13,
+                                            "place":  "30 km S of Mammoth, Wyoming",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.4",
+                                            "depth_km_raw":  6.39,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 30 km S of Mammoth, Wyoming",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137986",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137986\u0026format=geojson"
                                         }
                      },
                      {
@@ -508,20 +543,20 @@
                                             "id":  "nn00916046",
                                             "time_utc":  "2026-04-22T17:23:37Z",
                                             "time_et":  "2026-04-22T13:23:37-04:00",
-                                            "updated_utc":  "2026-04-22T18:43:04Z",
+                                            "updated_utc":  "2026-04-22T18:48:10Z",
                                             "magnitude":  "4.8",
                                             "magnitude_raw":  4.78,
                                             "place":  "19 km SE of Silver Springs, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "3.0",
                                             "depth_km_raw":  3,
-                                            "felt_reports":  660,
-                                            "cdi":  5.7,
+                                            "felt_reports":  667,
+                                            "cdi":  5.3,
                                             "mmi":  7.639,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  728,
+                                            "significance":  705,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.8 - 19 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916046",
@@ -52816,41 +52851,6 @@
                                             "title":  "M 1.6 Quarry Blast - 5 km E of Butte, Montana",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90132418",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90132418\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62242961",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.934,
-                                                              46.771666666666668,
-                                                              5.39
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62242961",
-                                            "time_utc":  "2026-04-15T18:47:42Z",
-                                            "time_et":  "2026-04-15T14:47:42-04:00",
-                                            "updated_utc":  "2026-04-16T00:45:47Z",
-                                            "magnitude":  "-0.3",
-                                            "magnitude_raw":  -0.33,
-                                            "place":  "7 km E of Ashford, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.4",
-                                            "depth_km_raw":  5.39,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M -0.3 - 7 km E of Ashford, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62242961",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62242961\u0026format=geojson"
                                         }
                      }
                  ]
