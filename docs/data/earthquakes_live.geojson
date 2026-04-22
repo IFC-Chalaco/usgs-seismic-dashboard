@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-22T23:28:12Z",
+    "generated_at_utc":  "2026-04-22T23:29:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -6966,6 +6966,41 @@
                                             "title":  "M 2.1 - 56 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvmgtn",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvmgtn\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62245181",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -125.889,
+                                                              49.334166666666668,
+                                                              4.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62245181",
+                                            "time_utc":  "2026-04-21T20:16:18Z",
+                                            "time_et":  "2026-04-21T16:16:18-04:00",
+                                            "updated_utc":  "2026-04-22T23:28:00Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.06,
+                                            "place":  "20 km N of Tofino, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  4.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  65,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 20 km N of Tofino, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245181",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245181\u0026format=geojson"
                                         }
                      },
                      {
