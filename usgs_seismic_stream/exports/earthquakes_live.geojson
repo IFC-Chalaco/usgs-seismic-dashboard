@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-23T09:12:22Z",
+    "generated_at_utc":  "2026-04-23T09:13:22Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -20651,6 +20651,41 @@
                                             "title":  "M 1.1 - 6 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75348357",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75348357\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75348362",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.526,
+                                                              37.1516666666667,
+                                                              8.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75348362",
+                                            "time_utc":  "2026-04-20T03:09:29Z",
+                                            "time_et":  "2026-04-19T23:09:29-04:00",
+                                            "updated_utc":  "2026-04-23T09:12:38Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.77,
+                                            "place":  "11 km NE of San Martin, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 11 km NE of San Martin, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75348362",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75348362\u0026format=geojson"
                                         }
                      },
                      {
