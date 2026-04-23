@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-23T11:50:24Z",
+    "generated_at_utc":  "2026-04-23T11:51:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41447088",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.262168884277,
+                                                              32.905834197998,
+                                                              9.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41447088",
+                                            "time_utc":  "2026-04-23T11:48:29Z",
+                                            "time_et":  "2026-04-23T07:48:29-04:00",
+                                            "updated_utc":  "2026-04-23T11:50:32Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.19,
+                                            "place":  "27 km ENE of Pine Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.6",
+                                            "depth_km_raw":  9.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 27 km ENE of Pine Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447088",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41447088\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00916238",
@@ -52326,41 +52361,6 @@
                                             "title":  "M 1.6 - 58 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hlqway",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hlqway\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75345742",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.791664123535,
-                                                              38.7944984436035,
-                                                              0.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75345742",
-                                            "time_utc":  "2026-04-16T11:50:30Z",
-                                            "time_et":  "2026-04-16T07:50:30-04:00",
-                                            "updated_utc":  "2026-04-16T11:52:07Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.07,
-                                            "place":  "4 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.1",
-                                            "depth_km_raw":  0.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345742",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75345742\u0026format=geojson"
                                         }
                      }
                  ]
