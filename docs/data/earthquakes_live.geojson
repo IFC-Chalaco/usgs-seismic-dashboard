@@ -1,39 +1,144 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-23T11:51:23Z",
+    "generated_at_utc":  "2026-04-23T12:14:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41447088",
+                         "id":  "ci41447096",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.262168884277,
-                                                              32.905834197998,
-                                                              9.64
+                                                              -116.420833333333,
+                                                              33.268,
+                                                              4.98
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41447088",
-                                            "time_utc":  "2026-04-23T11:48:29Z",
-                                            "time_et":  "2026-04-23T07:48:29-04:00",
-                                            "updated_utc":  "2026-04-23T11:50:32Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.19,
-                                            "place":  "27 km ENE of Pine Valley, CA",
+                                            "id":  "ci41447096",
+                                            "time_utc":  "2026-04-23T12:09:57Z",
+                                            "time_et":  "2026-04-23T08:09:57-04:00",
+                                            "updated_utc":  "2026-04-23T12:13:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.84,
+                                            "place":  "4 km WNW of Borrego Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.6",
-                                            "depth_km_raw":  9.64,
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  4.98,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  22,
+                                            "significance":  11,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 27 km ENE of Pine Valley, CA",
+                                            "title":  "M 0.8 - 4 km WNW of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447096",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41447096\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00916247",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.098,
+                                                              39.3119,
+                                                              10.9075
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00916247",
+                                            "time_utc":  "2026-04-23T12:07:02Z",
+                                            "time_et":  "2026-04-23T08:07:02-04:00",
+                                            "updated_utc":  "2026-04-23T12:09:12Z",
+                                            "magnitude":  "2.6",
+                                            "magnitude_raw":  2.56,
+                                            "place":  "15 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.9",
+                                            "depth_km_raw":  10.9075,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  101,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.6 - 15 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916247",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916247\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00916245",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.1061,
+                                                              39.3045,
+                                                              7.6759
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00916245",
+                                            "time_utc":  "2026-04-23T12:02:59Z",
+                                            "time_et":  "2026-04-23T08:02:59-04:00",
+                                            "updated_utc":  "2026-04-23T12:05:23Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.65,
+                                            "place":  "16 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.6759,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 16 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916245",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916245\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41447088",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.263,
+                                                              32.9013333333333,
+                                                              8.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41447088",
+                                            "time_utc":  "2026-04-23T11:48:29Z",
+                                            "time_et":  "2026-04-23T07:48:29-04:00",
+                                            "updated_utc":  "2026-04-23T11:51:56Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.09,
+                                            "place":  "26 km ENE of Pine Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.7",
+                                            "depth_km_raw":  8.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 26 km ENE of Pine Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447088",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41447088\u0026format=geojson"
                                         }
@@ -80,21 +185,21 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -99.089,
-                                                              28.839,
-                                                              7.6454
+                                                              28.84,
+                                                              7.593
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hymlsc",
                                             "time_utc":  "2026-04-23T11:37:34Z",
                                             "time_et":  "2026-04-23T07:37:34-04:00",
-                                            "updated_utc":  "2026-04-23T11:39:28Z",
+                                            "updated_utc":  "2026-04-23T12:00:19Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.7,
                                             "place":  "5 km S of Pearsall, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "7.6",
-                                            "depth_km_raw":  7.6454,
+                                            "depth_km_raw":  7.593,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -569,31 +674,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -102.051,
-                                                              32.443,
-                                                              4.7801
+                                                              -102.059,
+                                                              32.449,
+                                                              9.1064
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hyiaxl",
-                                            "time_utc":  "2026-04-23T09:24:21Z",
-                                            "time_et":  "2026-04-23T05:24:21-04:00",
-                                            "updated_utc":  "2026-04-23T11:16:05Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
-                                            "place":  "32 km WSW of Ackerly, Texas",
+                                            "time_utc":  "2026-04-23T09:24:22Z",
+                                            "time_et":  "2026-04-23T05:24:22-04:00",
+                                            "updated_utc":  "2026-04-23T11:55:35Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "32 km SSW of Los Ybanez, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.8",
-                                            "depth_km_raw":  4.7801,
+                                            "depth_km":  "9.1",
+                                            "depth_km_raw":  9.1064,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  15,
+                                            "significance":  22,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 32 km WSW of Ackerly, Texas",
+                                            "title":  "M 1.2 - 32 km SSW of Los Ybanez, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hyiaxl",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hyiaxl\u0026format=geojson"
                                         }
@@ -6624,31 +6729,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -102.13,
-                                                              32.391,
-                                                              8.8079
+                                                              -102.151,
+                                                              32.403,
+                                                              6.958
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026hwmmha",
-                                            "time_utc":  "2026-04-22T09:29:21Z",
-                                            "time_et":  "2026-04-22T05:29:21-04:00",
-                                            "updated_utc":  "2026-04-22T11:18:06Z",
+                                            "time_utc":  "2026-04-22T09:29:22Z",
+                                            "time_et":  "2026-04-22T05:29:22-04:00",
+                                            "updated_utc":  "2026-04-23T12:04:20Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.8,
-                                            "place":  "38 km ENE of McKinney Acres, Texas",
+                                            "place":  "37 km ENE of McKinney Acres, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.8",
-                                            "depth_km_raw":  8.8079,
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.958,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  10,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 38 km ENE of McKinney Acres, Texas",
+                                            "title":  "M 0.8 - 37 km ENE of McKinney Acres, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hwmmha",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hwmmha\u0026format=geojson"
                                         }
@@ -52291,76 +52396,6 @@
                                             "title":  "M 0.8 - 4 km ENE of Moreno Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41442360",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41442360\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62243671",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.17033333333332,
-                                                              46.2245,
-                                                              4.27
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62243671",
-                                            "time_utc":  "2026-04-16T12:10:15Z",
-                                            "time_et":  "2026-04-16T08:10:15-04:00",
-                                            "updated_utc":  "2026-04-16T18:18:12Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.61,
-                                            "place":  "37 km SSE of Morton, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.3",
-                                            "depth_km_raw":  4.27,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 37 km SSE of Morton, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62243671",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62243671\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026hlqway",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.325,
-                                                              31.652,
-                                                              2.8699
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026hlqway",
-                                            "time_utc":  "2026-04-16T11:52:37Z",
-                                            "time_et":  "2026-04-16T07:52:37-04:00",
-                                            "updated_utc":  "2026-04-16T14:03:36Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "58 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.9",
-                                            "depth_km_raw":  2.8699,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 58 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hlqway",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hlqway\u0026format=geojson"
                                         }
                      }
                  ]
