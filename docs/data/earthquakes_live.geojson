@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-26T12:49:09Z",
+    "generated_at_utc":  "2026-04-26T13:27:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "ci41234511",
                                             "time_utc":  "2026-04-26T12:43:11Z",
                                             "time_et":  "2026-04-26T08:43:11-04:00",
-                                            "updated_utc":  "2026-04-26T12:46:47Z",
+                                            "updated_utc":  "2026-04-26T12:54:02Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.92,
                                             "place":  "4 km N of Ojai, CA",
@@ -71,6 +71,41 @@
                                             "title":  "M 1.6 - 18 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916493",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916493\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71514763",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9511666666667,
+                                                              17.9331666666667,
+                                                              10.56
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71514763",
+                                            "time_utc":  "2026-04-26T12:18:30Z",
+                                            "time_et":  "2026-04-26T08:18:30-04:00",
+                                            "updated_utc":  "2026-04-26T13:01:16Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.17,
+                                            "place":  "6 km SW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "10.6",
+                                            "depth_km_raw":  10.56,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  72,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 6 km SW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514763",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514763\u0026format=geojson"
                                         }
                      },
                      {
@@ -578,14 +613,14 @@
                                             "id":  "nc75351867",
                                             "time_utc":  "2026-04-26T10:27:11Z",
                                             "time_et":  "2026-04-26T06:27:11-04:00",
-                                            "updated_utc":  "2026-04-26T12:24:06Z",
+                                            "updated_utc":  "2026-04-26T13:23:44Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.7,
                                             "place":  "16 km E of Seven Trees, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.7",
                                             "depth_km_raw":  6.67,
-                                            "felt_reports":  37,
+                                            "felt_reports":  38,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
@@ -1821,6 +1856,41 @@
                                             "title":  "M 1.8 - 18 km ESE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916459",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916459\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nm60505423",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -92.8666666666667,
+                                                              36.456,
+                                                              3.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nm60505423",
+                                            "time_utc":  "2026-04-26T02:20:22Z",
+                                            "time_et":  "2026-04-25T22:20:22-04:00",
+                                            "updated_utc":  "2026-04-26T13:09:53Z",
+                                            "magnitude":  "2.4",
+                                            "magnitude_raw":  2.36,
+                                            "place":  "4 km E of Diamond City, Arkansas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  86,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.4 - 4 km E of Diamond City, Arkansas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nm60505423",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nm60505423\u0026format=geojson"
                                         }
                      },
                      {
@@ -48406,671 +48476,6 @@
                                             "title":  "M 1.9 - 9 km SSW of Kanosh, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137046",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137046\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80137041",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.471333333333,
-                                                              38.7201666666667,
-                                                              6.96
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80137041",
-                                            "time_utc":  "2026-04-19T13:26:43Z",
-                                            "time_et":  "2026-04-19T09:26:43-04:00",
-                                            "updated_utc":  "2026-04-20T18:34:31Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.79,
-                                            "place":  "9 km SSW of Kanosh, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.0",
-                                            "depth_km_raw":  6.96,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  49,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 9 km SSW of Kanosh, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137041",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137041\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347742",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.8225,
-                                                              38.8155,
-                                                              2.54
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347742",
-                                            "time_utc":  "2026-04-19T13:25:58Z",
-                                            "time_et":  "2026-04-19T09:25:58-04:00",
-                                            "updated_utc":  "2026-04-21T06:21:03Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.37,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.54,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347742",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347742\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41444944",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.922,
-                                                              35.9948333333333,
-                                                              8.05
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41444944",
-                                            "time_utc":  "2026-04-19T13:23:01Z",
-                                            "time_et":  "2026-04-19T09:23:01-04:00",
-                                            "updated_utc":  "2026-04-19T14:07:14Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.85,
-                                            "place":  "6 km SSE of Coso Junction, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.1",
-                                            "depth_km_raw":  8.05,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  11,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 6 km SSE of Coso Junction, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444944",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444944\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41444936",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.703333333333,
-                                                              33.6963333333333,
-                                                              16.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41444936",
-                                            "time_utc":  "2026-04-19T13:19:06Z",
-                                            "time_et":  "2026-04-19T09:19:06-04:00",
-                                            "updated_utc":  "2026-04-19T14:07:29Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.67,
-                                            "place":  "5 km SSE of Idyllwild, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "16.7",
-                                            "depth_km_raw":  16.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  7,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 5 km SSE of Idyllwild, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444936",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444936\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915498",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0932,
-                                                              39.2773,
-                                                              9.6749
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915498",
-                                            "time_utc":  "2026-04-19T13:10:17Z",
-                                            "time_et":  "2026-04-19T09:10:17-04:00",
-                                            "updated_utc":  "2026-04-20T22:03:15Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.59,
-                                            "place":  "19 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.7",
-                                            "depth_km_raw":  9.6749,
-                                            "felt_reports":  1,
-                                            "cdi":  2.7,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  103,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 19 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915498",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915498\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915499",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0651,
-                                                              39.3234,
-                                                              6.1754
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915499",
-                                            "time_utc":  "2026-04-19T13:09:58Z",
-                                            "time_et":  "2026-04-19T09:09:58-04:00",
-                                            "updated_utc":  "2026-04-20T23:11:51Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "17 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.2",
-                                            "depth_km_raw":  6.1754,
-                                            "felt_reports":  1,
-                                            "cdi":  1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 17 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915499",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915499\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915495",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1017,
-                                                              39.2746,
-                                                              7.3963
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915495",
-                                            "time_utc":  "2026-04-19T13:06:23Z",
-                                            "time_et":  "2026-04-19T09:06:23-04:00",
-                                            "updated_utc":  "2026-04-19T13:08:39Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.72,
-                                            "place":  "18 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.4",
-                                            "depth_km_raw":  7.3963,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  46,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 18 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915495",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915495\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915491",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0902,
-                                                              39.2761,
-                                                              9.7025
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915491",
-                                            "time_utc":  "2026-04-19T13:01:46Z",
-                                            "time_et":  "2026-04-19T09:01:46-04:00",
-                                            "updated_utc":  "2026-04-19T13:04:25Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.69,
-                                            "place":  "19 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.7",
-                                            "depth_km_raw":  9.7025,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 19 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915491",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915491\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347727",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.9965,
-                                                              38.2623333333333,
-                                                              10.02
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347727",
-                                            "time_utc":  "2026-04-19T13:01:28Z",
-                                            "time_et":  "2026-04-19T09:01:28-04:00",
-                                            "updated_utc":  "2026-04-23T01:32:00Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "4 km NW of Dillon Beach, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.0",
-                                            "depth_km_raw":  10.02,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km NW of Dillon Beach, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347727",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915490",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1203,
-                                                              39.2669,
-                                                              0.0514
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915490",
-                                            "time_utc":  "2026-04-19T13:01:21Z",
-                                            "time_et":  "2026-04-19T09:01:21-04:00",
-                                            "updated_utc":  "2026-04-19T13:03:26Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "18 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.1",
-                                            "depth_km_raw":  0.0514,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 18 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915490",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915490\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347717",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.930666666667,
-                                                              37.3243333333333,
-                                                              10.97
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347717",
-                                            "time_utc":  "2026-04-19T12:59:43Z",
-                                            "time_et":  "2026-04-19T08:59:43-04:00",
-                                            "updated_utc":  "2026-04-23T00:22:22Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.82,
-                                            "place":  "7 km SE of Deep Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "11.0",
-                                            "depth_km_raw":  10.97,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  51,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 7 km SE of Deep Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347717",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347717\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915484",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0267,
-                                                              39.328,
-                                                              8.1863
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915484",
-                                            "time_utc":  "2026-04-19T12:57:17Z",
-                                            "time_et":  "2026-04-19T08:57:17-04:00",
-                                            "updated_utc":  "2026-04-20T22:02:44Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.83,
-                                            "place":  "19 km ESE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.2",
-                                            "depth_km_raw":  8.1863,
-                                            "felt_reports":  4,
-                                            "cdi":  3.1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  124,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 19 km ESE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915484",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915484\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915482",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.6418,
-                                                              39.0905,
-                                                              5.1136
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915482",
-                                            "time_utc":  "2026-04-19T12:55:56Z",
-                                            "time_et":  "2026-04-19T08:55:56-04:00",
-                                            "updated_utc":  "2026-04-19T12:58:24Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.88,
-                                            "place":  "21 km NE of Schurz, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.1",
-                                            "depth_km_raw":  5.1136,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  54,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 21 km NE of Schurz, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915482",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915482\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915478",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1169,
-                                                              39.2736,
-                                                              3.6876
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915478",
-                                            "time_utc":  "2026-04-19T12:54:31Z",
-                                            "time_et":  "2026-04-19T08:54:31-04:00",
-                                            "updated_utc":  "2026-04-19T13:06:11Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  1.96,
-                                            "place":  "18 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.7",
-                                            "depth_km_raw":  3.6876,
-                                            "felt_reports":  0,
-                                            "cdi":  1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  59,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 18 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915478",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915478\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915477",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1007,
-                                                              39.2771,
-                                                              1.6517
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915477",
-                                            "time_utc":  "2026-04-19T12:53:57Z",
-                                            "time_et":  "2026-04-19T08:53:57-04:00",
-                                            "updated_utc":  "2026-04-19T12:56:29Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.87,
-                                            "place":  "18 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.7",
-                                            "depth_km_raw":  1.6517,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  54,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 18 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915477",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915477\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915473",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1004,
-                                                              39.2709,
-                                                              7.536
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915473",
-                                            "time_utc":  "2026-04-19T12:51:56Z",
-                                            "time_et":  "2026-04-19T08:51:56-04:00",
-                                            "updated_utc":  "2026-04-19T15:12:56Z",
-                                            "magnitude":  "2.9",
-                                            "magnitude_raw":  2.88,
-                                            "place":  "19 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.5",
-                                            "depth_km_raw":  7.536,
-                                            "felt_reports":  6,
-                                            "cdi":  3.4,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  130,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.9 - 19 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915473",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915473\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915470",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.099,
-                                                              39.2756,
-                                                              6.4021
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915470",
-                                            "time_utc":  "2026-04-19T12:50:58Z",
-                                            "time_et":  "2026-04-19T08:50:58-04:00",
-                                            "updated_utc":  "2026-04-19T14:25:36Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.45,
-                                            "place":  "18 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.4",
-                                            "depth_km_raw":  6.4021,
-                                            "felt_reports":  1,
-                                            "cdi":  2.7,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  93,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 18 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915470",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915470\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915468",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1334,
-                                                              39.2764,
-                                                              4.5902
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915468",
-                                            "time_utc":  "2026-04-19T12:50:29Z",
-                                            "time_et":  "2026-04-19T08:50:29-04:00",
-                                            "updated_utc":  "2026-04-19T12:52:47Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.66,
-                                            "place":  "17 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.5902,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  42,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 17 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915468",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915468\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915466",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.092,
-                                                              39.2726,
-                                                              7.3682
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915466",
-                                            "time_utc":  "2026-04-19T12:48:48Z",
-                                            "time_et":  "2026-04-19T08:48:48-04:00",
-                                            "updated_utc":  "2026-04-19T13:57:36Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.82,
-                                            "place":  "19 km SE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.4",
-                                            "depth_km_raw":  7.3682,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  51,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 19 km SE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915466",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915466\u0026format=geojson"
                                         }
                      }
                  ]
