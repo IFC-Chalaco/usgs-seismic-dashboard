@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-26T10:31:55Z",
+    "generated_at_utc":  "2026-04-26T11:06:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75351872",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.776336669922,
+                                                              38.7948341369629,
+                                                              2.9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75351872",
+                                            "time_utc":  "2026-04-26T10:50:07Z",
+                                            "time_et":  "2026-04-26T06:50:07-04:00",
+                                            "updated_utc":  "2026-04-26T10:53:59Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.78,
+                                            "place":  "3 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  49,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 3 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351872",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75351872\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41234479",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.702,
+                                                              33.6748333333333,
+                                                              15.94
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41234479",
+                                            "time_utc":  "2026-04-26T10:46:36Z",
+                                            "time_et":  "2026-04-26T06:46:36-04:00",
+                                            "updated_utc":  "2026-04-26T10:50:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.53,
+                                            "place":  "7 km SSE of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.9",
+                                            "depth_km_raw":  15.94,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 7 km SSE of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41234479",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41234479\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75351867",
@@ -18,20 +88,20 @@
                                             "id":  "nc75351867",
                                             "time_utc":  "2026-04-26T10:27:11Z",
                                             "time_et":  "2026-04-26T06:27:11-04:00",
-                                            "updated_utc":  "2026-04-26T10:30:55Z",
+                                            "updated_utc":  "2026-04-26T11:02:36Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.7,
                                             "place":  "16 km E of Seven Trees, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.7",
                                             "depth_km_raw":  6.67,
-                                            "felt_reports":  2,
+                                            "felt_reports":  32,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  113,
+                                            "significance":  123,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.7 - 16 km E of Seven Trees, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351867",
@@ -508,20 +578,20 @@
                                             "id":  "nn00916474",
                                             "time_utc":  "2026-04-26T07:15:21Z",
                                             "time_et":  "2026-04-26T03:15:21-04:00",
-                                            "updated_utc":  "2026-04-26T08:33:56Z",
+                                            "updated_utc":  "2026-04-26T10:35:59Z",
                                             "magnitude":  "3.3",
                                             "magnitude_raw":  3.28,
                                             "place":  "21 km ESE of Silver Springs, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "6.4",
                                             "depth_km_raw":  6.4276,
-                                            "felt_reports":  3,
+                                            "felt_reports":  4,
                                             "cdi":  3.1,
                                             "mmi":  3.039,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  166,
+                                            "significance":  167,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.3 - 21 km ESE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916474",
@@ -1934,8 +2004,8 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.518165588379,
-                                                              37.7043342590332,
+                                                              -122.516166666667,
+                                                              37.7041666666667,
                                                               6.96
                                                           ]
                                       },
@@ -1943,22 +2013,22 @@
                                             "id":  "nc75351622",
                                             "time_utc":  "2026-04-25T23:39:38Z",
                                             "time_et":  "2026-04-25T19:39:38-04:00",
-                                            "updated_utc":  "2026-04-26T09:48:13Z",
-                                            "magnitude":  "3.0",
-                                            "magnitude_raw":  2.96,
+                                            "updated_utc":  "2026-04-26T10:37:47Z",
+                                            "magnitude":  "2.9",
+                                            "magnitude_raw":  2.89,
                                             "place":  "3 km SSW of San Francisco Zoo, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "7.0",
                                             "depth_km_raw":  6.96,
-                                            "felt_reports":  1063,
+                                            "felt_reports":  1065,
                                             "cdi":  3.8,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  515,
+                                            "significance":  508,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.0 - 3 km SSW of San Francisco Zoo, CA",
+                                            "title":  "M 2.9 - 3 km SSW of San Francisco Zoo, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351622",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75351622\u0026format=geojson"
                                         }
@@ -50156,146 +50226,6 @@
                                             "title":  "M 0.1 - 10 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347637",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347637\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026hqee",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.449,
-                                                              34.414,
-                                                              7.14
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026hqee",
-                                            "time_utc":  "2026-04-19T11:01:57Z",
-                                            "time_et":  "2026-04-19T07:01:57-04:00",
-                                            "updated_utc":  "2026-04-20T14:39:59Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.12,
-                                            "place":  "6 km SE of Ratliff City, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.14,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 6 km SE of Ratliff City, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026hqee",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026hqee\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026hrbzsn",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.997,
-                                                              32.143,
-                                                              8.7158
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026hrbzsn",
-                                            "time_utc":  "2026-04-19T10:53:24Z",
-                                            "time_et":  "2026-04-19T06:53:24-04:00",
-                                            "updated_utc":  "2026-04-20T15:51:34Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "17 km NNE of Midland, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.7158,
-                                            "felt_reports":  2,
-                                            "cdi":  3.3,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  69,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 17 km NNE of Midland, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hrbzsn",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hrbzsn\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026hrcadp",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.121,
-                                                              32.429,
-                                                              5.835
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026hrcadp",
-                                            "time_utc":  "2026-04-19T10:51:09Z",
-                                            "time_et":  "2026-04-19T06:51:09-04:00",
-                                            "updated_utc":  "2026-04-20T20:38:46Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.5,
-                                            "place":  "37 km SSW of Los Ybanez, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.8",
-                                            "depth_km_raw":  5.835,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 37 km SSW of Los Ybanez, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hrcadp",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hrcadp\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41444880",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.7065,
-                                                              33.8915,
-                                                              13.52
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41444880",
-                                            "time_utc":  "2026-04-19T10:35:23Z",
-                                            "time_et":  "2026-04-19T06:35:23-04:00",
-                                            "updated_utc":  "2026-04-19T10:38:51Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "10 km E of Yorba Linda, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.5",
-                                            "depth_km_raw":  13.52,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 10 km E of Yorba Linda, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444880",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444880\u0026format=geojson"
                                         }
                      }
                  ]
