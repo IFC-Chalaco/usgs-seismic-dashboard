@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-26T12:45:12Z",
+    "generated_at_utc":  "2026-04-26T12:46:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41234511",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.252334594727,
+                                                              34.492000579834,
+                                                              6.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41234511",
+                                            "time_utc":  "2026-04-26T12:43:11Z",
+                                            "time_et":  "2026-04-26T08:43:11-04:00",
+                                            "updated_utc":  "2026-04-26T12:45:18Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "5 km N of Ojai, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  55,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 5 km N of Ojai, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41234511",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41234511\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00916493",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.0522,
+                                                              39.3149,
+                                                              8.681
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00916493",
+                                            "time_utc":  "2026-04-26T12:42:40Z",
+                                            "time_et":  "2026-04-26T08:42:40-04:00",
+                                            "updated_utc":  "2026-04-26T12:44:37Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.55,
+                                            "place":  "18 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.7",
+                                            "depth_km_raw":  8.681,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  37,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 18 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916493",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916493\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41234503",
@@ -49106,41 +49176,6 @@
                                             "title":  "M 2.3 - 18 km SSE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915464",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915464\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915463",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0964,
-                                                              39.2579,
-                                                              7.5747
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915463",
-                                            "time_utc":  "2026-04-19T12:45:14Z",
-                                            "time_et":  "2026-04-19T08:45:14-04:00",
-                                            "updated_utc":  "2026-04-22T23:04:27Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.77,
-                                            "place":  "20 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.5747,
-                                            "felt_reports":  9,
-                                            "cdi":  2.7,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  120,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 20 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915463",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915463\u0026format=geojson"
                                         }
                      }
                  ]
