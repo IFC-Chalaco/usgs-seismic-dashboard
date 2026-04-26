@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-26T09:17:11Z",
+    "generated_at_utc":  "2026-04-26T09:35:45Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.7 - 3 km SSW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351847",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75351847\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71514718",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.0928333333333,
+                                                              19.2086666666667,
+                                                              33.6
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71514718",
+                                            "time_utc":  "2026-04-26T09:03:33Z",
+                                            "time_et":  "2026-04-26T05:03:33-04:00",
+                                            "updated_utc":  "2026-04-26T09:27:01Z",
+                                            "magnitude":  "3.2",
+                                            "magnitude_raw":  3.17,
+                                            "place":  "122 km NE of Cruz Bay, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "33.6",
+                                            "depth_km_raw":  33.6,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  155,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.2 - 122 km NE of Cruz Bay, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514718",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514718\u0026format=geojson"
                                         }
                      },
                      {
@@ -50366,146 +50401,6 @@
                                             "title":  "M 1.0 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347617",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347617\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026hqzgua",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.92,
-                                                              32.072,
-                                                              8.2764
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026hqzgua",
-                                            "time_utc":  "2026-04-19T09:28:16Z",
-                                            "time_et":  "2026-04-19T05:28:16-04:00",
-                                            "updated_utc":  "2026-04-20T15:54:51Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "13 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.2764,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 13 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hqzgua",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hqzgua\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347612",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.875831604004,
-                                                              38.8334999084473,
-                                                              2.96
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347612",
-                                            "time_utc":  "2026-04-19T09:24:09Z",
-                                            "time_et":  "2026-04-19T05:24:09-04:00",
-                                            "updated_utc":  "2026-04-19T09:25:43Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.7,
-                                            "place":  "12 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.0",
-                                            "depth_km_raw":  2.96,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 12 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347612",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347612\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347607",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.801498413086,
-                                                              38.8331680297852,
-                                                              2.37
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347607",
-                                            "time_utc":  "2026-04-19T09:20:31Z",
-                                            "time_et":  "2026-04-19T05:20:31-04:00",
-                                            "updated_utc":  "2026-04-19T09:22:08Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "7 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.4",
-                                            "depth_km_raw":  2.37,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 7 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347607",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347607\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75347602",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.811164855957,
-                                                              38.8056678771973,
-                                                              2.49
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75347602",
-                                            "time_utc":  "2026-04-19T09:17:59Z",
-                                            "time_et":  "2026-04-19T05:17:59-04:00",
-                                            "updated_utc":  "2026-04-19T09:52:20Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.31,
-                                            "place":  "6 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.49,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 6 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347602",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347602\u0026format=geojson"
                                         }
                      }
                  ]
