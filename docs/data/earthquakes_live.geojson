@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-26T23:57:50Z",
+    "generated_at_utc":  "2026-04-27T00:03:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,19 +9,19 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.715,
-                                                              32.17,
+                                                              -103.541,
+                                                              32.154,
                                                               0
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026iexbvc",
-                                            "time_utc":  "2026-04-26T23:24:48Z",
-                                            "time_et":  "2026-04-26T19:24:48-04:00",
-                                            "updated_utc":  "2026-04-26T23:29:08Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "34 km E of Malaga, New Mexico",
+                                            "time_utc":  "2026-04-26T23:24:46Z",
+                                            "time_et":  "2026-04-26T19:24:46-04:00",
+                                            "updated_utc":  "2026-04-27T00:00:08Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.7,
+                                            "place":  "33 km W of Jal, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "0.0",
                                             "depth_km_raw":  0,
@@ -31,9 +31,9 @@
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  44,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 34 km E of Malaga, New Mexico",
+                                            "title":  "M 1.7 - 33 km W of Jal, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iexbvc",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026iexbvc\u0026format=geojson"
                                         }
@@ -1418,20 +1418,20 @@
                                             "id":  "us6000st0f",
                                             "time_utc":  "2026-04-26T14:32:03Z",
                                             "time_et":  "2026-04-26T10:32:03-04:00",
-                                            "updated_utc":  "2026-04-26T23:48:54Z",
+                                            "updated_utc":  "2026-04-27T00:02:13Z",
                                             "magnitude":  "2.9",
                                             "magnitude_raw":  2.9,
                                             "place":  "7 km SSE of Amherstburg, Canada",
                                             "country":  "Canada",
                                             "depth_km":  "2.1",
                                             "depth_km_raw":  2.131,
-                                            "felt_reports":  284,
+                                            "felt_reports":  285,
                                             "cdi":  3.8,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  237,
+                                            "significance":  238,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.9 - 7 km SSE of Amherstburg, Canada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000st0f",
@@ -12461,6 +12461,41 @@
                                             "title":  "M 0.7 - 36 km SSW of Lamesa, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iahpwq",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026iahpwq\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75350642",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.769666666667,
+                                                              38.8005,
+                                                              0.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75350642",
+                                            "time_utc":  "2026-04-24T10:33:51Z",
+                                            "time_et":  "2026-04-24T06:33:51-04:00",
+                                            "updated_utc":  "2026-04-27T00:00:04Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.25,
+                                            "place":  "3 km NNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.5",
+                                            "depth_km_raw":  0.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 3 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75350642",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75350642\u0026format=geojson"
                                         }
                      },
                      {
@@ -44066,111 +44101,6 @@
                                             "title":  "M 1.6 - 18 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915733",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915733\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915727",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.159,
-                                                              39.2632,
-                                                              13.8737
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915727",
-                                            "time_utc":  "2026-04-20T00:01:14Z",
-                                            "time_et":  "2026-04-19T20:01:14-04:00",
-                                            "updated_utc":  "2026-04-20T00:03:46Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.69,
-                                            "place":  "17 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.9",
-                                            "depth_km_raw":  13.8737,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 17 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915727",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00915726",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.1122,
-                                                              39.2645,
-                                                              2.1837
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00915726",
-                                            "time_utc":  "2026-04-20T00:01:00Z",
-                                            "time_et":  "2026-04-19T20:01:00-04:00",
-                                            "updated_utc":  "2026-04-20T00:03:02Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.62,
-                                            "place":  "19 km SSE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.1837,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  40,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 19 km SSE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915726",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915726\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80137291",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -110.330666666667,
-                                                              44.6033333333333,
-                                                              5.85
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80137291",
-                                            "time_utc":  "2026-04-20T00:00:31Z",
-                                            "time_et":  "2026-04-19T20:00:31-04:00",
-                                            "updated_utc":  "2026-04-20T17:59:24Z",
-                                            "magnitude":  "-0.3",
-                                            "magnitude_raw":  -0.25,
-                                            "place":  "50 km SE of Mammoth, Wyoming",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.9",
-                                            "depth_km_raw":  5.85,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M -0.3 - 50 km SE of Mammoth, Wyoming",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137291",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137291\u0026format=geojson"
                                         }
                      }
                  ]
