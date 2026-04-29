@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-29T17:49:46Z",
+    "generated_at_utc":  "2026-04-29T17:50:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3785,6 +3785,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw61505123",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.18416666666668,
+                                                              46.203833333333336,
+                                                              -1.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw61505123",
+                                            "time_utc":  "2026-04-29T03:59:12Z",
+                                            "time_et":  "2026-04-28T23:59:12-04:00",
+                                            "updated_utc":  "2026-04-29T17:49:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.1,
+                                            "place":  "38 km NNE of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.8",
+                                            "depth_km_raw":  -1.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 38 km NNE of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw61505123",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw61505123\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "uw62240732",
                          "geometry":  {
                                           "type":  "Point",
@@ -4568,14 +4603,14 @@
                                             "id":  "nc75353522",
                                             "time_utc":  "2026-04-29T01:35:57Z",
                                             "time_et":  "2026-04-28T21:35:57-04:00",
-                                            "updated_utc":  "2026-04-29T17:40:07Z",
+                                            "updated_utc":  "2026-04-29T17:49:37Z",
                                             "magnitude":  "2.8",
                                             "magnitude_raw":  2.84,
                                             "place":  "3 km WSW of Granite Bay, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "4.3",
                                             "depth_km_raw":  4.25,
-                                            "felt_reports":  800,
+                                            "felt_reports":  801,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
