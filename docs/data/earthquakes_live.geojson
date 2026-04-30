@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-04-30T19:05:27Z",
+    "generated_at_utc":  "2026-04-30T19:06:26Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41238303",
+                         "id":  "ci41238311",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.195503234863,
-                                                              34.997501373291,
-                                                              0.53
+                                                              -117.497833251953,
+                                                              35.7223320007324,
+                                                              2.09
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41238303",
-                                            "time_utc":  "2026-04-30T19:01:37Z",
-                                            "time_et":  "2026-04-30T15:01:37-04:00",
-                                            "updated_utc":  "2026-04-30T19:03:43Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.08,
-                                            "place":  "6 km SSW of Mojave, CA",
+                                            "id":  "ci41238311",
+                                            "time_utc":  "2026-04-30T19:02:55Z",
+                                            "time_et":  "2026-04-30T15:02:55-04:00",
+                                            "updated_utc":  "2026-04-30T19:05:01Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.99,
+                                            "place":  "10 km WSW of Searles Valley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.5",
-                                            "depth_km_raw":  0.53,
+                                            "depth_km":  "2.1",
+                                            "depth_km_raw":  2.09,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  15,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 6 km SSW of Mojave, CA",
+                                            "title":  "M 1.0 - 10 km WSW of Searles Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41238311",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41238311\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41238303",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.196833333333,
+                                                              34.9928333333333,
+                                                              0.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41238303",
+                                            "time_utc":  "2026-04-30T19:01:37Z",
+                                            "time_et":  "2026-04-30T15:01:37-04:00",
+                                            "updated_utc":  "2026-04-30T19:05:06Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.01,
+                                            "place":  "7 km SSW of Mojave, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.9",
+                                            "depth_km_raw":  0.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 7 km SSW of Mojave, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41238303",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41238303\u0026format=geojson"
                                         }
