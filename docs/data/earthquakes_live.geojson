@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-02T16:00:57Z",
+    "generated_at_utc":  "2026-05-02T16:01:56Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ipioyx",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.922,
+                                                              32.104,
+                                                              4.1228
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ipioyx",
+                                            "time_utc":  "2026-05-02T15:57:00Z",
+                                            "time_et":  "2026-05-02T11:57:00-04:00",
+                                            "updated_utc":  "2026-05-02T16:01:20Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2,
+                                            "place":  "12 km WSW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.1",
+                                            "depth_km_raw":  4.1228,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  62,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 12 km WSW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ipioyx",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ipioyx\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026ipibmw",
@@ -20773,7 +20808,7 @@
                                             "id":  "nn00916745",
                                             "time_utc":  "2026-04-29T15:55:12Z",
                                             "time_et":  "2026-04-29T11:55:12-04:00",
-                                            "updated_utc":  "2026-05-02T03:15:25Z",
+                                            "updated_utc":  "2026-05-02T16:00:15Z",
                                             "magnitude":  "3.2",
                                             "magnitude_raw":  3.19,
                                             "place":  "19 km ESE of Silver Springs, Nevada",
@@ -49071,41 +49106,6 @@
                                             "title":  "M 1.1 - 7 km SE of Big Spring, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026icmxih",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026icmxih\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71514668",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -65.2898333333333,
-                                                              19.224,
-                                                              30.28
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71514668",
-                                            "time_utc":  "2026-04-25T16:01:00Z",
-                                            "time_et":  "2026-04-25T12:01:00-04:00",
-                                            "updated_utc":  "2026-04-25T18:04:46Z",
-                                            "magnitude":  "3.3",
-                                            "magnitude_raw":  3.29,
-                                            "place":  "101 km N of Culebra, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "30.3",
-                                            "depth_km_raw":  30.28,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  167,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.3 - 101 km N of Culebra, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514668",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514668\u0026format=geojson"
                                         }
                      }
                  ]
