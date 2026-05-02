@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-02T22:56:14Z",
+    "generated_at_utc":  "2026-05-02T23:07:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75355782",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.767166137695,
+                                                              38.7898330688477,
+                                                              2.73
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75355782",
+                                            "time_utc":  "2026-05-02T23:02:38Z",
+                                            "time_et":  "2026-05-02T19:02:38-04:00",
+                                            "updated_utc":  "2026-05-02T23:04:15Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.75,
+                                            "place":  "2 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.73,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 2 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355782",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75355782\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71515473",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.9921666666667,
+                                                              18.3275,
+                                                              119.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71515473",
+                                            "time_utc":  "2026-05-02T22:48:17Z",
+                                            "time_et":  "2026-05-02T18:48:17-04:00",
+                                            "updated_utc":  "2026-05-02T23:01:44Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.05,
+                                            "place":  "6 km WSW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "119.5",
+                                            "depth_km_raw":  119.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  143,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 6 km WSW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515473",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71515473\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75355777",
@@ -45,21 +115,21 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -99.04,
-                                                              28.871,
-                                                              7.9558
+                                                              28.872,
+                                                              7.8744
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026ipwdqi",
                                             "time_utc":  "2026-05-02T22:46:00Z",
                                             "time_et":  "2026-05-02T18:46:00-04:00",
-                                            "updated_utc":  "2026-05-02T22:49:20Z",
+                                            "updated_utc":  "2026-05-02T23:01:14Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.3,
                                             "place":  "5 km ESE of Pearsall, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.0",
-                                            "depth_km_raw":  7.9558,
+                                            "depth_km":  "7.9",
+                                            "depth_km_raw":  7.8744,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -71,6 +141,41 @@
                                             "title":  "M 2.3 - 5 km ESE of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ipwdqi",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ipwdqi\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ipwale",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.065,
+                                                              28.894,
+                                                              6.8599
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ipwale",
+                                            "time_utc":  "2026-05-02T22:42:19Z",
+                                            "time_et":  "2026-05-02T18:42:19-04:00",
+                                            "updated_utc":  "2026-05-02T23:01:12Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.5,
+                                            "place":  "2 km E of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.9",
+                                            "depth_km_raw":  6.8599,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  96,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 2 km E of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ipwale",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ipwale\u0026format=geojson"
                                         }
                      },
                      {
