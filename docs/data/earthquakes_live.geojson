@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-04T04:02:42Z",
+    "generated_at_utc":  "2026-05-04T04:03:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 0.8 - 2 km WNW of Anderson Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75356492",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75356492\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71515573",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.087,
+                                                              18.2666666666667,
+                                                              36.7
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71515573",
+                                            "time_utc":  "2026-05-04T03:44:42Z",
+                                            "time_et":  "2026-05-03T23:44:42-04:00",
+                                            "updated_utc":  "2026-05-04T04:02:43Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.99,
+                                            "place":  "2 km ENE of Aguas Buenas, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "36.7",
+                                            "depth_km_raw":  36.7,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  61,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 2 km ENE of Aguas Buenas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71515573",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71515573\u0026format=geojson"
                                         }
                      },
                      {
