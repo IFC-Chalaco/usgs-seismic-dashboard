@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-04T21:11:33Z",
+    "generated_at_utc":  "2026-05-04T21:12:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,20 +18,20 @@
                                             "id":  "tx2026itjvis",
                                             "time_utc":  "2026-05-04T20:52:23Z",
                                             "time_et":  "2026-05-04T16:52:23-04:00",
-                                            "updated_utc":  "2026-05-04T21:02:42Z",
+                                            "updated_utc":  "2026-05-04T21:07:57Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.5,
                                             "place":  "10 km N of Midland, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "3.8",
                                             "depth_km_raw":  3.8282,
-                                            "felt_reports":  6,
+                                            "felt_reports":  10,
                                             "cdi":  3.8,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  98,
+                                            "significance":  100,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.5 - 10 km N of Midland, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026itjvis",
@@ -7919,31 +7919,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -123.68150329589844,
-                                                              45.633335113525391,
-                                                              14.59
+                                                              -123.69666666666669,
+                                                              45.6365,
+                                                              12.1
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw62241592",
-                                            "time_utc":  "2026-05-03T12:50:48Z",
-                                            "time_et":  "2026-05-03T08:50:48-04:00",
-                                            "updated_utc":  "2026-05-03T12:53:34Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.07,
-                                            "place":  "16 km ESE of Wheeler, Oregon",
+                                            "time_utc":  "2026-05-03T12:50:49Z",
+                                            "time_et":  "2026-05-03T08:50:49-04:00",
+                                            "updated_utc":  "2026-05-04T21:09:40Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.59,
+                                            "place":  "15 km ESE of Wheeler, Oregon",
                                             "country":  "United States of America",
-                                            "depth_km":  "14.6",
-                                            "depth_km_raw":  14.59,
+                                            "depth_km":  "12.1",
+                                            "depth_km_raw":  12.1,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  66,
+                                            "significance":  39,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 16 km ESE of Wheeler, Oregon",
+                                            "title":  "M 1.6 - 15 km ESE of Wheeler, Oregon",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62241592",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62241592\u0026format=geojson"
                                         }
@@ -12430,6 +12430,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "mb90135753",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.209666666667,
+                                                              44.7711666666667,
+                                                              8.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90135753",
+                                            "time_utc":  "2026-05-03T01:23:43Z",
+                                            "time_et":  "2026-05-02T21:23:43-04:00",
+                                            "updated_utc":  "2026-05-04T21:09:01Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.01,
+                                            "place":  "1 km W of Hebgen Lake Estates, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.8",
+                                            "depth_km_raw":  8.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 1 km W of Hebgen Lake Estates, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90135753",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90135753\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41240103",
                          "geometry":  {
                                           "type":  "Point",
@@ -13966,6 +14001,41 @@
                                             "title":  "M 0.4 - 3 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355722",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75355722\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90135743",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.602833333333,
+                                                              45.799,
+                                                              5.02
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90135743",
+                                            "time_utc":  "2026-05-02T20:42:07Z",
+                                            "time_et":  "2026-05-02T16:42:07-04:00",
+                                            "updated_utc":  "2026-05-04T21:06:49Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.17,
+                                            "place":  "9 km S of Clyde Park, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5.02,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 9 km S of Clyde Park, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90135743",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90135743\u0026format=geojson"
                                         }
                      },
                      {
