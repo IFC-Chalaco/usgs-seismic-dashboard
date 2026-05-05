@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-05T23:28:39Z",
+    "generated_at_utc":  "2026-05-05T23:30:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,15 +18,15 @@
                                             "id":  "nc75357762",
                                             "time_utc":  "2026-05-05T23:23:20Z",
                                             "time_et":  "2026-05-05T19:23:20-04:00",
-                                            "updated_utc":  "2026-05-05T23:27:28Z",
+                                            "updated_utc":  "2026-05-05T23:29:04Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.36,
                                             "place":  "2 km SE of Pacifica, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "9.2",
                                             "depth_km_raw":  9.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  2,
+                                            "cdi":  2.7,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
@@ -53026,41 +53026,6 @@
                                             "title":  "M 2.4 - 17 km ESE of Rocky Ridge, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80138451",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80138451\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41236415",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.686333333333,
-                                                              35.031,
-                                                              -0.81
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41236415",
-                                            "time_utc":  "2026-04-28T23:29:25Z",
-                                            "time_et":  "2026-04-28T19:29:25-04:00",
-                                            "updated_utc":  "2026-04-28T23:32:48Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.42,
-                                            "place":  "5 km NW of Boron, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.8",
-                                            "depth_km_raw":  -0.81,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  31,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 5 km NW of Boron, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41236415",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41236415\u0026format=geojson"
                                         }
                      }
                  ]
