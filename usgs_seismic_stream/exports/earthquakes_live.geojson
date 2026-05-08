@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-08T15:51:37Z",
+    "generated_at_utc":  "2026-05-08T15:52:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75357206",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.767669677734,
+                                                              38.7916679382324,
+                                                              3.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75357206",
+                                            "time_utc":  "2026-05-08T15:50:16Z",
+                                            "time_et":  "2026-05-08T11:50:16-04:00",
+                                            "updated_utc":  "2026-05-08T15:51:54Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.72,
+                                            "place":  "2 km NNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 2 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357206",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75357206\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75357201",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.747001647949,
+                                                              38.7845001220703,
+                                                              2.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75357201",
+                                            "time_utc":  "2026-05-08T15:49:35Z",
+                                            "time_et":  "2026-05-08T11:49:35-04:00",
+                                            "updated_utc":  "2026-05-08T15:51:09Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.78,
+                                            "place":  "1 km NE of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 1 km NE of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357201",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75357201\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41458600",
@@ -53271,41 +53341,6 @@
                                             "title":  "M 3.5 - 5 km WNW of Mayagüez, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026121000",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026121000\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026inmrlg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.928,
-                                                              32.105,
-                                                              7.9834
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026inmrlg",
-                                            "time_utc":  "2026-05-01T15:51:21Z",
-                                            "time_et":  "2026-05-01T11:51:21-04:00",
-                                            "updated_utc":  "2026-05-04T16:52:35Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.6,
-                                            "place":  "13 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.0",
-                                            "depth_km_raw":  7.9834,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 13 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026inmrlg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026inmrlg\u0026format=geojson"
                                         }
                      }
                  ]
