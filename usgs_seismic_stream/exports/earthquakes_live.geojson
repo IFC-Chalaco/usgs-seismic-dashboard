@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-08T04:31:23Z",
+    "generated_at_utc":  "2026-05-08T04:43:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75356881",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.846000671387,
+                                                              38.821834564209,
+                                                              2.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75356881",
+                                            "time_utc":  "2026-05-08T04:37:01Z",
+                                            "time_et":  "2026-05-08T00:37:01-04:00",
+                                            "updated_utc":  "2026-05-08T04:38:37Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.44,
+                                            "place":  "9 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 9 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75356881",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75356881\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00918038",
@@ -193,7 +228,7 @@
                                             "id":  "nc75356866",
                                             "time_utc":  "2026-05-08T02:50:37Z",
                                             "time_et":  "2026-05-07T22:50:37-04:00",
-                                            "updated_utc":  "2026-05-08T03:17:24Z",
+                                            "updated_utc":  "2026-05-08T04:32:20Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.31,
                                             "place":  "5 km WNW of The Geysers, CA",
@@ -54006,41 +54041,6 @@
                                             "title":  "M 1.8 - 7 km W of Thatcher, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80138601",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80138601\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75354747",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.82,
-                                                              38.8305,
-                                                              2.1
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75354747",
-                                            "time_utc":  "2026-05-01T04:41:01Z",
-                                            "time_et":  "2026-05-01T00:41:01-04:00",
-                                            "updated_utc":  "2026-05-04T01:03:02Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.23,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.1,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75354747",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75354747\u0026format=geojson"
                                         }
                      }
                  ]
