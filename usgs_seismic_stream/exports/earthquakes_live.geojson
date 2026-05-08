@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-08T18:13:07Z",
+    "generated_at_utc":  "2026-05-08T18:14:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41458752",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.454666137695,
+                                                              35.3026657104492,
+                                                              5.3
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41458752",
+                                            "time_utc":  "2026-05-08T18:10:54Z",
+                                            "time_et":  "2026-05-08T14:10:54-04:00",
+                                            "updated_utc":  "2026-05-08T18:12:57Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "18 km ESE of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.3,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 18 km ESE of Johannesburg, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41458752",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41458752\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41458728",
