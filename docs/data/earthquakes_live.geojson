@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-08T22:41:13Z",
+    "generated_at_utc":  "2026-05-08T23:16:54Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "nc75357421",
                                             "time_utc":  "2026-05-08T22:38:10Z",
                                             "time_et":  "2026-05-08T18:38:10-04:00",
-                                            "updated_utc":  "2026-05-08T22:39:44Z",
+                                            "updated_utc":  "2026-05-08T22:57:19Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.08,
                                             "place":  "8 km NW of The Geysers, CA",
@@ -403,7 +403,7 @@
                                             "id":  "nc75357401",
                                             "time_utc":  "2026-05-08T21:27:54Z",
                                             "time_et":  "2026-05-08T17:27:54-04:00",
-                                            "updated_utc":  "2026-05-08T21:37:22Z",
+                                            "updated_utc":  "2026-05-08T23:07:21Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.14,
                                             "place":  "9 km NW of The Geysers, CA",
@@ -543,7 +543,7 @@
                                             "id":  "nc75357386",
                                             "time_utc":  "2026-05-08T20:56:49Z",
                                             "time_et":  "2026-05-08T16:56:49-04:00",
-                                            "updated_utc":  "2026-05-08T21:32:19Z",
+                                            "updated_utc":  "2026-05-08T22:47:21Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.11,
                                             "place":  "8 km NW of The Geysers, CA",
@@ -39835,6 +39835,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw62241607",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.8365,
+                                                              47.790833333333332,
+                                                              21.46
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62241607",
+                                            "time_utc":  "2026-05-03T14:56:29Z",
+                                            "time_et":  "2026-05-03T10:56:29-04:00",
+                                            "updated_utc":  "2026-05-08T22:55:49Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.64,
+                                            "place":  "4 km SE of Quilcene, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "21.5",
+                                            "depth_km_raw":  21.46,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 4 km SE of Quilcene, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62241607",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62241607\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41240463",
                          "geometry":  {
                                           "type":  "Point",
@@ -53971,41 +54006,6 @@
                                             "title":  "M 2.6 - 40 km S of Hayfork, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355267",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75355267\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41239167",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.237166666667,
-                                                              34.0475,
-                                                              13.6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41239167",
-                                            "time_utc":  "2026-05-01T22:47:48Z",
-                                            "time_et":  "2026-05-01T18:47:48-04:00",
-                                            "updated_utc":  "2026-05-01T22:58:34Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.12,
-                                            "place":  "2 km E of Loma Linda, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.6",
-                                            "depth_km_raw":  13.6,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 2 km E of Loma Linda, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239167",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41239167\u0026format=geojson"
                                         }
                      }
                  ]
