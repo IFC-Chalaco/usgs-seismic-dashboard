@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-09T09:48:34Z",
+    "generated_at_utc":  "2026-05-09T09:49:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71516278",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.7208333333333,
+                                                              18.0098333333333,
+                                                              13.84
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71516278",
+                                            "time_utc":  "2026-05-09T09:39:59Z",
+                                            "time_et":  "2026-05-09T05:39:59-04:00",
+                                            "updated_utc":  "2026-05-09T09:47:52Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.02,
+                                            "place":  "1 km NNW of Tallaboa, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "13.8",
+                                            "depth_km_raw":  13.84,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 1 km NNW of Tallaboa, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516278",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71516278\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75357661",
@@ -52256,41 +52291,6 @@
                                             "title":  "M 1.1 - 2 km NW of Banning, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239431",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41239431\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026iowjwo",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -99.032,
-                                                              28.835,
-                                                              6.8471
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026iowjwo",
-                                            "time_utc":  "2026-05-02T09:48:45Z",
-                                            "time_et":  "2026-05-02T05:48:45-04:00",
-                                            "updated_utc":  "2026-05-04T18:55:22Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "8 km SE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.8471,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 8 km SE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iowjwo",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026iowjwo\u0026format=geojson"
                                         }
                      }
                  ]
