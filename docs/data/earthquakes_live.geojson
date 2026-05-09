@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-09T23:02:43Z",
+    "generated_at_utc":  "2026-05-09T23:03:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75357906",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.969665527344,
+                                                              40.3193321228027,
+                                                              1.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75357906",
+                                            "time_utc":  "2026-05-09T22:59:47Z",
+                                            "time_et":  "2026-05-09T18:59:47-04:00",
+                                            "updated_utc":  "2026-05-09T23:02:29Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.83,
+                                            "place":  "14 km SW of Manton, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.2",
+                                            "depth_km_raw":  1.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  52,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 14 km SW of Manton, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75357906",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75357906\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026jcskbm",
@@ -50331,41 +50366,6 @@
                                             "title":  "M 1.2 - 4 km W of Lachute, Canada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shwr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shwr\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75355782",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.767166137695,
-                                                              38.7898330688477,
-                                                              2.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75355782",
-                                            "time_utc":  "2026-05-02T23:02:38Z",
-                                            "time_et":  "2026-05-02T19:02:38-04:00",
-                                            "updated_utc":  "2026-05-02T23:04:15Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.75,
-                                            "place":  "2 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 2 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355782",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75355782\u0026format=geojson"
                                         }
                      }
                  ]
