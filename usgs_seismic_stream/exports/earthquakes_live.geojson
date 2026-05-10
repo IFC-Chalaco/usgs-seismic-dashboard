@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-10T07:53:00Z",
+    "generated_at_utc":  "2026-05-10T07:53:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41461920",
+                         "id":  "ci41461928",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.557998657227,
-                                                              32.9486656188965,
-                                                              5.63
+                                                              -115.566497802734,
+                                                              32.9551658630371,
+                                                              6.16
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41461920",
-                                            "time_utc":  "2026-05-10T07:49:38Z",
-                                            "time_et":  "2026-05-10T03:49:38-04:00",
-                                            "updated_utc":  "2026-05-10T07:51:44Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.22,
+                                            "id":  "ci41461928",
+                                            "time_utc":  "2026-05-10T07:50:35Z",
+                                            "time_et":  "2026-05-10T03:50:35-04:00",
+                                            "updated_utc":  "2026-05-10T07:52:42Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.58,
                                             "place":  "4 km SW of Brawley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.6",
-                                            "depth_km_raw":  5.63,
+                                            "depth_km":  "6.2",
+                                            "depth_km_raw":  6.16,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  76,
+                                            "significance":  38,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 4 km SW of Brawley, CA",
+                                            "title":  "M 1.6 - 4 km SW of Brawley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461928",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41461928\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41461920",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.5725,
+                                                              32.9586666666667,
+                                                              4.88
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41461920",
+                                            "time_utc":  "2026-05-10T07:49:38Z",
+                                            "time_et":  "2026-05-10T03:49:38-04:00",
+                                            "updated_utc":  "2026-05-10T07:53:08Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "5 km WSW of Brawley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.9",
+                                            "depth_km_raw":  4.88,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 5 km WSW of Brawley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461920",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41461920\u0026format=geojson"
                                         }
