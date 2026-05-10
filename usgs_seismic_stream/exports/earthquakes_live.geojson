@@ -1,8 +1,113 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-10T18:37:28Z",
+    "generated_at_utc":  "2026-05-10T18:38:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41463072",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.7355,
+                                                              35.9168333333333,
+                                                              8.61
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41463072",
+                                            "time_utc":  "2026-05-10T18:32:26Z",
+                                            "time_et":  "2026-05-10T14:32:26-04:00",
+                                            "updated_utc":  "2026-05-10T18:35:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.32,
+                                            "place":  "16 km E of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.61,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 16 km E of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463072",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41463072\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75358391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.740669250488,
+                                                              38.7783317565918,
+                                                              0.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75358391",
+                                            "time_utc":  "2026-05-10T18:31:16Z",
+                                            "time_et":  "2026-05-10T14:31:16-04:00",
+                                            "updated_utc":  "2026-05-10T18:34:51Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.5,
+                                            "place":  "1 km E of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.8",
+                                            "depth_km_raw":  0.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  96,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 1 km E of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75358391\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00918229",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.1221,
+                                                              39.2656,
+                                                              7.4603
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00918229",
+                                            "time_utc":  "2026-05-10T18:30:28Z",
+                                            "time_et":  "2026-05-10T14:30:28-04:00",
+                                            "updated_utc":  "2026-05-10T18:32:22Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.72,
+                                            "place":  "18 km SSE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.5",
+                                            "depth_km_raw":  7.4603,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  46,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 18 km SSE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918229",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00918229\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75358386",
@@ -53,24 +158,59 @@
                                             "id":  "nn00918224",
                                             "time_utc":  "2026-05-10T18:24:32Z",
                                             "time_et":  "2026-05-10T14:24:32-04:00",
-                                            "updated_utc":  "2026-05-10T18:28:19Z",
+                                            "updated_utc":  "2026-05-10T18:33:54Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.61,
                                             "place":  "18 km SE of Silver Springs, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "8.0",
                                             "depth_km_raw":  7.9504,
-                                            "felt_reports":  1,
-                                            "cdi":  2,
+                                            "felt_reports":  7,
+                                            "cdi":  2.2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  105,
+                                            "significance":  106,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.6 - 18 km SE of Silver Springs, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918224",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00918224\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000swrl",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.1206,
+                                                              39.2751,
+                                                              12.173
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000swrl",
+                                            "time_utc":  "2026-05-10T18:22:13Z",
+                                            "time_et":  "2026-05-10T14:22:13-04:00",
+                                            "updated_utc":  "2026-05-10T18:35:19Z",
+                                            "magnitude":  "4.1",
+                                            "magnitude_raw":  4.1,
+                                            "place":  "17 km SSE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.2",
+                                            "depth_km_raw":  12.173,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  4.322,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  259,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.1 - 17 km SSE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000swrl",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000swrl\u0026format=geojson"
                                         }
                      },
                      {
