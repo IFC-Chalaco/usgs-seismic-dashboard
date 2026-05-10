@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-10T16:35:04Z",
+    "generated_at_utc":  "2026-05-10T16:36:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41462992",
+                         "id":  "ci41463000",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.214500427246,
-                                                              34.0068321228027,
-                                                              2.34
+                                                              -115.546666666667,
+                                                              32.9608333333333,
+                                                              8.16
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41462992",
-                                            "time_utc":  "2026-05-10T16:31:18Z",
-                                            "time_et":  "2026-05-10T12:31:18-04:00",
-                                            "updated_utc":  "2026-05-10T16:33:22Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.95,
-                                            "place":  "6 km SSW of Redlands, CA",
+                                            "id":  "ci41463000",
+                                            "time_utc":  "2026-05-10T16:31:27Z",
+                                            "time_et":  "2026-05-10T12:31:27-04:00",
+                                            "updated_utc":  "2026-05-10T16:34:47Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.11,
+                                            "place":  "3 km SW of Brawley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.3",
-                                            "depth_km_raw":  2.34,
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.16,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  14,
+                                            "significance":  19,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 6 km SSW of Redlands, CA",
+                                            "title":  "M 1.1 - 3 km SW of Brawley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463000",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41463000\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41462992",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.210333333333,
+                                                              34.0138333333333,
+                                                              5.57
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41462992",
+                                            "time_utc":  "2026-05-10T16:31:18Z",
+                                            "time_et":  "2026-05-10T12:31:18-04:00",
+                                            "updated_utc":  "2026-05-10T16:34:50Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.87,
+                                            "place":  "5 km SSW of Redlands, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.6",
+                                            "depth_km_raw":  5.57,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 5 km SSW of Redlands, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462992",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41462992\u0026format=geojson"
                                         }
