@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-10T12:13:16Z",
+    "generated_at_utc":  "2026-05-10T12:14:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41462736",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.532669067383,
+                                                              32.9756660461426,
+                                                              10.57
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41462736",
+                                            "time_utc":  "2026-05-10T12:11:00Z",
+                                            "time_et":  "2026-05-10T08:11:00-04:00",
+                                            "updated_utc":  "2026-05-10T12:13:05Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.89,
+                                            "place":  "0 km SSW of Brawley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.6",
+                                            "depth_km_raw":  10.57,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  55,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 0 km SSW of Brawley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41462736",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41462736\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75358276",
