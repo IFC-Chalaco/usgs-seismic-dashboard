@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-11T13:37:44Z",
+    "generated_at_utc":  "2026-05-11T13:38:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -753,7 +753,7 @@
                                             "id":  "nc75358751",
                                             "time_utc":  "2026-05-11T11:05:34Z",
                                             "time_et":  "2026-05-11T07:05:34-04:00",
-                                            "updated_utc":  "2026-05-11T11:12:23Z",
+                                            "updated_utc":  "2026-05-11T13:37:22Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.25,
                                             "place":  "6 km NNW of Eureka, CA",
@@ -24011,6 +24011,41 @@
                                             "title":  "M 0.6 - 16 km W of Stanton, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jcjkca",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jcjkca\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026jcjhfm",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.023,
+                                                              28.789,
+                                                              8.7586
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026jcjhfm",
+                                            "time_utc":  "2026-05-09T18:16:06Z",
+                                            "time_et":  "2026-05-09T14:16:06-04:00",
+                                            "updated_utc":  "2026-05-11T13:38:00Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "13 km SSE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.8",
+                                            "depth_km_raw":  8.7586,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 13 km SSE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jcjhfm",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jcjhfm\u0026format=geojson"
                                         }
                      },
                      {
