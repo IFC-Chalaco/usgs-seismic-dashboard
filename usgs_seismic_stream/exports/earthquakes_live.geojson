@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-11T00:06:12Z",
+    "generated_at_utc":  "2026-05-11T00:07:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41463344",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.553665161133,
+                                                              32.9616661071777,
+                                                              4.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41463344",
+                                            "time_utc":  "2026-05-11T00:04:12Z",
+                                            "time_et":  "2026-05-10T20:04:12-04:00",
+                                            "updated_utc":  "2026-05-11T00:06:18Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.62,
+                                            "place":  "3 km SW of Brawley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.9",
+                                            "depth_km_raw":  4.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  40,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 3 km SW of Brawley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463344",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41463344\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00918309",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.1067,
+                                                              39.2719,
+                                                              1.2727
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00918309",
+                                            "time_utc":  "2026-05-11T00:03:28Z",
+                                            "time_et":  "2026-05-10T20:03:28-04:00",
+                                            "updated_utc":  "2026-05-11T00:05:38Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.05,
+                                            "place":  "18 km SSE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.3",
+                                            "depth_km_raw":  1.2727,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  65,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 18 km SSE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918309",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00918309\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41463336",
