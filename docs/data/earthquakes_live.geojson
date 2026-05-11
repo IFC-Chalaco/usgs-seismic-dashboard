@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-11T18:09:18Z",
+    "generated_at_utc":  "2026-05-11T18:10:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -64,7 +64,7 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  88,
                                             "event_type":  "earthquake",
@@ -63561,41 +63561,6 @@
                                             "title":  "M 1.2 - 12 km SW of Jal, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026itemkg",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026itemkg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75356942",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -124.358497619629,
-                                                              40.3003349304199,
-                                                              8.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75356942",
-                                            "time_utc":  "2026-05-04T18:08:56Z",
-                                            "time_et":  "2026-05-04T14:08:56-04:00",
-                                            "updated_utc":  "2026-05-04T18:11:38Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.89,
-                                            "place":  "7 km WSW of Petrolia, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.1",
-                                            "depth_km_raw":  8.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  55,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 7 km WSW of Petrolia, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75356942",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75356942\u0026format=geojson"
                                         }
                      }
                  ]
