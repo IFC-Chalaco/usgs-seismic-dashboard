@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-12T22:59:04Z",
+    "generated_at_utc":  "2026-05-12T23:00:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75359631",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.823333740234,
+                                                              38.8371658325195,
+                                                              8.36
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75359631",
+                                            "time_utc":  "2026-05-12T22:57:32Z",
+                                            "time_et":  "2026-05-12T18:57:32-04:00",
+                                            "updated_utc":  "2026-05-12T22:59:06Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.69,
+                                            "place":  "9 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.36,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 9 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359631",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75359631\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41465800",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.518165588379,
+                                                              33.4953346252441,
+                                                              12.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41465800",
+                                            "time_utc":  "2026-05-12T22:57:12Z",
+                                            "time_et":  "2026-05-12T18:57:12-04:00",
+                                            "updated_utc":  "2026-05-12T22:59:18Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.68,
+                                            "place":  "16 km ESE of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  44,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 16 km ESE of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41465800",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41465800\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41465784",
@@ -23634,31 +23704,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.532166666667,
-                                                              32.9753333333333,
-                                                              9.03
+                                                              -115.538,
+                                                              32.9743333333333,
+                                                              12.2
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41461688",
                                             "time_utc":  "2026-05-10T07:18:17Z",
                                             "time_et":  "2026-05-10T03:18:17-04:00",
-                                            "updated_utc":  "2026-05-10T07:58:15Z",
+                                            "updated_utc":  "2026-05-12T22:59:24Z",
                                             "magnitude":  "2.6",
-                                            "magnitude_raw":  2.56,
-                                            "place":  "0 km SSW of Brawley, CA",
+                                            "magnitude_raw":  2.57,
+                                            "place":  "1 km SW of Brawley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.0",
-                                            "depth_km_raw":  9.03,
+                                            "depth_km":  "12.2",
+                                            "depth_km_raw":  12.2,
                                             "felt_reports":  0,
                                             "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  101,
+                                            "significance":  102,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 0 km SSW of Brawley, CA",
+                                            "title":  "M 2.6 - 1 km SW of Brawley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461688",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41461688\u0026format=geojson"
                                         }
