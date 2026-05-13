@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-13T10:51:44Z",
+    "generated_at_utc":  "2026-05-13T11:06:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75359906",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.786834716797,
+                                                              38.8338317871094,
+                                                              2.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75359906",
+                                            "time_utc":  "2026-05-13T10:57:22Z",
+                                            "time_et":  "2026-05-13T06:57:22-04:00",
+                                            "updated_utc":  "2026-05-13T10:58:58Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.65,
+                                            "place":  "6 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  2.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 6 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359906",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75359906\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41466176",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.7275,
+                                                              33.9136666666667,
+                                                              13.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41466176",
+                                            "time_utc":  "2026-05-13T10:53:23Z",
+                                            "time_et":  "2026-05-13T06:53:23-04:00",
+                                            "updated_utc":  "2026-05-13T10:56:49Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.55,
+                                            "place":  "6 km E of Cabazon, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.0",
+                                            "depth_km_raw":  13.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 6 km E of Cabazon, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466176",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41466176\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41466168",
@@ -53,7 +123,7 @@
                                             "id":  "tx2026jjcrkm",
                                             "time_utc":  "2026-05-13T10:28:47Z",
                                             "time_et":  "2026-05-13T06:28:47-04:00",
-                                            "updated_utc":  "2026-05-13T10:31:57Z",
+                                            "updated_utc":  "2026-05-13T11:00:27Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
                                             "place":  "63 km SSW of Whites City, New Mexico",
@@ -386,41 +456,6 @@
                                             "title":  "M 1.6 - 2 km SW of Brawley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466104",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41466104\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026jjbgxl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.49,
-                                                              31.623,
-                                                              4.7856
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026jjbgxl",
-                                            "time_utc":  "2026-05-13T09:45:41Z",
-                                            "time_et":  "2026-05-13T05:45:41-04:00",
-                                            "updated_utc":  "2026-05-13T09:48:15Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "62 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.8",
-                                            "depth_km_raw":  4.7856,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 62 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jjbgxl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jjbgxl\u0026format=geojson"
                                         }
                      },
                      {
@@ -1821,76 +1856,6 @@
                                             "title":  "M 1.1 - 19 km E of Ridgecrest, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41465984",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41465984\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026jingjg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.472,
-                                                              31.666,
-                                                              6.7765
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026jingjg",
-                                            "time_utc":  "2026-05-13T02:42:39Z",
-                                            "time_et":  "2026-05-12T22:42:39-04:00",
-                                            "updated_utc":  "2026-05-13T03:04:14Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.4,
-                                            "place":  "57 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.7765,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 57 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jingjg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jingjg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026jindiy",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.53,
-                                                              31.59,
-                                                              0.98
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026jindiy",
-                                            "time_utc":  "2026-05-13T02:39:10Z",
-                                            "time_et":  "2026-05-12T22:39:10-04:00",
-                                            "updated_utc":  "2026-05-13T03:04:07Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.4,
-                                            "place":  "66 km SSW of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.0",
-                                            "depth_km_raw":  0.98,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  30,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 66 km SSW of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jindiy",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jindiy\u0026format=geojson"
                                         }
                      },
                      {
@@ -63596,76 +63561,6 @@
                                             "title":  "M 1.5 - 35 km WSW of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iwhxvp",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026iwhxvp\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75358077",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.80583190918,
-                                                              38.8386650085449,
-                                                              1.97
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75358077",
-                                            "time_utc":  "2026-05-06T10:56:12Z",
-                                            "time_et":  "2026-05-06T06:56:12-04:00",
-                                            "updated_utc":  "2026-05-06T10:57:50Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.75,
-                                            "place":  "7 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.0",
-                                            "depth_km_raw":  1.97,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  47,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 7 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358077",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75358077\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00917880",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0466,
-                                                              39.3996,
-                                                              12.0992
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00917880",
-                                            "time_utc":  "2026-05-06T10:52:59Z",
-                                            "time_et":  "2026-05-06T06:52:59-04:00",
-                                            "updated_utc":  "2026-05-07T10:41:24Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.56,
-                                            "place":  "15 km E of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.1",
-                                            "depth_km_raw":  12.0992,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  101,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 15 km E of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00917880",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00917880\u0026format=geojson"
                                         }
                      }
                  ]
