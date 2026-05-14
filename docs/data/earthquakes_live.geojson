@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-14T21:24:58Z",
+    "generated_at_utc":  "2026-05-14T21:25:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00918634",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.0941,
+                                                              38.6756,
+                                                              1.8747
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00918634",
+                                            "time_utc":  "2026-05-14T21:22:16Z",
+                                            "time_et":  "2026-05-14T17:22:16-04:00",
+                                            "updated_utc":  "2026-05-14T21:24:51Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.58,
+                                            "place":  "59 km S of Kingston, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.8747,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  38,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 59 km S of Kingston, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918634",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00918634\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41467472",
