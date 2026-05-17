@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-17T15:08:52Z",
+    "generated_at_utc":  "2026-05-17T15:16:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41469032",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.4325,
+                                                              34.151,
+                                                              6.02
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41469032",
+                                            "time_utc":  "2026-05-17T15:08:46Z",
+                                            "time_et":  "2026-05-17T11:08:46-04:00",
+                                            "updated_utc":  "2026-05-17T15:12:09Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.56,
+                                            "place":  "6 km NNE of Fontana, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.02,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 6 km NNE of Fontana, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469032",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41469032\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41469016",
@@ -1383,20 +1418,20 @@
                                             "id":  "nc75361631",
                                             "time_utc":  "2026-05-17T06:28:15Z",
                                             "time_et":  "2026-05-17T02:28:15-04:00",
-                                            "updated_utc":  "2026-05-17T14:26:43Z",
+                                            "updated_utc":  "2026-05-17T15:13:48Z",
                                             "magnitude":  "3.6",
                                             "magnitude_raw":  3.58,
                                             "place":  "1 km NE of Ridgemark, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.9",
                                             "depth_km_raw":  6.91,
-                                            "felt_reports":  128,
+                                            "felt_reports":  132,
                                             "cdi":  3.8,
                                             "mmi":  3.818,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  246,
+                                            "significance":  247,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.6 - 1 km NE of Ridgemark, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361631",
