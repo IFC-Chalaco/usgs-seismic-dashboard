@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-19T17:58:59Z",
+    "generated_at_utc":  "2026-05-19T18:17:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026juseqi",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.103,
+                                                              31.623,
+                                                              3.6533
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026juseqi",
+                                            "time_utc":  "2026-05-19T18:05:48Z",
+                                            "time_et":  "2026-05-19T14:05:48-04:00",
+                                            "updated_utc":  "2026-05-19T18:11:49Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "45 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.7",
+                                            "depth_km_raw":  3.6533,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 45 km NW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026juseqi",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026juseqi\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000syt2",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.3216,
+                                                              19.0984,
+                                                              39.658
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000syt2",
+                                            "time_utc":  "2026-05-19T17:47:37Z",
+                                            "time_et":  "2026-05-19T13:47:37-04:00",
+                                            "updated_utc":  "2026-05-19T18:13:06Z",
+                                            "magnitude":  "3.8",
+                                            "magnitude_raw":  3.8,
+                                            "place":  "98 km NNE of Cruz Bay, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "39.7",
+                                            "depth_km_raw":  39.658,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  222,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.8 - 98 km NNE of Cruz Bay, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syt2",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000syt2\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75365717",
@@ -18,7 +88,7 @@
                                             "id":  "nc75365717",
                                             "time_utc":  "2026-05-19T17:35:03Z",
                                             "time_et":  "2026-05-19T13:35:03-04:00",
-                                            "updated_utc":  "2026-05-19T17:36:37Z",
+                                            "updated_utc":  "2026-05-19T18:07:23Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
                                             "place":  "11 km E of Alum Rock, CA",
@@ -44,31 +114,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -74.7572,
-                                                              40.7672,
+                                                              -74.7255,
+                                                              40.7212,
                                                               5
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "us6000sysv",
-                                            "time_utc":  "2026-05-19T17:30:42Z",
-                                            "time_et":  "2026-05-19T13:30:42-04:00",
-                                            "updated_utc":  "2026-05-19T17:44:51Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "2 km SE of Long Valley, New Jersey",
+                                            "time_utc":  "2026-05-19T17:30:41Z",
+                                            "time_et":  "2026-05-19T13:30:41-04:00",
+                                            "updated_utc":  "2026-05-19T18:16:32Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "5 km W of Gladstone, New Jersey",
                                             "country":  "United States of America",
                                             "depth_km":  "5.0",
                                             "depth_km_raw":  5,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  26,
+                                            "cdi":  3,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  44,
+                                            "significance":  58,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 2 km SE of Long Valley, New Jersey",
+                                            "title":  "M 1.8 - 5 km W of Gladstone, New Jersey",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sysv",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sysv\u0026format=geojson"
                                         }
@@ -2258,20 +2328,20 @@
                                             "id":  "ok2026jsqw",
                                             "time_utc":  "2026-05-19T06:47:52Z",
                                             "time_et":  "2026-05-19T02:47:52-04:00",
-                                            "updated_utc":  "2026-05-19T14:49:25Z",
+                                            "updated_utc":  "2026-05-19T18:06:02Z",
                                             "magnitude":  "3.5",
                                             "magnitude_raw":  3.5,
                                             "place":  "2 km ESE of Johnson, Oklahoma",
                                             "country":  "United States of America",
                                             "depth_km":  "17.5",
                                             "depth_km_raw":  17.47,
-                                            "felt_reports":  129,
+                                            "felt_reports":  135,
                                             "cdi":  3.8,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  237,
+                                            "significance":  240,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.5 - 2 km ESE of Johnson, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026jsqw",
@@ -8895,33 +8965,68 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10240326",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.8845,
+                                                              33.0536666666667,
+                                                              11.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10240326",
+                                            "time_utc":  "2026-05-18T07:59:41Z",
+                                            "time_et":  "2026-05-18T03:59:41-04:00",
+                                            "updated_utc":  "2026-05-19T18:09:54Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.36,
+                                            "place":  "25 km W of Westmorland, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.3",
+                                            "depth_km_raw":  11.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  28,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 25 km W of Westmorland, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10240326",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10240326\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41469344",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.925333333333,
-                                                              33.0501666666667,
-                                                              0.04
+                                                              -115.9195,
+                                                              33.0533333333333,
+                                                              1.97
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41469344",
                                             "time_utc":  "2026-05-18T07:59:21Z",
                                             "time_et":  "2026-05-18T03:59:21-04:00",
-                                            "updated_utc":  "2026-05-18T08:02:53Z",
+                                            "updated_utc":  "2026-05-19T18:01:54Z",
                                             "magnitude":  "1.6",
-                                            "magnitude_raw":  1.58,
+                                            "magnitude_raw":  1.61,
                                             "place":  "22 km ESE of Ocotillo Wells, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0.04,
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  1.97,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  38,
+                                            "significance":  40,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.6 - 22 km ESE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469344",
@@ -10326,6 +10431,41 @@
                                             "title":  "M 1.9 - 16 km SE of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jrmimq",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jrmimq\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41469216",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.043166666667,
+                                                              32.6251666666667,
+                                                              7.63
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41469216",
+                                            "time_utc":  "2026-05-17T23:38:22Z",
+                                            "time_et":  "2026-05-17T19:38:22-04:00",
+                                            "updated_utc":  "2026-05-19T18:08:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "13 km SSW of Ocotillo, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.6",
+                                            "depth_km_raw":  7.63,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 13 km SSW of Ocotillo, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469216",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41469216\u0026format=geojson"
                                         }
                      },
                      {
