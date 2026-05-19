@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-19T19:45:17Z",
+    "generated_at_utc":  "2026-05-19T19:46:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75365762",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.786331176758,
+                                                              38.8096656799316,
+                                                              1.88
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75365762",
+                                            "time_utc":  "2026-05-19T19:43:48Z",
+                                            "time_et":  "2026-05-19T15:43:48-04:00",
+                                            "updated_utc":  "2026-05-19T19:45:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.75,
+                                            "place":  "4 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.88,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 4 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75365762",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75365762\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41470432",
@@ -53,7 +88,7 @@
                                             "id":  "tx2026juvitt",
                                             "time_utc":  "2026-05-19T19:41:32Z",
                                             "time_et":  "2026-05-19T15:41:32-04:00",
-                                            "updated_utc":  "2026-05-19T19:44:25Z",
+                                            "updated_utc":  "2026-05-19T19:45:03Z",
                                             "magnitude":  "1.4",
                                             "magnitude_raw":  1.4,
                                             "place":  "55 km SSE of Whites City, New Mexico",
@@ -219,31 +254,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.217,
-                                                              31.601,
-                                                              0
+                                                              -104.096,
+                                                              31.619,
+                                                              5.9332
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026juudta",
-                                            "time_utc":  "2026-05-19T19:05:59Z",
-                                            "time_et":  "2026-05-19T15:05:59-04:00",
-                                            "updated_utc":  "2026-05-19T19:09:38Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.3,
-                                            "place":  "51 km NW of Toyah, Texas",
+                                            "time_utc":  "2026-05-19T19:06:00Z",
+                                            "time_et":  "2026-05-19T15:06:00-04:00",
+                                            "updated_utc":  "2026-05-19T19:44:57Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "44 km NW of Toyah, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
+                                            "depth_km":  "5.9",
+                                            "depth_km_raw":  5.9332,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  81,
+                                            "significance":  68,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 51 km NW of Toyah, Texas",
+                                            "title":  "M 2.1 - 44 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026juudta",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026juudta\u0026format=geojson"
                                         }
