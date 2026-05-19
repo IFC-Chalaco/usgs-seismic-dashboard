@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-19T09:00:04Z",
+    "generated_at_utc":  "2026-05-19T09:01:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.3 - 4 km SE of Aromas, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75365502",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75365502\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026jtyrom",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.46,
+                                                              28.704,
+                                                              6.8458
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026jtyrom",
+                                            "time_utc":  "2026-05-19T08:16:49Z",
+                                            "time_et":  "2026-05-19T04:16:49-04:00",
+                                            "updated_utc":  "2026-05-19T09:00:27Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "10 km SSE of Christine, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.8458,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 10 km SSE of Christine, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jtyrom",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jtyrom\u0026format=geojson"
                                         }
                      },
                      {
