@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-20T19:40:28Z",
+    "generated_at_utc":  "2026-05-20T19:41:27Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41471120",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.33366394043,
+                                                              35.0566673278809,
+                                                              8.3
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41471120",
+                                            "time_utc":  "2026-05-20T19:38:13Z",
+                                            "time_et":  "2026-05-20T15:38:13-04:00",
+                                            "updated_utc":  "2026-05-20T19:40:15Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.42,
+                                            "place":  "13 km SE of Tehachapi, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.3",
+                                            "depth_km_raw":  8.3,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  31,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 13 km SE of Tehachapi, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41471120",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41471120\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026jwqdtw",
@@ -40146,76 +40181,6 @@
                                             "title":  "M 1.0 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75360186",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75360186\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75360181",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.78116607666,
-                                                              38.8366661071777,
-                                                              1.63
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75360181",
-                                            "time_utc":  "2026-05-13T19:40:43Z",
-                                            "time_et":  "2026-05-13T15:40:43-04:00",
-                                            "updated_utc":  "2026-05-13T19:57:19Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.81,
-                                            "place":  "5 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.6",
-                                            "depth_km_raw":  1.63,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 5 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75360181",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75360181\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71516588",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -67.3358333333333,
-                                                              18.7213333333333,
-                                                              10.44
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71516588",
-                                            "time_utc":  "2026-05-13T19:40:14Z",
-                                            "time_et":  "2026-05-13T15:40:14-04:00",
-                                            "updated_utc":  "2026-05-13T20:01:57Z",
-                                            "magnitude":  "3.0",
-                                            "magnitude_raw":  3.02,
-                                            "place":  "35 km NW of San Antonio, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "10.4",
-                                            "depth_km_raw":  10.44,
-                                            "felt_reports":  2,
-                                            "cdi":  2.1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  141,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.0 - 35 km NW of San Antonio, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516588",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71516588\u0026format=geojson"
                                         }
                      }
                  ]
