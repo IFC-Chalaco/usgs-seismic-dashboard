@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-20T14:13:59Z",
+    "generated_at_utc":  "2026-05-20T14:14:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1891,6 +1891,41 @@
                                             "title":  "M 0.6 - 8 km ENE of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470664",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41470664\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80140621",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.475833333333,
+                                                              38.838,
+                                                              3.57
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80140621",
+                                            "time_utc":  "2026-05-20T00:59:10Z",
+                                            "time_et":  "2026-05-19T20:59:10-04:00",
+                                            "updated_utc":  "2026-05-20T14:14:02Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.12,
+                                            "place":  "21 km WSW of Emery, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.57,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 21 km WSW of Emery, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80140621",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80140621\u0026format=geojson"
                                         }
                      },
                      {
@@ -39271,41 +39306,6 @@
                                             "title":  "M 1.0 - 6 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75360021",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75360021\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75360016",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.783996582031,
-                                                              38.8386650085449,
-                                                              1.89
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75360016",
-                                            "time_utc":  "2026-05-13T14:14:03Z",
-                                            "time_et":  "2026-05-13T10:14:03-04:00",
-                                            "updated_utc":  "2026-05-13T14:15:38Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
-                                            "place":  "6 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.89,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75360016",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75360016\u0026format=geojson"
                                         }
                      }
                  ]
