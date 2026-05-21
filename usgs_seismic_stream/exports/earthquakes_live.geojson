@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-21T10:28:30Z",
+    "generated_at_utc":  "2026-05-21T10:29:30Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1401,6 +1401,41 @@
                                             "title":  "M 2.7 - 9 km SE of Coyanosa, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jxftcy",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jxftcy\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026jxezvi",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.916,
+                                                              32.032,
+                                                              6.7664
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026jxezvi",
+                                            "time_utc":  "2026-05-21T02:40:53Z",
+                                            "time_et":  "2026-05-20T22:40:53-04:00",
+                                            "updated_utc":  "2026-05-21T10:28:15Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.8,
+                                            "place":  "25 km SE of Malaga, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.7664,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 25 km SE of Malaga, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jxezvi",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jxezvi\u0026format=geojson"
                                         }
                      },
                      {
