@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-22T13:59:53Z",
+    "generated_at_utc":  "2026-05-22T14:00:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -99.046,
-                                                              28.848,
-                                                              5.2081
+                                                              -98.993,
+                                                              28.799,
+                                                              7.766
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026jzwohp",
-                                            "time_utc":  "2026-05-22T13:39:31Z",
-                                            "time_et":  "2026-05-22T09:39:31-04:00",
-                                            "updated_utc":  "2026-05-22T13:43:04Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.3,
-                                            "place":  "6 km SE of Pearsall, Texas",
+                                            "time_utc":  "2026-05-22T13:39:30Z",
+                                            "time_et":  "2026-05-22T09:39:30-04:00",
+                                            "updated_utc":  "2026-05-22T13:59:23Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "14 km SE of Pearsall, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.2",
-                                            "depth_km_raw":  5.2081,
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.766,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  81,
+                                            "significance":  68,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 6 km SE of Pearsall, Texas",
+                                            "title":  "M 2.1 - 14 km SE of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jzwohp",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jzwohp\u0026format=geojson"
                                         }
@@ -141,6 +141,41 @@
                                             "title":  "M 0.8 - 21 km N of Searles Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472280",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41472280\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026jzvbje",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.924,
+                                                              32.275,
+                                                              8.4229
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026jzvbje",
+                                            "time_utc":  "2026-05-22T12:57:44Z",
+                                            "time_et":  "2026-05-22T08:57:44-04:00",
+                                            "updated_utc":  "2026-05-22T14:00:06Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.8,
+                                            "place":  "20 km NW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.4229,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 20 km NW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jzvbje",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jzvbje\u0026format=geojson"
                                         }
                      },
                      {
