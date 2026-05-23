@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-23T22:30:44Z",
+    "generated_at_utc":  "2026-05-23T22:31:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00919138",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.0722,
+                                                              39.3116,
+                                                              10.5171
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00919138",
+                                            "time_utc":  "2026-05-23T22:28:18Z",
+                                            "time_et":  "2026-05-23T18:28:18-04:00",
+                                            "updated_utc":  "2026-05-23T22:30:16Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.54,
+                                            "place":  "17 km SE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.5",
+                                            "depth_km_raw":  10.5171,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 17 km SE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919138",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00919138\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75367777",
@@ -41616,41 +41651,6 @@
                                             "title":  "M 2.9 - 1 km ENE of Sabana Grande, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516823",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71516823\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71516813",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.853,
-                                                              17.9141666666667,
-                                                              14.64
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71516813",
-                                            "time_utc":  "2026-05-16T22:30:58Z",
-                                            "time_et":  "2026-05-16T18:30:58-04:00",
-                                            "updated_utc":  "2026-05-16T22:48:02Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.31,
-                                            "place":  "8 km SSE of Maria Antonia, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "14.6",
-                                            "depth_km_raw":  14.64,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  82,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 8 km SSE of Maria Antonia, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71516813",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71516813\u0026format=geojson"
                                         }
                      }
                  ]
