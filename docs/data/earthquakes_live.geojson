@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-25T01:40:01Z",
+    "generated_at_utc":  "2026-05-25T01:41:00Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75368482",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.323165893555,
+                                                              36.8844985961914,
+                                                              6.9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75368482",
+                                            "time_utc":  "2026-05-25T01:36:28Z",
+                                            "time_et":  "2026-05-24T21:36:28-04:00",
+                                            "updated_utc":  "2026-05-25T01:39:37Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.63,
+                                            "place":  "8 km ENE of Hollister, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.9",
+                                            "depth_km_raw":  6.9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 8 km ENE of Hollister, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368482",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368482\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41474184",
@@ -40671,41 +40706,6 @@
                                             "title":  "M 2.1 - 44 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jrsfkb",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jrsfkb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026jqlg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.468,
-                                                              34.42783333,
-                                                              4.03
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026jqlg",
-                                            "time_utc":  "2026-05-18T01:40:27Z",
-                                            "time_et":  "2026-05-17T21:40:27-04:00",
-                                            "updated_utc":  "2026-05-19T14:23:25Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.44,
-                                            "place":  "4 km ESE of Ratliff City, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.0",
-                                            "depth_km_raw":  4.03,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  32,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 4 km ESE of Ratliff City, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026jqlg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026jqlg\u0026format=geojson"
                                         }
                      }
                  ]
