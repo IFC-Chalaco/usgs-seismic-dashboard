@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-25T23:43:15Z",
+    "generated_at_utc":  "2026-05-25T23:54:33Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026kgdwlp",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.102,
+                                                              31.587,
+                                                              2.885
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026kgdwlp",
+                                            "time_utc":  "2026-05-25T23:47:01Z",
+                                            "time_et":  "2026-05-25T19:47:01-04:00",
+                                            "updated_utc":  "2026-05-25T23:50:41Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.3,
+                                            "place":  "31 km NE of Crane, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.885,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 31 km NE of Crane, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kgdwlp",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kgdwlp\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75368947",
@@ -39201,41 +39236,6 @@
                                             "title":  "M 2.2 - 5 km SE of Maria Antonia, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71517128",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71517128\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41469920",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.580833333333,
-                                                              34.1971666666667,
-                                                              4.47
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41469920",
-                                            "time_utc":  "2026-05-18T23:48:47Z",
-                                            "time_et":  "2026-05-18T19:48:47-04:00",
-                                            "updated_utc":  "2026-05-19T00:04:02Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.15,
-                                            "place":  "8 km N of Rancho Cucamonga, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.5",
-                                            "depth_km_raw":  4.47,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  20,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 8 km N of Rancho Cucamonga, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469920",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41469920\u0026format=geojson"
                                         }
                      }
                  ]
