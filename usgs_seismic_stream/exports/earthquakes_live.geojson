@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-26T01:32:24Z",
+    "generated_at_utc":  "2026-05-26T01:50:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41474728",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.581,
+                                                              33.1643333333333,
+                                                              15.84
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41474728",
+                                            "time_utc":  "2026-05-26T01:41:14Z",
+                                            "time_et":  "2026-05-25T21:41:14-04:00",
+                                            "updated_utc":  "2026-05-26T01:44:46Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.7,
+                                            "place":  "10 km NNE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.8",
+                                            "depth_km_raw":  15.84,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 10 km NNE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41474728",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41474728\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75368977",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.819664001465,
+                                                              38.8308334350586,
+                                                              1.59
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75368977",
+                                            "time_utc":  "2026-05-26T01:35:08Z",
+                                            "time_et":  "2026-05-25T21:35:08-04:00",
+                                            "updated_utc":  "2026-05-26T01:36:44Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.77,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.59,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368977",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368977\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41474712",
@@ -228,7 +298,7 @@
                                             "id":  "nc75368947",
                                             "time_utc":  "2026-05-25T23:34:26Z",
                                             "time_et":  "2026-05-25T19:34:26-04:00",
-                                            "updated_utc":  "2026-05-26T00:17:28Z",
+                                            "updated_utc":  "2026-05-26T01:37:21Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.38,
                                             "place":  "31 km W of Petrolia, CA",
@@ -39026,76 +39096,6 @@
                                             "title":  "M 1.2 - 15 km NW of Ocotillo, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469936",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41469936\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00918883",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.025,
-                                                              37.8027,
-                                                              7.5222
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00918883",
-                                            "time_utc":  "2026-05-19T01:44:44Z",
-                                            "time_et":  "2026-05-18T21:44:44-04:00",
-                                            "updated_utc":  "2026-05-19T17:03:46Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "21 km ENE of Goldfield, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.5",
-                                            "depth_km_raw":  7.5222,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 21 km ENE of Goldfield, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918883",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00918883\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75365392",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.844329833984,
-                                                              38.824333190918,
-                                                              1.61
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75365392",
-                                            "time_utc":  "2026-05-19T01:32:12Z",
-                                            "time_et":  "2026-05-18T21:32:12-04:00",
-                                            "updated_utc":  "2026-05-19T01:33:47Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.05,
-                                            "place":  "9 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.6",
-                                            "depth_km_raw":  1.61,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 9 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75365392",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75365392\u0026format=geojson"
                                         }
                      }
                  ]
