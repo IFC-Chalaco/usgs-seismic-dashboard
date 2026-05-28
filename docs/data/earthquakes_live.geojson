@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-28T16:46:45Z",
+    "generated_at_utc":  "2026-05-28T16:47:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -333,7 +333,7 @@
                                             "id":  "nc75370417",
                                             "time_utc":  "2026-05-28T15:27:20Z",
                                             "time_et":  "2026-05-28T11:27:20-04:00",
-                                            "updated_utc":  "2026-05-28T16:07:22Z",
+                                            "updated_utc":  "2026-05-28T16:47:22Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.89,
                                             "place":  "8 km W of Cobb, CA",
@@ -13791,6 +13791,41 @@
                                             "title":  "M 1.5 - 11 km SE of Ratliff City, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026kfeg",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026kfeg\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026kgkelh",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.019,
+                                                              28.759,
+                                                              5.5205
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026kgkelh",
+                                            "time_utc":  "2026-05-26T02:57:18Z",
+                                            "time_et":  "2026-05-25T22:57:18-04:00",
+                                            "updated_utc":  "2026-05-28T16:47:00Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "16 km SSE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.5",
+                                            "depth_km_raw":  5.5205,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 16 km SSE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kgkelh",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kgkelh\u0026format=geojson"
                                         }
                      },
                      {
@@ -42666,41 +42701,6 @@
                                             "title":  "M 1.1 - 11 km ENE of Coalinga, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366602",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75366602\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026jyhaxp",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.98,
-                                                              28.799,
-                                                              8.457
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026jyhaxp",
-                                            "time_utc":  "2026-05-21T16:46:54Z",
-                                            "time_et":  "2026-05-21T12:46:54-04:00",
-                                            "updated_utc":  "2026-05-21T22:46:53Z",
-                                            "magnitude":  "2.7",
-                                            "magnitude_raw":  2.7,
-                                            "place":  "15 km SE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.5",
-                                            "depth_km_raw":  8.457,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  112,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.7 - 15 km SE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jyhaxp",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026jyhaxp\u0026format=geojson"
                                         }
                      }
                  ]
