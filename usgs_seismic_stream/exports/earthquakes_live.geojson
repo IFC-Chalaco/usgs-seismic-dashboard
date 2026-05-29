@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-29T19:58:06Z",
+    "generated_at_utc":  "2026-05-29T19:59:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -29331,6 +29331,41 @@
                                             "title":  "M 0.9 - 17 km N of Indio, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41473672",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41473672\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw62250422",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.7615,
+                                                              46.421,
+                                                              12.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw62250422",
+                                            "time_utc":  "2026-05-24T10:22:28Z",
+                                            "time_et":  "2026-05-24T06:22:28-04:00",
+                                            "updated_utc":  "2026-05-29T19:58:06Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.35,
+                                            "place":  "4 km NNW of White Swan, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  12.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 4 km NNW of White Swan, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62250422",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62250422\u0026format=geojson"
                                         }
                      },
                      {
