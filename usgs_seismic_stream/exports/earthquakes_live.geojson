@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-30T22:35:17Z",
+    "generated_at_utc":  "2026-05-30T22:39:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71518323",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.146,
+                                                              18.0196666666667,
+                                                              14
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71518323",
+                                            "time_utc":  "2026-05-30T22:10:34Z",
+                                            "time_et":  "2026-05-30T18:10:34-04:00",
+                                            "updated_utc":  "2026-05-30T22:36:23Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.29,
+                                            "place":  "2 km ESE of Boquerón, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.0",
+                                            "depth_km_raw":  14,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  81,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 2 km ESE of Boquerón, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71518323",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71518323\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "us7000spkk",
@@ -37871,41 +37906,6 @@
                                             "title":  "M 1.0 - 3 km S of Midland, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kcklrr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kcklrr\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026kckccb",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.716,
-                                                              31.87,
-                                                              7.3975
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026kckccb",
-                                            "time_utc":  "2026-05-23T22:36:42Z",
-                                            "time_et":  "2026-05-23T18:36:42-04:00",
-                                            "updated_utc":  "2026-05-27T13:36:31Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "22 km W of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.4",
-                                            "depth_km_raw":  7.3975,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 22 km W of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kckccb",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kckccb\u0026format=geojson"
                                         }
                      }
                  ]
