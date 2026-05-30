@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-05-30T17:34:09Z",
+    "generated_at_utc":  "2026-05-30T17:35:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75368471",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.263168334961,
+                                                              38.0084991455078,
+                                                              7.86
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75368471",
+                                            "time_utc":  "2026-05-30T17:32:37Z",
+                                            "time_et":  "2026-05-30T13:32:37-04:00",
+                                            "updated_utc":  "2026-05-30T17:34:13Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "2 km ESE of Hercules, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.9",
+                                            "depth_km_raw":  7.86,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 2 km ESE of Hercules, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368471",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368471\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75368461",
