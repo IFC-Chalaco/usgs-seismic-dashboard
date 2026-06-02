@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-02T09:03:58Z",
+    "generated_at_utc":  "2026-06-02T09:04:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3151,6 +3151,41 @@
                                             "title":  "M 1.5 - 14 km WSW of Lake Nacimiento, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369376",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369376\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ksqcnn",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -100.964,
+                                                              32.191,
+                                                              7.1533
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ksqcnn",
+                                            "time_utc":  "2026-06-01T18:50:08Z",
+                                            "time_et":  "2026-06-01T14:50:08-04:00",
+                                            "updated_utc":  "2026-06-02T09:03:52Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "18 km SSE of Westbrook, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.1533,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 18 km SSE of Westbrook, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksqcnn",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ksqcnn\u0026format=geojson"
                                         }
                      },
                      {
