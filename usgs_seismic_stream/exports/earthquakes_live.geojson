@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-03T23:27:43Z",
+    "generated_at_utc":  "2026-06-03T23:55:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714005121",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.947166666667,
+                                                              46.8445,
+                                                              3.21
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714005121",
+                                            "time_utc":  "2026-06-03T23:23:47Z",
+                                            "time_et":  "2026-06-03T19:23:47-04:00",
+                                            "updated_utc":  "2026-06-03T23:44:24Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.45,
+                                            "place":  "11 km NE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.21,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 11 km NE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714005121",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714005121\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41479760",
@@ -2293,20 +2328,20 @@
                                             "id":  "nc75370186",
                                             "time_utc":  "2026-06-03T12:45:36Z",
                                             "time_et":  "2026-06-03T08:45:36-04:00",
-                                            "updated_utc":  "2026-06-03T19:46:13Z",
+                                            "updated_utc":  "2026-06-03T23:43:19Z",
                                             "magnitude":  "5.1",
                                             "magnitude_raw":  5.1,
                                             "place":  "62 km W of Petrolia, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  115,
+                                            "felt_reports":  117,
                                             "cdi":  4.5,
                                             "mmi":  3.531,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  452,
+                                            "significance":  453,
                                             "event_type":  "earthquake",
                                             "title":  "M 5.1 - 62 km W of Petrolia, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370186",
@@ -38501,76 +38536,6 @@
                                             "title":  "M 1.1 - 21 km ESE of Little Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475760",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41475760\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75370092",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.264831542969,
-                                                              36.6218338012695,
-                                                              4.35
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75370092",
-                                            "time_utc":  "2026-05-27T23:50:25Z",
-                                            "time_et":  "2026-05-27T19:50:25-04:00",
-                                            "updated_utc":  "2026-05-28T00:07:21Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.36,
-                                            "place":  "15 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.4",
-                                            "depth_km_raw":  4.35,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  28,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 15 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370092",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75370092\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41475752",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.7415,
-                                                              35.894,
-                                                              7.55
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41475752",
-                                            "time_utc":  "2026-05-27T23:28:46Z",
-                                            "time_et":  "2026-05-27T19:28:46-04:00",
-                                            "updated_utc":  "2026-05-27T23:44:08Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.97,
-                                            "place":  "16 km ESE of Little Lake, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.55,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 16 km ESE of Little Lake, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475752",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41475752\u0026format=geojson"
                                         }
                      }
                  ]
