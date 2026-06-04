@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-04T16:36:54Z",
+    "generated_at_utc":  "2026-06-04T16:37:55Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41480152",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.697166442871,
+                                                              35.938835144043,
+                                                              2.35
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41480152",
+                                            "time_utc":  "2026-06-04T16:34:58Z",
+                                            "time_et":  "2026-06-04T12:34:58-04:00",
+                                            "updated_utc":  "2026-06-04T16:37:04Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.29,
+                                            "place":  "19 km E of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.35,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  81,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 19 km E of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41480152",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41480152\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41480144",
@@ -39446,41 +39481,6 @@
                                             "title":  "M -0.1 - 9 km N of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41476016",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41476016\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62251817",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.58783333333334,
-                                                              46.855666666666664,
-                                                              1.81
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62251817",
-                                            "time_utc":  "2026-05-28T16:36:43Z",
-                                            "time_et":  "2026-05-28T12:36:43-04:00",
-                                            "updated_utc":  "2026-05-29T17:38:42Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.81,
-                                            "place":  "28 km NNE of Packwood, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.81,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 28 km NNE of Packwood, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62251817",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62251817\u0026format=geojson"
                                         }
                      }
                  ]
