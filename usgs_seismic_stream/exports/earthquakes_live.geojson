@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-05T23:41:29Z",
+    "generated_at_utc":  "2026-06-05T23:42:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 0.4 - 11 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371571",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75371571\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026laipil",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.624,
+                                                              32.07,
+                                                              2.355
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026laipil",
+                                            "time_utc":  "2026-06-05T23:39:08Z",
+                                            "time_et":  "2026-06-05T19:39:08-04:00",
+                                            "updated_utc":  "2026-06-05T23:41:48Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "16 km ESE of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.355,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 16 km ESE of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026laipil",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026laipil\u0026format=geojson"
                                         }
                      },
                      {
