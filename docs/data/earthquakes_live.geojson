@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-05T23:23:33Z",
+    "generated_at_utc":  "2026-06-05T23:41:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75371571",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.847503662109,
+                                                              38.8463325500488,
+                                                              1.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75371571",
+                                            "time_utc":  "2026-06-05T23:39:14Z",
+                                            "time_et":  "2026-06-05T19:39:14-04:00",
+                                            "updated_utc":  "2026-06-05T23:40:50Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.38,
+                                            "place":  "11 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.5",
+                                            "depth_km_raw":  1.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 11 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371571",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75371571\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75371561",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.84716796875,
+                                                              38.8468322753906,
+                                                              1.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75371561",
+                                            "time_utc":  "2026-06-05T23:23:02Z",
+                                            "time_et":  "2026-06-05T19:23:02-04:00",
+                                            "updated_utc":  "2026-06-05T23:24:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.42,
+                                            "place":  "11 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.5",
+                                            "depth_km_raw":  1.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 11 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371561",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75371561\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75371556",
@@ -18,7 +88,7 @@
                                             "id":  "nc75371556",
                                             "time_utc":  "2026-06-05T23:18:44Z",
                                             "time_et":  "2026-06-05T19:18:44-04:00",
-                                            "updated_utc":  "2026-06-05T23:20:20Z",
+                                            "updated_utc":  "2026-06-05T23:37:19Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.31,
                                             "place":  "23 km SSE of Somes Bar, CA",
@@ -543,14 +613,14 @@
                                             "id":  "us7000sqzv",
                                             "time_utc":  "2026-06-05T20:55:05Z",
                                             "time_et":  "2026-06-05T16:55:05-04:00",
-                                            "updated_utc":  "2026-06-05T23:18:58Z",
+                                            "updated_utc":  "2026-06-05T23:28:11Z",
                                             "magnitude":  "5.1",
                                             "magnitude_raw":  5.1,
                                             "place":  "0 km SSW of Quetzalapa, Mexico",
                                             "country":  "Mexico",
                                             "depth_km":  "47.9",
                                             "depth_km_raw":  47.928,
-                                            "felt_reports":  16,
+                                            "felt_reports":  17,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -7333,14 +7403,14 @@
                                             "id":  "nn00919749",
                                             "time_utc":  "2026-06-04T20:47:58Z",
                                             "time_et":  "2026-06-04T16:47:58-04:00",
-                                            "updated_utc":  "2026-06-05T22:44:05Z",
+                                            "updated_utc":  "2026-06-05T23:37:15Z",
                                             "magnitude":  "3.8",
                                             "magnitude_raw":  3.75,
                                             "place":  "11 km NW of Summerlin South, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "7.0",
                                             "depth_km_raw":  7,
-                                            "felt_reports":  3241,
+                                            "felt_reports":  3242,
                                             "cdi":  4.1,
                                             "mmi":  4.197,
                                             "alert":  "green",
@@ -42211,41 +42281,6 @@
                                             "title":  "M 0.7 - 6 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368186",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368186\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62253037",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.74366666666668,
-                                                              46.87683333333333,
-                                                              18.26
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62253037",
-                                            "time_utc":  "2026-05-29T23:24:07Z",
-                                            "time_et":  "2026-05-29T19:24:07-04:00",
-                                            "updated_utc":  "2026-05-31T01:40:24Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.14,
-                                            "place":  "4 km WSW of Rainier, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "18.3",
-                                            "depth_km_raw":  18.26,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  20,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km WSW of Rainier, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62253037",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62253037\u0026format=geojson"
                                         }
                      }
                  ]
