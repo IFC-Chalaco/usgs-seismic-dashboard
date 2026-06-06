@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-06T21:15:29Z",
+    "generated_at_utc":  "2026-06-06T21:46:55Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41481688",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.190333333333,
+                                                              33.3415,
+                                                              9.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41481688",
+                                            "time_utc":  "2026-06-06T21:23:25Z",
+                                            "time_et":  "2026-06-06T17:23:25-04:00",
+                                            "updated_utc":  "2026-06-06T21:26:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.65,
+                                            "place":  "16 km SSW of Oasis, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 16 km SSW of Oasis, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481688",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41481688\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75372046",
@@ -18,7 +53,7 @@
                                             "id":  "nc75372046",
                                             "time_utc":  "2026-06-06T21:13:22Z",
                                             "time_et":  "2026-06-06T17:13:22-04:00",
-                                            "updated_utc":  "2026-06-06T21:14:56Z",
+                                            "updated_utc":  "2026-06-06T21:32:20Z",
                                             "magnitude":  "1.8",
                                             "magnitude_raw":  1.84,
                                             "place":  "16 km SW of Manton, CA",
@@ -298,20 +333,20 @@
                                             "id":  "ci41481664",
                                             "time_utc":  "2026-06-06T19:21:36Z",
                                             "time_et":  "2026-06-06T15:21:36-04:00",
-                                            "updated_utc":  "2026-06-06T21:10:10Z",
+                                            "updated_utc":  "2026-06-06T21:42:16Z",
                                             "magnitude":  "3.5",
                                             "magnitude_raw":  3.52,
                                             "place":  "15 km NW of Fillmore, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "24.0",
                                             "depth_km_raw":  23.96,
-                                            "felt_reports":  99,
+                                            "felt_reports":  102,
                                             "cdi":  3.1,
                                             "mmi":  2.908,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  222,
+                                            "significance":  223,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.5 - 15 km NW of Fillmore, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481664",
@@ -42806,76 +42841,6 @@
                                             "title":  "M 1.5 - 45 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kpetxj",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kpetxj\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026knwr",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -95.49706268,
-                                                              35.66798019,
-                                                              19.4853
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026knwr",
-                                            "time_utc":  "2026-05-30T21:34:48Z",
-                                            "time_et":  "2026-05-30T17:34:48-04:00",
-                                            "updated_utc":  "2026-05-30T21:36:55Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.11,
-                                            "place":  "6 km W of Summit, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "19.5",
-                                            "depth_km_raw":  19.4853,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  68,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 6 km W of Summit, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026knwr",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026knwr\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75368511",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.238166809082,
-                                                              36.0366668701172,
-                                                              9.93
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75368511",
-                                            "time_utc":  "2026-05-30T21:32:09Z",
-                                            "time_et":  "2026-05-30T17:32:09-04:00",
-                                            "updated_utc":  "2026-05-30T22:27:27Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.52,
-                                            "place":  "22 km SSW of King City, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.9",
-                                            "depth_km_raw":  9.93,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  98,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 22 km SSW of King City, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368511",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368511\u0026format=geojson"
                                         }
                      }
                  ]
