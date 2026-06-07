@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-07T23:44:09Z",
+    "generated_at_utc":  "2026-06-07T23:45:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3518,15 +3518,15 @@
                                             "id":  "pr71518983",
                                             "time_utc":  "2026-06-07T02:17:32Z",
                                             "time_et":  "2026-06-06T22:17:32-04:00",
-                                            "updated_utc":  "2026-06-07T10:19:31Z",
+                                            "updated_utc":  "2026-06-07T23:43:50Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.74,
                                             "place":  "17 km NW of Aguadilla, Puerto Rico",
                                             "country":  "Puerto Rico",
                                             "depth_km":  "23.5",
                                             "depth_km_raw":  23.52,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -41021,41 +41021,6 @@
                                             "title":  "M 0.3 - 8 km NNE of Ashford, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62254182",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62254182\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41477680",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.068,
-                                                              34.0215,
-                                                              9.84
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41477680",
-                                            "time_utc":  "2026-05-31T23:43:42Z",
-                                            "time_et":  "2026-05-31T19:43:42-04:00",
-                                            "updated_utc":  "2026-06-01T16:05:25Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "18 km SE of Port Hueneme, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.8",
-                                            "depth_km_raw":  9.84,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 18 km SE of Port Hueneme, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477680",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41477680\u0026format=geojson"
                                         }
                      }
                  ]
