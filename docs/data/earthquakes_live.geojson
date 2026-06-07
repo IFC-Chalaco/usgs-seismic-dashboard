@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-07T14:57:40Z",
+    "generated_at_utc":  "2026-06-07T14:58:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41482000",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.997001647949,
+                                                              36.1783332824707,
+                                                              3.1
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41482000",
+                                            "time_utc":  "2026-06-07T14:56:06Z",
+                                            "time_et":  "2026-06-07T10:56:06-04:00",
+                                            "updated_utc":  "2026-06-07T14:58:09Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.38,
+                                            "place":  "12 km S of Olancha, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.1",
+                                            "depth_km_raw":  3.1,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  29,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 12 km S of Olancha, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482000",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41482000\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75372396",
@@ -44,31 +79,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.810836791992,
-                                                              35.3018341064453,
-                                                              7.31
+                                                              -117.8115,
+                                                              35.3015,
+                                                              8.11
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41481992",
                                             "time_utc":  "2026-06-07T14:54:16Z",
                                             "time_et":  "2026-06-07T10:54:16-04:00",
-                                            "updated_utc":  "2026-06-07T14:56:18Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.38,
+                                            "updated_utc":  "2026-06-07T14:57:44Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.24,
                                             "place":  "18 km WSW of Johannesburg, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.3",
-                                            "depth_km_raw":  7.31,
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.11,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  29,
+                                            "significance":  24,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 18 km WSW of Johannesburg, CA",
+                                            "title":  "M 1.2 - 18 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481992",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41481992\u0026format=geojson"
                                         }
