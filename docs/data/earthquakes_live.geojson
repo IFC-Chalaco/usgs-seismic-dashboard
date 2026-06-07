@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-07T06:15:51Z",
+    "generated_at_utc":  "2026-06-07T06:27:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41481856",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.598833333333,
+                                                              34.0233333333333,
+                                                              4.37
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41481856",
+                                            "time_utc":  "2026-06-07T06:23:06Z",
+                                            "time_et":  "2026-06-07T02:23:06-04:00",
+                                            "updated_utc":  "2026-06-07T06:26:30Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "4 km SE of Ontario, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.4",
+                                            "depth_km_raw":  4.37,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 4 km SE of Ontario, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481856",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41481856\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41481848",
@@ -42631,76 +42666,6 @@
                                             "title":  "M 0.9 - 1 km NNW of Banning, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477368",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41477368\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75368616",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.12866973877,
-                                                              36.610668182373,
-                                                              8.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75368616",
-                                            "time_utc":  "2026-05-31T06:21:09Z",
-                                            "time_et":  "2026-05-31T02:21:09-04:00",
-                                            "updated_utc":  "2026-06-06T06:34:53Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.55,
-                                            "place":  "9 km N of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  100,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 9 km N of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368616",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368616\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75368611",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.801170349121,
-                                                              38.836498260498,
-                                                              2.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75368611",
-                                            "time_utc":  "2026-05-31T06:15:43Z",
-                                            "time_et":  "2026-05-31T02:15:43-04:00",
-                                            "updated_utc":  "2026-05-31T06:37:23Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.5,
-                                            "place":  "7 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.3",
-                                            "depth_km_raw":  2.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 7 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368611",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368611\u0026format=geojson"
                                         }
                      }
                  ]
