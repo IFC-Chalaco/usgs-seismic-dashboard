@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-07T21:28:04Z",
+    "generated_at_utc":  "2026-06-07T21:52:13Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ldvqqw",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.257,
+                                                              32.449,
+                                                              0
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ldvqqw",
+                                            "time_utc":  "2026-06-07T21:26:20Z",
+                                            "time_et":  "2026-06-07T17:26:20-04:00",
+                                            "updated_utc":  "2026-06-07T21:31:06Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "17 km NNE of Coahoma, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 17 km NNE of Coahoma, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ldvqqw",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ldvqqw\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75372606",
@@ -1103,14 +1138,14 @@
                                             "id":  "nc75372426",
                                             "time_utc":  "2026-06-07T15:37:48Z",
                                             "time_et":  "2026-06-07T11:37:48-04:00",
-                                            "updated_utc":  "2026-06-07T21:26:15Z",
+                                            "updated_utc":  "2026-06-07T21:45:16Z",
                                             "magnitude":  "3.6",
                                             "magnitude_raw":  3.6,
                                             "place":  "2 km SW of Alamo, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "14.6",
                                             "depth_km_raw":  14.57,
-                                            "felt_reports":  1662,
+                                            "felt_reports":  1664,
                                             "cdi":  3.8,
                                             "mmi":  3.185,
                                             "alert":  null,
@@ -41231,76 +41266,6 @@
                                             "title":  "M 1.4 - 18 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477632",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41477632\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75368956",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.80933380127,
-                                                              38.7949981689453,
-                                                              20.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75368956",
-                                            "time_utc":  "2026-05-31T21:51:39Z",
-                                            "time_et":  "2026-05-31T17:51:39-04:00",
-                                            "updated_utc":  "2026-05-31T21:53:16Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.99,
-                                            "place":  "5 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "20.3",
-                                            "depth_km_raw":  20.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 5 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75368956",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75368956\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41477624",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.726166666667,
-                                                              33.5308333333333,
-                                                              5.75
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41477624",
-                                            "time_utc":  "2026-05-31T21:45:20Z",
-                                            "time_et":  "2026-05-31T17:45:20-04:00",
-                                            "updated_utc":  "2026-06-01T15:46:42Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.47,
-                                            "place":  "6 km WSW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.8",
-                                            "depth_km_raw":  5.75,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 6 km WSW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41477624",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41477624\u0026format=geojson"
                                         }
                      }
                  ]
