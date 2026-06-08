@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-08T18:00:38Z",
+    "generated_at_utc":  "2026-06-08T18:01:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41482584",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.397166666667,
+                                                              33.0678333333333,
+                                                              5.31
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41482584",
+                                            "time_utc":  "2026-06-08T17:57:04Z",
+                                            "time_et":  "2026-06-08T13:57:04-04:00",
+                                            "updated_utc":  "2026-06-08T18:00:35Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.34,
+                                            "place":  "19 km E of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.31,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 19 km E of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482584",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41482584\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75373066",
@@ -71,6 +106,41 @@
                                             "title":  "M 2.5 - 8 km SE of Gardendale, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lfjgim",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lfjgim\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lfjgcj",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.028,
+                                                              28.866,
+                                                              5.8929
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lfjgcj",
+                                            "time_utc":  "2026-06-08T17:20:58Z",
+                                            "time_et":  "2026-06-08T13:20:58-04:00",
+                                            "updated_utc":  "2026-06-08T18:00:53Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.7,
+                                            "place":  "7 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.9",
+                                            "depth_km_raw":  5.8929,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  112,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.7 - 7 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lfjgcj",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lfjgcj\u0026format=geojson"
                                         }
                      },
                      {
