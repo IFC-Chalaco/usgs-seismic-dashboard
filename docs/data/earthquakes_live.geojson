@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-08T17:28:31Z",
+    "generated_at_utc":  "2026-06-08T17:57:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -53,7 +53,7 @@
                                             "id":  "tx2026lfjgim",
                                             "time_utc":  "2026-06-08T17:21:15Z",
                                             "time_et":  "2026-06-08T13:21:15-04:00",
-                                            "updated_utc":  "2026-06-08T17:26:12Z",
+                                            "updated_utc":  "2026-06-08T17:37:13Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.5,
                                             "place":  "8 km SE of Gardendale, Texas",
@@ -508,7 +508,7 @@
                                             "id":  "nn00919921",
                                             "time_utc":  "2026-06-08T14:12:53Z",
                                             "time_et":  "2026-06-08T10:12:53-04:00",
-                                            "updated_utc":  "2026-06-08T16:57:11Z",
+                                            "updated_utc":  "2026-06-08T17:37:34Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.51,
                                             "place":  "76 km NE of Tonopah, Nevada",
@@ -4253,15 +4253,15 @@
                                             "id":  "nc75372601",
                                             "time_utc":  "2026-06-07T20:27:03Z",
                                             "time_et":  "2026-06-07T16:27:03-04:00",
-                                            "updated_utc":  "2026-06-07T21:07:21Z",
+                                            "updated_utc":  "2026-06-08T17:28:39Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.15,
                                             "place":  "4 km ESE of Union City, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "8.2",
                                             "depth_km_raw":  8.17,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
@@ -7561,6 +7561,41 @@
                                             "title":  "M 0.8 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372211",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75372211\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714009211",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -124.378166666667,
+                                                              47.8413333333333,
+                                                              -0.25
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714009211",
+                                            "time_utc":  "2026-06-07T03:06:51Z",
+                                            "time_et":  "2026-06-06T23:06:51-04:00",
+                                            "updated_utc":  "2026-06-08T17:48:57Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.72,
+                                            "place":  "12 km S of Forks, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.3",
+                                            "depth_km_raw":  -0.25,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  46,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 12 km S of Forks, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714009211",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714009211\u0026format=geojson"
                                         }
                      },
                      {
@@ -23888,7 +23923,7 @@
                                             "id":  "nc75370736",
                                             "time_utc":  "2026-06-04T14:17:31Z",
                                             "time_et":  "2026-06-04T10:17:31-04:00",
-                                            "updated_utc":  "2026-06-07T05:45:04Z",
+                                            "updated_utc":  "2026-06-08T17:30:35Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.69,
                                             "place":  "7 km ESE of Fremont, CA",
@@ -23896,12 +23931,12 @@
                                             "depth_km":  "9.1",
                                             "depth_km_raw":  9.06,
                                             "felt_reports":  8,
-                                            "cdi":  2.3,
+                                            "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  113,
+                                            "significance":  114,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.7 - 7 km ESE of Fremont, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370736",
@@ -41581,41 +41616,6 @@
                                             "title":  "M 2.3 - 9 km E of Hilltop, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksoonw",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ksoonw\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ksofaa",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.385,
-                                                              28.581,
-                                                              8.6502
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ksofaa",
-                                            "time_utc":  "2026-06-01T17:52:22Z",
-                                            "time_et":  "2026-06-01T13:52:22-04:00",
-                                            "updated_utc":  "2026-06-02T09:23:47Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.2,
-                                            "place":  "20 km NE of Tilden, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.6502,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  22,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 20 km NE of Tilden, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ksofaa",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ksofaa\u0026format=geojson"
                                         }
                      }
                  ]
