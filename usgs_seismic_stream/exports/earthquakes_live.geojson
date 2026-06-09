@@ -1,41 +1,601 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-09T16:40:20Z",
+    "generated_at_utc":  "2026-06-09T18:36:17Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41483224",
+                         "id":  "ci41483368",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.213165283203,
-                                                              33.9996681213379,
-                                                              4.62
+                                                              -117.217166666667,
+                                                              33.9995,
+                                                              5
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41483224",
-                                            "time_utc":  "2026-06-09T16:36:58Z",
-                                            "time_et":  "2026-06-09T12:36:58-04:00",
-                                            "updated_utc":  "2026-06-09T16:39:09Z",
-                                            "magnitude":  "3.4",
-                                            "magnitude_raw":  3.42,
-                                            "place":  "7 km SSW of Redlands, CA",
+                                            "id":  "ci41483368",
+                                            "time_utc":  "2026-06-09T18:27:41Z",
+                                            "time_et":  "2026-06-09T14:27:41-04:00",
+                                            "updated_utc":  "2026-06-09T18:31:09Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.42,
+                                            "place":  "7 km SE of Loma Linda, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.62,
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  180,
+                                            "significance":  31,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.4 - 7 km SSW of Redlands, CA",
+                                            "title":  "M 1.4 - 7 km SE of Loma Linda, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483368",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483368\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483360",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.044830322266,
+                                                              33.5046653747559,
+                                                              28.26
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483360",
+                                            "time_utc":  "2026-06-09T18:27:33Z",
+                                            "time_et":  "2026-06-09T14:27:33-04:00",
+                                            "updated_utc":  "2026-06-09T18:31:14Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.76,
+                                            "place":  "10 km E of Temecula, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "28.3",
+                                            "depth_km_raw":  28.26,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  48,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 10 km E of Temecula, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483360",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483360\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483344",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.559666666667,
+                                                              35.6808333333333,
+                                                              2.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483344",
+                                            "time_utc":  "2026-06-09T18:15:34Z",
+                                            "time_et":  "2026-06-09T14:15:34-04:00",
+                                            "updated_utc":  "2026-06-09T18:19:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.44,
+                                            "place":  "12 km ENE of Ridgecrest, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  2.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 12 km ENE of Ridgecrest, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483344",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483344\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75373821",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.814498901367,
+                                                              38.8320007324219,
+                                                              2.61
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75373821",
+                                            "time_utc":  "2026-06-09T18:09:59Z",
+                                            "time_et":  "2026-06-09T14:09:59-04:00",
+                                            "updated_utc":  "2026-06-09T18:11:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.84,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.6",
+                                            "depth_km_raw":  2.61,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75373821",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75373821\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026lfwx",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.22966667,
+                                                              35.97916667,
+                                                              5.82
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026lfwx",
+                                            "time_utc":  "2026-06-09T18:08:43Z",
+                                            "time_et":  "2026-06-09T14:08:43-04:00",
+                                            "updated_utc":  "2026-06-09T18:31:00Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.02,
+                                            "place":  "9 km W of Loyal, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.8",
+                                            "depth_km_raw":  5.82,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 9 km W of Loyal, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026lfwx",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026lfwx\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483336",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.2165,
+                                                              33.9995,
+                                                              5.03
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483336",
+                                            "time_utc":  "2026-06-09T18:04:16Z",
+                                            "time_et":  "2026-06-09T14:04:16-04:00",
+                                            "updated_utc":  "2026-06-09T18:27:19Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.29,
+                                            "place":  "7 km SE of Loma Linda, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5.03,
+                                            "felt_reports":  2,
+                                            "cdi":  2.2,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  81,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 7 km SE of Loma Linda, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483336",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483336\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75373811",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.711502075195,
+                                                              38.7771682739258,
+                                                              2.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75373811",
+                                            "time_utc":  "2026-06-09T17:57:46Z",
+                                            "time_et":  "2026-06-09T13:57:46-04:00",
+                                            "updated_utc":  "2026-06-09T17:59:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.99,
+                                            "place":  "2 km W of Anderson Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 2 km W of Anderson Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75373811",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75373811\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483304",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.22233581543,
+                                                              34.0073318481445,
+                                                              8.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483304",
+                                            "time_utc":  "2026-06-09T17:47:11Z",
+                                            "time_et":  "2026-06-09T13:47:11-04:00",
+                                            "updated_utc":  "2026-06-09T17:49:14Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.27,
+                                            "place":  "6 km SE of Loma Linda, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  25,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 6 km SE of Loma Linda, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483304",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483304\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75373806",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.811668395996,
+                                                              38.8334999084473,
+                                                              2.02
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75373806",
+                                            "time_utc":  "2026-06-09T17:45:57Z",
+                                            "time_et":  "2026-06-09T13:45:57-04:00",
+                                            "updated_utc":  "2026-06-09T17:47:33Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.71,
+                                            "place":  "8 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  2.02,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75373806",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75373806\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483288",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.214500427246,
+                                                              33.9981651306152,
+                                                              5.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483288",
+                                            "time_utc":  "2026-06-09T17:45:23Z",
+                                            "time_et":  "2026-06-09T13:45:23-04:00",
+                                            "updated_utc":  "2026-06-09T18:21:18Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.07,
+                                            "place":  "7 km SSW of Redlands, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  5.99,
+                                            "felt_reports":  65,
+                                            "cdi":  2.9,
+                                            "mmi":  2.831,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  164,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 7 km SSW of Redlands, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483288",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483288\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75373796",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.804336547852,
+                                                              38.8245010375977,
+                                                              2.33
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75373796",
+                                            "time_utc":  "2026-06-09T17:41:24Z",
+                                            "time_et":  "2026-06-09T13:41:24-04:00",
+                                            "updated_utc":  "2026-06-09T17:42:58Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.33,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75373796",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75373796\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483256",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -114.981333333333,
+                                                              33.0456666666667,
+                                                              3.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483256",
+                                            "time_utc":  "2026-06-09T17:32:21Z",
+                                            "time_et":  "2026-06-09T13:32:21-04:00",
+                                            "updated_utc":  "2026-06-09T17:35:45Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.35,
+                                            "place":  "45 km NNW of Los Algodones, B.C., MX",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.7",
+                                            "depth_km_raw":  3.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  28,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 45 km NNW of Los Algodones, B.C., MX",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483256",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483256\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483240",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.115833333333,
+                                                              34.0376666666667,
+                                                              8.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483240",
+                                            "time_utc":  "2026-06-09T17:14:32Z",
+                                            "time_et":  "2026-06-09T13:14:32-04:00",
+                                            "updated_utc":  "2026-06-09T17:18:04Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.97,
+                                            "place":  "4 km SSE of Mentone, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.8",
+                                            "depth_km_raw":  8.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 4 km SSE of Mentone, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483240",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483240\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483232",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.654166666667,
+                                                              33.4085,
+                                                              5.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483232",
+                                            "time_utc":  "2026-06-09T17:09:41Z",
+                                            "time_et":  "2026-06-09T13:09:41-04:00",
+                                            "updated_utc":  "2026-06-09T17:20:25Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.16,
+                                            "place":  "14 km N of Warner Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.2",
+                                            "depth_km_raw":  5.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  72,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 14 km N of Warner Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483232",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483232\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41483224",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.216,
+                                                              34.0001666666667,
+                                                              5.36
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41483224",
+                                            "time_utc":  "2026-06-09T16:36:58Z",
+                                            "time_et":  "2026-06-09T12:36:58-04:00",
+                                            "updated_utc":  "2026-06-09T18:30:29Z",
+                                            "magnitude":  "3.2",
+                                            "magnitude_raw":  3.18,
+                                            "place":  "7 km SE of Loma Linda, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.4",
+                                            "depth_km_raw":  5.36,
+                                            "felt_reports":  368,
+                                            "cdi":  3.3,
+                                            "mmi":  3.574,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  277,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.2 - 7 km SE of Loma Linda, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483224",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483224\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us7000srtt",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -106.7396,
+                                                              34.7583,
+                                                              6.145
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000srtt",
+                                            "time_utc":  "2026-06-09T16:30:15Z",
+                                            "time_et":  "2026-06-09T12:30:15-04:00",
+                                            "updated_utc":  "2026-06-09T18:21:16Z",
+                                            "magnitude":  "3.0",
+                                            "magnitude_raw":  3,
+                                            "place":  "2 km NNW of Tome, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.1",
+                                            "depth_km_raw":  6.145,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  138,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.0 - 2 km NNW of Tome, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srtt",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srtt\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr2026160001",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -65.4585,
+                                                              18.9115,
+                                                              38
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr2026160001",
+                                            "time_utc":  "2026-06-09T16:18:33Z",
+                                            "time_et":  "2026-06-09T12:18:33-04:00",
+                                            "updated_utc":  "2026-06-09T16:50:38Z",
+                                            "magnitude":  "3.7",
+                                            "magnitude_raw":  3.68,
+                                            "place":  "65 km NNE of Luquillo, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "38.0",
+                                            "depth_km_raw":  38,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  208,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.7 - 65 km NNE of Luquillo, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026160001",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026160001\u0026format=geojson"
                                         }
                      },
                      {
@@ -88,7 +648,7 @@
                                             "id":  "nc75373766",
                                             "time_utc":  "2026-06-09T16:01:43Z",
                                             "time_et":  "2026-06-09T12:01:43-04:00",
-                                            "updated_utc":  "2026-06-09T16:32:21Z",
+                                            "updated_utc":  "2026-06-09T17:12:21Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.71,
                                             "place":  "15 km NW of Pinnacles, CA",
@@ -285,6 +845,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026lgysgv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.977,
+                                                              31.556,
+                                                              8.0353
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lgysgv",
+                                            "time_utc":  "2026-06-09T14:12:18Z",
+                                            "time_et":  "2026-06-09T10:12:18-04:00",
+                                            "updated_utc":  "2026-06-09T17:33:46Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "31 km NNW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  8.0353,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 31 km NNW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lgysgv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lgysgv\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41483144",
                          "geometry":  {
                                           "type":  "Point",
@@ -456,6 +1051,41 @@
                                             "title":  "M 0.6 - 4 km S of Charter Oak, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483136",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483136\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci10241918",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.809,
+                                                              35.3135,
+                                                              7.69
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10241918",
+                                            "time_utc":  "2026-06-09T13:06:57Z",
+                                            "time_et":  "2026-06-09T09:06:57-04:00",
+                                            "updated_utc":  "2026-06-09T16:48:06Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.1,
+                                            "place":  "17 km WSW of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.69,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 17 km WSW of Johannesburg, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10241918",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10241918\u0026format=geojson"
                                         }
                      },
                      {
@@ -1418,15 +2048,15 @@
                                             "id":  "us7000srpq",
                                             "time_utc":  "2026-06-09T09:28:29Z",
                                             "time_et":  "2026-06-09T05:28:29-04:00",
-                                            "updated_utc":  "2026-06-09T12:40:00Z",
+                                            "updated_utc":  "2026-06-09T18:19:33Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.5,
                                             "place":  "46 km W of Port Orford, Oregon",
                                             "country":  "United States of America",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -2455,41 +3085,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "tx2026lgipjp",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.362,
-                                                              32.013,
-                                                              4.1262
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026lgipjp",
-                                            "time_utc":  "2026-06-09T06:06:05Z",
-                                            "time_et":  "2026-06-09T02:06:05-04:00",
-                                            "updated_utc":  "2026-06-09T11:18:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "10 km S of Forsan, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.1",
-                                            "depth_km_raw":  4.1262,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 10 km S of Forsan, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lgipjp",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lgipjp\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "nc75373496",
                          "geometry":  {
                                           "type":  "Point",
@@ -3046,6 +3641,41 @@
                                             "title":  "M 1.0 - 6 km WSW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482928",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41482928\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714011671",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.699166666667,
+                                                              45.3721666666667,
+                                                              1.03
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714011671",
+                                            "time_utc":  "2026-06-09T02:45:14Z",
+                                            "time_et":  "2026-06-08T22:45:14-04:00",
+                                            "updated_utc":  "2026-06-09T18:00:42Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.22,
+                                            "place":  "8 km NNE of Government Camp, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.0",
+                                            "depth_km_raw":  1.03,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 8 km NNE of Government Camp, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714011671",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714011671\u0026format=geojson"
                                         }
                      },
                      {
@@ -4310,6 +4940,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw714010901",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -124.314333333333,
+                                                              42.253,
+                                                              6.27
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714010901",
+                                            "time_utc":  "2026-06-08T21:00:02Z",
+                                            "time_et":  "2026-06-08T17:00:02-04:00",
+                                            "updated_utc":  "2026-06-09T17:27:21Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.39,
+                                            "place":  "7 km ESE of Pistol River, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.3",
+                                            "depth_km_raw":  6.27,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 7 km ESE of Pistol River, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714010901",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714010901\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41482752",
                          "geometry":  {
                                           "type":  "Point",
@@ -5189,31 +5854,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -101.966,
-                                                              31.988,
-                                                              2.5555
+                                                              -102.002,
+                                                              31.972,
+                                                              7.8613
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026lfmwcp",
                                             "time_utc":  "2026-06-08T19:10:11Z",
                                             "time_et":  "2026-06-08T15:10:11-04:00",
-                                            "updated_utc":  "2026-06-08T19:19:22Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.2,
-                                            "place":  "10 km E of Midland, Texas",
+                                            "updated_utc":  "2026-06-09T16:48:31Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "7 km ESE of Midland, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.5555,
+                                            "depth_km":  "7.9",
+                                            "depth_km_raw":  7.8613,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  22,
+                                            "significance":  2,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 10 km E of Midland, Texas",
+                                            "title":  "M 0.4 - 7 km ESE of Midland, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lfmwcp",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lfmwcp\u0026format=geojson"
                                         }
@@ -5714,7 +6379,7 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -85.1501,
+                                                              -85.1254,
                                                               22.7854,
                                                               26
                                                           ]
@@ -5723,22 +6388,22 @@
                                             "id":  "us7000srjx",
                                             "time_utc":  "2026-06-08T18:00:27Z",
                                             "time_et":  "2026-06-08T14:00:27-04:00",
-                                            "updated_utc":  "2026-06-09T16:24:41Z",
+                                            "updated_utc":  "2026-06-09T18:26:47Z",
                                             "magnitude":  "6.1",
                                             "magnitude_raw":  6.1,
-                                            "place":  "104 km WNW of Mantua, Cuba",
+                                            "place":  "102 km WNW of Mantua, Cuba",
                                             "country":  "Cuba",
                                             "depth_km":  "26.0",
                                             "depth_km_raw":  26,
-                                            "felt_reports":  5637,
+                                            "felt_reports":  5659,
                                             "cdi":  5.6,
-                                            "mmi":  4.826,
+                                            "mmi":  4.862,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  1132,
                                             "event_type":  "earthquake",
-                                            "title":  "M 6.1 - 104 km WNW of Mantua, Cuba",
+                                            "title":  "M 6.1 - 102 km WNW of Mantua, Cuba",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srjx\u0026format=geojson"
                                         }
@@ -10540,37 +11205,37 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "mb90144603",
+                         "id":  "uu80141846",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -111.115166666667,
-                                                              44.7565,
-                                                              7.1
+                                                              -111.109666666667,
+                                                              44.7626666666667,
+                                                              9.17
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "mb90144603",
+                                            "id":  "uu80141846",
                                             "time_utc":  "2026-06-07T21:20:02Z",
                                             "time_et":  "2026-06-07T17:20:02-04:00",
-                                            "updated_utc":  "2026-06-09T15:33:11Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.43,
-                                            "place":  "6 km ESE of Hebgen Lake Estates, Montana",
+                                            "updated_utc":  "2026-06-09T17:41:35Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.32,
+                                            "place":  "6 km E of Hebgen Lake Estates, Montana",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.1,
+                                            "depth_km":  "9.2",
+                                            "depth_km_raw":  9.17,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  31,
+                                            "significance":  27,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 6 km ESE of Hebgen Lake Estates, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90144603",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90144603\u0026format=geojson"
+                                            "title":  "M 1.3 - 6 km E of Hebgen Lake Estates, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141846",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141846\u0026format=geojson"
                                         }
                      },
                      {
@@ -10890,37 +11555,142 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "uu80141826",
+                         "id":  "uu80007223",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -110.346666666667,
-                                                              44.3865,
-                                                              6
+                                                              -110.335166666667,
+                                                              44.4021666666667,
+                                                              8.36
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "uu80141826",
-                                            "time_utc":  "2026-06-07T20:00:56Z",
-                                            "time_et":  "2026-06-07T16:00:56-04:00",
-                                            "updated_utc":  "2026-06-07T20:16:17Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.33,
+                                            "id":  "uu80007223",
+                                            "time_utc":  "2026-06-07T20:01:27Z",
+                                            "time_et":  "2026-06-07T16:01:27-04:00",
+                                            "updated_utc":  "2026-06-09T17:31:17Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
                                             "place":  "67 km ESE of West Yellowstone, Montana",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  6,
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.36,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  27,
+                                            "significance":  17,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 67 km ESE of West Yellowstone, Montana",
+                                            "title":  "M 1.1 - 67 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80007223",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80007223\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80007218",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.3505,
+                                                              44.3983333333333,
+                                                              3.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80007218",
+                                            "time_utc":  "2026-06-07T20:01:15Z",
+                                            "time_et":  "2026-06-07T16:01:15-04:00",
+                                            "updated_utc":  "2026-06-09T17:29:25Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.86,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  53,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80007218",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80007218\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141826",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.353,
+                                                              44.3933333333333,
+                                                              5.46
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141826",
+                                            "time_utc":  "2026-06-07T20:00:56Z",
+                                            "time_et":  "2026-06-07T16:00:56-04:00",
+                                            "updated_utc":  "2026-06-09T17:26:18Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.11,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.5",
+                                            "depth_km_raw":  5.46,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 66 km ESE of West Yellowstone, Montana",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141826",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141826\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141831",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.357,
+                                                              44.3985,
+                                                              2.47
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141831",
+                                            "time_utc":  "2026-06-07T20:00:26Z",
+                                            "time_et":  "2026-06-07T16:00:26-04:00",
+                                            "updated_utc":  "2026-06-09T17:18:02Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.31,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.47,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141831",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141831\u0026format=geojson"
                                         }
                      },
                      {
@@ -10956,6 +11726,41 @@
                                             "title":  "M 0.9 - 11 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372576",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75372576\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141821",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.3345,
+                                                              44.3918333333333,
+                                                              7.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141821",
+                                            "time_utc":  "2026-06-07T19:54:29Z",
+                                            "time_et":  "2026-06-07T15:54:29-04:00",
+                                            "updated_utc":  "2026-06-09T17:13:48Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.61,
+                                            "place":  "68 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.6",
+                                            "depth_km_raw":  7.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  40,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 68 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141821",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141821\u0026format=geojson"
                                         }
                      },
                      {
@@ -11695,6 +12500,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026ldmxvz",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.305,
+                                                              31.691,
+                                                              7.843
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ldmxvz",
+                                            "time_utc":  "2026-06-07T17:02:51Z",
+                                            "time_et":  "2026-06-07T13:02:51-04:00",
+                                            "updated_utc":  "2026-06-09T17:21:16Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "54 km S of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.843,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 54 km S of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ldmxvz",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ldmxvz\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75372491",
                          "geometry":  {
                                           "type":  "Point",
@@ -11901,6 +12741,41 @@
                                             "title":  "M 1.0 - 8 km E of Yorba Linda, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482032",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41482032\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141806",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.347833333333,
+                                                              44.4066666666667,
+                                                              2.42
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141806",
+                                            "time_utc":  "2026-06-07T16:11:20Z",
+                                            "time_et":  "2026-06-07T12:11:20-04:00",
+                                            "updated_utc":  "2026-06-09T16:56:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.7,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.4",
+                                            "depth_km_raw":  2.42,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141806",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141806\u0026format=geojson"
                                         }
                      },
                      {
@@ -12395,6 +13270,146 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80141801",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.312,
+                                                              44.4095,
+                                                              11.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141801",
+                                            "time_utc":  "2026-06-07T14:46:53Z",
+                                            "time_et":  "2026-06-07T10:46:53-04:00",
+                                            "updated_utc":  "2026-06-09T16:54:57Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.82,
+                                            "place":  "68 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.4",
+                                            "depth_km_raw":  11.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  51,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 68 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141801",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141801\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141796",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.353,
+                                                              44.4003333333333,
+                                                              2.11
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141796",
+                                            "time_utc":  "2026-06-07T14:36:55Z",
+                                            "time_et":  "2026-06-07T10:36:55-04:00",
+                                            "updated_utc":  "2026-06-09T16:45:20Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.02,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.1",
+                                            "depth_km_raw":  2.11,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141796",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141796\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80007213",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.354,
+                                                              44.401,
+                                                              2.05
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80007213",
+                                            "time_utc":  "2026-06-07T14:36:31Z",
+                                            "time_et":  "2026-06-07T10:36:31-04:00",
+                                            "updated_utc":  "2026-06-09T16:48:22Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.5,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.1",
+                                            "depth_km_raw":  2.05,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80007213",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80007213\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80141791",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.352166666667,
+                                                              44.4003333333333,
+                                                              2.49
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141791",
+                                            "time_utc":  "2026-06-07T14:25:32Z",
+                                            "time_et":  "2026-06-07T10:25:32-04:00",
+                                            "updated_utc":  "2026-06-09T16:42:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.3,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.49,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141791",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141791\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "us7000sr8p",
                          "geometry":  {
                                           "type":  "Point",
@@ -12640,6 +13655,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80141786",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.354666666667,
+                                                              44.4015,
+                                                              3.47
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80141786",
+                                            "time_utc":  "2026-06-07T12:59:42Z",
+                                            "time_et":  "2026-06-07T08:59:42-04:00",
+                                            "updated_utc":  "2026-06-09T16:39:58Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.39,
+                                            "place":  "66 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.5",
+                                            "depth_km_raw":  3.47,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 66 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141786",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141786\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026lddyqb",
                          "geometry":  {
                                           "type":  "Point",
@@ -12776,6 +13826,41 @@
                                             "title":  "M 2.3 - 2 km W of Palomas, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71519028",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71519028\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lddcps",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.274,
+                                                              32.049,
+                                                              3.9551
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lddcps",
+                                            "time_utc":  "2026-06-07T12:06:57Z",
+                                            "time_et":  "2026-06-07T08:06:57-04:00",
+                                            "updated_utc":  "2026-06-09T17:31:59Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.3,
+                                            "place":  "11 km SE of Forsan, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.0",
+                                            "depth_km_raw":  3.9551,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 11 km SE of Forsan, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lddcps",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lddcps\u0026format=geojson"
                                         }
                      },
                      {
@@ -13060,6 +14145,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026ldaofs",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.162,
+                                                              32.365,
+                                                              8.1299
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ldaofs",
+                                            "time_utc":  "2026-06-07T10:50:08Z",
+                                            "time_et":  "2026-06-07T06:50:08-04:00",
+                                            "updated_utc":  "2026-06-09T16:46:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "35 km ENE of McKinney Acres, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.1299,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 35 km ENE of McKinney Acres, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ldaofs",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ldaofs\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026lczxtu",
                          "geometry":  {
                                           "type":  "Point",
@@ -13126,6 +14246,41 @@
                                             "title":  "M 1.0 - 9 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372351",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75372351\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lcyaqv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.892,
+                                                              32.097,
+                                                              7.8857
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lcyaqv",
+                                            "time_utc":  "2026-06-07T09:34:02Z",
+                                            "time_et":  "2026-06-07T05:34:02-04:00",
+                                            "updated_utc":  "2026-06-09T16:43:14Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.5,
+                                            "place":  "10 km WSW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.9",
+                                            "depth_km_raw":  7.8857,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 10 km WSW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lcyaqv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lcyaqv\u0026format=geojson"
                                         }
                      },
                      {
@@ -13336,6 +14491,41 @@
                                             "title":  "M 1.7 - 6 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372326",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75372326\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lcverp",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.08,
+                                                              32.357,
+                                                              8.252
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lcverp",
+                                            "time_utc":  "2026-06-07T08:08:21Z",
+                                            "time_et":  "2026-06-07T04:08:21-04:00",
+                                            "updated_utc":  "2026-06-09T16:52:21Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "37 km NW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.3",
+                                            "depth_km_raw":  8.252,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 37 km NW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lcverp",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lcverp\u0026format=geojson"
                                         }
                      },
                      {
@@ -13900,6 +15090,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026lcqryv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -100.674,
+                                                              32.766,
+                                                              6.958
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lcqryv",
+                                            "time_utc":  "2026-06-07T05:52:32Z",
+                                            "time_et":  "2026-06-07T01:52:32-04:00",
+                                            "updated_utc":  "2026-06-09T17:38:07Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.3,
+                                            "place":  "16 km NNE of Hermleigh, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.958,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 16 km NNE of Hermleigh, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lcqryv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lcqryv\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026lcqrwh",
                          "geometry":  {
                                           "type":  "Point",
@@ -14001,6 +15226,41 @@
                                             "title":  "M 2.5 - 24 km W of Delta, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481840",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41481840\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lcpicx",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.091,
+                                                              31.598,
+                                                              8.4717
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lcpicx",
+                                            "time_utc":  "2026-06-07T05:11:10Z",
+                                            "time_et":  "2026-06-07T01:11:10-04:00",
+                                            "updated_utc":  "2026-06-09T16:47:14Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "33 km NE of Crane, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.5",
+                                            "depth_km_raw":  8.4717,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 33 km NE of Crane, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lcpicx",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lcpicx\u0026format=geojson"
                                         }
                      },
                      {
@@ -14176,6 +15436,41 @@
                                             "title":  "M 0.7 - 11 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75372271",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75372271\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lcnmjt",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -100.674,
+                                                              32.769,
+                                                              6.0303
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lcnmjt",
+                                            "time_utc":  "2026-06-07T04:15:33Z",
+                                            "time_et":  "2026-06-07T00:15:33-04:00",
+                                            "updated_utc":  "2026-06-09T17:42:14Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "16 km NNE of Hermleigh, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.0303,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 16 km NNE of Hermleigh, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lcnmjt",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lcnmjt\u0026format=geojson"
                                         }
                      },
                      {
@@ -21219,31 +22514,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.363,
-                                                              31.659,
-                                                              3.4799
+                                                              -104.362,
+                                                              31.662,
+                                                              5.741
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026lajwlz",
-                                            "time_utc":  "2026-06-06T00:17:35Z",
-                                            "time_et":  "2026-06-05T20:17:35-04:00",
-                                            "updated_utc":  "2026-06-06T05:06:51Z",
+                                            "time_utc":  "2026-06-06T00:17:34Z",
+                                            "time_et":  "2026-06-05T20:17:34-04:00",
+                                            "updated_utc":  "2026-06-09T17:05:52Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.5,
-                                            "place":  "57 km S of Whites City, New Mexico",
+                                            "place":  "56 km S of Whites City, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "3.5",
-                                            "depth_km_raw":  3.4799,
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.741,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  35,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 57 km S of Whites City, New Mexico",
+                                            "title":  "M 1.5 - 56 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lajwlz",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lajwlz\u0026format=geojson"
                                         }
@@ -27939,31 +29234,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.801333333333,
-                                                              33.8605,
-                                                              16.12
+                                                              -116.801833333333,
+                                                              33.8611666666667,
+                                                              16.7
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41480616",
                                             "time_utc":  "2026-06-05T03:34:57Z",
                                             "time_et":  "2026-06-04T23:34:57-04:00",
-                                            "updated_utc":  "2026-06-05T03:38:22Z",
+                                            "updated_utc":  "2026-06-09T17:17:04Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.77,
+                                            "magnitude_raw":  0.49,
                                             "place":  "6 km SSW of Cabazon, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "16.1",
-                                            "depth_km_raw":  16.12,
+                                            "depth_km":  "16.7",
+                                            "depth_km_raw":  16.7,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  9,
+                                            "significance":  4,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km SSW of Cabazon, CA",
+                                            "title":  "M 0.5 - 6 km SSW of Cabazon, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41480616",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41480616\u0026format=geojson"
                                         }
@@ -29803,14 +31098,14 @@
                                             "id":  "nn00919749",
                                             "time_utc":  "2026-06-04T20:47:58Z",
                                             "time_et":  "2026-06-04T16:47:58-04:00",
-                                            "updated_utc":  "2026-06-09T16:33:14Z",
+                                            "updated_utc":  "2026-06-09T18:35:10Z",
                                             "magnitude":  "3.8",
                                             "magnitude_raw":  3.75,
                                             "place":  "11 km NW of Summerlin South, Nevada",
                                             "country":  "United States of America",
                                             "depth_km":  "7.0",
                                             "depth_km_raw":  7,
-                                            "felt_reports":  3778,
+                                            "felt_reports":  3802,
                                             "cdi":  4.1,
                                             "mmi":  4.197,
                                             "alert":  "green",
@@ -41563,7 +42858,7 @@
                                             "id":  "ci41479152",
                                             "time_utc":  "2026-06-03T04:16:41Z",
                                             "time_et":  "2026-06-03T00:16:41-04:00",
-                                            "updated_utc":  "2026-06-04T13:54:41Z",
+                                            "updated_utc":  "2026-06-09T17:06:16Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.54,
                                             "place":  "1 km E of San Jacinto, CA",
@@ -43646,391 +44941,6 @@
                                             "title":  "M 0.9 - 2 km SE of Home Gardens, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478864",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41478864\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026kulhrd",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -99.15,
-                                                              28.704,
-                                                              8.7108
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026kulhrd",
-                                            "time_utc":  "2026-06-02T18:33:49Z",
-                                            "time_et":  "2026-06-02T14:33:49-04:00",
-                                            "updated_utc":  "2026-06-03T10:26:14Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "2 km ENE of Hilltop, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.7108,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 2 km ENE of Hilltop, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kulhrd",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026kulhrd\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41478832",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.712666666667,
-                                                              33.5808333333333,
-                                                              11.72
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41478832",
-                                            "time_utc":  "2026-06-02T18:24:33Z",
-                                            "time_et":  "2026-06-02T14:24:33-04:00",
-                                            "updated_utc":  "2026-06-02T18:32:54Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.49,
-                                            "place":  "5 km NW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "11.7",
-                                            "depth_km_raw":  11.72,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 5 km NW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478832",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41478832\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369851",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.765335083008,
-                                                              38.8240013122559,
-                                                              2.14
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369851",
-                                            "time_utc":  "2026-06-02T18:18:43Z",
-                                            "time_et":  "2026-06-02T14:18:43-04:00",
-                                            "updated_utc":  "2026-06-02T19:47:28Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.3,
-                                            "place":  "4 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.14,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 4 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369851",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369851\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369836",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.733169555664,
-                                                              38.7736663818359,
-                                                              2.01
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369836",
-                                            "time_utc":  "2026-06-02T17:56:15Z",
-                                            "time_et":  "2026-06-02T13:56:15-04:00",
-                                            "updated_utc":  "2026-06-02T18:57:21Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.82,
-                                            "place":  "2 km ESE of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.0",
-                                            "depth_km_raw":  2.01,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  51,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 2 km ESE of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369836",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369836\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10241478",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.32,
-                                                              34.1053333333333,
-                                                              17.92
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10241478",
-                                            "time_utc":  "2026-06-02T17:52:47Z",
-                                            "time_et":  "2026-06-02T13:52:47-04:00",
-                                            "updated_utc":  "2026-06-02T19:30:03Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.96,
-                                            "place":  "4 km N of Colton, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "17.9",
-                                            "depth_km_raw":  17.92,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 4 km N of Colton, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10241478",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10241478\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw62254662",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.49316666666668,
-                                                              49.415333333333336,
-                                                              -0.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw62254662",
-                                            "time_utc":  "2026-06-02T17:24:47Z",
-                                            "time_et":  "2026-06-02T13:24:47-04:00",
-                                            "updated_utc":  "2026-06-02T17:36:36Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.02,
-                                            "place":  "4 km SSE of Princeton, Canada",
-                                            "country":  "Canada",
-                                            "depth_km":  "-0.4",
-                                            "depth_km_raw":  -0.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  63,
-                                            "event_type":  "explosion",
-                                            "title":  "M 2.0 Explosion - 4 km SSE of Princeton, Canada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw62254662",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62254662\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369831",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.835830688477,
-                                                              38.8368339538574,
-                                                              1.43
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369831",
-                                            "time_utc":  "2026-06-02T17:10:46Z",
-                                            "time_et":  "2026-06-02T13:10:46-04:00",
-                                            "updated_utc":  "2026-06-02T17:12:24Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.94,
-                                            "place":  "10 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.4",
-                                            "depth_km_raw":  1.43,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 10 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369831",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369831\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369826",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.801170349121,
-                                                              38.8354988098145,
-                                                              2.27
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369826",
-                                            "time_utc":  "2026-06-02T17:08:31Z",
-                                            "time_et":  "2026-06-02T13:08:31-04:00",
-                                            "updated_utc":  "2026-06-02T17:42:20Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.03,
-                                            "place":  "7 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.3",
-                                            "depth_km_raw":  2.27,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 7 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369826",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369826\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41478768",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.806,
-                                                              35.2925,
-                                                              7.9
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41478768",
-                                            "time_utc":  "2026-06-02T16:49:49Z",
-                                            "time_et":  "2026-06-02T12:49:49-04:00",
-                                            "updated_utc":  "2026-06-02T16:53:16Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "18 km WSW of Johannesburg, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.9",
-                                            "depth_km_raw":  7.9,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 18 km WSW of Johannesburg, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478768",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41478768\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369816",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.942001342773,
-                                                              38.7845001220703,
-                                                              4.14
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369816",
-                                            "time_utc":  "2026-06-02T16:47:08Z",
-                                            "time_et":  "2026-06-02T12:47:08-04:00",
-                                            "updated_utc":  "2026-06-02T16:48:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.82,
-                                            "place":  "7 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.1",
-                                            "depth_km_raw":  4.14,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 7 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369816",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369816\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75369806",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.937,
-                                                              38.7863333333333,
-                                                              5.49
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75369806",
-                                            "time_utc":  "2026-06-02T16:44:19Z",
-                                            "time_et":  "2026-06-02T12:44:19-04:00",
-                                            "updated_utc":  "2026-06-05T16:55:03Z",
-                                            "magnitude":  "3.6",
-                                            "magnitude_raw":  3.63,
-                                            "place":  "7 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.49,
-                                            "felt_reports":  80,
-                                            "cdi":  3.5,
-                                            "mmi":  3.77,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  231,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.6 - 7 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369806",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75369806\u0026format=geojson"
                                         }
                      }
                  ]
