@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-11T18:01:46Z",
+    "generated_at_utc":  "2026-06-11T18:02:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -228,7 +228,7 @@
                                             "id":  "ci41484616",
                                             "time_utc":  "2026-06-11T16:59:05Z",
                                             "time_et":  "2026-06-11T12:59:05-04:00",
-                                            "updated_utc":  "2026-06-11T17:02:27Z",
+                                            "updated_utc":  "2026-06-11T18:02:14Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.17,
                                             "place":  "19 km NNE of Indio, CA",
@@ -7876,6 +7876,41 @@
                                             "title":  "M 1.6 - 8 km NNE of Government Camp, Oregon",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714014551",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714014551\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026lhes",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.045,
+                                                              35.7005,
+                                                              7.38
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026lhes",
+                                            "time_utc":  "2026-06-10T11:13:34Z",
+                                            "time_et":  "2026-06-10T07:13:34-04:00",
+                                            "updated_utc":  "2026-06-11T18:01:41Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.26,
+                                            "place":  "6 km WSW of Okarche, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.4",
+                                            "depth_km_raw":  7.38,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 6 km WSW of Okarche, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026lhes",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026lhes\u0026format=geojson"
                                         }
                      },
                      {
