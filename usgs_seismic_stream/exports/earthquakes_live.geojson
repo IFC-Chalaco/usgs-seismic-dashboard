@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-12T14:33:23Z",
+    "generated_at_utc":  "2026-06-12T14:34:22Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -53,7 +53,7 @@
                                             "id":  "ci41485032",
                                             "time_utc":  "2026-06-12T13:00:52Z",
                                             "time_et":  "2026-06-12T09:00:52-04:00",
-                                            "updated_utc":  "2026-06-12T13:04:22Z",
+                                            "updated_utc":  "2026-06-12T14:33:07Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.96,
                                             "place":  "18 km ESE of Little Lake, CA",
@@ -88,7 +88,7 @@
                                             "id":  "ci41485024",
                                             "time_utc":  "2026-06-12T12:34:56Z",
                                             "time_et":  "2026-06-12T08:34:56-04:00",
-                                            "updated_utc":  "2026-06-12T12:38:28Z",
+                                            "updated_utc":  "2026-06-12T14:33:22Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.93,
                                             "place":  "6 km NNE of Valle Vista, CA",
@@ -99,7 +99,7 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  13,
                                             "event_type":  "earthquake",
@@ -158,7 +158,7 @@
                                             "id":  "ci41485016",
                                             "time_utc":  "2026-06-12T12:13:43Z",
                                             "time_et":  "2026-06-12T08:13:43-04:00",
-                                            "updated_utc":  "2026-06-12T12:24:31Z",
+                                            "updated_utc":  "2026-06-12T14:33:36Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.3,
                                             "place":  "12 km ENE of Julian, CA",
@@ -298,7 +298,7 @@
                                             "id":  "ci41485000",
                                             "time_utc":  "2026-06-12T11:40:54Z",
                                             "time_et":  "2026-06-12T07:40:54-04:00",
-                                            "updated_utc":  "2026-06-12T11:44:15Z",
+                                            "updated_utc":  "2026-06-12T14:33:34Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.35,
                                             "place":  "10 km SE of Borrego Springs, CA",
@@ -16836,6 +16836,41 @@
                                             "title":  "M 2.2 - 14 km N of Warner Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483232",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41483232\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lhdrqs",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.092,
+                                                              32.36,
+                                                              7.0801
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lhdrqs",
+                                            "time_utc":  "2026-06-09T16:42:19Z",
+                                            "time_et":  "2026-06-09T12:42:19-04:00",
+                                            "updated_utc":  "2026-06-12T14:33:03Z",
+                                            "magnitude":  "0.0",
+                                            "magnitude_raw":  0,
+                                            "place":  "38 km NW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.0801,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 38 km NW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lhdrqs",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lhdrqs\u0026format=geojson"
                                         }
                      },
                      {
