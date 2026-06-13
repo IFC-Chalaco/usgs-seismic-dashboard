@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-13T08:14:25Z",
+    "generated_at_utc":  "2026-06-13T08:15:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "us7000ssn4",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.2683,
+                                                              15.893,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000ssn4",
+                                            "time_utc":  "2026-06-13T07:50:13Z",
+                                            "time_et":  "2026-06-13T03:50:13-04:00",
+                                            "updated_utc":  "2026-06-13T08:14:40Z",
+                                            "magnitude":  "4.5",
+                                            "magnitude_raw":  4.5,
+                                            "place":  "39 km SSW of Corralero, Mexico",
+                                            "country":  "Mexico",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  312,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.5 - 39 km SSW of Corralero, Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssn4",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ssn4\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41485720",
