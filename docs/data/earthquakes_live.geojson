@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-14T16:12:29Z",
+    "generated_at_utc":  "2026-06-14T16:13:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -10606,6 +10606,41 @@
                                             "title":  "M 1.5 - 3 km SE of Oakland, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75375291",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75375291\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci10242142",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.8575,
+                                                              36.1156666666667,
+                                                              4.72
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10242142",
+                                            "time_utc":  "2026-06-12T15:56:47Z",
+                                            "time_et":  "2026-06-12T11:56:47-04:00",
+                                            "updated_utc":  "2026-06-14T16:12:30Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.63,
+                                            "place":  "11 km NE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.72,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 11 km NE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10242142",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10242142\u0026format=geojson"
                                         }
                      },
                      {
