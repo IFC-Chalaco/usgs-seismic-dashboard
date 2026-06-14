@@ -1,39 +1,214 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-14T12:22:54Z",
+    "generated_at_utc":  "2026-06-14T13:05:30Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41486256",
+                         "id":  "nc75376411",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.737167358398,
-                                                              34.0009994506836,
-                                                              11.11
+                                                              -122.806999206543,
+                                                              38.8151664733887,
+                                                              0.41
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41486256",
-                                            "time_utc":  "2026-06-14T12:20:06Z",
-                                            "time_et":  "2026-06-14T08:20:06-04:00",
-                                            "updated_utc":  "2026-06-14T12:22:10Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.17,
-                                            "place":  "10 km NNE of Cabazon, CA",
+                                            "id":  "nc75376411",
+                                            "time_utc":  "2026-06-14T12:51:33Z",
+                                            "time_et":  "2026-06-14T08:51:33-04:00",
+                                            "updated_utc":  "2026-06-14T12:53:07Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.12,
+                                            "place":  "6 km NW of The Geysers, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "11.1",
-                                            "depth_km_raw":  11.11,
+                                            "depth_km":  "0.4",
+                                            "depth_km_raw":  0.41,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  21,
+                                            "significance":  19,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 10 km NNE of Cabazon, CA",
+                                            "title":  "M 1.1 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376411",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75376411\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75376406",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.806831359863,
+                                                              38.8141670227051,
+                                                              0.36
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75376406",
+                                            "time_utc":  "2026-06-14T12:51:12Z",
+                                            "time_et":  "2026-06-14T08:51:12-04:00",
+                                            "updated_utc":  "2026-06-14T12:52:47Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "6 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.4",
+                                            "depth_km_raw":  0.36,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376406",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75376406\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41486280",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.812666666667,
+                                                              35.305,
+                                                              7.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41486280",
+                                            "time_utc":  "2026-06-14T12:41:42Z",
+                                            "time_et":  "2026-06-14T08:41:42-04:00",
+                                            "updated_utc":  "2026-06-14T12:45:16Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.03,
+                                            "place":  "18 km WSW of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  7.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 18 km WSW of Johannesburg, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486280",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41486280\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41486272",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.2905,
+                                                              33.0318333333333,
+                                                              7.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41486272",
+                                            "time_utc":  "2026-06-14T12:37:03Z",
+                                            "time_et":  "2026-06-14T08:37:03-04:00",
+                                            "updated_utc":  "2026-06-14T12:40:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.78,
+                                            "place":  "19 km SW of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 19 km SW of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486272",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41486272\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75376391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.761665344238,
+                                                              38.8064994812012,
+                                                              -0.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75376391",
+                                            "time_utc":  "2026-06-14T12:21:19Z",
+                                            "time_et":  "2026-06-14T08:21:19-04:00",
+                                            "updated_utc":  "2026-06-14T12:22:57Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "3 km N of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 3 km N of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75376391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75376391\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41486256",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.735,
+                                                              34.0006666666667,
+                                                              11.33
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41486256",
+                                            "time_utc":  "2026-06-14T12:20:06Z",
+                                            "time_et":  "2026-06-14T08:20:06-04:00",
+                                            "updated_utc":  "2026-06-14T12:23:36Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
+                                            "place":  "10 km NNE of Cabazon, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.3",
+                                            "depth_km_raw":  11.33,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 10 km NNE of Cabazon, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41486256",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41486256\u0026format=geojson"
                                         }
@@ -1930,37 +2105,37 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "us7000sst8",
+                         "id":  "pr71519818",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -66.4159,
-                                                              18.7012,
-                                                              60.824
+                                                              -66.3723333333333,
+                                                              18.7856666666667,
+                                                              53.36
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "us7000sst8",
-                                            "time_utc":  "2026-06-14T07:21:38Z",
-                                            "time_et":  "2026-06-14T03:21:38-04:00",
-                                            "updated_utc":  "2026-06-14T11:57:57Z",
-                                            "magnitude":  "2.9",
-                                            "magnitude_raw":  2.9,
-                                            "place":  "27 km NNW of Brenas, Puerto Rico",
+                                            "id":  "pr71519818",
+                                            "time_utc":  "2026-06-14T07:21:39Z",
+                                            "time_et":  "2026-06-14T03:21:39-04:00",
+                                            "updated_utc":  "2026-06-14T12:28:23Z",
+                                            "magnitude":  "3.3",
+                                            "magnitude_raw":  3.32,
+                                            "place":  "35 km N of Brenas, Puerto Rico",
                                             "country":  "Puerto Rico",
-                                            "depth_km":  "60.8",
-                                            "depth_km_raw":  60.824,
+                                            "depth_km":  "53.4",
+                                            "depth_km_raw":  53.36,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  129,
+                                            "significance":  170,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.9 - 27 km NNW of Brenas, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sst8",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sst8\u0026format=geojson"
+                                            "title":  "M 3.3 - 35 km N of Brenas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71519818",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71519818\u0026format=geojson"
                                         }
                      },
                      {
@@ -40846,111 +41021,6 @@
                                             "title":  "M 3.8 - 83 km N of Cruz Bay, U.S. Virgin Islands",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026158001",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026158001\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80141786",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -110.354666666667,
-                                                              44.4015,
-                                                              3.47
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80141786",
-                                            "time_utc":  "2026-06-07T12:59:42Z",
-                                            "time_et":  "2026-06-07T08:59:42-04:00",
-                                            "updated_utc":  "2026-06-09T16:39:58Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.39,
-                                            "place":  "66 km ESE of West Yellowstone, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.5",
-                                            "depth_km_raw":  3.47,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 66 km ESE of West Yellowstone, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80141786",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80141786\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026lddyqb",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.094,
-                                                              32.444,
-                                                              6.7139
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026lddyqb",
-                                            "time_utc":  "2026-06-07T12:32:30Z",
-                                            "time_et":  "2026-06-07T08:32:30-04:00",
-                                            "updated_utc":  "2026-06-08T22:30:46Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "34 km SSW of Los Ybanez, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.7",
-                                            "depth_km_raw":  6.7139,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 34 km SSW of Los Ybanez, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lddyqb",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lddyqb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00919851",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.52,
-                                                              38.4415,
-                                                              5.2115
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00919851",
-                                            "time_utc":  "2026-06-07T12:31:25Z",
-                                            "time_et":  "2026-06-07T08:31:25-04:00",
-                                            "updated_utc":  "2026-06-09T01:10:05Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.53,
-                                            "place":  "74 km ENE of Tonopah, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.2",
-                                            "depth_km_raw":  5.2115,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 74 km ENE of Tonopah, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919851",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00919851\u0026format=geojson"
                                         }
                      }
                  ]
