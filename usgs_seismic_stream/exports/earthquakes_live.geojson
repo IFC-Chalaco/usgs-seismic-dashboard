@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-15T23:22:39Z",
+    "generated_at_utc":  "2026-06-15T23:54:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lsrzql",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.615,
+                                                              30.936,
+                                                              0
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lsrzql",
+                                            "time_utc":  "2026-06-15T23:43:12Z",
+                                            "time_et":  "2026-06-15T19:43:12-04:00",
+                                            "updated_utc":  "2026-06-15T23:48:55Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "13 km ESE of Balmorhea, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 13 km ESE of Balmorhea, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lsrzql",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lsrzql\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41487648",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.683334350586,
+                                                              35.0148315429688,
+                                                              9.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41487648",
+                                            "time_utc":  "2026-06-15T23:25:32Z",
+                                            "time_et":  "2026-06-15T19:25:32-04:00",
+                                            "updated_utc":  "2026-06-15T23:51:53Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "4 km WNW of Boron, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.2",
+                                            "depth_km_raw":  9.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  30,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 4 km WNW of Boron, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41487648",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41487648\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41487632",
@@ -281,6 +351,41 @@
                                             "title":  "M 0.8 - 24 km E of McKinney Acres, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lsocmf",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lsocmf\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714021721",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.112166666667,
+                                                              43.726,
+                                                              -0.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714021721",
+                                            "time_utc":  "2026-06-15T21:36:54Z",
+                                            "time_et":  "2026-06-15T17:36:54-04:00",
+                                            "updated_utc":  "2026-06-15T23:30:08Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.63,
+                                            "place":  "9 km SSW of Cottage Grove, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.2",
+                                            "depth_km_raw":  -0.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.6 Explosion - 9 km SSW of Cottage Grove, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714021721",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714021721\u0026format=geojson"
                                         }
                      },
                      {
@@ -1768,15 +1873,15 @@
                                             "id":  "us7000st41",
                                             "time_utc":  "2026-06-15T15:02:24Z",
                                             "time_et":  "2026-06-15T11:02:24-04:00",
-                                            "updated_utc":  "2026-06-15T23:17:45Z",
+                                            "updated_utc":  "2026-06-15T23:50:11Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.4,
                                             "place":  "8 km NE of Bel Air North, Maryland",
                                             "country":  "United States of America",
                                             "depth_km":  "5.0",
                                             "depth_km_raw":  5,
-                                            "felt_reports":  354,
-                                            "cdi":  3.2,
+                                            "felt_reports":  357,
+                                            "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -10650,30 +10755,30 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -102.074,
-                                                              32.44,
-                                                              5.0701
+                                                              32.431,
+                                                              9.3994
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026lprjkt",
-                                            "time_utc":  "2026-06-14T08:14:20Z",
-                                            "time_et":  "2026-06-14T04:14:20-04:00",
-                                            "updated_utc":  "2026-06-14T09:00:56Z",
+                                            "time_utc":  "2026-06-14T08:14:21Z",
+                                            "time_et":  "2026-06-14T04:14:21-04:00",
+                                            "updated_utc":  "2026-06-15T23:43:29Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  1,
-                                            "place":  "34 km SSW of Los Ybanez, Texas",
+                                            "place":  "35 km SSW of Los Ybanez, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.1",
-                                            "depth_km_raw":  5.0701,
+                                            "depth_km":  "9.4",
+                                            "depth_km_raw":  9.3994,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  15,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 34 km SSW of Los Ybanez, Texas",
+                                            "title":  "M 1.0 - 35 km SSW of Los Ybanez, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lprjkt",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lprjkt\u0026format=geojson"
                                         }
@@ -15068,7 +15173,7 @@
                                             "id":  "nc75375676",
                                             "time_utc":  "2026-06-13T12:20:46Z",
                                             "time_et":  "2026-06-13T08:20:46-04:00",
-                                            "updated_utc":  "2026-06-14T15:23:50Z",
+                                            "updated_utc":  "2026-06-15T23:27:47Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.38,
                                             "place":  "16 km SW of Toms Place, CA",
@@ -17789,31 +17894,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.2734,
-                                                              37.1068,
-                                                              8.2391
+                                                              -115.3093,
+                                                              37.1071,
+                                                              10.1355
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nn00920182",
-                                            "time_utc":  "2026-06-13T02:06:24Z",
-                                            "time_et":  "2026-06-12T22:06:24-04:00",
-                                            "updated_utc":  "2026-06-13T02:10:14Z",
+                                            "time_utc":  "2026-06-13T02:06:25Z",
+                                            "time_et":  "2026-06-12T22:06:25-04:00",
+                                            "updated_utc":  "2026-06-15T23:43:06Z",
                                             "magnitude":  "1.9",
-                                            "magnitude_raw":  1.85,
-                                            "place":  "30 km SSW of Alamo, Nevada",
+                                            "magnitude_raw":  1.88,
+                                            "place":  "31 km SSW of Alamo, Nevada",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.2",
-                                            "depth_km_raw":  8.2391,
+                                            "depth_km":  "10.1",
+                                            "depth_km_raw":  10.1355,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  53,
+                                            "significance":  54,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 30 km SSW of Alamo, Nevada",
+                                            "title":  "M 1.9 - 31 km SSW of Alamo, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920182",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00920182\u0026format=geojson"
                                         }
@@ -42246,76 +42351,6 @@
                                             "title":  "M 1.7 - 19 km SSE of Westbrook, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lfwjix",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lfwjix\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41482864",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.893333333333,
-                                                              36.0943333333333,
-                                                              5.77
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41482864",
-                                            "time_utc":  "2026-06-08T23:43:48Z",
-                                            "time_et":  "2026-06-08T19:43:48-04:00",
-                                            "updated_utc":  "2026-06-09T13:33:03Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.91,
-                                            "place":  "7 km NE of Coso Junction, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.8",
-                                            "depth_km_raw":  5.77,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  56,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 7 km NE of Coso Junction, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41482864",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41482864\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026lfvfmd",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.432,
-                                                              31.648,
-                                                              6.0999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026lfvfmd",
-                                            "time_utc":  "2026-06-08T23:22:18Z",
-                                            "time_et":  "2026-06-08T19:22:18-04:00",
-                                            "updated_utc":  "2026-06-09T13:32:16Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.9,
-                                            "place":  "58 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.0999,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  56,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 58 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lfvfmd",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lfvfmd\u0026format=geojson"
                                         }
                      }
                  ]
