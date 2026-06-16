@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-16T12:31:59Z",
+    "generated_at_utc":  "2026-06-16T12:34:22Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.552833557129,
-                                                              34.0001678466797,
-                                                              6.09
+                                                              -117.552333333333,
+                                                              33.999,
+                                                              7.07
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41487872",
                                             "time_utc":  "2026-06-16T12:28:49Z",
                                             "time_et":  "2026-06-16T08:28:49-04:00",
-                                            "updated_utc":  "2026-06-16T12:30:55Z",
+                                            "updated_utc":  "2026-06-16T12:32:19Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  1.04,
+                                            "magnitude_raw":  0.91,
                                             "place":  "3 km WNW of Mira Loma, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.09,
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.07,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  17,
+                                            "significance":  13,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 3 km WNW of Mira Loma, CA",
+                                            "title":  "M 0.9 - 3 km WNW of Mira Loma, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41487872",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41487872\u0026format=geojson"
                                         }
@@ -4341,6 +4341,41 @@
                                             "title":  "M 0.7 - 1 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75377051",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75377051\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lsalru",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.002,
+                                                              32.393,
+                                                              4.834
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lsalru",
+                                            "time_utc":  "2026-06-15T14:54:06Z",
+                                            "time_et":  "2026-06-15T10:54:06-04:00",
+                                            "updated_utc":  "2026-06-16T12:31:33Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.5,
+                                            "place":  "30 km WSW of Ackerly, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.834,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 30 km WSW of Ackerly, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lsalru",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lsalru\u0026format=geojson"
                                         }
                      },
                      {
