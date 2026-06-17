@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-17T00:01:38Z",
+    "generated_at_utc":  "2026-06-17T00:02:39Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -37381,6 +37381,41 @@
                                             "title":  "M 1.1 - 11 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374511",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75374511\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75374506",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.8465,
+                                                              38.8478333333333,
+                                                              1.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75374506",
+                                            "time_utc":  "2026-06-11T01:28:25Z",
+                                            "time_et":  "2026-06-10T21:28:25-04:00",
+                                            "updated_utc":  "2026-06-17T00:01:10Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.33,
+                                            "place":  "11 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.2",
+                                            "depth_km_raw":  1.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 11 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374506",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75374506\u0026format=geojson"
                                         }
                      },
                      {
