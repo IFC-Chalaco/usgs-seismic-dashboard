@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-19T14:22:07Z",
+    "generated_at_utc":  "2026-06-19T14:23:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3221,6 +3221,41 @@
                                             "title":  "M 1.1 - 6 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379211",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75379211\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026lxwpbl",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.722,
+                                                              32.08,
+                                                              6.5356
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026lxwpbl",
+                                            "time_utc":  "2026-06-18T19:24:15Z",
+                                            "time_et":  "2026-06-18T15:24:15-04:00",
+                                            "updated_utc":  "2026-06-19T14:22:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "36 km ESE of Malaga, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.5356,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 36 km ESE of Malaga, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lxwpbl",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026lxwpbl\u0026format=geojson"
                                         }
                      },
                      {
