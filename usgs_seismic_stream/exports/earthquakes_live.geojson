@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-20T16:51:05Z",
+    "generated_at_utc":  "2026-06-20T16:52:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41491272",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.6795,
+                                                              35.9446666666667,
+                                                              4.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41491272",
+                                            "time_utc":  "2026-06-20T16:48:17Z",
+                                            "time_et":  "2026-06-20T12:48:17-04:00",
+                                            "updated_utc":  "2026-06-20T16:51:37Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.46,
+                                            "place":  "20 km E of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.5",
+                                            "depth_km_raw":  4.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 20 km E of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491272",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41491272\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75380146",
@@ -41511,41 +41546,6 @@
                                             "title":  "M 1.1 - 17 km N of Pine Mountain Club, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41485912",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41485912\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71519733",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.9475,
-                                                              17.9913333333333,
-                                                              10.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71519733",
-                                            "time_utc":  "2026-06-13T16:50:46Z",
-                                            "time_et":  "2026-06-13T12:50:46-04:00",
-                                            "updated_utc":  "2026-06-13T17:05:21Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.33,
-                                            "place":  "3 km W of Fuig, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "10.7",
-                                            "depth_km_raw":  10.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  84,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 3 km W of Fuig, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71519733",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71519733\u0026format=geojson"
                                         }
                      }
                  ]
