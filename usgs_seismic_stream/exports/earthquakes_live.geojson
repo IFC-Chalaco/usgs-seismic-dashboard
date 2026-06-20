@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-20T21:01:23Z",
+    "generated_at_utc":  "2026-06-20T21:02:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41491432",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.769996643066,
+                                                              33.6571655273438,
+                                                              13.78
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41491432",
+                                            "time_utc":  "2026-06-20T20:59:14Z",
+                                            "time_et":  "2026-06-20T16:59:14-04:00",
+                                            "updated_utc":  "2026-06-20T21:01:18Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "10 km SSW of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.8",
+                                            "depth_km_raw":  13.78,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 10 km SSW of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491432",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41491432\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41491424",
