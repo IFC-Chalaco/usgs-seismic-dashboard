@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-21T12:24:34Z",
+    "generated_at_utc":  "2026-06-21T12:25:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75380656",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.522499084473,
+                                                              37.1264991760254,
+                                                              6.86
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75380656",
+                                            "time_utc":  "2026-06-21T12:23:15Z",
+                                            "time_et":  "2026-06-21T08:23:15-04:00",
+                                            "updated_utc":  "2026-06-21T12:24:53Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.25,
+                                            "place":  "9 km ENE of San Martin, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.9",
+                                            "depth_km_raw":  6.86,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 9 km ENE of San Martin, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380656",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75380656\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41491704",
@@ -473,14 +508,14 @@
                                             "id":  "us7000suys",
                                             "time_utc":  "2026-06-21T09:00:08Z",
                                             "time_et":  "2026-06-21T05:00:08-04:00",
-                                            "updated_utc":  "2026-06-21T11:44:50Z",
+                                            "updated_utc":  "2026-06-21T12:24:54Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.1,
                                             "place":  "51 km E of Felipe Carrillo Puerto, Mexico",
                                             "country":  "Mexico",
                                             "depth_km":  "11.2",
                                             "depth_km_raw":  11.161,
-                                            "felt_reports":  3,
+                                            "felt_reports":  4,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
