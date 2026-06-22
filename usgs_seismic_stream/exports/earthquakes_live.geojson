@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-22T22:23:41Z",
+    "generated_at_utc":  "2026-06-22T22:24:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -6266,6 +6266,41 @@
                                             "title":  "M 1.8 - 32 km SE of Bodie, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380711",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75380711\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714028811",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.152666666667,
+                                                              46.2041666666667,
+                                                              7.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714028811",
+                                            "time_utc":  "2026-06-21T14:40:39Z",
+                                            "time_et":  "2026-06-21T10:40:39-04:00",
+                                            "updated_utc":  "2026-06-22T22:23:50Z",
+                                            "magnitude":  "0.0",
+                                            "magnitude_raw":  -0.04,
+                                            "place":  "39 km NE of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 39 km NE of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714028811",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714028811\u0026format=geojson"
                                         }
                      },
                      {
