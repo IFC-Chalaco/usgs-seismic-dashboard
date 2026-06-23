@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-23T14:38:23Z",
+    "generated_at_utc":  "2026-06-23T14:39:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "nc75382171",
                                             "time_utc":  "2026-06-23T14:36:24Z",
                                             "time_et":  "2026-06-23T10:36:24-04:00",
-                                            "updated_utc":  "2026-06-23T14:37:57Z",
+                                            "updated_utc":  "2026-06-23T14:37:59Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.76,
                                             "place":  "8 km W of Cobb, CA",
@@ -316,6 +316,41 @@
                                             "title":  "M 1.6 - 11 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382131",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75382131\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71520998",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.3341666666667,
+                                                              18.8468333333333,
+                                                              20.7
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71520998",
+                                            "time_utc":  "2026-06-23T13:52:32Z",
+                                            "time_et":  "2026-06-23T09:52:32-04:00",
+                                            "updated_utc":  "2026-06-23T14:38:30Z",
+                                            "magnitude":  "3.4",
+                                            "magnitude_raw":  3.43,
+                                            "place":  "46 km NNW of San Antonio, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "20.7",
+                                            "depth_km_raw":  20.7,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  181,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.4 - 46 km NNW of San Antonio, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71520998",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71520998\u0026format=geojson"
                                         }
                      },
                      {
