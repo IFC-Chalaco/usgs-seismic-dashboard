@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-24T05:38:11Z",
+    "generated_at_utc":  "2026-06-24T05:39:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41494144",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.026496887207,
+                                                              33.1828346252441,
+                                                              5.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41494144",
+                                            "time_utc":  "2026-06-24T05:35:56Z",
+                                            "time_et":  "2026-06-24T01:35:56-04:00",
+                                            "updated_utc":  "2026-06-24T05:38:02Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "11 km ENE of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.2",
+                                            "depth_km_raw":  5.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 11 km ENE of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494144",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41494144\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41494136",
@@ -193,14 +228,14 @@
                                             "id":  "nc75382651",
                                             "time_utc":  "2026-06-24T05:00:25Z",
                                             "time_et":  "2026-06-24T01:00:25-04:00",
-                                            "updated_utc":  "2026-06-24T05:22:22Z",
+                                            "updated_utc":  "2026-06-24T05:38:10Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.21,
                                             "place":  "7 km ESE of Roseland, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "9.1",
                                             "depth_km_raw":  9.12,
-                                            "felt_reports":  5,
+                                            "felt_reports":  6,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
