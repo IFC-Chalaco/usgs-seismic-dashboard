@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-24T20:02:24Z",
+    "generated_at_utc":  "2026-06-24T20:03:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -281,6 +281,41 @@
                                             "title":  "M 1.3 Quarry Blast - 5 km SE of Home Gardens, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494616",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41494616\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80143266",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.853166666667,
+                                                              40.8966666666667,
+                                                              13.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80143266",
+                                            "time_utc":  "2026-06-24T19:15:53Z",
+                                            "time_et":  "2026-06-24T15:15:53-04:00",
+                                            "updated_utc":  "2026-06-24T20:01:57Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.23,
+                                            "place":  "42 km SSE of Evanston, Wyoming",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.5",
+                                            "depth_km_raw":  13.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  77,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 42 km SSE of Evanston, Wyoming",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80143266",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80143266\u0026format=geojson"
                                         }
                      },
                      {
