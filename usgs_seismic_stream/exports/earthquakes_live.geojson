@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-25T16:07:52Z",
+    "generated_at_utc":  "2026-06-25T16:08:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75384096",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.810997009277,
+                                                              38.824333190918,
+                                                              3.38
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75384096",
+                                            "time_utc":  "2026-06-25T16:06:23Z",
+                                            "time_et":  "2026-06-25T12:06:23-04:00",
+                                            "updated_utc":  "2026-06-25T16:07:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.38,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384096",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75384096\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75384066",
@@ -42526,76 +42561,6 @@
                                             "title":  "M 0.6 - 9 km SSE of Gorman, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41489944",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41489944\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75379116",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.829833984375,
-                                                              38.844165802002,
-                                                              2.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75379116",
-                                            "time_utc":  "2026-06-18T16:08:17Z",
-                                            "time_et":  "2026-06-18T12:08:17-04:00",
-                                            "updated_utc":  "2026-06-18T16:09:51Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.25,
-                                            "place":  "10 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 10 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379116",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75379116\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75379111",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.824333190918,
-                                                              38.8436660766602,
-                                                              2.11
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75379111",
-                                            "time_utc":  "2026-06-18T16:07:43Z",
-                                            "time_et":  "2026-06-18T12:07:43-04:00",
-                                            "updated_utc":  "2026-06-18T16:57:21Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.94,
-                                            "place":  "9 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.11,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  58,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 9 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379111",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75379111\u0026format=geojson"
                                         }
                      }
                  ]
