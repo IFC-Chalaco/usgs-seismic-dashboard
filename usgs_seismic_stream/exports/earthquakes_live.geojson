@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-25T20:19:36Z",
+    "generated_at_utc":  "2026-06-25T20:28:09Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026mkuncy",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.223,
+                                                              31.756,
+                                                              4.6422
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026mkuncy",
+                                            "time_utc":  "2026-06-25T20:19:45Z",
+                                            "time_et":  "2026-06-25T16:19:45-04:00",
+                                            "updated_utc":  "2026-06-25T20:25:58Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.5,
+                                            "place":  "48 km SSE of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.6",
+                                            "depth_km_raw":  4.6422,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  96,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 48 km SSE of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mkuncy",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mkuncy\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41495456",
@@ -18,20 +53,20 @@
                                             "id":  "ci41495456",
                                             "time_utc":  "2026-06-25T20:09:16Z",
                                             "time_et":  "2026-06-25T16:09:16-04:00",
-                                            "updated_utc":  "2026-06-25T20:15:15Z",
+                                            "updated_utc":  "2026-06-25T20:25:45Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.12,
                                             "place":  "1 km SSE of Signal Hill, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "14.6",
                                             "depth_km_raw":  14.59,
-                                            "felt_reports":  1,
+                                            "felt_reports":  10,
                                             "cdi":  2.5,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  69,
+                                            "significance":  72,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.1 - 1 km SSE of Signal Hill, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495456",
@@ -42386,41 +42421,6 @@
                                             "title":  "M 4.1 - 177 km WSW of Port Orford, Oregon",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sueb",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sueb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41490216",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.3835,
-                                                              33.3386666666667,
-                                                              6.77
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41490216",
-                                            "time_utc":  "2026-06-18T20:26:53Z",
-                                            "time_et":  "2026-06-18T16:26:53-04:00",
-                                            "updated_utc":  "2026-06-18T20:52:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "9 km N of Borrego Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.77,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 9 km N of Borrego Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41490216",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41490216\u0026format=geojson"
                                         }
                      }
                  ]
