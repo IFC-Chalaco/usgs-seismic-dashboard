@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-25T15:47:22Z",
+    "generated_at_utc":  "2026-06-25T16:06:52Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.6 - 11 km ESE of Willits, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384066",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75384066\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41495104",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.71316666666699,
+                                                              33.5385,
+                                                              5.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41495104",
+                                            "time_utc":  "2026-06-25T15:34:03Z",
+                                            "time_et":  "2026-06-25T11:34:03-04:00",
+                                            "updated_utc":  "2026-06-25T15:58:21Z",
+                                            "magnitude":  "0.0",
+                                            "magnitude_raw":  -0.02,
+                                            "place":  "4 km WSW of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.9",
+                                            "depth_km_raw":  5.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.0 - 4 km WSW of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495104",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41495104\u0026format=geojson"
                                         }
                      },
                      {
@@ -3028,15 +3063,15 @@
                                             "id":  "nc75383591",
                                             "time_utc":  "2026-06-24T23:07:06Z",
                                             "time_et":  "2026-06-24T19:07:06-04:00",
-                                            "updated_utc":  "2026-06-24T23:27:20Z",
+                                            "updated_utc":  "2026-06-25T16:02:41Z",
                                             "magnitude":  "2.8",
                                             "magnitude_raw":  2.81,
                                             "place":  "10 km NNW of Redwood Valley, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.3",
                                             "depth_km_raw":  5.26,
-                                            "felt_reports":  1,
-                                            "cdi":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
@@ -4279,31 +4314,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.335,
-                                                              35.0618333333333,
-                                                              -0.55
+                                                              -118.334666666667,
+                                                              35.0613333333333,
+                                                              -1.01
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41494560",
                                             "time_utc":  "2026-06-24T18:25:28Z",
                                             "time_et":  "2026-06-24T14:25:28-04:00",
-                                            "updated_utc":  "2026-06-24T18:28:55Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.34,
+                                            "updated_utc":  "2026-06-25T15:49:47Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.38,
                                             "place":  "13 km SE of Tehachapi, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.6",
-                                            "depth_km_raw":  -0.55,
+                                            "depth_km":  "-1.0",
+                                            "depth_km_raw":  -1.01,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  28,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 13 km SE of Tehachapi, CA",
+                                            "significance":  29,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.4 Quarry Blast - 13 km SE of Tehachapi, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494560",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41494560\u0026format=geojson"
                                         }
@@ -6143,14 +6178,14 @@
                                             "id":  "nc75382936",
                                             "time_utc":  "2026-06-24T15:10:40Z",
                                             "time_et":  "2026-06-24T11:10:40-04:00",
-                                            "updated_utc":  "2026-06-25T15:36:46Z",
+                                            "updated_utc":  "2026-06-25T15:59:50Z",
                                             "magnitude":  "5.6",
                                             "magnitude_raw":  5.59,
                                             "place":  "11 km N of Redwood Valley, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "8.9",
                                             "depth_km_raw":  8.85,
-                                            "felt_reports":  5251,
+                                            "felt_reports":  5255,
                                             "cdi":  6.7,
                                             "mmi":  7.376,
                                             "alert":  "yellow",
@@ -35250,6 +35285,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026maabrc",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.157,
+                                                              32.515,
+                                                              7.0557
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026maabrc",
+                                            "time_utc":  "2026-06-19T23:18:16Z",
+                                            "time_et":  "2026-06-19T19:18:16-04:00",
+                                            "updated_utc":  "2026-06-25T16:05:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "22 km NW of Westbrook, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.0557,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 22 km NW of Westbrook, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026maabrc",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026maabrc\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026lzzopu",
                          "geometry":  {
                                           "type":  "Point",
@@ -42526,111 +42596,6 @@
                                             "title":  "M 1.9 - 9 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379111",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75379111\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41489936",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.257,
-                                                              34.0356666666667,
-                                                              14.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41489936",
-                                            "time_utc":  "2026-06-18T16:04:01Z",
-                                            "time_et":  "2026-06-18T12:04:01-04:00",
-                                            "updated_utc":  "2026-06-18T16:26:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
-                                            "place":  "1 km SSE of Loma Linda, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.9",
-                                            "depth_km_raw":  14.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 1 km SSE of Loma Linda, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41489936",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41489936\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75379101",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.930333333333,
-                                                              39.7711666666667,
-                                                              0.33
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75379101",
-                                            "time_utc":  "2026-06-18T15:56:56Z",
-                                            "time_et":  "2026-06-18T11:56:56-04:00",
-                                            "updated_utc":  "2026-06-24T01:14:52Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.89,
-                                            "place":  "22 km NW of Alder Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.3",
-                                            "depth_km_raw":  0.33,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  55,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 22 km NW of Alder Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379101",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75379101\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41489920",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.848,
-                                                              33.3673333333333,
-                                                              10.84
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41489920",
-                                            "time_utc":  "2026-06-18T15:49:32Z",
-                                            "time_et":  "2026-06-18T11:49:32-04:00",
-                                            "updated_utc":  "2026-06-18T16:13:36Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.63,
-                                            "place":  "2 km NE of Palomar Observatory, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.8",
-                                            "depth_km_raw":  10.84,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 2 km NE of Palomar Observatory, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41489920",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41489920\u0026format=geojson"
                                         }
                      }
                  ]
