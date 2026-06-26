@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-26T01:36:57Z",
+    "generated_at_utc":  "2026-06-26T01:37:56Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75384436",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.786163330078,
+                                                              38.8356666564941,
+                                                              1.76
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75384436",
+                                            "time_utc":  "2026-06-26T01:35:03Z",
+                                            "time_et":  "2026-06-25T21:35:03-04:00",
+                                            "updated_utc":  "2026-06-26T01:36:42Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.72,
+                                            "place":  "6 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.8",
+                                            "depth_km_raw":  1.76,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384436",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75384436\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41495736",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.720833333333,
+                                                              33.5343333333333,
+                                                              6.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41495736",
+                                            "time_utc":  "2026-06-26T01:33:41Z",
+                                            "time_et":  "2026-06-25T21:33:41-04:00",
+                                            "updated_utc":  "2026-06-26T01:37:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.31,
+                                            "place":  "5 km WSW of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 5 km WSW of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495736",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41495736\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41495728",
