@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-26T17:33:41Z",
+    "generated_at_utc":  "2026-06-26T17:34:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75384786",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.211669921875,
+                                                              39.3629989624023,
+                                                              8.34
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75384786",
+                                            "time_utc":  "2026-06-26T17:32:11Z",
+                                            "time_et":  "2026-06-26T13:32:11-04:00",
+                                            "updated_utc":  "2026-06-26T17:33:49Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.69,
+                                            "place":  "11 km N of Redwood Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.3",
+                                            "depth_km_raw":  8.34,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  44,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 11 km N of Redwood Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384786",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75384786\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41496064",
