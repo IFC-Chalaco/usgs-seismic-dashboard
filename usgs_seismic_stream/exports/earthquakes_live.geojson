@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-27T23:38:06Z",
+    "generated_at_utc":  "2026-06-27T23:39:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75385471",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.818336486816,
+                                                              38.8320007324219,
+                                                              1.92
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75385471",
+                                            "time_utc":  "2026-06-27T23:36:15Z",
+                                            "time_et":  "2026-06-27T19:36:15-04:00",
+                                            "updated_utc":  "2026-06-27T23:37:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.69,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.92,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385471",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75385471\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41496832",
@@ -42211,41 +42246,6 @@
                                             "title":  "M 2.5 - 21 km WNW of Stanley, Idaho",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suwz",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000suwz\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75380356",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.203,
-                                                              39.8008333333333,
-                                                              7.07
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75380356",
-                                            "time_utc":  "2026-06-20T23:37:39Z",
-                                            "time_et":  "2026-06-20T19:37:39-04:00",
-                                            "updated_utc":  "2026-06-26T00:31:57Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.49,
-                                            "place":  "4 km ENE of Covelo, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.07,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  34,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 4 km ENE of Covelo, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380356",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75380356\u0026format=geojson"
                                         }
                      }
                  ]
