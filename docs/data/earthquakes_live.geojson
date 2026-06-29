@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-29T17:48:33Z",
+    "generated_at_utc":  "2026-06-29T18:00:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,22 +9,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.336502075195,
-                                                              33.2563323974609,
-                                                              2.88
+                                                              -116.337833333333,
+                                                              33.2566666666667,
+                                                              3.05
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41283687",
                                             "time_utc":  "2026-06-29T17:45:52Z",
                                             "time_et":  "2026-06-29T13:45:52-04:00",
-                                            "updated_utc":  "2026-06-29T17:47:58Z",
+                                            "updated_utc":  "2026-06-29T17:58:03Z",
                                             "magnitude":  "1.2",
-                                            "magnitude_raw":  1.21,
-                                            "place":  "4 km E of Borrego Springs, CA",
+                                            "magnitude_raw":  1.23,
+                                            "place":  "3 km E of Borrego Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.9",
-                                            "depth_km_raw":  2.88,
+                                            "depth_km":  "3.1",
+                                            "depth_km_raw":  3.05,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -33,7 +33,7 @@
                                             "tsunami":  0,
                                             "significance":  23,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 4 km E of Borrego Springs, CA",
+                                            "title":  "M 1.2 - 3 km E of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41283687",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41283687\u0026format=geojson"
                                         }
@@ -2083,20 +2083,20 @@
                                             "id":  "nm60623916",
                                             "time_utc":  "2026-06-29T07:05:42Z",
                                             "time_et":  "2026-06-29T03:05:42-04:00",
-                                            "updated_utc":  "2026-06-29T17:46:04Z",
+                                            "updated_utc":  "2026-06-29T17:56:47Z",
                                             "magnitude":  "3.5",
                                             "magnitude_raw":  3.5,
                                             "place":  "6 km NE of West Salem, Illinois",
                                             "country":  "United States of America",
                                             "depth_km":  "19.1",
                                             "depth_km_raw":  19.07,
-                                            "felt_reports":  357,
+                                            "felt_reports":  359,
                                             "cdi":  3.8,
                                             "mmi":  3.807,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  324,
+                                            "significance":  325,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.5 - 6 km NE of West Salem, Illinois",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nm60623916",
@@ -4209,31 +4209,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -121.99649810791,
-                                                              46.8488349914551,
-                                                              7.62
+                                                              -121.9925,
+                                                              46.8548333333333,
+                                                              9.56
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714037011",
                                             "time_utc":  "2026-06-28T22:24:36Z",
                                             "time_et":  "2026-06-28T18:24:36-04:00",
-                                            "updated_utc":  "2026-06-28T22:26:24Z",
+                                            "updated_utc":  "2026-06-29T17:54:43Z",
                                             "magnitude":  "1.5",
-                                            "magnitude_raw":  1.51,
-                                            "place":  "10 km NNE of Ashford, Washington",
+                                            "magnitude_raw":  1.54,
+                                            "place":  "11 km NNE of Ashford, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.62,
+                                            "depth_km":  "9.6",
+                                            "depth_km_raw":  9.56,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  36,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 10 km NNE of Ashford, Washington",
+                                            "title":  "M 1.5 - 11 km NNE of Ashford, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714037011",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714037011\u0026format=geojson"
                                         }
@@ -6651,6 +6651,41 @@
                                             "title":  "M 1.6 - 9 km ESE of Willits, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385676",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75385676\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714035891",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.899833333333,
+                                                              46.8791666666667,
+                                                              10.62
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714035891",
+                                            "time_utc":  "2026-06-28T07:32:11Z",
+                                            "time_et":  "2026-06-28T03:32:11-04:00",
+                                            "updated_utc":  "2026-06-29T17:48:40Z",
+                                            "magnitude":  "-0.2",
+                                            "magnitude_raw":  -0.2,
+                                            "place":  "16 km NE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.6",
+                                            "depth_km_raw":  10.62,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M -0.2 - 16 km NE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714035891",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714035891\u0026format=geojson"
                                         }
                      },
                      {
@@ -10431,6 +10466,41 @@
                                             "title":  "M 1.2 - 7 km ENE of Pinnacles, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385161",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75385161\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026mnpsmj",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.059,
+                                                              32.429,
+                                                              7.9346
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026mnpsmj",
+                                            "time_utc":  "2026-06-27T09:08:39Z",
+                                            "time_et":  "2026-06-27T05:08:39-04:00",
+                                            "updated_utc":  "2026-06-29T17:54:30Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "34 km WSW of Ackerly, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.9",
+                                            "depth_km_raw":  7.9346,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 34 km WSW of Ackerly, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mnpsmj",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mnpsmj\u0026format=geojson"
                                         }
                      },
                      {
