@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-30T20:19:21Z",
+    "generated_at_utc":  "2026-06-30T20:20:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41284391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.886497497559,
+                                                              34.1910018920898,
+                                                              1.61
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41284391",
+                                            "time_utc":  "2026-06-30T20:17:36Z",
+                                            "time_et":  "2026-06-30T16:17:36-04:00",
+                                            "updated_utc":  "2026-06-30T20:19:43Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "6 km SSE of Big Bear Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.61,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 6 km SSE of Big Bear Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41284391\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026mtycjh",
@@ -53,20 +88,20 @@
                                             "id":  "us6000t99j",
                                             "time_utc":  "2026-06-30T19:45:40Z",
                                             "time_et":  "2026-06-30T15:45:40-04:00",
-                                            "updated_utc":  "2026-06-30T20:16:13Z",
+                                            "updated_utc":  "2026-06-30T20:19:14Z",
                                             "magnitude":  "6.0",
                                             "magnitude_raw":  6,
                                             "place":  "75 km SSW of El Progreso, Mexico",
                                             "country":  "Mexico",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  3,
+                                            "felt_reports":  4,
                                             "cdi":  4.2,
                                             "mmi":  4.834,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  555,
+                                            "significance":  556,
                                             "event_type":  "earthquake",
                                             "title":  "M 6.0 - 75 km SSW of El Progreso, Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t99j",
