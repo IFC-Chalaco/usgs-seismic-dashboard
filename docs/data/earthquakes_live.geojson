@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-30T21:06:27Z",
+    "generated_at_utc":  "2026-06-30T21:49:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00920970",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.2517,
+                                                              37.093,
+                                                              7.7445
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00920970",
+                                            "time_utc":  "2026-06-30T21:38:00Z",
+                                            "time_et":  "2026-06-30T17:38:00-04:00",
+                                            "updated_utc":  "2026-06-30T21:41:40Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.77,
+                                            "place":  "31 km SSW of Alamo, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.7445,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  48,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 31 km SSW of Alamo, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920970",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00920970\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00920969",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.2376,
+                                                              36.0117,
+                                                              15.8235
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00920969",
+                                            "time_utc":  "2026-06-30T21:31:04Z",
+                                            "time_et":  "2026-06-30T17:31:04-04:00",
+                                            "updated_utc":  "2026-06-30T21:33:41Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.71,
+                                            "place":  "1 km SSE of Enterprise, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.8",
+                                            "depth_km_raw":  15.8235,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  45,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 1 km SSE of Enterprise, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920969",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00920969\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026mualut",
@@ -36,6 +106,41 @@
                                             "title":  "M 1.6 - 12 km ESE of Gardendale, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mualut",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mualut\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000t99v",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -109.2907,
+                                                              25.11,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000t99v",
+                                            "time_utc":  "2026-06-30T20:29:39Z",
+                                            "time_et":  "2026-06-30T16:29:39-04:00",
+                                            "updated_utc":  "2026-06-30T21:38:09Z",
+                                            "magnitude":  "4.5",
+                                            "magnitude_raw":  4.5,
+                                            "place":  "59 km SSW of Topolobampo, Mexico",
+                                            "country":  "Mexico",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  0,
+                                            "cdi":  1,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  312,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.5 - 59 km SSW of Topolobampo, Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t99v",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t99v\u0026format=geojson"
                                         }
                      },
                      {
@@ -123,20 +228,20 @@
                                             "id":  "us6000t99j",
                                             "time_utc":  "2026-06-30T19:45:40Z",
                                             "time_et":  "2026-06-30T15:45:40-04:00",
-                                            "updated_utc":  "2026-06-30T21:05:02Z",
+                                            "updated_utc":  "2026-06-30T21:15:56Z",
                                             "magnitude":  "6.0",
                                             "magnitude_raw":  6,
                                             "place":  "75 km SSW of El Progreso, Mexico",
                                             "country":  "Mexico",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  11,
+                                            "felt_reports":  12,
                                             "cdi":  4,
                                             "mmi":  4.834,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  558,
+                                            "significance":  559,
                                             "event_type":  "earthquake",
                                             "title":  "M 6.0 - 75 km SSW of El Progreso, Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t99j",
@@ -246,6 +351,41 @@
                                             "title":  "M 1.0 - 2 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387091",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75387091\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714039031",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.942666666667,
+                                                              46.8336666666667,
+                                                              14.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714039031",
+                                            "time_utc":  "2026-06-30T19:12:08Z",
+                                            "time_et":  "2026-06-30T15:12:08-04:00",
+                                            "updated_utc":  "2026-06-30T21:40:51Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.21,
+                                            "place":  "9 km SSE of Markham, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.5",
+                                            "depth_km_raw":  14.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 9 km SSE of Markham, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714039031",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714039031\u0026format=geojson"
                                         }
                      },
                      {
@@ -1374,31 +1514,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.413,
-                                                              31.291,
-                                                              5.9521
+                                                              -103.434,
+                                                              31.281,
+                                                              3.0237
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026mtosot",
                                             "time_utc":  "2026-06-30T15:05:36Z",
                                             "time_et":  "2026-06-30T11:05:36-04:00",
-                                            "updated_utc":  "2026-06-30T15:10:06Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "14 km SE of Lindsay, Texas",
+                                            "updated_utc":  "2026-06-30T21:11:39Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "13 km SE of Lindsay, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  5.9521,
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  3.0237,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  50,
+                                            "significance":  39,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 14 km SE of Lindsay, Texas",
+                                            "title":  "M 1.6 - 13 km SE of Lindsay, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mtosot",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mtosot\u0026format=geojson"
                                         }
@@ -3308,14 +3448,14 @@
                                             "id":  "nm60623971",
                                             "time_utc":  "2026-06-30T03:41:27Z",
                                             "time_et":  "2026-06-29T23:41:27-04:00",
-                                            "updated_utc":  "2026-06-30T19:45:03Z",
+                                            "updated_utc":  "2026-06-30T21:24:58Z",
                                             "magnitude":  "2.9",
                                             "magnitude_raw":  2.93,
                                             "place":  "14 km SSW of Williamsville, Missouri",
                                             "country":  "United States of America",
                                             "depth_km":  "1.6",
                                             "depth_km_raw":  1.64,
-                                            "felt_reports":  20,
+                                            "felt_reports":  21,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
@@ -38124,29 +38264,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.653335571289,
-                                                              38.3959999084473,
-                                                              9.12
+                                                              -122.654,
+                                                              38.3961666666667,
+                                                              10.13
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nc75382651",
                                             "time_utc":  "2026-06-24T05:00:25Z",
                                             "time_et":  "2026-06-24T01:00:25-04:00",
-                                            "updated_utc":  "2026-06-24T15:47:37Z",
+                                            "updated_utc":  "2026-06-30T21:37:23Z",
                                             "magnitude":  "2.2",
-                                            "magnitude_raw":  2.21,
+                                            "magnitude_raw":  2.2,
                                             "place":  "7 km ESE of Roseland, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.1",
-                                            "depth_km_raw":  9.12,
+                                            "depth_km":  "10.1",
+                                            "depth_km_raw":  10.13,
                                             "felt_reports":  6,
-                                            "cdi":  3.1,
+                                            "cdi":  2.5,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  77,
+                                            "significance":  76,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.2 - 7 km ESE of Roseland, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382651",
@@ -38378,7 +38518,7 @@
                                             "id":  "nc75382626",
                                             "time_utc":  "2026-06-24T04:18:53Z",
                                             "time_et":  "2026-06-24T00:18:53-04:00",
-                                            "updated_utc":  "2026-06-30T20:52:24Z",
+                                            "updated_utc":  "2026-06-30T21:07:21Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.42,
                                             "place":  "11 km NNE of Gerber, CA",
@@ -40146,216 +40286,6 @@
                                             "title":  "M 1.4 - 28 km WSW of Olancha, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493872",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41493872\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00920665",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.177,
-                                                              38.7119,
-                                                              16
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00920665",
-                                            "time_utc":  "2026-06-23T21:35:40Z",
-                                            "time_et":  "2026-06-23T17:35:40-04:00",
-                                            "updated_utc":  "2026-06-26T01:44:50Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.87,
-                                            "place":  "56 km S of Kingston, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "16.0",
-                                            "depth_km_raw":  16,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  54,
-                                            "event_type":  "explosion",
-                                            "title":  "M 1.9 Explosion - 56 km S of Kingston, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920665",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00920665\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41493832",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.496333333333,
-                                                              33.8655,
-                                                              -0.51
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41493832",
-                                            "time_utc":  "2026-06-23T21:29:52Z",
-                                            "time_et":  "2026-06-23T17:29:52-04:00",
-                                            "updated_utc":  "2026-06-24T00:35:36Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.19,
-                                            "place":  "3 km ESE of Home Gardens, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.5",
-                                            "depth_km_raw":  -0.51,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  22,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.2 Quarry Blast - 3 km ESE of Home Gardens, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493832",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41493832\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026mhfhyv",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.918,
-                                                              32.105,
-                                                              8.7646
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026mhfhyv",
-                                            "time_utc":  "2026-06-23T21:27:43Z",
-                                            "time_et":  "2026-06-23T17:27:43-04:00",
-                                            "updated_utc":  "2026-06-24T07:34:42Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "12 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.8",
-                                            "depth_km_raw":  8.7646,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 12 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mhfhyv",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mhfhyv\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026mhezfa",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.911,
-                                                              32.103,
-                                                              9.5459
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026mhezfa",
-                                            "time_utc":  "2026-06-23T21:17:35Z",
-                                            "time_et":  "2026-06-23T17:17:35-04:00",
-                                            "updated_utc":  "2026-06-23T22:29:56Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.4,
-                                            "place":  "11 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.5",
-                                            "depth_km_raw":  9.5459,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  30,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 11 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mhezfa",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mhezfa\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714030891",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.457,
-                                                              49.3768333333333,
-                                                              -0.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714030891",
-                                            "time_utc":  "2026-06-23T21:15:52Z",
-                                            "time_et":  "2026-06-23T17:15:52-04:00",
-                                            "updated_utc":  "2026-06-24T20:55:22Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.01,
-                                            "place":  "9 km SSE of Princeton, Canada",
-                                            "country":  "Canada",
-                                            "depth_km":  "-0.4",
-                                            "depth_km_raw":  -0.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "explosion",
-                                            "title":  "M 2.0 Explosion - 9 km SSE of Princeton, Canada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714030891",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714030891\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026mheqcy",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.92,
-                                                              32.107,
-                                                              8.667
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026mheqcy",
-                                            "time_utc":  "2026-06-23T21:10:50Z",
-                                            "time_et":  "2026-06-23T17:10:50-04:00",
-                                            "updated_utc":  "2026-06-25T01:12:10Z",
-                                            "magnitude":  "3.1",
-                                            "magnitude_raw":  3.1,
-                                            "place":  "12 km WSW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.667,
-                                            "felt_reports":  9,
-                                            "cdi":  3.5,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  151,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.1 - 12 km WSW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mheqcy",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mheqcy\u0026format=geojson"
                                         }
                      }
                  ]
