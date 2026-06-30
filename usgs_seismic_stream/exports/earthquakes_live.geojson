@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-06-30T11:37:12Z",
+    "generated_at_utc":  "2026-06-30T11:38:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026mthsnb",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.313,
+                                                              31.985,
+                                                              1.0055
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026mthsnb",
+                                            "time_utc":  "2026-06-30T11:34:05Z",
+                                            "time_et":  "2026-06-30T07:34:05-04:00",
+                                            "updated_utc":  "2026-06-30T11:37:12Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "21 km SSE of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.0",
+                                            "depth_km_raw":  1.0055,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 21 km SSE of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mthsnb",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mthsnb\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41284087",
@@ -946,6 +981,41 @@
                                             "title":  "M 0.9 - 1 km ENE of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386691",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75386691\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71522068",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -65.176,
+                                                              18.9566666666667,
+                                                              42.84
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71522068",
+                                            "time_utc":  "2026-06-30T04:41:41Z",
+                                            "time_et":  "2026-06-30T00:41:41-04:00",
+                                            "updated_utc":  "2026-06-30T11:37:35Z",
+                                            "magnitude":  "3.0",
+                                            "magnitude_raw":  3.03,
+                                            "place":  "72 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "42.8",
+                                            "depth_km_raw":  42.84,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  141,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.0 - 72 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71522068",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71522068\u0026format=geojson"
                                         }
                      },
                      {
@@ -40426,41 +40496,6 @@
                                             "title":  "M 0.5 - 11 km N of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493248",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41493248\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71520973",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -64.3068333333333,
-                                                              18.6475,
-                                                              50.51
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71520973",
-                                            "time_utc":  "2026-06-23T11:37:29Z",
-                                            "time_et":  "2026-06-23T07:37:29-04:00",
-                                            "updated_utc":  "2026-06-24T09:28:15Z",
-                                            "magnitude":  "3.1",
-                                            "magnitude_raw":  3.06,
-                                            "place":  "62 km NE of Cruz Bay, U.S. Virgin Islands",
-                                            "country":  "U.S. Virgin Islands",
-                                            "depth_km":  "50.5",
-                                            "depth_km_raw":  50.51,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  144,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.1 - 62 km NE of Cruz Bay, U.S. Virgin Islands",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71520973",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71520973\u0026format=geojson"
                                         }
                      }
                  ]
