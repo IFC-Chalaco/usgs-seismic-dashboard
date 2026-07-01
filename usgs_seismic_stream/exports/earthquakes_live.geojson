@@ -1,39 +1,109 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-01T11:46:51Z",
+    "generated_at_utc":  "2026-07-01T11:47:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41284719",
+                         "id":  "nc75387486",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.807662963867,
-                                                              35.3058319091797,
-                                                              6.52
+                                                              -121.681335449219,
+                                                              36.9376678466797,
+                                                              12.22
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41284719",
-                                            "time_utc":  "2026-07-01T11:43:31Z",
-                                            "time_et":  "2026-07-01T07:43:31-04:00",
-                                            "updated_utc":  "2026-07-01T11:45:36Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.83,
-                                            "place":  "17 km WSW of Johannesburg, CA",
+                                            "id":  "nc75387486",
+                                            "time_utc":  "2026-07-01T11:45:11Z",
+                                            "time_et":  "2026-07-01T07:45:11-04:00",
+                                            "updated_utc":  "2026-07-01T11:46:45Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.52,
+                                            "place":  "5 km ESE of Interlaken, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.5",
-                                            "depth_km_raw":  6.52,
+                                            "depth_km":  "12.2",
+                                            "depth_km_raw":  12.22,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  52,
+                                            "significance":  36,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 17 km WSW of Johannesburg, CA",
+                                            "title":  "M 1.5 - 5 km ESE of Interlaken, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387486",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75387486\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41284727",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.482833333333,
+                                                              33.4913333333333,
+                                                              12.9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41284727",
+                                            "time_utc":  "2026-07-01T11:43:50Z",
+                                            "time_et":  "2026-07-01T07:43:50-04:00",
+                                            "updated_utc":  "2026-07-01T11:47:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.63,
+                                            "place":  "19 km ESE of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.9",
+                                            "depth_km_raw":  12.9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 19 km ESE of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284727",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41284727\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41284719",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.803333333333,
+                                                              35.308,
+                                                              6.94
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41284719",
+                                            "time_utc":  "2026-07-01T11:43:31Z",
+                                            "time_et":  "2026-07-01T07:43:31-04:00",
+                                            "updated_utc":  "2026-07-01T11:47:14Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.74,
+                                            "place":  "17 km WSW of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.9",
+                                            "depth_km_raw":  6.94,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  47,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 17 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284719",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41284719\u0026format=geojson"
                                         }
