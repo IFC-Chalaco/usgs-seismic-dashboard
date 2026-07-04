@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-04T15:17:29Z",
+    "generated_at_utc":  "2026-07-04T15:18:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -368,7 +368,7 @@
                                             "id":  "nc75389236",
                                             "time_utc":  "2026-07-04T13:43:56Z",
                                             "time_et":  "2026-07-04T09:43:56-04:00",
-                                            "updated_utc":  "2026-07-04T14:07:23Z",
+                                            "updated_utc":  "2026-07-04T15:17:25Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.66,
                                             "place":  "5 km NNW of The Geysers, CA",
@@ -1156,6 +1156,41 @@
                                             "title":  "M 1.6 - 7 km S of Muir Beach, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75389171",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75389171\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71522643",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8468333333333,
+                                                              17.9623333333333,
+                                                              15.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71522643",
+                                            "time_utc":  "2026-07-04T08:50:40Z",
+                                            "time_et":  "2026-07-04T04:50:40-04:00",
+                                            "updated_utc":  "2026-07-04T15:17:50Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.08,
+                                            "place":  "4 km SW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "15.9",
+                                            "depth_km_raw":  15.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  67,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 4 km SW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71522643",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71522643\u0026format=geojson"
                                         }
                      },
                      {
