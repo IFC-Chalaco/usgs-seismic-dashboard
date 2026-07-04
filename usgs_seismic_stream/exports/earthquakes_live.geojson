@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-04T15:20:27Z",
+    "generated_at_utc":  "2026-07-04T15:41:42Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026nayngf",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.239,
+                                                              31.652,
+                                                              4.2272
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026nayngf",
+                                            "time_utc":  "2026-07-04T15:32:13Z",
+                                            "time_et":  "2026-07-04T11:32:13-04:00",
+                                            "updated_utc":  "2026-07-04T15:39:19Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "56 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.2",
+                                            "depth_km_raw":  4.2272,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 56 km NW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nayngf",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026nayngf\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026naxwcl",
@@ -38116,76 +38151,6 @@
                                             "title":  "M 1.0 - 13 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385266",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75385266\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026mochtu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.956,
-                                                              31.817,
-                                                              6.0999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026mochtu",
-                                            "time_utc":  "2026-06-27T15:29:47Z",
-                                            "time_et":  "2026-06-27T11:29:47-04:00",
-                                            "updated_utc":  "2026-06-29T19:51:01Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
-                                            "place":  "35 km WNW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.0999,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 35 km WNW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mochtu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mochtu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41496616",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.543833333333,
-                                                              33.4543333333333,
-                                                              10.79
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41496616",
-                                            "time_utc":  "2026-06-27T15:21:09Z",
-                                            "time_et":  "2026-06-27T11:21:09-04:00",
-                                            "updated_utc":  "2026-06-28T14:25:46Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.72,
-                                            "place":  "16 km SE of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.8",
-                                            "depth_km_raw":  10.79,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 16 km SE of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41496616",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41496616\u0026format=geojson"
                                         }
                      }
                  ]
