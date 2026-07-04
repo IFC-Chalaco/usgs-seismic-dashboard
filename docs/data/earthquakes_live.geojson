@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-04T17:33:52Z",
+    "generated_at_utc":  "2026-07-04T17:34:53Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41286639",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.543666666667,
+                                                              34.6535,
+                                                              9.44
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41286639",
+                                            "time_utc":  "2026-07-04T17:30:40Z",
+                                            "time_et":  "2026-07-04T13:30:40-04:00",
+                                            "updated_utc":  "2026-07-04T17:34:00Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.86,
+                                            "place":  "25 km NNE of Montecito, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.4",
+                                            "depth_km_raw":  9.44,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 25 km NNE of Montecito, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286639",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41286639\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41286631",
