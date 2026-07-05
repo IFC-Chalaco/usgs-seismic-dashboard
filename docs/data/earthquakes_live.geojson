@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-05T13:18:57Z",
+    "generated_at_utc":  "2026-07-05T13:20:00Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41287327",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.377166748047,
+                                                              33.3419990539551,
+                                                              10.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41287327",
+                                            "time_utc":  "2026-07-05T13:16:48Z",
+                                            "time_et":  "2026-07-05T09:16:48-04:00",
+                                            "updated_utc":  "2026-07-05T13:18:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.02,
+                                            "place":  "10 km N of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.0",
+                                            "depth_km_raw":  10.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 10 km N of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287327",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287327\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41287319",
