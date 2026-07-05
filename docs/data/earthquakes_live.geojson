@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-05T23:19:47Z",
+    "generated_at_utc":  "2026-07-05T23:43:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71522803",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -65.1123333333333,
+                                                              18.739,
+                                                              35.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71522803",
+                                            "time_utc":  "2026-07-05T23:22:07Z",
+                                            "time_et":  "2026-07-05T19:22:07-04:00",
+                                            "updated_utc":  "2026-07-05T23:41:47Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.07,
+                                            "place":  "47 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "35.7",
+                                            "depth_km_raw":  35.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  145,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 47 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71522803",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71522803\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41287591",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.123833333333,
+                                                              33.2531666666667,
+                                                              8.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41287591",
+                                            "time_utc":  "2026-07-05T23:20:54Z",
+                                            "time_et":  "2026-07-05T19:20:54-04:00",
+                                            "updated_utc":  "2026-07-05T23:31:55Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.34,
+                                            "place":  "12 km N of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  84,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 12 km N of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287591",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287591\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026ndjjkm",
@@ -36,6 +106,41 @@
                                             "title":  "M 2.1 - 56 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ndjjkm",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ndjjkm\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71522793",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.3561666666667,
+                                                              18.8411666666667,
+                                                              30.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71522793",
+                                            "time_utc":  "2026-07-05T23:06:06Z",
+                                            "time_et":  "2026-07-05T19:06:06-04:00",
+                                            "updated_utc":  "2026-07-05T23:28:44Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.68,
+                                            "place":  "41 km N of Brenas, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "30.7",
+                                            "depth_km_raw":  30.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  110,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.7 - 41 km N of Brenas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71522793",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71522793\u0026format=geojson"
                                         }
                      },
                      {
@@ -39341,111 +39446,6 @@
                                             "title":  "M 0.8 - 9 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386001",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75386001\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41497464",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.685333333333,
-                                                              35.0306666666667,
-                                                              -0.7
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41497464",
-                                            "time_utc":  "2026-06-28T23:27:52Z",
-                                            "time_et":  "2026-06-28T19:27:52-04:00",
-                                            "updated_utc":  "2026-06-28T23:31:14Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.33,
-                                            "place":  "5 km NW of Boron, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.7",
-                                            "depth_km_raw":  -0.7,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  27,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 5 km NW of Boron, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497464",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41497464\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026mqnxlt",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.515,
-                                                              30.809,
-                                                              0.3873
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026mqnxlt",
-                                            "time_utc":  "2026-06-28T23:27:24Z",
-                                            "time_et":  "2026-06-28T19:27:24-04:00",
-                                            "updated_utc":  "2026-06-28T23:29:40Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.9,
-                                            "place":  "29 km SE of Balmorhea, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.4",
-                                            "depth_km_raw":  0.3873,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  56,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 29 km SE of Balmorhea, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mqnxlt",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026mqnxlt\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71521848",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8745,
-                                                              17.9286666666667,
-                                                              6.23
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71521848",
-                                            "time_utc":  "2026-06-28T23:21:04Z",
-                                            "time_et":  "2026-06-28T19:21:04-04:00",
-                                            "updated_utc":  "2026-06-29T00:16:11Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.29,
-                                            "place":  "5 km SSE of Maria Antonia, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "6.2",
-                                            "depth_km_raw":  6.23,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  81,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 5 km SSE of Maria Antonia, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71521848",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71521848\u0026format=geojson"
                                         }
                      }
                  ]
