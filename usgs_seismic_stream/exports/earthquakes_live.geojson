@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-06T09:46:30Z",
+    "generated_at_utc":  "2026-07-06T09:47:34Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.6 - 41 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026neecwg",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026neecwg\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000tadr",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.8302,
+                                                              36.8926,
+                                                              5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000tadr",
+                                            "time_utc":  "2026-07-06T09:31:40Z",
+                                            "time_et":  "2026-07-06T05:31:40-04:00",
+                                            "updated_utc":  "2026-07-06T09:46:36Z",
+                                            "magnitude":  "4.0",
+                                            "magnitude_raw":  4,
+                                            "place":  "26 km SSW of Segundo, Colorado",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  246,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.0 - 26 km SSW of Segundo, Colorado",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadr",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tadr\u0026format=geojson"
                                         }
                      },
                      {
@@ -123,20 +158,20 @@
                                             "id":  "us6000tadn",
                                             "time_utc":  "2026-07-06T09:21:54Z",
                                             "time_et":  "2026-07-06T05:21:54-04:00",
-                                            "updated_utc":  "2026-07-06T09:42:24Z",
+                                            "updated_utc":  "2026-07-06T09:46:28Z",
                                             "magnitude":  "4.2",
                                             "magnitude_raw":  4.2,
                                             "place":  "33 km SSW of Segundo, Colorado",
                                             "country":  "United States of America",
                                             "depth_km":  "6.2",
                                             "depth_km_raw":  6.217,
-                                            "felt_reports":  2,
-                                            "cdi":  2.2,
+                                            "felt_reports":  4,
+                                            "cdi":  3.1,
                                             "mmi":  5.054,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  272,
+                                            "significance":  273,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.2 - 33 km SSW of Segundo, Colorado",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tadn",
