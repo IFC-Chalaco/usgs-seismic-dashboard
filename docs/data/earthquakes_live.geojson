@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-07T17:36:28Z",
+    "generated_at_utc":  "2026-07-07T17:37:27Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -744,27 +744,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.243,
-                                                              31.649,
-                                                              4.6032
+                                                              -104.24,
+                                                              31.651,
+                                                              7.3303
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026ngjorc",
-                                            "time_utc":  "2026-07-07T14:28:08Z",
-                                            "time_et":  "2026-07-07T10:28:08-04:00",
-                                            "updated_utc":  "2026-07-07T17:07:17Z",
+                                            "time_utc":  "2026-07-07T14:28:09Z",
+                                            "time_et":  "2026-07-07T10:28:09-04:00",
+                                            "updated_utc":  "2026-07-07T17:36:14Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.1,
                                             "place":  "56 km NW of Toyah, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.6032,
+                                            "depth_km":  "7.3",
+                                            "depth_km_raw":  7.3303,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  68,
                                             "event_type":  "earthquake",
@@ -17221,6 +17221,41 @@
                                             "title":  "M 0.8 - 17 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80144156",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80144156\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80144151",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.874166666667,
+                                                              38.5045,
+                                                              1.85
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80144151",
+                                            "time_utc":  "2026-07-04T22:08:08Z",
+                                            "time_et":  "2026-07-04T18:08:08-04:00",
+                                            "updated_utc":  "2026-07-07T17:36:35Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.85,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80144151",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80144151\u0026format=geojson"
                                         }
                      },
                      {
