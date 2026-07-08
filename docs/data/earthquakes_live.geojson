@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-08T19:04:54Z",
+    "generated_at_utc":  "2026-07-08T19:05:54Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.504669189453,
-                                                              33.8714981079102,
-                                                              -0.29
+                                                              -117.503166666667,
+                                                              33.8721666666667,
+                                                              1.64
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41289391",
                                             "time_utc":  "2026-07-08T19:01:38Z",
                                             "time_et":  "2026-07-08T15:01:38-04:00",
-                                            "updated_utc":  "2026-07-08T19:03:44Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.18,
+                                            "updated_utc":  "2026-07-08T19:05:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
                                             "place":  "2 km ESE of Home Gardens, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.3",
-                                            "depth_km_raw":  -0.29,
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.64,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  22,
+                                            "significance":  15,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 2 km ESE of Home Gardens, CA",
+                                            "title":  "M 1.0 - 2 km ESE of Home Gardens, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289391",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41289391\u0026format=geojson"
                                         }
@@ -320,6 +320,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80144951",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -113.077333333333,
+                                                              40.501,
+                                                              8.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80144951",
+                                            "time_utc":  "2026-07-08T17:34:46Z",
+                                            "time_et":  "2026-07-08T13:34:46-04:00",
+                                            "updated_utc":  "2026-07-08T19:05:09Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.48,
+                                            "place":  "42 km NW of Dugway, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  34,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 42 km NW of Dugway, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80144951",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80144951\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "uu80144946",
                          "geometry":  {
                                           "type":  "Point",
@@ -491,41 +526,6 @@
                                             "title":  "M 0.7 - 7 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75392066",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75392066\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026niiqrl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.567,
-                                                              31.644,
-                                                              0
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026niiqrl",
-                                            "time_utc":  "2026-07-08T16:13:00Z",
-                                            "time_et":  "2026-07-08T12:13:00-04:00",
-                                            "updated_utc":  "2026-07-08T16:16:14Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "61 km SSW of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 61 km SSW of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026niiqrl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026niiqrl\u0026format=geojson"
                                         }
                      },
                      {
