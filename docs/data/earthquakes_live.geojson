@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-08T12:13:01Z",
+    "generated_at_utc":  "2026-07-08T12:14:00Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -141,6 +141,41 @@
                                             "title":  "M 0.8 - 7 km SW of Palomar Observatory, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289191",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41289191\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71523008",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.7265,
+                                                              18.0255,
+                                                              11.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71523008",
+                                            "time_utc":  "2026-07-08T11:30:46Z",
+                                            "time_et":  "2026-07-08T07:30:46-04:00",
+                                            "updated_utc":  "2026-07-08T12:12:27Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "3 km S of Peñuelas, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "11.0",
+                                            "depth_km_raw":  11.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 3 km S of Peñuelas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523008",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71523008\u0026format=geojson"
                                         }
                      },
                      {
@@ -8261,41 +8296,6 @@
                                             "title":  "M 2.0 - 5 km NW of Johnsville, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75391076",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75391076\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026nfhigo",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.471,
-                                                              32.558,
-                                                              13.7475
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026nfhigo",
-                                            "time_utc":  "2026-07-07T00:15:51Z",
-                                            "time_et":  "2026-07-06T20:15:51-04:00",
-                                            "updated_utc":  "2026-07-07T01:00:11Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "24 km SE of Seminole, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.7",
-                                            "depth_km_raw":  13.7475,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 24 km SE of Seminole, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nfhigo",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026nfhigo\u0026format=geojson"
                                         }
                      },
                      {
