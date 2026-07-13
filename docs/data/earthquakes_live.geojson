@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-13T00:10:11Z",
+    "generated_at_utc":  "2026-07-13T00:11:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41292335",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.970664978027,
+                                                              33.1580009460449,
+                                                              6.36
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41292335",
+                                            "time_utc":  "2026-07-13T00:07:49Z",
+                                            "time_et":  "2026-07-12T20:07:49-04:00",
+                                            "updated_utc":  "2026-07-13T00:09:56Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.11,
+                                            "place":  "15 km E of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.4",
+                                            "depth_km_raw":  6.36,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 15 km E of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292335",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41292335\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75394671",
@@ -3098,20 +3133,20 @@
                                             "id":  "ci41291863",
                                             "time_utc":  "2026-07-12T10:38:04Z",
                                             "time_et":  "2026-07-12T06:38:04-04:00",
-                                            "updated_utc":  "2026-07-13T00:01:44Z",
+                                            "updated_utc":  "2026-07-13T00:09:45Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.11,
                                             "place":  "2 km ESE of Frazier Park, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "13.1",
                                             "depth_km_raw":  13.09,
-                                            "felt_reports":  759,
+                                            "felt_reports":  760,
                                             "cdi":  4.8,
                                             "mmi":  4.172,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  624,
+                                            "significance":  625,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.1 - 2 km ESE of Frazier Park, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291863",
@@ -40846,41 +40881,6 @@
                                             "title":  "M 0.8 - 10 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75390391",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75390391\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41287615",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.5225,
-                                                              34.1521666666667,
-                                                              10
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41287615",
-                                            "time_utc":  "2026-07-06T00:10:40Z",
-                                            "time_et":  "2026-07-05T20:10:40-04:00",
-                                            "updated_utc":  "2026-07-08T21:33:44Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.25,
-                                            "place":  "2 km WSW of Encino, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.0",
-                                            "depth_km_raw":  10,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  24,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 2 km WSW of Encino, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287615",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287615\u0026format=geojson"
                                         }
                      }
                  ]
