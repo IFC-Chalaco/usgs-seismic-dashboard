@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-13T21:15:58Z",
+    "generated_at_utc":  "2026-07-13T21:16:57Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71523818",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.917,
+                                                              17.9576666666667,
+                                                              15.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71523818",
+                                            "time_utc":  "2026-07-13T21:02:10Z",
+                                            "time_et":  "2026-07-13T17:02:10-04:00",
+                                            "updated_utc":  "2026-07-13T21:16:24Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.76,
+                                            "place":  "1 km SSW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "15.0",
+                                            "depth_km_raw":  15.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  48,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 1 km SSW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523818",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71523818\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026nrwsar",
@@ -44836,41 +44871,6 @@
                                             "title":  "M 2.0 Explosion - 8 km S of Princeton, Canada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714042612",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714042612\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75390951",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.137496948242,
-                                                              36.1896667480469,
-                                                              6.32
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75390951",
-                                            "time_utc":  "2026-07-06T21:15:44Z",
-                                            "time_et":  "2026-07-06T17:15:44-04:00",
-                                            "updated_utc":  "2026-07-06T23:07:24Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.15,
-                                            "place":  "3 km WSW of Huron, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.3",
-                                            "depth_km_raw":  6.32,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  71,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 3 km WSW of Huron, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75390951",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75390951\u0026format=geojson"
                                         }
                      }
                  ]
