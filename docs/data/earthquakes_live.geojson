@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-13T03:59:23Z",
+    "generated_at_utc":  "2026-07-13T04:47:39Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00921567",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.1461,
+                                                              38.5333,
+                                                              9.365
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00921567",
+                                            "time_utc":  "2026-07-13T04:28:59Z",
+                                            "time_et":  "2026-07-13T00:28:59-04:00",
+                                            "updated_utc":  "2026-07-13T04:31:05Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.76,
+                                            "place":  "16 km NNW of Mina, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.4",
+                                            "depth_km_raw":  9.365,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  48,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 16 km NNW of Mina, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00921567",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00921567\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75394716",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.814331054688,
+                                                              38.8209991455078,
+                                                              3.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75394716",
+                                            "time_utc":  "2026-07-13T04:12:35Z",
+                                            "time_et":  "2026-07-13T00:12:35-04:00",
+                                            "updated_utc":  "2026-07-13T04:14:10Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.73,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394716",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75394716\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026nqnyrt",
@@ -1278,14 +1348,14 @@
                                             "id":  "nc75394556",
                                             "time_utc":  "2026-07-12T20:52:49Z",
                                             "time_et":  "2026-07-12T16:52:49-04:00",
-                                            "updated_utc":  "2026-07-13T00:07:38Z",
+                                            "updated_utc":  "2026-07-13T04:13:43Z",
                                             "magnitude":  "3.0",
                                             "magnitude_raw":  2.99,
                                             "place":  "14 km S of New Idria, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "16.2",
                                             "depth_km_raw":  16.18,
-                                            "felt_reports":  1,
+                                            "felt_reports":  2,
                                             "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -3623,20 +3693,20 @@
                                             "id":  "ci41291863",
                                             "time_utc":  "2026-07-12T10:38:04Z",
                                             "time_et":  "2026-07-12T06:38:04-04:00",
-                                            "updated_utc":  "2026-07-13T03:49:46Z",
+                                            "updated_utc":  "2026-07-13T04:09:50Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.11,
                                             "place":  "2 km ESE of Frazier Park, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "13.1",
                                             "depth_km_raw":  13.09,
-                                            "felt_reports":  770,
+                                            "felt_reports":  771,
                                             "cdi":  4.8,
                                             "mmi":  4.172,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  629,
+                                            "significance":  630,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.1 - 2 km ESE of Frazier Park, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291863",
@@ -40531,111 +40601,6 @@
                                             "title":  "M 0.7 - 3 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75390501",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75390501\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41287727",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.637166666667,
-                                                              35.804,
-                                                              8.89
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41287727",
-                                            "time_utc":  "2026-07-06T04:34:19Z",
-                                            "time_et":  "2026-07-06T00:34:19-04:00",
-                                            "updated_utc":  "2026-07-06T13:32:55Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.46,
-                                            "place":  "21 km N of Ridgecrest, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.89,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 21 km N of Ridgecrest, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287727",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41287719",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.731166666667,
-                                                              33.6413333333333,
-                                                              13.96
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41287719",
-                                            "time_utc":  "2026-07-06T04:24:06Z",
-                                            "time_et":  "2026-07-06T00:24:06-04:00",
-                                            "updated_utc":  "2026-07-07T18:09:20Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.79,
-                                            "place":  "11 km NNW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.0",
-                                            "depth_km_raw":  13.96,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  49,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 11 km NNW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287719",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287719\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41287711",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.724166666667,
-                                                              33.642,
-                                                              14.6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41287711",
-                                            "time_utc":  "2026-07-06T04:23:58Z",
-                                            "time_et":  "2026-07-06T00:23:58-04:00",
-                                            "updated_utc":  "2026-07-06T23:20:50Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.05,
-                                            "place":  "11 km NNW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.6",
-                                            "depth_km_raw":  14.6,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 11 km NNW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287711",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41287711\u0026format=geojson"
                                         }
                      }
                  ]
