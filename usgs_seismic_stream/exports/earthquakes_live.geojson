@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-15T03:37:25Z",
+    "generated_at_utc":  "2026-07-15T03:38:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40655090",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.076835632324,
+                                                              34.21533203125,
+                                                              4.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40655090",
+                                            "time_utc":  "2026-07-15T03:35:25Z",
+                                            "time_et":  "2026-07-14T23:35:25-04:00",
+                                            "updated_utc":  "2026-07-15T03:37:30Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.13,
+                                            "place":  "3 km ENE of Running Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.2",
+                                            "depth_km_raw":  4.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 3 km ENE of Running Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40655090",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40655090\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40655074",
