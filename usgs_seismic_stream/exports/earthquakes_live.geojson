@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-17T20:14:07Z",
+    "generated_at_utc":  "2026-07-17T20:40:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026nzetnu",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.682,
+                                                              31.725,
+                                                              2.7547
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026nzetnu",
+                                            "time_utc":  "2026-07-17T20:30:53Z",
+                                            "time_et":  "2026-07-17T16:30:53-04:00",
+                                            "updated_utc":  "2026-07-17T20:34:47Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "24 km SW of Garden City, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.7547,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 24 km SW of Garden City, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nzetnu",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026nzetnu\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75397926",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.447166442871,
+                                                              36.964168548584,
+                                                              3.37
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75397926",
+                                            "time_utc":  "2026-07-17T20:15:47Z",
+                                            "time_et":  "2026-07-17T16:15:47-04:00",
+                                            "updated_utc":  "2026-07-17T20:17:22Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.66,
+                                            "place":  "12 km ESE of Gilroy, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.37,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 12 km ESE of Gilroy, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397926",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75397926\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75397921",
@@ -53,7 +123,7 @@
                                             "id":  "nc75397916",
                                             "time_utc":  "2026-07-17T19:55:27Z",
                                             "time_et":  "2026-07-17T15:55:27-04:00",
-                                            "updated_utc":  "2026-07-17T19:57:02Z",
+                                            "updated_utc":  "2026-07-17T20:27:22Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.16,
                                             "place":  "9 km WNW of The Geysers, CA",
@@ -491,6 +561,41 @@
                                             "title":  "M 2.1 - 2 km NW of Tallaboa, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524758",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71524758\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714054471",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.48,
+                                                              49.3655,
+                                                              -0.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714054471",
+                                            "time_utc":  "2026-07-17T17:12:15Z",
+                                            "time_et":  "2026-07-17T13:12:15-04:00",
+                                            "updated_utc":  "2026-07-17T20:16:41Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.82,
+                                            "place":  "10 km SSE of Princeton, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "-0.5",
+                                            "depth_km_raw":  -0.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  51,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.8 Explosion - 10 km SSE of Princeton, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714054471",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714054471\u0026format=geojson"
                                         }
                      },
                      {
@@ -1304,9 +1409,9 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.442,
-                                                              32.4035,
-                                                              11.48
+                                                              -115.4375,
+                                                              32.4071666666667,
+                                                              12.4
                                                           ]
                                       },
                          "properties":  {
@@ -1314,21 +1419,21 @@
                                             "time_utc":  "2026-07-17T13:27:25Z",
                                             "time_et":  "2026-07-17T09:27:25-04:00",
                                             "updated_utc":  "2026-07-17T20:13:31Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.15,
-                                            "place":  "20 km SSW of Puebla, B.C., MX",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.13,
+                                            "place":  "19 km SSW of Puebla, B.C., MX",
                                             "country":  "Mexico",
-                                            "depth_km":  "11.5",
-                                            "depth_km_raw":  11.48,
+                                            "depth_km":  "12.4",
+                                            "depth_km_raw":  12.4,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  71,
+                                            "significance":  70,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 20 km SSW of Puebla, B.C., MX",
+                                            "title":  "M 2.1 - 19 km SSW of Puebla, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657162",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40657162\u0026format=geojson"
                                         }
@@ -47881,111 +47986,6 @@
                                             "title":  "M 1.7 Explosion - 8 km ESE of Molalla, Oregon",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714046462",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714046462\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41290863",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.894,
-                                                              33.9408333333333,
-                                                              3.69
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41290863",
-                                            "time_utc":  "2026-07-10T20:38:05Z",
-                                            "time_et":  "2026-07-10T16:38:05-04:00",
-                                            "updated_utc":  "2026-07-10T21:46:46Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.79,
-                                            "place":  "2 km NW of Banning, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.7",
-                                            "depth_km_raw":  3.69,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 2 km NW of Banning, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290863",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41290863\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714046442",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.848833333333,
-                                                              44.9865,
-                                                              43.61
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714046442",
-                                            "time_utc":  "2026-07-10T20:24:39Z",
-                                            "time_et":  "2026-07-10T16:24:39-04:00",
-                                            "updated_utc":  "2026-07-13T14:40:47Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.61,
-                                            "place":  "3 km SE of Rose Lodge, Oregon",
-                                            "country":  "United States of America",
-                                            "depth_km":  "43.6",
-                                            "depth_km_raw":  43.61,
-                                            "felt_reports":  9,
-                                            "cdi":  2.2,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  107,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 3 km SE of Rose Lodge, Oregon",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714046442",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714046442\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75393436",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.761497497559,
-                                                              38.7878341674805,
-                                                              3.23
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75393436",
-                                            "time_utc":  "2026-07-10T20:16:38Z",
-                                            "time_et":  "2026-07-10T16:16:38-04:00",
-                                            "updated_utc":  "2026-07-10T20:37:22Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.86,
-                                            "place":  "1 km NNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.23,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  11,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 1 km NNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393436",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75393436\u0026format=geojson"
                                         }
                      }
                  ]
