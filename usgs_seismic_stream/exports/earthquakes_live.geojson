@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-18T21:16:56Z",
+    "generated_at_utc":  "2026-07-18T21:28:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40657698",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.127333333333,
+                                                              34.0231666666667,
+                                                              9.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40657698",
+                                            "time_utc":  "2026-07-18T21:23:26Z",
+                                            "time_et":  "2026-07-18T17:23:26-04:00",
+                                            "updated_utc":  "2026-07-18T21:26:56Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.81,
+                                            "place":  "5 km S of Mentone, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.5",
+                                            "depth_km_raw":  9.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 5 km S of Mentone, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657698",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40657698\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75398571",
@@ -47356,76 +47391,6 @@
                                             "title":  "M 2.1 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394126",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75394126\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026nogexi",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.87,
-                                                              32.038,
-                                                              2.4902
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026nogexi",
-                                            "time_utc":  "2026-07-11T21:22:05Z",
-                                            "time_et":  "2026-07-11T17:22:05-04:00",
-                                            "updated_utc":  "2026-07-13T22:09:50Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "12 km SW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.4902,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 12 km SW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nogexi",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026nogexi\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75394121",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.81566619873,
-                                                              38.7966651916504,
-                                                              3.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75394121",
-                                            "time_utc":  "2026-07-11T21:20:49Z",
-                                            "time_et":  "2026-07-11T17:20:49-04:00",
-                                            "updated_utc":  "2026-07-11T21:22:23Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
-                                            "place":  "6 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394121",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75394121\u0026format=geojson"
                                         }
                      }
                  ]
