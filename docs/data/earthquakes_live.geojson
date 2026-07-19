@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-19T11:24:09Z",
+    "generated_at_utc":  "2026-07-19T11:25:10Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -876,6 +876,41 @@
                                             "title":  "M 1.4 - 4 km NE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657882",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40657882\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71524968",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.905,
+                                                              17.9661666666667,
+                                                              14.76
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71524968",
+                                            "time_utc":  "2026-07-19T07:04:00Z",
+                                            "time_et":  "2026-07-19T03:04:00-04:00",
+                                            "updated_utc":  "2026-07-19T11:23:53Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.26,
+                                            "place":  "0 km SSE of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.8",
+                                            "depth_km_raw":  14.76,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  79,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 0 km SSE of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524968",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71524968\u0026format=geojson"
                                         }
                      },
                      {
