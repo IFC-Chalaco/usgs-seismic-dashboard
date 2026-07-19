@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-19T16:18:43Z",
+    "generated_at_utc":  "2026-07-19T16:35:05Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -53,7 +53,7 @@
                                             "id":  "nc75399026",
                                             "time_utc":  "2026-07-19T15:59:33Z",
                                             "time_et":  "2026-07-19T11:59:33-04:00",
-                                            "updated_utc":  "2026-07-19T16:17:25Z",
+                                            "updated_utc":  "2026-07-19T16:32:22Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.61,
                                             "place":  "11 km N of Covelo, CA",
@@ -1160,6 +1160,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10246134",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.105166666667,
+                                                              33.1731666666667,
+                                                              10.7
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10246134",
+                                            "time_utc":  "2026-07-19T09:11:42Z",
+                                            "time_et":  "2026-07-19T05:11:42-04:00",
+                                            "updated_utc":  "2026-07-19T16:24:58Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "4 km NE of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.7",
+                                            "depth_km_raw":  10.7,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 4 km NE of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246134",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246134\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40657930",
                          "geometry":  {
                                           "type":  "Point",
@@ -1199,31 +1234,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.730834960938,
-                                                              33.6510009765625,
-                                                              22.16
+                                                              -116.747333333333,
+                                                              33.6575,
+                                                              14.41
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40657922",
-                                            "time_utc":  "2026-07-19T09:11:20Z",
-                                            "time_et":  "2026-07-19T05:11:20-04:00",
-                                            "updated_utc":  "2026-07-19T09:14:59Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.18,
-                                            "place":  "10 km S of Idyllwild, CA",
+                                            "time_utc":  "2026-07-19T09:11:21Z",
+                                            "time_et":  "2026-07-19T05:11:21-04:00",
+                                            "updated_utc":  "2026-07-19T16:31:30Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.19,
+                                            "place":  "10 km SSW of Idyllwild, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "22.2",
-                                            "depth_km_raw":  22.16,
+                                            "depth_km":  "14.4",
+                                            "depth_km_raw":  14.41,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  21,
+                                            "significance":  1,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 10 km S of Idyllwild, CA",
+                                            "title":  "M 0.2 - 10 km SSW of Idyllwild, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657922",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40657922\u0026format=geojson"
                                         }
@@ -45361,41 +45396,6 @@
                                             "title":  "M 1.1 - 6 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394491",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75394491\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75394486",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.833335876465,
-                                                              38.8421669006348,
-                                                              1.14
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75394486",
-                                            "time_utc":  "2026-07-12T16:20:33Z",
-                                            "time_et":  "2026-07-12T12:20:33-04:00",
-                                            "updated_utc":  "2026-07-12T16:22:09Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.74,
-                                            "place":  "10 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.1",
-                                            "depth_km_raw":  1.14,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 10 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394486",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75394486\u0026format=geojson"
                                         }
                      }
                  ]
