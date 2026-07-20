@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-20T23:21:43Z",
+    "generated_at_utc":  "2026-07-20T23:41:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40658594",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.103,
+                                                              32.908,
+                                                              13.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40658594",
+                                            "time_utc":  "2026-07-20T23:31:55Z",
+                                            "time_et":  "2026-07-20T19:31:55-04:00",
+                                            "updated_utc":  "2026-07-20T23:35:25Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.19,
+                                            "place":  "22 km NNW of Ocotillo, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.8",
+                                            "depth_km_raw":  13.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 22 km NNW of Ocotillo, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658594",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40658594\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75402747",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.668334960938,
+                                                              38.484001159668,
+                                                              9.76
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75402747",
+                                            "time_utc":  "2026-07-20T23:27:13Z",
+                                            "time_et":  "2026-07-20T19:27:13-04:00",
+                                            "updated_utc":  "2026-07-20T23:28:49Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.38,
+                                            "place":  "5 km NE of Santa Rosa, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.8",
+                                            "depth_km_raw":  9.76,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  29,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 5 km NE of Santa Rosa, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402747",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75402747\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026oexnyw",
@@ -3658,14 +3728,14 @@
                                             "id":  "us7000t1wf",
                                             "time_utc":  "2026-07-20T08:40:35Z",
                                             "time_et":  "2026-07-20T04:40:35-04:00",
-                                            "updated_utc":  "2026-07-20T22:36:35Z",
+                                            "updated_utc":  "2026-07-20T23:34:49Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.6,
                                             "place":  "2 km W of Mount Pleasant, Arkansas",
                                             "country":  "United States of America",
                                             "depth_km":  "5.6",
                                             "depth_km_raw":  5.583,
-                                            "felt_reports":  6,
+                                            "felt_reports":  7,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
@@ -5399,22 +5469,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -123.1345,
-                                                              48.65,
-                                                              13.96
+                                                              -123.133333333333,
+                                                              48.6503333333333,
+                                                              14.15
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714055042",
                                             "time_utc":  "2026-07-19T23:36:11Z",
                                             "time_et":  "2026-07-19T19:36:11-04:00",
-                                            "updated_utc":  "2026-07-20T20:00:15Z",
+                                            "updated_utc":  "2026-07-20T23:21:40Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.98,
                                             "place":  "15 km WNW of Orcas, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "14.0",
-                                            "depth_km_raw":  13.96,
+                                            "depth_km":  "14.2",
+                                            "depth_km_raw":  14.15,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -44206,76 +44276,6 @@
                                             "title":  "M 2.0 - 19 km SW of Marion, Montana",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90202368",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90202368\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75395346",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.800498962402,
-                                                              38.8381652832031,
-                                                              2.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75395346",
-                                            "time_utc":  "2026-07-13T23:34:20Z",
-                                            "time_et":  "2026-07-13T19:34:20-04:00",
-                                            "updated_utc":  "2026-07-13T23:35:54Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
-                                            "place":  "7 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 7 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75395346",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75395346\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75395341",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.8193359375,
-                                                              38.8144989013672,
-                                                              2.65
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75395341",
-                                            "time_utc":  "2026-07-13T23:34:15Z",
-                                            "time_et":  "2026-07-13T19:34:15-04:00",
-                                            "updated_utc":  "2026-07-14T01:22:21Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.61,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.65,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  40,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75395341",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75395341\u0026format=geojson"
                                         }
                      }
                  ]
