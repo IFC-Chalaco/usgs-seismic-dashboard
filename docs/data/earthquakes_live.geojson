@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-20T21:18:56Z",
+    "generated_at_utc":  "2026-07-20T21:19:56Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026oetosy",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.957,
+                                                              31.604,
+                                                              7.2038
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026oetosy",
+                                            "time_utc":  "2026-07-20T21:17:19Z",
+                                            "time_et":  "2026-07-20T17:17:19-04:00",
+                                            "updated_utc":  "2026-07-20T21:19:24Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "35 km NNW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.2038,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 35 km NNW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oetosy",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oetosy\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026oetmkt",
@@ -44381,41 +44416,6 @@
                                             "title":  "M 0.8 - 16 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293159",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41293159\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75395266",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.929496765137,
-                                                              38.7551651000977,
-                                                              5.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75395266",
-                                            "time_utc":  "2026-07-13T21:19:04Z",
-                                            "time_et":  "2026-07-13T17:19:04-04:00",
-                                            "updated_utc":  "2026-07-13T23:47:27Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "9 km SE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.4",
-                                            "depth_km_raw":  5.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 9 km SE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75395266",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75395266\u0026format=geojson"
                                         }
                      }
                  ]
