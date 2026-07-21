@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-21T19:48:58Z",
+    "generated_at_utc":  "2026-07-21T20:08:53Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "ci40658938",
                                             "time_utc":  "2026-07-21T19:39:58Z",
                                             "time_et":  "2026-07-21T15:39:58-04:00",
-                                            "updated_utc":  "2026-07-21T19:43:36Z",
+                                            "updated_utc":  "2026-07-21T19:51:09Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.48,
                                             "place":  "3 km SSE of Home Gardens, CA",
@@ -88,7 +88,7 @@
                                             "id":  "nc75403237",
                                             "time_utc":  "2026-07-21T19:25:19Z",
                                             "time_et":  "2026-07-21T15:25:19-04:00",
-                                            "updated_utc":  "2026-07-21T19:27:28Z",
+                                            "updated_utc":  "2026-07-21T19:57:23Z",
                                             "magnitude":  "1.8",
                                             "magnitude_raw":  1.78,
                                             "place":  "15 km SE of Honey Lake, CA",
@@ -254,19 +254,19 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.811,
-                                                              31.197,
+                                                              -104.244,
+                                                              31.559,
                                                               0
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026oglavn",
-                                            "time_utc":  "2026-07-21T19:08:46Z",
-                                            "time_et":  "2026-07-21T15:08:46-04:00",
-                                            "updated_utc":  "2026-07-21T19:11:27Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "13 km S of Toyah, Texas",
+                                            "time_utc":  "2026-07-21T19:08:27Z",
+                                            "time_et":  "2026-07-21T15:08:27-04:00",
+                                            "updated_utc":  "2026-07-21T20:00:22Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.3,
+                                            "place":  "50 km WNW of Toyah, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "0.0",
                                             "depth_km_raw":  0,
@@ -276,9 +276,9 @@
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  1,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 13 km S of Toyah, Texas",
+                                            "title":  "M 0.3 - 50 km WNW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oglavn",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oglavn\u0026format=geojson"
                                         }
@@ -403,15 +403,15 @@
                                             "id":  "us7000t2a5",
                                             "time_utc":  "2026-07-21T18:32:56Z",
                                             "time_et":  "2026-07-21T14:32:56-04:00",
-                                            "updated_utc":  "2026-07-21T19:33:01Z",
+                                            "updated_utc":  "2026-07-21T20:02:06Z",
                                             "magnitude":  "4.6",
                                             "magnitude_raw":  4.6,
                                             "place":  "214 km W of Bandon, Oregon",
                                             "country":  "United States of America",
                                             "depth_km":  "17.4",
                                             "depth_km_raw":  17.396,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -464,27 +464,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.314833333333,
-                                                              33.3161666666667,
-                                                              12.05
+                                                              -116.3145,
+                                                              33.3156666666667,
+                                                              12.49
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40658898",
                                             "time_utc":  "2026-07-21T18:32:08Z",
                                             "time_et":  "2026-07-21T14:32:08-04:00",
-                                            "updated_utc":  "2026-07-21T18:42:50Z",
+                                            "updated_utc":  "2026-07-21T19:57:08Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.07,
                                             "place":  "9 km NE of Borrego Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "12.1",
-                                            "depth_km_raw":  12.05,
+                                            "depth_km":  "12.5",
+                                            "depth_km_raw":  12.49,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  18,
                                             "event_type":  "earthquake",
@@ -3089,33 +3089,68 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -101.877,
-                                                              32.271,
-                                                              4.6392
+                                                              -101.878,
+                                                              32.272,
+                                                              8.4473
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026ofminc",
-                                            "time_utc":  "2026-07-21T06:43:22Z",
-                                            "time_et":  "2026-07-21T02:43:22-04:00",
-                                            "updated_utc":  "2026-07-21T11:18:58Z",
+                                            "time_utc":  "2026-07-21T06:43:23Z",
+                                            "time_et":  "2026-07-21T02:43:23-04:00",
+                                            "updated_utc":  "2026-07-21T19:49:32Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
                                             "place":  "17 km NNW of Stanton, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.6392,
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.4473,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  39,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.6 - 17 km NNW of Stanton, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ofminc",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ofminc\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ofmgms",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.879,
+                                                              32.273,
+                                                              7.8369
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ofmgms",
+                                            "time_utc":  "2026-07-21T06:41:03Z",
+                                            "time_et":  "2026-07-21T02:41:03-04:00",
+                                            "updated_utc":  "2026-07-21T19:59:09Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.1,
+                                            "place":  "18 km NNW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.8369,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 18 km NNW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ofmgms",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ofmgms\u0026format=geojson"
                                         }
                      },
                      {
@@ -5146,6 +5181,41 @@
                                             "title":  "M 0.6 - 3 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402612",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75402612\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026oesmds",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.173,
+                                                              32.112,
+                                                              6.5674
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026oesmds",
+                                            "time_utc":  "2026-07-20T20:44:10Z",
+                                            "time_et":  "2026-07-20T16:44:10-04:00",
+                                            "updated_utc":  "2026-07-21T20:06:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "15 km NW of Midland, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.6",
+                                            "depth_km_raw":  6.5674,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 15 km NW of Midland, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oesmds",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oesmds\u0026format=geojson"
                                         }
                      },
                      {
@@ -15549,8 +15619,8 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -123.0555,
-                                                              48.629,
+                                                              -123.056666666667,
+                                                              48.6275,
                                                               12.45
                                                           ]
                                       },
@@ -15558,9 +15628,9 @@
                                             "id":  "uw714054812",
                                             "time_utc":  "2026-07-19T04:09:46Z",
                                             "time_et":  "2026-07-19T00:09:46-04:00",
-                                            "updated_utc":  "2026-07-20T17:13:07Z",
+                                            "updated_utc":  "2026-07-21T20:07:43Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.87,
+                                            "magnitude_raw":  0.9,
                                             "place":  "8 km WNW of Orcas, Washington",
                                             "country":  "United States of America",
                                             "depth_km":  "12.5",
@@ -43331,216 +43401,6 @@
                                             "title":  "M 0.6 - 4 km WSW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40654706",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40654706\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80145331",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.635166666667,
-                                                              41.6971666666667,
-                                                              9.39
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80145331",
-                                            "time_utc":  "2026-07-14T20:07:17Z",
-                                            "time_et":  "2026-07-14T16:07:17-04:00",
-                                            "updated_utc":  "2026-07-14T20:40:04Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.56,
-                                            "place":  "15 km E of Providence, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.4",
-                                            "depth_km_raw":  9.39,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  37,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 15 km E of Providence, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80145331",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80145331\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40654698",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.804833333333,
-                                                              35.3185,
-                                                              7.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40654698",
-                                            "time_utc":  "2026-07-14T20:05:35Z",
-                                            "time_et":  "2026-07-14T16:05:35-04:00",
-                                            "updated_utc":  "2026-07-14T20:56:07Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.98,
-                                            "place":  "17 km WSW of Johannesburg, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 17 km WSW of Johannesburg, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40654698",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40654698\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10246006",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.807,
-                                                              35.3263333333333,
-                                                              6.94
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10246006",
-                                            "time_utc":  "2026-07-14T20:01:16Z",
-                                            "time_et":  "2026-07-14T16:01:16-04:00",
-                                            "updated_utc":  "2026-07-16T14:40:13Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.25,
-                                            "place":  "16 km WSW of Johannesburg, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.9",
-                                            "depth_km_raw":  6.94,
-                                            "felt_reports":  1,
-                                            "cdi":  0,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  24,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 16 km WSW of Johannesburg, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246006",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246006\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40654666",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.8095,
-                                                              35.3188333333333,
-                                                              7.6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40654666",
-                                            "time_utc":  "2026-07-14T20:00:43Z",
-                                            "time_et":  "2026-07-14T16:00:43-04:00",
-                                            "updated_utc":  "2026-07-16T14:11:04Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.01,
-                                            "place":  "17 km WSW of Johannesburg, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.6,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 17 km WSW of Johannesburg, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40654666",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40654666\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10246014",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.970833333333,
-                                                              32.6318333333333,
-                                                              -0.44
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10246014",
-                                            "time_utc":  "2026-07-14T20:00:03Z",
-                                            "time_et":  "2026-07-14T16:00:03-04:00",
-                                            "updated_utc":  "2026-07-14T21:44:42Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.86,
-                                            "place":  "6 km ESE of Bonita, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.4",
-                                            "depth_km_raw":  -0.44,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  11,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 0.9 Quarry Blast - 6 km ESE of Bonita, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246014",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246014\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75395921",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.805168151855,
-                                                              38.8193321228027,
-                                                              3.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75395921",
-                                            "time_utc":  "2026-07-14T19:54:29Z",
-                                            "time_et":  "2026-07-14T15:54:29-04:00",
-                                            "updated_utc":  "2026-07-14T19:56:06Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.03,
-                                            "place":  "6 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 6 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75395921",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75395921\u0026format=geojson"
                                         }
                      }
                  ]
