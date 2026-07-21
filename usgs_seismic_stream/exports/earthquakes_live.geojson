@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-21T14:29:02Z",
+    "generated_at_utc":  "2026-07-21T14:30:02Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -4201,6 +4201,41 @@
                                             "title":  "M 1.0 - 6 km WNW of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75399586",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75399586\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026ocsk",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.87,
+                                                              35.094,
+                                                              6.9
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026ocsk",
+                                            "time_utc":  "2026-07-20T17:03:57Z",
+                                            "time_et":  "2026-07-20T13:03:57-04:00",
+                                            "updated_utc":  "2026-07-21T14:29:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.65,
+                                            "place":  "7 km S of Amber, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.9",
+                                            "depth_km_raw":  6.9,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 7 km S of Amber, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ocsk",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026ocsk\u0026format=geojson"
                                         }
                      },
                      {
