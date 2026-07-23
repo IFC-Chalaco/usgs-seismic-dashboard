@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-23T19:54:21Z",
+    "generated_at_utc":  "2026-07-23T20:05:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -145,26 +145,61 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "us7000t2ug",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -126.3009,
+                                                              43.0375,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000t2ug",
+                                            "time_utc":  "2026-07-23T19:16:27Z",
+                                            "time_et":  "2026-07-23T15:16:27-04:00",
+                                            "updated_utc":  "2026-07-23T20:02:10Z",
+                                            "magnitude":  "4.2",
+                                            "magnitude_raw":  4.2,
+                                            "place":  "150 km WNW of Port Orford, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  271,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.2 - 150 km WNW of Port Orford, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ug",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2ug\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026okcjhc",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -103.886,
                                                               31.962,
-                                                              7.1506
+                                                              6.9702
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026okcjhc",
-                                            "time_utc":  "2026-07-23T19:05:01Z",
-                                            "time_et":  "2026-07-23T15:05:01-04:00",
-                                            "updated_utc":  "2026-07-23T19:09:42Z",
+                                            "time_utc":  "2026-07-23T19:05:02Z",
+                                            "time_et":  "2026-07-23T15:05:02-04:00",
+                                            "updated_utc":  "2026-07-23T20:00:52Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
                                             "place":  "33 km SSE of Malaga, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.2",
-                                            "depth_km_raw":  7.1506,
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.9702,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -736,6 +771,41 @@
                                             "title":  "M 1.5 - 13 km WNW of Coyanosa, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojvogo",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ojvogo\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026ojvmht",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.241,
+                                                              32.005,
+                                                              8.2019
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026ojvmht",
+                                            "time_utc":  "2026-07-23T15:36:58Z",
+                                            "time_et":  "2026-07-23T11:36:58-04:00",
+                                            "updated_utc":  "2026-07-23T20:02:26Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "12 km SSW of Jal, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2019,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 12 km SSW of Jal, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojvmht",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ojvmht\u0026format=geojson"
                                         }
                      },
                      {
@@ -2433,20 +2503,20 @@
                                             "id":  "tx2026ojlaky",
                                             "time_utc":  "2026-07-23T10:21:43Z",
                                             "time_et":  "2026-07-23T06:21:43-04:00",
-                                            "updated_utc":  "2026-07-23T19:53:44Z",
+                                            "updated_utc":  "2026-07-23T20:03:42Z",
                                             "magnitude":  "5.0",
                                             "magnitude_raw":  5,
                                             "place":  "38 km SSE of Spearman, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "5.7",
                                             "depth_km_raw":  5.6885,
-                                            "felt_reports":  428,
+                                            "felt_reports":  429,
                                             "cdi":  6.6,
                                             "mmi":  6.039,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  667,
+                                            "significance":  668,
                                             "event_type":  "earthquake",
                                             "title":  "M 5.0 - 38 km SSE of Spearman, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky",
@@ -4415,35 +4485,70 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10246326",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.534666666667,
+                                                              32.9145,
+                                                              6.69
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10246326",
+                                            "time_utc":  "2026-07-23T07:17:42Z",
+                                            "time_et":  "2026-07-23T03:17:42-04:00",
+                                            "updated_utc":  "2026-07-23T20:03:58Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "7 km S of Brawley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.69,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 7 km S of Brawley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246326",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246326\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40659746",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.5275,
-                                                              32.9188333333333,
-                                                              7.73
+                                                              -115.529,
+                                                              32.9181666666667,
+                                                              8.07
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40659746",
                                             "time_utc":  "2026-07-23T07:17:33Z",
                                             "time_et":  "2026-07-23T03:17:33-04:00",
-                                            "updated_utc":  "2026-07-23T07:21:07Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.52,
+                                            "updated_utc":  "2026-07-23T19:55:06Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.55,
                                             "place":  "7 km S of Brawley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.7",
-                                            "depth_km_raw":  7.73,
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.07,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  36,
+                                            "significance":  37,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 7 km S of Brawley, CA",
+                                            "title":  "M 1.6 - 7 km S of Brawley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659746",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40659746\u0026format=geojson"
                                         }
@@ -6738,14 +6843,14 @@
                                             "id":  "nc75404007",
                                             "time_utc":  "2026-07-23T00:52:11Z",
                                             "time_et":  "2026-07-22T20:52:11-04:00",
-                                            "updated_utc":  "2026-07-23T18:49:04Z",
+                                            "updated_utc":  "2026-07-23T20:03:16Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.73,
                                             "place":  "2 km NNE of San Leandro, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "3.5",
                                             "depth_km_raw":  3.51,
-                                            "felt_reports":  403,
+                                            "felt_reports":  404,
                                             "cdi":  4.1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -9210,6 +9315,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "mb90203233",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.561666666667,
+                                                              46.8346666666667,
+                                                              15.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90203233",
+                                            "time_utc":  "2026-07-22T16:15:37Z",
+                                            "time_et":  "2026-07-22T12:15:37-04:00",
+                                            "updated_utc":  "2026-07-23T20:04:21Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.71,
+                                            "place":  "33 km ENE of Helena Valley Northeast, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.0",
+                                            "depth_km_raw":  15.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 33 km ENE of Helena Valley Northeast, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90203233",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90203233\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40659354",
                          "geometry":  {
                                           "type":  "Point",
@@ -9241,6 +9381,41 @@
                                             "title":  "M 0.6 - 11 km ENE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659354",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40659354\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90203153",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.572666666667,
+                                                              46.8278333333333,
+                                                              15.68
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90203153",
+                                            "time_utc":  "2026-07-22T15:59:43Z",
+                                            "time_et":  "2026-07-22T11:59:43-04:00",
+                                            "updated_utc":  "2026-07-23T20:01:50Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.05,
+                                            "place":  "32 km ENE of Helena Valley Northeast, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.7",
+                                            "depth_km_raw":  15.68,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  65,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 32 km ENE of Helena Valley Northeast, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90203153",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90203153\u0026format=geojson"
                                         }
                      },
                      {
@@ -9381,6 +9556,41 @@
                                             "title":  "M 1.3 - 1 km SSW of Laguna Niguel, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659330",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40659330\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90203218",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.564666666667,
+                                                              46.848,
+                                                              12.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90203218",
+                                            "time_utc":  "2026-07-22T14:53:24Z",
+                                            "time_et":  "2026-07-22T10:53:24-04:00",
+                                            "updated_utc":  "2026-07-23T19:55:50Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.95,
+                                            "place":  "33 km ENE of Helena Valley Northeast, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.9",
+                                            "depth_km_raw":  12.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 33 km ENE of Helena Valley Northeast, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90203218",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90203218\u0026format=geojson"
                                         }
                      },
                      {
@@ -45781,111 +45991,6 @@
                                             "title":  "M 0.8 - 12 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397266",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75397266\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40656690",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.737833333333,
-                                                              33.4835,
-                                                              15.16
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40656690",
-                                            "time_utc":  "2026-07-16T20:03:52Z",
-                                            "time_et":  "2026-07-16T16:03:52-04:00",
-                                            "updated_utc":  "2026-07-17T18:32:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.57,
-                                            "place":  "10 km SW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "15.2",
-                                            "depth_km_raw":  15.16,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 10 km SW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656690",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40656690\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714053801",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.753333333333,
-                                                              48.569,
-                                                              2.65
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714053801",
-                                            "time_utc":  "2026-07-16T19:58:57Z",
-                                            "time_et":  "2026-07-16T15:58:57-04:00",
-                                            "updated_utc":  "2026-07-16T21:37:24Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "20 km SSW of Cowichan Bay, Canada",
-                                            "country":  "Canada",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.65,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 20 km SSW of Cowichan Bay, Canada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714053801",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714053801\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75397256",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.450996398926,
-                                                              36.9700012207031,
-                                                              5.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75397256",
-                                            "time_utc":  "2026-07-16T19:54:05Z",
-                                            "time_et":  "2026-07-16T15:54:05-04:00",
-                                            "updated_utc":  "2026-07-16T21:07:22Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.94,
-                                            "place":  "11 km ESE of Gilroy, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.1",
-                                            "depth_km_raw":  5.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  58,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 11 km ESE of Gilroy, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397256",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75397256\u0026format=geojson"
                                         }
                      }
                  ]
