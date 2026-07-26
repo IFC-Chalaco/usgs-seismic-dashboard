@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-26T14:44:55Z",
+    "generated_at_utc":  "2026-07-26T14:53:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75406022",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.874664306641,
+                                                              39.2958335876465,
+                                                              8.84
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75406022",
+                                            "time_utc":  "2026-07-26T14:46:29Z",
+                                            "time_et":  "2026-07-26T10:46:29-04:00",
+                                            "updated_utc":  "2026-07-26T14:48:06Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "14 km SSE of Lake Pillsbury, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.8",
+                                            "depth_km_raw":  8.84,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 14 km SSE of Lake Pillsbury, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406022",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75406022\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75406017",
@@ -7254,31 +7289,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.327003479004,
-                                                              32.0391654968262,
-                                                              21.69
+                                                              -116.322,
+                                                              32.0458333333333,
+                                                              21.26
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40660954",
                                             "time_utc":  "2026-07-25T01:16:53Z",
                                             "time_et":  "2026-07-24T21:16:53-04:00",
-                                            "updated_utc":  "2026-07-25T15:13:41Z",
-                                            "magnitude":  "3.1",
-                                            "magnitude_raw":  3.09,
-                                            "place":  "33 km NE of Ensenada, B.C., MX",
+                                            "updated_utc":  "2026-07-26T14:47:50Z",
+                                            "magnitude":  "2.9",
+                                            "magnitude_raw":  2.91,
+                                            "place":  "34 km NE of Ensenada, B.C., MX",
                                             "country":  "Mexico",
-                                            "depth_km":  "21.7",
-                                            "depth_km_raw":  21.69,
+                                            "depth_km":  "21.3",
+                                            "depth_km_raw":  21.26,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  147,
+                                            "significance":  130,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.1 - 33 km NE of Ensenada, B.C., MX",
+                                            "title":  "M 2.9 - 34 km NE of Ensenada, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40660954",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40660954\u0026format=geojson"
                                         }
