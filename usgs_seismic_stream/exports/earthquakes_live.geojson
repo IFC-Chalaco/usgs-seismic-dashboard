@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-26T13:47:28Z",
+    "generated_at_utc":  "2026-07-26T13:48:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40661586",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.182830810547,
+                                                              36.127498626709,
+                                                              11.46
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40661586",
+                                            "time_utc":  "2026-07-26T13:45:51Z",
+                                            "time_et":  "2026-07-26T09:45:51-04:00",
+                                            "updated_utc":  "2026-07-26T13:47:56Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.17,
+                                            "place":  "23 km WNW of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.5",
+                                            "depth_km_raw":  11.46,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 23 km WNW of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661586",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40661586\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40661570",
