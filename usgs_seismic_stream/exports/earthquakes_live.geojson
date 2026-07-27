@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-27T19:43:02Z",
+    "generated_at_utc":  "2026-07-27T19:44:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -5216,6 +5216,41 @@
                                             "title":  "M 1.8 - 15 km SE of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026opvxpt",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026opvxpt\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026oobe",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.79133333,
+                                                              36.45633333,
+                                                              7.68
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026oobe",
+                                            "time_utc":  "2026-07-26T22:00:25Z",
+                                            "time_et":  "2026-07-26T18:00:25-04:00",
+                                            "updated_utc":  "2026-07-27T19:43:17Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.21,
+                                            "place":  "16 km SSE of Waynoka, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.68,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 16 km SSE of Waynoka, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026oobe",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026oobe\u0026format=geojson"
                                         }
                      },
                      {
