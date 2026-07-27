@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-27T16:27:22Z",
+    "generated_at_utc":  "2026-07-27T16:28:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75406792",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.788497924805,
+                                                              38.8216667175293,
+                                                              0.92
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75406792",
+                                            "time_utc":  "2026-07-27T16:25:37Z",
+                                            "time_et":  "2026-07-27T12:25:37-04:00",
+                                            "updated_utc":  "2026-07-27T16:27:12Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "6 km NNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.9",
+                                            "depth_km_raw":  0.92,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 6 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406792",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75406792\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nn00922402",
@@ -19321,6 +19356,41 @@
                                             "title":  "M 0.8 - 15 km WSW of Stanton, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026olabtm",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026olabtm\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026ojfv",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.85916667,
+                                                              35.1025,
+                                                              7.97
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026ojfv",
+                                            "time_utc":  "2026-07-24T06:40:04Z",
+                                            "time_et":  "2026-07-24T02:40:04-04:00",
+                                            "updated_utc":  "2026-07-27T16:27:29Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.15,
+                                            "place":  "6 km SSE of Amber, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  7.97,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 6 km SSE of Amber, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ojfv",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026ojfv\u0026format=geojson"
                                         }
                      },
                      {
