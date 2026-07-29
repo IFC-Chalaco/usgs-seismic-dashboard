@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-29T15:26:54Z",
+    "generated_at_utc":  "2026-07-29T15:27:54Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75407982",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.796501159668,
+                                                              38.8358345031738,
+                                                              1.93
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75407982",
+                                            "time_utc":  "2026-07-29T15:25:32Z",
+                                            "time_et":  "2026-07-29T11:25:32-04:00",
+                                            "updated_utc":  "2026-07-29T15:27:10Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.7,
+                                            "place":  "7 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.93,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 7 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407982",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75407982\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40663170",
@@ -281,6 +316,41 @@
                                             "title":  "M 1.5 - 34 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ourhgr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ourhgr\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci10246590",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.570333333333,
+                                                              32.6293333333333,
+                                                              4.65
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10246590",
+                                            "time_utc":  "2026-07-29T13:19:11Z",
+                                            "time_et":  "2026-07-29T09:19:11-04:00",
+                                            "updated_utc":  "2026-07-29T15:26:54Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.87,
+                                            "place":  "6 km NNE of Progreso, B.C., MX",
+                                            "country":  "Mexico",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.65,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  54,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 6 km NNE of Progreso, B.C., MX",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246590",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246590\u0026format=geojson"
                                         }
                      },
                      {
