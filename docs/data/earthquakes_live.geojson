@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-29T21:18:20Z",
+    "generated_at_utc":  "2026-07-29T21:19:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3186,6 +3186,41 @@
                                             "title":  "M 1.1 - 8 km ESE of Cloverdale, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407857",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75407857\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714064791",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.184833333333,
+                                                              46.2081666666667,
+                                                              -0.02
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714064791",
+                                            "time_utc":  "2026-07-29T10:07:03Z",
+                                            "time_et":  "2026-07-29T06:07:03-04:00",
+                                            "updated_utc":  "2026-07-29T21:18:15Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.14,
+                                            "place":  "38 km NNE of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  -0.02,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 38 km NNE of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714064791",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714064791\u0026format=geojson"
                                         }
                      },
                      {
