@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-30T21:22:30Z",
+    "generated_at_utc":  "2026-07-30T21:41:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40663938",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.960502624512,
+                                                              33.2481651306152,
+                                                              5.11
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40663938",
+                                            "time_utc":  "2026-07-30T21:39:08Z",
+                                            "time_et":  "2026-07-30T17:39:08-04:00",
+                                            "updated_utc":  "2026-07-30T21:41:12Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.26,
+                                            "place":  "6 km S of Salton City, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.1",
+                                            "depth_km_raw":  5.11,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  25,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 6 km S of Salton City, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663938",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40663938\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75408787",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.94066619873,
+                                                              38.769832611084,
+                                                              5.42
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75408787",
+                                            "time_utc":  "2026-07-30T21:30:59Z",
+                                            "time_et":  "2026-07-30T17:30:59-04:00",
+                                            "updated_utc":  "2026-07-30T21:33:10Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.23,
+                                            "place":  "8 km ESE of Cloverdale, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.4",
+                                            "depth_km_raw":  5.42,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 8 km ESE of Cloverdale, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75408787",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75408787\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40663930",
@@ -71,6 +141,41 @@
                                             "title":  "M 1.9 - 30 km S of Malaga, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oxblrr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oxblrr\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714066391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.5795,
+                                                              45.6478333333333,
+                                                              25.21
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714066391",
+                                            "time_utc":  "2026-07-30T20:34:01Z",
+                                            "time_et":  "2026-07-30T16:34:01-04:00",
+                                            "updated_utc":  "2026-07-30T21:37:24Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.34,
+                                            "place":  "2 km SW of Orchards, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "25.2",
+                                            "depth_km_raw":  25.21,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  28,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 2 km SW of Orchards, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714066391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714066391\u0026format=geojson"
                                         }
                      },
                      {
@@ -149,31 +254,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.272666931152,
-                                                              46.8833351135254,
-                                                              1.61
+                                                              -122.272166666667,
+                                                              46.8745,
+                                                              -0.38
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714066341",
                                             "time_utc":  "2026-07-30T20:05:33Z",
                                             "time_et":  "2026-07-30T16:05:33-04:00",
-                                            "updated_utc":  "2026-07-30T20:07:36Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.36,
-                                            "place":  "1 km NNW of Eatonville, Washington",
+                                            "updated_utc":  "2026-07-30T21:27:53Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.53,
+                                            "place":  "0 km NNW of Eatonville, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "1.6",
-                                            "depth_km_raw":  1.61,
+                                            "depth_km":  "-0.4",
+                                            "depth_km_raw":  -0.38,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  2,
+                                            "significance":  36,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 1 km NNW of Eatonville, Washington",
+                                            "title":  "M 1.5 - 0 km NNW of Eatonville, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714066341",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714066341\u0026format=geojson"
                                         }
@@ -635,6 +740,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026owxgxf",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.101,
+                                                              32.315,
+                                                              8.6182
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026owxgxf",
+                                            "time_utc":  "2026-07-30T18:29:29Z",
+                                            "time_et":  "2026-07-30T14:29:29-04:00",
+                                            "updated_utc":  "2026-07-30T21:26:59Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "9 km WSW of Westbrook, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.6182,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 9 km WSW of Westbrook, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026owxgxf",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026owxgxf\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40663802",
                          "geometry":  {
                                           "type":  "Point",
@@ -718,20 +858,20 @@
                                             "id":  "ci40663778",
                                             "time_utc":  "2026-07-30T17:44:33Z",
                                             "time_et":  "2026-07-30T13:44:33-04:00",
-                                            "updated_utc":  "2026-07-30T21:05:33Z",
+                                            "updated_utc":  "2026-07-30T21:30:12Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.29,
                                             "place":  "3 km S of Lakewood, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "12.9",
                                             "depth_km_raw":  12.91,
-                                            "felt_reports":  180,
+                                            "felt_reports":  181,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  136,
+                                            "significance":  137,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.3 - 3 km S of Lakewood, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663778",
@@ -45326,181 +45466,6 @@
                                             "title":  "M 1.9 - 12 km NNE of Bray, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026oiob",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026oiob\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75404602",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -123.111167907715,
-                                                              39.3504981994629,
-                                                              8.24
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75404602",
-                                            "time_utc":  "2026-07-23T21:37:06Z",
-                                            "time_et":  "2026-07-23T17:37:06-04:00",
-                                            "updated_utc":  "2026-07-23T23:32:20Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.48,
-                                            "place":  "12 km NE of Redwood Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.2",
-                                            "depth_km_raw":  8.24,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  34,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 12 km NE of Redwood Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404602",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75404602\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026okhiem",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.738,
-                                                              31.92,
-                                                              7.7881
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026okhiem",
-                                            "time_utc":  "2026-07-23T21:34:31Z",
-                                            "time_et":  "2026-07-23T17:34:31-04:00",
-                                            "updated_utc":  "2026-07-24T20:40:10Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.5,
-                                            "place":  "23 km SSE of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.8",
-                                            "depth_km_raw":  7.7881,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 23 km SSE of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026okhiem",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026okhiem\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026okhaik",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.759,
-                                                              31.913,
-                                                              8.9111
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026okhaik",
-                                            "time_utc":  "2026-07-23T21:25:26Z",
-                                            "time_et":  "2026-07-23T17:25:26-04:00",
-                                            "updated_utc":  "2026-07-24T20:24:36Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.3,
-                                            "place":  "24 km S of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.9111,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 24 km S of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026okhaik",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026okhaik\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40660402",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.605333333333,
-                                                              33.1848333333333,
-                                                              3.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40660402",
-                                            "time_utc":  "2026-07-23T21:24:25Z",
-                                            "time_et":  "2026-07-23T17:24:25-04:00",
-                                            "updated_utc":  "2026-07-24T22:37:38Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.98,
-                                            "place":  "10 km SW of Niland, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.0",
-                                            "depth_km_raw":  3.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.0 Quarry Blast - 10 km SW of Niland, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40660402",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40660402\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10246438",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.7255,
-                                                              33.1681666666667,
-                                                              3.43
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10246438",
-                                            "time_utc":  "2026-07-23T21:24:16Z",
-                                            "time_et":  "2026-07-23T17:24:16-04:00",
-                                            "updated_utc":  "2026-07-24T22:44:11Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.88,
-                                            "place":  "17 km NNW of Westmorland, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.43,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 17 km NNW of Westmorland, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10246438",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10246438\u0026format=geojson"
                                         }
                      }
                  ]
