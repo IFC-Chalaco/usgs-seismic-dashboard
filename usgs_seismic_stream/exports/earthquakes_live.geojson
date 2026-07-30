@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-30T21:44:45Z",
+    "generated_at_utc":  "2026-07-30T21:45:45Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00922602",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -114.7222,
+                                                              36.3741,
+                                                              9.885
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00922602",
+                                            "time_utc":  "2026-07-30T21:40:33Z",
+                                            "time_et":  "2026-07-30T17:40:33-04:00",
+                                            "updated_utc":  "2026-07-30T21:44:28Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.57,
+                                            "place":  "32 km SW of Moapa Valley, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.9",
+                                            "depth_km_raw":  9.885,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  38,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 32 km SW of Moapa Valley, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922602",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00922602\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75408797",
