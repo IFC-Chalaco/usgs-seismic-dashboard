@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-30T20:26:20Z",
+    "generated_at_utc":  "2026-07-30T20:27:19Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 0.4 - 1 km NNW of Eatonville, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714066341",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714066341\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714066331",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.13,
+                                                              46.7478333333333,
+                                                              -0.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714066331",
+                                            "time_utc":  "2026-07-30T19:59:43Z",
+                                            "time_et":  "2026-07-30T15:59:43-04:00",
+                                            "updated_utc":  "2026-07-30T20:26:12Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.34,
+                                            "place":  "4 km ENE of Pullman, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  84,
+                                            "event_type":  "explosion",
+                                            "title":  "M 2.3 Explosion - 4 km ENE of Pullman, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714066331",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714066331\u0026format=geojson"
                                         }
                      },
                      {
@@ -184,31 +219,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.482166666667,
-                                                              33.8156666666667,
-                                                              2.55
+                                                              -117.4825,
+                                                              33.819,
+                                                              -0.53
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40663834",
                                             "time_utc":  "2026-07-30T19:01:41Z",
                                             "time_et":  "2026-07-30T15:01:41-04:00",
-                                            "updated_utc":  "2026-07-30T19:05:27Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.71,
-                                            "place":  "8 km SSE of Home Gardens, CA",
+                                            "updated_utc":  "2026-07-30T20:26:26Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.54,
+                                            "place":  "7 km SSE of Home Gardens, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.55,
+                                            "depth_km":  "-0.5",
+                                            "depth_km_raw":  -0.53,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  45,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 8 km SSE of Home Gardens, CA",
+                                            "significance":  36,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.5 Quarry Blast - 7 km SSE of Home Gardens, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663834",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40663834\u0026format=geojson"
                                         }
