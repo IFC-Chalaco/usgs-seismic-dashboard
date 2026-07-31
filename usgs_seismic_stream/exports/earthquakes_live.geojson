@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-31T16:22:13Z",
+    "generated_at_utc":  "2026-07-31T16:23:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75409152",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.933334350586,
+                                                              38.7788314819336,
+                                                              4.25
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75409152",
+                                            "time_utc":  "2026-07-31T16:20:50Z",
+                                            "time_et":  "2026-07-31T12:20:50-04:00",
+                                            "updated_utc":  "2026-07-31T16:22:26Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.37,
+                                            "place":  "8 km ESE of Cloverdale, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.3",
+                                            "depth_km_raw":  4.25,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  29,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 8 km ESE of Cloverdale, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409152",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409152\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40664202",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.376333333333,
+                                                              33.1825,
+                                                              10.46
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40664202",
+                                            "time_utc":  "2026-07-31T16:18:29Z",
+                                            "time_et":  "2026-07-31T12:18:29-04:00",
+                                            "updated_utc":  "2026-07-31T16:21:59Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.61,
+                                            "place":  "8 km S of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.5",
+                                            "depth_km_raw":  10.46,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 8 km S of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664202",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664202\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75409147",
