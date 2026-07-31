@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-07-31T14:42:00Z",
+    "generated_at_utc":  "2026-07-31T14:43:00Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1856,6 +1856,41 @@
                                             "title":  "M 0.7 - 10 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75408947",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75408947\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80146756",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.751666666667,
+                                                              44.582,
+                                                              4.8
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80146756",
+                                            "time_utc":  "2026-07-31T03:37:25Z",
+                                            "time_et":  "2026-07-30T23:37:25-04:00",
+                                            "updated_utc":  "2026-07-31T14:42:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.31,
+                                            "place":  "29 km ESE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.8,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 29 km ESE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80146756",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80146756\u0026format=geojson"
                                         }
                      },
                      {
