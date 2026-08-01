@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-01T22:32:05Z",
+    "generated_at_utc":  "2026-08-01T22:33:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40664906",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.064666748047,
+                                                              35.1653327941895,
+                                                              12.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40664906",
+                                            "time_utc":  "2026-08-01T22:30:16Z",
+                                            "time_et":  "2026-08-01T18:30:16-04:00",
+                                            "updated_utc":  "2026-08-01T22:32:22Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.52,
+                                            "place":  "17 km SW of Lamont, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.1",
+                                            "depth_km_raw":  12.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 17 km SW of Lamont, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664906",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664906\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40664898",
