@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-04T15:46:19Z",
+    "generated_at_utc":  "2026-08-04T15:47:20Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -876,6 +876,41 @@
                                             "title":  "M 0.8 - 17 km E of Leamington, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147056",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147056\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026pfmcno",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.817,
+                                                              32.007,
+                                                              7.7277
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026pfmcno",
+                                            "time_utc":  "2026-08-04T10:33:05Z",
+                                            "time_et":  "2026-08-04T06:33:05-04:00",
+                                            "updated_utc":  "2026-08-04T15:46:00Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.3,
+                                            "place":  "34 km SE of Malaga, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.7277,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 34 km SE of Malaga, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pfmcno",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pfmcno\u0026format=geojson"
                                         }
                      },
                      {
