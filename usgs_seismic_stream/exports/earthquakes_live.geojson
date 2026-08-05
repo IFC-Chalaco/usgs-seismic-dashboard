@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-05T09:48:42Z",
+    "generated_at_utc":  "2026-08-05T09:49:41Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40666442",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.698166666667,
+                                                              35.8638333333333,
+                                                              9.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40666442",
+                                            "time_utc":  "2026-08-05T09:45:33Z",
+                                            "time_et":  "2026-08-05T05:45:33-04:00",
+                                            "updated_utc":  "2026-08-05T09:48:53Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.59,
+                                            "place":  "20 km ESE of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  9.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 20 km ESE of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666442",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40666442\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40666434",
