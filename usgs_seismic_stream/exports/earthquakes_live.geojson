@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-05T09:50:42Z",
+    "generated_at_utc":  "2026-08-05T10:05:14Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -386,6 +386,41 @@
                                             "title":  "M 1.1 - 17 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40666386",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40666386\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71527598",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.013,
+                                                              17.9781666666667,
+                                                              14
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71527598",
+                                            "time_utc":  "2026-08-05T07:42:12Z",
+                                            "time_et":  "2026-08-05T03:42:12-04:00",
+                                            "updated_utc":  "2026-08-05T10:01:24Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.97,
+                                            "place":  "3 km E of La Parguera, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.0",
+                                            "depth_km_raw":  14,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  60,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 3 km E of La Parguera, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71527598",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71527598\u0026format=geojson"
                                         }
                      },
                      {
@@ -41196,41 +41231,6 @@
                                             "title":  "M 0.1 - 38 km NNE of Amboy, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714064791",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714064791\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40663010",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.446666666667,
-                                                              35.6381666666667,
-                                                              5.07
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40663010",
-                                            "time_utc":  "2026-07-29T09:58:29Z",
-                                            "time_et":  "2026-07-29T05:58:29-04:00",
-                                            "updated_utc":  "2026-07-29T13:11:02Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.94,
-                                            "place":  "15 km SSW of Searles Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.1",
-                                            "depth_km_raw":  5.07,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 15 km SSW of Searles Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663010",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40663010\u0026format=geojson"
                                         }
                      }
                  ]
