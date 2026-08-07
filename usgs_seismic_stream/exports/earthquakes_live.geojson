@@ -1,35 +1,70 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-07T22:04:37Z",
+    "generated_at_utc":  "2026-08-07T22:27:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75413692",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.800834655762,
+                                                              38.8330001831055,
+                                                              1.86
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75413692",
+                                            "time_utc":  "2026-08-07T22:12:17Z",
+                                            "time_et":  "2026-08-07T18:12:17-04:00",
+                                            "updated_utc":  "2026-08-07T22:13:53Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.76,
+                                            "place":  "7 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.86,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 7 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413692",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75413692\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40668314",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.788833333333,
-                                                              35.361,
-                                                              6.21
+                                                              -117.788,
+                                                              35.3603333333333,
+                                                              6.42
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40668314",
                                             "time_utc":  "2026-08-07T21:41:58Z",
                                             "time_et":  "2026-08-07T17:41:58-04:00",
-                                            "updated_utc":  "2026-08-07T21:45:18Z",
+                                            "updated_utc":  "2026-08-07T22:07:11Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.79,
+                                            "magnitude_raw":  0.8,
                                             "place":  "14 km W of Johannesburg, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.2",
-                                            "depth_km_raw":  6.21,
+                                            "depth_km":  "6.4",
+                                            "depth_km_raw":  6.42,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  10,
                                             "event_type":  "earthquake",
