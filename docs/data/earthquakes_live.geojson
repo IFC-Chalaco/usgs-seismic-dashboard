@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-07T08:48:53Z",
+    "generated_at_utc":  "2026-08-07T09:17:09Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00923036",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.989,
+                                                              38.8289,
+                                                              2.8005
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00923036",
+                                            "time_utc":  "2026-08-07T09:00:51Z",
+                                            "time_et":  "2026-08-07T05:00:51-04:00",
+                                            "updated_utc":  "2026-08-07T09:04:43Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.05,
+                                            "place":  "75 km S of Eureka, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.8005,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  143,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 75 km S of Eureka, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923036",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923036\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40667738",
@@ -176,6 +211,41 @@
                                             "title":  "M 1.3 - 7 km S of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pktmse",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pktmse\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000tiwb",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -68.3356,
+                                                              19.1501,
+                                                              23.934
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000tiwb",
+                                            "time_utc":  "2026-08-07T07:05:34Z",
+                                            "time_et":  "2026-08-07T03:05:34-04:00",
+                                            "updated_utc":  "2026-08-07T09:06:11Z",
+                                            "magnitude":  "3.2",
+                                            "magnitude_raw":  3.2,
+                                            "place":  "63 km N of Punta Cana, Dominican Republic",
+                                            "country":  "Dominican Republic",
+                                            "depth_km":  "23.9",
+                                            "depth_km_raw":  23.934,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  158,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.2 - 63 km N of Punta Cana, Dominican Republic",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwb",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tiwb\u0026format=geojson"
                                         }
                      },
                      {
@@ -40251,111 +40321,6 @@
                                             "title":  "M 1.6 - 14 km W of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664090",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664090\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026oyadii",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -102.053,
-                                                              32.37,
-                                                              8.4229
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026oyadii",
-                                            "time_utc":  "2026-07-31T09:00:20Z",
-                                            "time_et":  "2026-07-31T05:00:20-04:00",
-                                            "updated_utc":  "2026-07-31T11:55:03Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.4,
-                                            "place":  "36 km WSW of Ackerly, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.4",
-                                            "depth_km_raw":  8.4229,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 36 km WSW of Ackerly, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oyadii",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oyadii\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026oyaaoo",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.875,
-                                                              32.27,
-                                                              6.7139
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026oyaaoo",
-                                            "time_utc":  "2026-07-31T08:57:09Z",
-                                            "time_et":  "2026-07-31T04:57:09-04:00",
-                                            "updated_utc":  "2026-07-31T11:46:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.6,
-                                            "place":  "17 km NNW of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.7",
-                                            "depth_km_raw":  6.7139,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 17 km NNW of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oyaaoo",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026oyaaoo\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409012",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.937835693359,
-                                                              38.7755012512207,
-                                                              3.3
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409012",
-                                            "time_utc":  "2026-07-31T08:54:56Z",
-                                            "time_et":  "2026-07-31T04:54:56-04:00",
-                                            "updated_utc":  "2026-07-31T09:37:22Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.14,
-                                            "place":  "8 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.3,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  20,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 8 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409012",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409012\u0026format=geojson"
                                         }
                      }
                  ]
