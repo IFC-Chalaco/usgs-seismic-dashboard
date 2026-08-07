@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-07T23:56:38Z",
+    "generated_at_utc":  "2026-08-07T23:57:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1768,15 +1768,15 @@
                                             "id":  "nc75413432",
                                             "time_utc":  "2026-08-07T15:46:44Z",
                                             "time_et":  "2026-08-07T11:46:44-04:00",
-                                            "updated_utc":  "2026-08-07T16:12:20Z",
+                                            "updated_utc":  "2026-08-07T23:56:54Z",
                                             "magnitude":  "3.3",
                                             "magnitude_raw":  3.26,
                                             "place":  "5 km NW of Pinnacles, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "3.8",
                                             "depth_km_raw":  3.79,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  2.2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
@@ -42561,41 +42561,6 @@
                                             "title":  "M 1.9 - 5 km SE of La Jolla, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664474",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664474\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40664458",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.3925,
-                                                              34.0485,
-                                                              11.87
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40664458",
-                                            "time_utc":  "2026-07-31T23:57:01Z",
-                                            "time_et":  "2026-07-31T19:57:01-04:00",
-                                            "updated_utc":  "2026-08-02T19:08:23Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.58,
-                                            "place":  "2 km ESE of Century City, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "11.9",
-                                            "depth_km_raw":  11.87,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  38,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 2 km ESE of Century City, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664458",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664458\u0026format=geojson"
                                         }
                      }
                  ]
