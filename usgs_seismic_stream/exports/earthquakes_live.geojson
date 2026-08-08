@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-08T21:54:50Z",
+    "generated_at_utc":  "2026-08-08T21:55:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40668954",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.7325,
+                                                              33.2923333333333,
+                                                              12.27
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40668954",
+                                            "time_utc":  "2026-08-08T21:51:39Z",
+                                            "time_et":  "2026-08-08T17:51:39-04:00",
+                                            "updated_utc":  "2026-08-08T21:55:11Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.51,
+                                            "place":  "6 km NNE of Lake Henshaw, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.3",
+                                            "depth_km_raw":  12.27,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 6 km NNE of Lake Henshaw, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668954",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668954\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40668938",
