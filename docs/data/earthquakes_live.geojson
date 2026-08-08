@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-08T20:30:52Z",
+    "generated_at_utc":  "2026-08-08T20:56:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71527898",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8316666666667,
+                                                              17.9731666666667,
+                                                              13.17
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71527898",
+                                            "time_utc":  "2026-08-08T20:39:15Z",
+                                            "time_et":  "2026-08-08T16:39:15-04:00",
+                                            "updated_utc":  "2026-08-08T20:49:03Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.08,
+                                            "place":  "2 km SSW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "13.2",
+                                            "depth_km_raw":  13.17,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  67,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 2 km SSW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71527898",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71527898\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ok2026plrk",
@@ -114,31 +149,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -95.96341705,
-                                                              34.65130615,
-                                                              10
+                                                              -95.9815,
+                                                              34.667,
+                                                              5.31
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ok2026plrc",
-                                            "time_utc":  "2026-08-08T20:10:16Z",
-                                            "time_et":  "2026-08-08T16:10:16-04:00",
-                                            "updated_utc":  "2026-08-08T20:17:06Z",
-                                            "magnitude":  "3.0",
-                                            "magnitude_raw":  2.99,
-                                            "place":  "6 km E of Wardville, Oklahoma",
+                                            "time_utc":  "2026-08-08T20:10:15Z",
+                                            "time_et":  "2026-08-08T16:10:15-04:00",
+                                            "updated_utc":  "2026-08-08T20:40:56Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.69,
+                                            "place":  "4 km ENE of Wardville, Oklahoma",
                                             "country":  "United States of America",
-                                            "depth_km":  "10.0",
-                                            "depth_km_raw":  10,
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.31,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  138,
+                                            "significance":  111,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.0 - 6 km E of Wardville, Oklahoma",
+                                            "title":  "M 2.7 - 4 km ENE of Wardville, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026plrc",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026plrc\u0026format=geojson"
                                         }
@@ -39761,286 +39796,6 @@
                                             "title":  "M 1.5 - 6 km NNE of Progreso, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664858",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664858\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026patiqk",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.393,
-                                                              31.65,
-                                                              6.1511
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026patiqk",
-                                            "time_utc":  "2026-08-01T20:49:02Z",
-                                            "time_et":  "2026-08-01T16:49:02-04:00",
-                                            "updated_utc":  "2026-08-03T16:59:07Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "58 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.2",
-                                            "depth_km_raw":  6.1511,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 58 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026patiqk",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026patiqk\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409832",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.699996948242,
-                                                              35.4188346862793,
-                                                              6.75
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409832",
-                                            "time_utc":  "2026-08-01T20:49:02Z",
-                                            "time_et":  "2026-08-01T16:49:02-04:00",
-                                            "updated_utc":  "2026-08-01T20:50:45Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
-                                            "place":  "8 km SSW of Atascadero, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.75,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 8 km SSW of Atascadero, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409832",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409832\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pateev",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.498,
-                                                              32.099,
-                                                              8.6182
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pateev",
-                                            "time_utc":  "2026-08-01T20:43:38Z",
-                                            "time_et":  "2026-08-01T16:43:38-04:00",
-                                            "updated_utc":  "2026-08-03T21:37:19Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "12 km W of Forsan, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.6",
-                                            "depth_km_raw":  8.6182,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 12 km W of Forsan, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pateev",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pateev\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409822",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.297164916992,
-                                                              37.8851661682129,
-                                                              7.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409822",
-                                            "time_utc":  "2026-08-01T20:42:20Z",
-                                            "time_et":  "2026-08-01T16:42:20-04:00",
-                                            "updated_utc":  "2026-08-01T21:17:23Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.63,
-                                            "place":  "0 km SSE of Albany, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  41,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 0 km SSE of Albany, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409822",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409822\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40664850",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.560833333333,
-                                                              32.6295,
-                                                              7.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40664850",
-                                            "time_utc":  "2026-08-01T20:41:55Z",
-                                            "time_et":  "2026-08-01T16:41:55-04:00",
-                                            "updated_utc":  "2026-08-02T15:04:15Z",
-                                            "magnitude":  "2.4",
-                                            "magnitude_raw":  2.43,
-                                            "place":  "6 km NNE of Progreso, B.C., MX",
-                                            "country":  "Mexico",
-                                            "depth_km":  "7.7",
-                                            "depth_km_raw":  7.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  91,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.4 - 6 km NNE of Progreso, B.C., MX",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664850",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664850\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90204043",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.4045,
-                                                              44.7938333333333,
-                                                              5.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90204043",
-                                            "time_utc":  "2026-08-01T20:40:50Z",
-                                            "time_et":  "2026-08-01T16:40:50-04:00",
-                                            "updated_utc":  "2026-08-05T14:37:22Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.47,
-                                            "place":  "17 km W of Hebgen Lake Estates, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.3",
-                                            "depth_km_raw":  5.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 17 km W of Hebgen Lake Estates, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204043",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204043\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40664842",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.174333333333,
-                                                              33.8726666666667,
-                                                              3.07
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40664842",
-                                            "time_utc":  "2026-08-01T20:38:06Z",
-                                            "time_et":  "2026-08-01T16:38:06-04:00",
-                                            "updated_utc":  "2026-08-02T13:35:32Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.95,
-                                            "place":  "17 km NNE of Indio, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.1",
-                                            "depth_km_raw":  3.07,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 17 km NNE of Indio, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664842",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664842\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71526963",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -64.937,
-                                                              18.7776666666667,
-                                                              7
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71526963",
-                                            "time_utc":  "2026-08-01T20:37:47Z",
-                                            "time_et":  "2026-08-01T16:37:47-04:00",
-                                            "updated_utc":  "2026-08-01T21:32:35Z",
-                                            "magnitude":  "3.4",
-                                            "magnitude_raw":  3.37,
-                                            "place":  "48 km N of Charlotte Amalie, U.S. Virgin Islands",
-                                            "country":  "U.S. Virgin Islands",
-                                            "depth_km":  "7.0",
-                                            "depth_km_raw":  7,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  175,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.4 - 48 km N of Charlotte Amalie, U.S. Virgin Islands",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71526963",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71526963\u0026format=geojson"
                                         }
                      }
                  ]
