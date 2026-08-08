@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-08T14:55:13Z",
+    "generated_at_utc":  "2026-08-08T15:15:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40668706",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.731166666667,
+                                                              33.6586666666667,
+                                                              14.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40668706",
+                                            "time_utc":  "2026-08-08T15:00:16Z",
+                                            "time_et":  "2026-08-08T11:00:16-04:00",
+                                            "updated_utc":  "2026-08-08T15:10:45Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.56,
+                                            "place":  "9 km S of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.2",
+                                            "depth_km_raw":  14.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  37,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 9 km S of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668706",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668706\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75414017",
@@ -893,15 +928,15 @@
                                             "id":  "pr71527868",
                                             "time_utc":  "2026-08-08T09:45:12Z",
                                             "time_et":  "2026-08-08T05:45:12-04:00",
-                                            "updated_utc":  "2026-08-08T12:24:29Z",
+                                            "updated_utc":  "2026-08-08T15:05:44Z",
                                             "magnitude":  "3.2",
                                             "magnitude_raw":  3.23,
                                             "place":  "11 km SSE of Punta Santiago, Puerto Rico",
                                             "country":  "Puerto Rico",
                                             "depth_km":  "10.3",
                                             "depth_km_raw":  10.28,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -40636,76 +40671,6 @@
                                             "title":  "M 2.1 - 38 km WSW of Stovepipe Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664674",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664674\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714067771",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.128666666667,
-                                                              46.729,
-                                                              8.78
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714067771",
-                                            "time_utc":  "2026-08-01T15:05:55Z",
-                                            "time_et":  "2026-08-01T11:05:55-04:00",
-                                            "updated_utc":  "2026-08-07T18:55:04Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.33,
-                                            "place":  "17 km SW of Nile, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.8",
-                                            "depth_km_raw":  8.78,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  84,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 17 km SW of Nile, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714067771",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714067771\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409662",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.76782989502,
-                                                              38.798999786377,
-                                                              3.63
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409662",
-                                            "time_utc":  "2026-08-01T15:01:06Z",
-                                            "time_et":  "2026-08-01T11:01:06-04:00",
-                                            "updated_utc":  "2026-08-01T15:02:41Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.25,
-                                            "place":  "3 km NNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.6",
-                                            "depth_km_raw":  3.63,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 3 km NNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409662",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409662\u0026format=geojson"
                                         }
                      }
                  ]
