@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-08T10:03:55Z",
+    "generated_at_utc":  "2026-08-08T10:33:27Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40668602",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.334666666667,
+                                                              33.2666666666667,
+                                                              4.58
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40668602",
+                                            "time_utc":  "2026-08-08T10:11:09Z",
+                                            "time_et":  "2026-08-08T06:11:09-04:00",
+                                            "updated_utc":  "2026-08-08T10:14:40Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.63,
+                                            "place":  "4 km ENE of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.6",
+                                            "depth_km_raw":  4.58,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 4 km ENE of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668602",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668602\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026pmtuhl",
@@ -740,6 +775,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "pr71527858",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -65.7655,
+                                                              18.1063333333333,
+                                                              9.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71527858",
+                                            "time_utc":  "2026-08-08T03:59:53Z",
+                                            "time_et":  "2026-08-07T23:59:53-04:00",
+                                            "updated_utc":  "2026-08-08T10:15:32Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.13,
+                                            "place":  "5 km SSE of Bajandas, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "9.1",
+                                            "depth_km_raw":  9.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  70,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 5 km SSE of Bajandas, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71527858",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71527858\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40668522",
                          "geometry":  {
                                           "type":  "Point",
@@ -1313,14 +1383,14 @@
                                             "id":  "uu80147521",
                                             "time_utc":  "2026-08-07T23:55:23Z",
                                             "time_et":  "2026-08-07T19:55:23-04:00",
-                                            "updated_utc":  "2026-08-08T09:40:39Z",
+                                            "updated_utc":  "2026-08-08T10:11:41Z",
                                             "magnitude":  "2.8",
                                             "magnitude_raw":  2.83,
                                             "place":  "6 km NNW of Saratoga Springs, Utah",
                                             "country":  "United States of America",
                                             "depth_km":  "5.7",
                                             "depth_km_raw":  5.7,
-                                            "felt_reports":  530,
+                                            "felt_reports":  531,
                                             "cdi":  4.1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -11393,7 +11463,7 @@
                                             "id":  "us6000tij5",
                                             "time_utc":  "2026-08-06T09:55:40Z",
                                             "time_et":  "2026-08-06T05:55:40-04:00",
-                                            "updated_utc":  "2026-08-07T10:05:46Z",
+                                            "updated_utc":  "2026-08-08T10:05:50Z",
                                             "magnitude":  "4.9",
                                             "magnitude_raw":  4.9,
                                             "place":  "128 km WSW of Port Orford, Oregon",
@@ -40583,7 +40653,7 @@
                                             "id":  "nc75409602",
                                             "time_utc":  "2026-08-01T11:50:40Z",
                                             "time_et":  "2026-08-01T07:50:40-04:00",
-                                            "updated_utc":  "2026-08-01T23:09:06Z",
+                                            "updated_utc":  "2026-08-08T10:28:10Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.68,
                                             "place":  "8 km ESE of Cloverdale, CA",
@@ -41196,356 +41266,6 @@
                                             "title":  "M 1.0 - 15 km NNW of Pecos, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozzakr",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozzakr\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozyvnl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.673,
-                                                              31.724,
-                                                              7.0557
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozyvnl",
-                                            "time_utc":  "2026-08-01T10:30:07Z",
-                                            "time_et":  "2026-08-01T06:30:07-04:00",
-                                            "updated_utc":  "2026-08-03T16:13:12Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "23 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.0557,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 23 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozyvnl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozyvnl\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozyrjh",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.678,
-                                                              31.729,
-                                                              8.0322
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozyrjh",
-                                            "time_utc":  "2026-08-01T10:25:15Z",
-                                            "time_et":  "2026-08-01T06:25:15-04:00",
-                                            "updated_utc":  "2026-08-06T13:05:29Z",
-                                            "magnitude":  "2.4",
-                                            "magnitude_raw":  2.4,
-                                            "place":  "23 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.0",
-                                            "depth_km_raw":  8.0322,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  89,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.4 - 23 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozyrjh",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozyrjh\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714067701",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.600166666667,
-                                                              48.2916666666667,
-                                                              24.97
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714067701",
-                                            "time_utc":  "2026-08-01T10:24:50Z",
-                                            "time_et":  "2026-08-01T06:24:50-04:00",
-                                            "updated_utc":  "2026-08-01T16:23:25Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.72,
-                                            "place":  "3 km E of Oak Harbor, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "25.0",
-                                            "depth_km_raw":  24.97,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  46,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 3 km E of Oak Harbor, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714067701",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714067701\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozyqsx",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.982,
-                                                              28.829,
-                                                              6.9192
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozyqsx",
-                                            "time_utc":  "2026-08-01T10:24:27Z",
-                                            "time_et":  "2026-08-01T06:24:27-04:00",
-                                            "updated_utc":  "2026-08-03T14:20:46Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "13 km ESE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.9",
-                                            "depth_km_raw":  6.9192,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 13 km ESE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozyqsx",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozyqsx\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozypqj",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.676,
-                                                              31.722,
-                                                              5.2002
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozypqj",
-                                            "time_utc":  "2026-08-01T10:23:13Z",
-                                            "time_et":  "2026-08-01T06:23:13-04:00",
-                                            "updated_utc":  "2026-08-03T18:02:45Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.2,
-                                            "place":  "24 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.2",
-                                            "depth_km_raw":  5.2002,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 24 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozypqj",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozypqj\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozyipl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.678,
-                                                              31.729,
-                                                              8.3252
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozyipl",
-                                            "time_utc":  "2026-08-01T10:16:13Z",
-                                            "time_et":  "2026-08-01T06:16:13-04:00",
-                                            "updated_utc":  "2026-08-06T13:03:45Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.8,
-                                            "place":  "23 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.3252,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  121,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 23 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozyipl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozyipl\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozyjal",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.693,
-                                                              31.739,
-                                                              8.1787
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozyjal",
-                                            "time_utc":  "2026-08-01T10:15:32Z",
-                                            "time_et":  "2026-08-01T06:15:32-04:00",
-                                            "updated_utc":  "2026-08-03T09:13:08Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "24 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.2",
-                                            "depth_km_raw":  8.1787,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 24 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozyjal",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozyjal\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ozygak",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.682,
-                                                              31.722,
-                                                              7.3486
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ozygak",
-                                            "time_utc":  "2026-08-01T10:12:19Z",
-                                            "time_et":  "2026-08-01T06:12:19-04:00",
-                                            "updated_utc":  "2026-08-06T13:02:08Z",
-                                            "magnitude":  "2.7",
-                                            "magnitude_raw":  2.7,
-                                            "place":  "24 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.3",
-                                            "depth_km_raw":  7.3486,
-                                            "felt_reports":  1,
-                                            "cdi":  1,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  112,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.7 - 24 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ozygak",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ozygak\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409537",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.942169189453,
-                                                              38.775333404541,
-                                                              6.37
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409537",
-                                            "time_utc":  "2026-08-01T10:11:43Z",
-                                            "time_et":  "2026-08-01T06:11:43-04:00",
-                                            "updated_utc":  "2026-08-01T10:13:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.02,
-                                            "place":  "7 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.4",
-                                            "depth_km_raw":  6.37,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 7 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409537",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409537\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714067691",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -125.014333333333,
-                                                              48.4556666666667,
-                                                              32.07
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714067691",
-                                            "time_utc":  "2026-08-01T10:07:24Z",
-                                            "time_et":  "2026-08-01T06:07:24-04:00",
-                                            "updated_utc":  "2026-08-03T18:11:05Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.95,
-                                            "place":  "30 km WNW of Neah Bay, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "32.1",
-                                            "depth_km_raw":  32.07,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 30 km WNW of Neah Bay, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714067691",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714067691\u0026format=geojson"
                                         }
                      }
                  ]
