@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-08T10:37:24Z",
+    "generated_at_utc":  "2026-08-08T10:49:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40668610",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.482833333333,
+                                                              35.605,
+                                                              7.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40668610",
+                                            "time_utc":  "2026-08-08T10:36:03Z",
+                                            "time_et":  "2026-08-08T06:36:03-04:00",
+                                            "updated_utc":  "2026-08-08T10:39:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.52,
+                                            "place":  "18 km E of Ridgecrest, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.4",
+                                            "depth_km_raw":  7.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 18 km E of Ridgecrest, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668610",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668610\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75413962",
@@ -18,7 +53,7 @@
                                             "id":  "nc75413962",
                                             "time_utc":  "2026-08-08T10:33:27Z",
                                             "time_et":  "2026-08-08T06:33:27-04:00",
-                                            "updated_utc":  "2026-08-08T10:35:02Z",
+                                            "updated_utc":  "2026-08-08T10:42:21Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.17,
                                             "place":  "6 km E of Hidden Valley Lake, CA",
@@ -41231,41 +41266,6 @@
                                             "title":  "M 0.9 - 16 km ESE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664594",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40664594\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75409547",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.805999755859,
-                                                              38.8219985961914,
-                                                              2.39
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75409547",
-                                            "time_utc":  "2026-08-01T10:43:13Z",
-                                            "time_et":  "2026-08-01T06:43:13-04:00",
-                                            "updated_utc":  "2026-08-01T11:52:20Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.34,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.4",
-                                            "depth_km_raw":  2.39,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  28,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75409547",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75409547\u0026format=geojson"
                                         }
                      }
                  ]
