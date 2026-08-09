@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-09T17:01:06Z",
+    "generated_at_utc":  "2026-08-09T17:24:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.6 - 8 km S of Lindsay, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ppdhfv",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ppdhfv\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000tjg9",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.5915,
+                                                              18.9102,
+                                                              35
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000tjg9",
+                                            "time_utc":  "2026-08-09T16:50:10Z",
+                                            "time_et":  "2026-08-09T12:50:10-04:00",
+                                            "updated_utc":  "2026-08-09T17:18:58Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.7,
+                                            "place":  "69 km NW of San Antonio, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "35.0",
+                                            "depth_km_raw":  35,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  112,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.7 - 69 km NW of San Antonio, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjg9",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjg9\u0026format=geojson"
                                         }
                      },
                      {
@@ -2074,31 +2109,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.337,
-                                                              30.886,
-                                                              0
+                                                              -104.121,
+                                                              31.625,
+                                                              2.1626
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026poiysd",
-                                            "time_utc":  "2026-08-09T06:38:07Z",
-                                            "time_et":  "2026-08-09T02:38:07-04:00",
-                                            "updated_utc":  "2026-08-09T06:40:11Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "40 km ESE of Balmorhea, Texas",
+                                            "time_utc":  "2026-08-09T06:38:25Z",
+                                            "time_et":  "2026-08-09T02:38:25-04:00",
+                                            "updated_utc":  "2026-08-09T17:06:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "46 km NW of Toyah, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.0",
-                                            "depth_km_raw":  0,
+                                            "depth_km":  "2.2",
+                                            "depth_km_raw":  2.1626,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  62,
+                                            "significance":  6,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 40 km ESE of Balmorhea, Texas",
+                                            "title":  "M 0.6 - 46 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026poiysd",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026poiysd\u0026format=geojson"
                                         }
@@ -2494,31 +2529,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -120.488833333333,
-                                                              34.5286666666667,
-                                                              5.76
+                                                              -120.499166666667,
+                                                              34.5253333333333,
+                                                              6.03
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40669146",
                                             "time_utc":  "2026-08-09T05:13:33Z",
                                             "time_et":  "2026-08-09T01:13:33-04:00",
-                                            "updated_utc":  "2026-08-09T05:16:56Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.82,
+                                            "updated_utc":  "2026-08-09T17:23:28Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.89,
                                             "place":  "13 km SSW of Lompoc, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.8",
-                                            "depth_km_raw":  5.76,
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.03,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  51,
+                                            "significance":  55,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 13 km SSW of Lompoc, CA",
+                                            "title":  "M 1.9 - 13 km SSW of Lompoc, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669146",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669146\u0026format=geojson"
                                         }
@@ -4043,14 +4078,14 @@
                                             "id":  "us6000tjcz",
                                             "time_utc":  "2026-08-08T22:12:11Z",
                                             "time_et":  "2026-08-08T18:12:11-04:00",
-                                            "updated_utc":  "2026-08-09T16:42:41Z",
+                                            "updated_utc":  "2026-08-09T17:00:44Z",
                                             "magnitude":  "2.0",
                                             "magnitude_raw":  2,
                                             "place":  "6 km WNW of North Perry, Ohio",
                                             "country":  "United States of America",
                                             "depth_km":  "5.0",
                                             "depth_km_raw":  5,
-                                            "felt_reports":  3,
+                                            "felt_reports":  4,
                                             "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
@@ -5819,31 +5854,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.215333333333,
-                                                              33.5738333333333,
-                                                              0.42
+                                                              -118.214166666667,
+                                                              33.572,
+                                                              0.82
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40668642",
                                             "time_utc":  "2026-08-08T12:43:17Z",
                                             "time_et":  "2026-08-08T08:43:17-04:00",
-                                            "updated_utc":  "2026-08-08T13:56:45Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2.04,
-                                            "place":  "19 km SSE of San Pedro, CA",
+                                            "updated_utc":  "2026-08-09T17:07:38Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.25,
+                                            "place":  "20 km SSE of San Pedro, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.4",
-                                            "depth_km_raw":  0.42,
+                                            "depth_km":  "0.8",
+                                            "depth_km_raw":  0.82,
                                             "felt_reports":  1,
                                             "cdi":  1,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  64,
+                                            "significance":  78,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 19 km SSE of San Pedro, CA",
+                                            "title":  "M 2.3 - 20 km SSE of San Pedro, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668642",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668642\u0026format=geojson"
                                         }
@@ -5933,14 +5968,14 @@
                                             "id":  "us6000tj8z",
                                             "time_utc":  "2026-08-08T12:30:42Z",
                                             "time_et":  "2026-08-08T08:30:42-04:00",
-                                            "updated_utc":  "2026-08-09T14:15:54Z",
+                                            "updated_utc":  "2026-08-09T17:09:41Z",
                                             "magnitude":  "3.2",
                                             "magnitude_raw":  3.2,
                                             "place":  "16 km ESE of Magdalena, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "11.5",
                                             "depth_km_raw":  11.49,
-                                            "felt_reports":  1,
+                                            "felt_reports":  2,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
@@ -30048,14 +30083,14 @@
                                             "id":  "nc75410982",
                                             "time_utc":  "2026-08-04T04:12:38Z",
                                             "time_et":  "2026-08-04T00:12:38-04:00",
-                                            "updated_utc":  "2026-08-04T06:12:19Z",
+                                            "updated_utc":  "2026-08-09T17:04:38Z",
                                             "magnitude":  "2.7",
                                             "magnitude_raw":  2.65,
                                             "place":  "12 km SE of Middletown, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.5",
                                             "depth_km_raw":  5.45,
-                                            "felt_reports":  20,
+                                            "felt_reports":  21,
                                             "cdi":  3,
                                             "mmi":  null,
                                             "alert":  null,
@@ -39131,41 +39166,6 @@
                                             "title":  "M 1.1 - 7 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410197",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75410197\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714069491",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.414166666667,
-                                                              46.4855,
-                                                              9.22
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714069491",
-                                            "time_utc":  "2026-08-02T17:12:39Z",
-                                            "time_et":  "2026-08-02T13:12:39-04:00",
-                                            "updated_utc":  "2026-08-03T19:37:48Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.7,
-                                            "place":  "7 km SE of Mossyrock, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.2",
-                                            "depth_km_raw":  9.22,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 7 km SE of Mossyrock, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714069491",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714069491\u0026format=geojson"
                                         }
                      }
                  ]
