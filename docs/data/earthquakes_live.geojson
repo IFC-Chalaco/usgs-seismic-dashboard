@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-09T11:00:19Z",
+    "generated_at_utc":  "2026-08-09T11:01:19Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -141,6 +141,41 @@
                                             "title":  "M 0.6 - 6 km NNE of Lake Henshaw, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669274",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669274\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026poqpca",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.018,
+                                                              28.874,
+                                                              5.9624
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026poqpca",
+                                            "time_utc":  "2026-08-09T10:28:20Z",
+                                            "time_et":  "2026-08-09T06:28:20-04:00",
+                                            "updated_utc":  "2026-08-09T11:00:18Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "7 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  5.9624,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 7 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026poqpca",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026poqpca\u0026format=geojson"
                                         }
                      },
                      {
