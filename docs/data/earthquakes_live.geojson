@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-09T20:53:38Z",
+    "generated_at_utc":  "2026-08-09T21:17:52Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026pplvyn",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.124,
+                                                              31.619,
+                                                              4.8342
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026pplvyn",
+                                            "time_utc":  "2026-08-09T21:09:58Z",
+                                            "time_et":  "2026-08-09T17:09:58-04:00",
+                                            "updated_utc":  "2026-08-09T21:14:03Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.4,
+                                            "place":  "46 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.8",
+                                            "depth_km_raw":  4.8342,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 46 km NW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pplvyn",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pplvyn\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75414797",
@@ -3273,20 +3308,20 @@
                                             "id":  "ci40669138",
                                             "time_utc":  "2026-08-09T05:12:24Z",
                                             "time_et":  "2026-08-09T01:12:24-04:00",
-                                            "updated_utc":  "2026-08-09T17:45:00Z",
+                                            "updated_utc":  "2026-08-09T21:08:49Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.51,
                                             "place":  "13 km SSW of Lompoc, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.9",
                                             "depth_km_raw":  5.94,
-                                            "felt_reports":  31,
+                                            "felt_reports":  32,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  107,
+                                            "significance":  108,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.5 - 13 km SSW of Lompoc, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669138",
@@ -39026,41 +39061,6 @@
                                             "title":  "M 1.6 - 6 km WSW of Marshall, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026paul",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026paul\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75410282",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.811668395996,
-                                                              38.8021659851074,
-                                                              3.38
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75410282",
-                                            "time_utc":  "2026-08-02T21:00:42Z",
-                                            "time_et":  "2026-08-02T17:00:42-04:00",
-                                            "updated_utc":  "2026-08-02T21:02:17Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
-                                            "place":  "6 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.38,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410282",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75410282\u0026format=geojson"
                                         }
                      }
                  ]
