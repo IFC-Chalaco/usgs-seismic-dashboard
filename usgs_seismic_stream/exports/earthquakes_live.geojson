@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-09T00:07:50Z",
+    "generated_at_utc":  "2026-08-09T00:08:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40669050",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.505836486816,
+                                                              32.4355010986328,
+                                                              9.45
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40669050",
+                                            "time_utc":  "2026-08-09T00:06:03Z",
+                                            "time_et":  "2026-08-08T20:06:03-04:00",
+                                            "updated_utc":  "2026-08-09T00:08:08Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.65,
+                                            "place":  "18 km SSE of Progreso, B.C., MX",
+                                            "country":  "Mexico",
+                                            "depth_km":  "9.5",
+                                            "depth_km_raw":  9.45,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 18 km SSE of Progreso, B.C., MX",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669050",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669050\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75414312",
@@ -18,7 +53,7 @@
                                             "id":  "nc75414312",
                                             "time_utc":  "2026-08-08T23:58:47Z",
                                             "time_et":  "2026-08-08T19:58:47-04:00",
-                                            "updated_utc":  "2026-08-09T00:07:21Z",
+                                            "updated_utc":  "2026-08-09T00:07:23Z",
                                             "magnitude":  "2.8",
                                             "magnitude_raw":  2.77,
                                             "place":  "5 km NW of Pinnacles, CA",
