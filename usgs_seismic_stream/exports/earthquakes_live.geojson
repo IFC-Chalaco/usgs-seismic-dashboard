@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-10T20:03:49Z",
+    "generated_at_utc":  "2026-08-10T20:04:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -7705,6 +7705,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw714005223",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.9345,
+                                                              46.871,
+                                                              2.88
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714005223",
+                                            "time_utc":  "2026-08-09T07:19:09Z",
+                                            "time_et":  "2026-08-09T03:19:09-04:00",
+                                            "updated_utc":  "2026-08-10T20:03:52Z",
+                                            "magnitude":  "-0.3",
+                                            "magnitude_raw":  -0.34,
+                                            "place":  "14 km NNE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.88,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M -0.3 - 14 km NNE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714005223",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714005223\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40669218",
                          "geometry":  {
                                           "type":  "Point",
@@ -14106,6 +14141,41 @@
                                             "title":  "M 0.7 - 16 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147631",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147631\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90204558",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.583,
+                                                              46.1513333333333,
+                                                              5.25
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90204558",
+                                            "time_utc":  "2026-08-08T06:02:17Z",
+                                            "time_et":  "2026-08-08T02:02:17-04:00",
+                                            "updated_utc":  "2026-08-10T20:04:13Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.54,
+                                            "place":  "13 km NNW of Walkerville, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.25,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 13 km NNW of Walkerville, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204558",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204558\u0026format=geojson"
                                         }
                      },
                      {
