@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-10T22:56:39Z",
+    "generated_at_utc":  "2026-08-10T22:57:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026prlawf",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.4,
+                                                              31.022,
+                                                              14.2975
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026prlawf",
+                                            "time_utc":  "2026-08-10T22:54:23Z",
+                                            "time_et":  "2026-08-10T18:54:23-04:00",
+                                            "updated_utc":  "2026-08-10T22:56:30Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.7,
+                                            "place":  "33 km E of Balmorhea, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.3",
+                                            "depth_km_raw":  14.2975,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  44,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 33 km E of Balmorhea, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026prlawf",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026prlawf\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75415447",
@@ -28989,22 +29024,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -112.029166666667,
-                                                              44.1875,
-                                                              5.2
+                                                              -112.0175,
+                                                              44.176,
+                                                              5.19
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "mb90204338",
                                             "time_utc":  "2026-08-06T02:39:47Z",
                                             "time_et":  "2026-08-05T22:39:47-04:00",
-                                            "updated_utc":  "2026-08-10T15:50:26Z",
+                                            "updated_utc":  "2026-08-10T22:56:25Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.23,
-                                            "place":  "16 km E of Dubois, Idaho",
+                                            "place":  "17 km E of Dubois, Idaho",
                                             "country":  "United States of America",
                                             "depth_km":  "5.2",
-                                            "depth_km_raw":  5.2,
+                                            "depth_km_raw":  5.19,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -29013,7 +29048,7 @@
                                             "tsunami":  0,
                                             "significance":  23,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 16 km E of Dubois, Idaho",
+                                            "title":  "M 1.2 - 17 km E of Dubois, Idaho",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204338",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204338\u0026format=geojson"
                                         }
