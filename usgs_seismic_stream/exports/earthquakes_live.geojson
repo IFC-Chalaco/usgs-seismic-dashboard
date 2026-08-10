@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-10T22:58:37Z",
+    "generated_at_utc":  "2026-08-10T22:59:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -666,6 +666,41 @@
                                             "title":  "M 1.2 - 13 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415307",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415307\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026prdgvx",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.993,
+                                                              28.842,
+                                                              7.5408
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026prdgvx",
+                                            "time_utc":  "2026-08-10T18:59:56Z",
+                                            "time_et":  "2026-08-10T14:59:56-04:00",
+                                            "updated_utc":  "2026-08-10T22:58:49Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "11 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.5",
+                                            "depth_km_raw":  7.5408,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 11 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026prdgvx",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026prdgvx\u0026format=geojson"
                                         }
                      },
                      {
