@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-11T06:39:14Z",
+    "generated_at_utc":  "2026-08-11T07:39:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40670330",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.023330688477,
+                                                              33.1974983215332,
+                                                              5.66
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40670330",
+                                            "time_utc":  "2026-08-11T07:35:48Z",
+                                            "time_et":  "2026-08-11T03:35:48-04:00",
+                                            "updated_utc":  "2026-08-11T07:37:53Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.18,
+                                            "place":  "12 km ENE of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.66,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 12 km ENE of Ocotillo Wells, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670330",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670330\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40670322",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.748166666667,
+                                                              33.9683333333333,
+                                                              17.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40670322",
+                                            "time_utc":  "2026-08-11T06:58:41Z",
+                                            "time_et":  "2026-08-11T02:58:41-04:00",
+                                            "updated_utc":  "2026-08-11T07:02:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.89,
+                                            "place":  "7 km NNE of Cabazon, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "17.2",
+                                            "depth_km_raw":  17.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 7 km NNE of Cabazon, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670322",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670322\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40670314",
@@ -219,22 +289,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.822,
-                                                              32.011,
-                                                              4.8264
+                                                              -103.814,
+                                                              32.008,
+                                                              8.6313
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026prydfh",
-                                            "time_utc":  "2026-08-11T05:29:22Z",
-                                            "time_et":  "2026-08-11T01:29:22-04:00",
-                                            "updated_utc":  "2026-08-11T06:00:21Z",
+                                            "time_utc":  "2026-08-11T05:29:21Z",
+                                            "time_et":  "2026-08-11T01:29:21-04:00",
+                                            "updated_utc":  "2026-08-11T07:11:10Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
-                                            "place":  "33 km SE of Malaga, New Mexico",
+                                            "place":  "34 km SE of Malaga, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.8",
-                                            "depth_km_raw":  4.8264,
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.6313,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -243,7 +313,7 @@
                                             "tsunami":  0,
                                             "significance":  39,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 33 km SE of Malaga, New Mexico",
+                                            "title":  "M 1.6 - 34 km SE of Malaga, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026prydfh",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026prydfh\u0026format=geojson"
                                         }
@@ -40426,111 +40496,6 @@
                                             "title":  "M 1.5 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411047",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411047\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75411042",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.949165344238,
-                                                              38.7731666564941,
-                                                              5.36
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75411042",
-                                            "time_utc":  "2026-08-04T07:25:40Z",
-                                            "time_et":  "2026-08-04T03:25:40-04:00",
-                                            "updated_utc":  "2026-08-04T08:17:25Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.31,
-                                            "place":  "7 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.4",
-                                            "depth_km_raw":  5.36,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 7 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411042",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411042\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75411037",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.946830749512,
-                                                              38.771167755127,
-                                                              3.3
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75411037",
-                                            "time_utc":  "2026-08-04T07:05:22Z",
-                                            "time_et":  "2026-08-04T03:05:22-04:00",
-                                            "updated_utc":  "2026-08-04T07:06:58Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.04,
-                                            "place":  "7 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.3,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  17,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 7 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411037",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411037\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714070981",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.149333333333,
-                                                              46.2023333333333,
-                                                              6.8
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714070981",
-                                            "time_utc":  "2026-08-04T06:47:28Z",
-                                            "time_et":  "2026-08-04T02:47:28-04:00",
-                                            "updated_utc":  "2026-08-04T17:09:47Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.06,
-                                            "place":  "39 km NE of Amboy, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.8,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.1 - 39 km NE of Amboy, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714070981",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714070981\u0026format=geojson"
                                         }
                      }
                  ]
