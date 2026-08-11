@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-11T22:37:18Z",
+    "generated_at_utc":  "2026-08-11T22:57:19Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75416342",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.82266998291,
+                                                              38.8084983825684,
+                                                              3.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75416342",
+                                            "time_utc":  "2026-08-11T22:53:38Z",
+                                            "time_et":  "2026-08-11T18:53:38-04:00",
+                                            "updated_utc":  "2026-08-11T22:55:15Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.28,
+                                            "place":  "7 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.8",
+                                            "depth_km_raw":  3.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 7 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416342",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75416342\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75416337",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.806167602539,
+                                                              38.8181648254395,
+                                                              3.25
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75416337",
+                                            "time_utc":  "2026-08-11T22:49:19Z",
+                                            "time_et":  "2026-08-11T18:49:19-04:00",
+                                            "updated_utc":  "2026-08-11T22:50:55Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.94,
+                                            "place":  "6 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.3",
+                                            "depth_km_raw":  3.25,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416337",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75416337\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75416327",
@@ -141,6 +211,41 @@
                                             "title":  "M 2.2 - 6 km ESE of La Parguera, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528128",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528128\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80148296",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.882833333333,
+                                                              38.5073333333333,
+                                                              1.91
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80148296",
+                                            "time_utc":  "2026-08-11T22:15:50Z",
+                                            "time_et":  "2026-08-11T18:15:50-04:00",
+                                            "updated_utc":  "2026-08-11T22:39:21Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.26,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.91,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148296",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80148296\u0026format=geojson"
                                         }
                      },
                      {
@@ -6344,31 +6449,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -120.804832458496,
-                                                              47.1404991149902,
-                                                              -0.75
+                                                              -120.804166666667,
+                                                              47.1448333333333,
+                                                              -0.97
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714074742",
                                             "time_utc":  "2026-08-10T19:26:26Z",
                                             "time_et":  "2026-08-10T15:26:26-04:00",
-                                            "updated_utc":  "2026-08-11T16:48:41Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
+                                            "updated_utc":  "2026-08-11T22:56:11Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.61,
                                             "place":  "11 km ESE of Cle Elum, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.8",
-                                            "depth_km_raw":  -0.75,
+                                            "depth_km":  "-1.0",
+                                            "depth_km_raw":  -0.97,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  44,
+                                            "significance":  40,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 11 km ESE of Cle Elum, Washington",
+                                            "title":  "M 1.6 - 11 km ESE of Cle Elum, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714074742",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714074742\u0026format=geojson"
                                         }
@@ -6441,6 +6546,41 @@
                                             "title":  "M 1.2 - 13 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415307",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415307\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714074692",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.405666666667,
+                                                              45.9025,
+                                                              17.22
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714074692",
+                                            "time_utc":  "2026-08-10T19:02:32Z",
+                                            "time_et":  "2026-08-10T15:02:32-04:00",
+                                            "updated_utc":  "2026-08-11T22:51:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.77,
+                                            "place":  "3 km ESE of Amboy, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "17.2",
+                                            "depth_km_raw":  17.22,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  9,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 3 km ESE of Amboy, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714074692",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714074692\u0026format=geojson"
                                         }
                      },
                      {
@@ -6616,6 +6756,41 @@
                                             "title":  "M 0.4 - 11 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415277",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415277\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714074672",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.933666666667,
+                                                              48.0901666666667,
+                                                              -0.41
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714074672",
+                                            "time_utc":  "2026-08-10T18:30:20Z",
+                                            "time_et":  "2026-08-10T14:30:20-04:00",
+                                            "updated_utc":  "2026-08-11T22:48:17Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.41,
+                                            "place":  "2 km ENE of Granite Falls, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.4",
+                                            "depth_km_raw":  -0.41,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  31,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.4 Explosion - 2 km ENE of Granite Falls, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714074672",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714074672\u0026format=geojson"
                                         }
                      },
                      {
@@ -42596,146 +42771,6 @@
                                             "title":  "M 2.1 - 7 km SSE of Maria Antonia, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71527568",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71527568\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75411452",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.934669494629,
-                                                              38.776668548584,
-                                                              4.58
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75411452",
-                                            "time_utc":  "2026-08-04T22:47:42Z",
-                                            "time_et":  "2026-08-04T18:47:42-04:00",
-                                            "updated_utc":  "2026-08-04T23:47:26Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.47,
-                                            "place":  "8 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.58,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  33,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 8 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411452",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411452\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75411447",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.496,
-                                                              36.4041666666667,
-                                                              12.94
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75411447",
-                                            "time_utc":  "2026-08-04T22:43:58Z",
-                                            "time_et":  "2026-08-04T18:43:58-04:00",
-                                            "updated_utc":  "2026-08-05T06:33:52Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.78,
-                                            "place":  "16 km E of New Idria, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.9",
-                                            "depth_km_raw":  12.94,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  49,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 16 km E of New Idria, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411447",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411447\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75411442",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.935165405273,
-                                                              38.7756652832031,
-                                                              5.02
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75411442",
-                                            "time_utc":  "2026-08-04T22:41:03Z",
-                                            "time_et":  "2026-08-04T18:41:03-04:00",
-                                            "updated_utc":  "2026-08-04T23:07:20Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "8 km ESE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.0",
-                                            "depth_km_raw":  5.02,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 8 km ESE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411442",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75411442\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026penz",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -96.654,
-                                                              35.79866667,
-                                                              7.59
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026penz",
-                                            "time_utc":  "2026-08-04T22:38:53Z",
-                                            "time_et":  "2026-08-04T18:38:53-04:00",
-                                            "updated_utc":  "2026-08-05T17:24:36Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.11,
-                                            "place":  "5 km N of Stroud, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.59,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 5 km N of Stroud, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026penz",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026penz\u0026format=geojson"
                                         }
                      }
                  ]
