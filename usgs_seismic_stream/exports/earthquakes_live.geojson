@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-12T17:36:25Z",
+    "generated_at_utc":  "2026-08-12T17:37:23Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40671330",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.98983001709,
+                                                              33.988166809082,
+                                                              6.61
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40671330",
+                                            "time_utc":  "2026-08-12T17:34:08Z",
+                                            "time_et":  "2026-08-12T13:34:08-04:00",
+                                            "updated_utc":  "2026-08-12T17:36:13Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.13,
+                                            "place":  "6 km E of Calimesa, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.6",
+                                            "depth_km_raw":  6.61,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 6 km E of Calimesa, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671330",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671330\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75416937",
@@ -141,6 +176,41 @@
                                             "title":  "M 1.6 - 36 km E of Balmorhea, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026puqlat",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026puqlat\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80148421",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.8845,
+                                                              38.5086666666667,
+                                                              2.31
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80148421",
+                                            "time_utc":  "2026-08-12T16:50:04Z",
+                                            "time_et":  "2026-08-12T12:50:04-04:00",
+                                            "updated_utc":  "2026-08-12T17:36:54Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.86,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.31,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  53,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148421",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80148421\u0026format=geojson"
                                         }
                      },
                      {
