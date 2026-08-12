@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-11T23:37:52Z",
+    "generated_at_utc":  "2026-08-12T00:01:47Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528133",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.953833333333293,
+                                                              17.936,
+                                                              12.59
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528133",
+                                            "time_utc":  "2026-08-11T23:40:12Z",
+                                            "time_et":  "2026-08-11T19:40:12-04:00",
+                                            "updated_utc":  "2026-08-11T23:52:27Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.91,
+                                            "place":  "6 km SW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.6",
+                                            "depth_km_raw":  12.59,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 6 km SW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528133",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528133\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ok2026prkj",
@@ -18,7 +53,7 @@
                                             "id":  "ok2026prkj",
                                             "time_utc":  "2026-08-11T23:34:53Z",
                                             "time_et":  "2026-08-11T19:34:53-04:00",
-                                            "updated_utc":  "2026-08-11T23:36:34Z",
+                                            "updated_utc":  "2026-08-11T23:36:58Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.86,
                                             "place":  "5 km SSE of Stuart, Oklahoma",
@@ -42771,76 +42806,6 @@
                                             "title":  "M 1.1 - 0 km NE of Tukwila, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714071691",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714071691\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pgmnlq",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.285,
-                                                              31.658,
-                                                              7.9456
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pgmnlq",
-                                            "time_utc":  "2026-08-04T23:52:09Z",
-                                            "time_et":  "2026-08-04T19:52:09-04:00",
-                                            "updated_utc":  "2026-08-05T11:27:06Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "58 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.9",
-                                            "depth_km_raw":  7.9456,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 58 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pgmnlq",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pgmnlq\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714071671",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.837333333333,
-                                                              47.7838333333333,
-                                                              18.65
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714071671",
-                                            "time_utc":  "2026-08-04T23:38:31Z",
-                                            "time_et":  "2026-08-04T19:38:31-04:00",
-                                            "updated_utc":  "2026-08-05T17:02:32Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.3,
-                                            "place":  "5 km SE of Quilcene, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "18.7",
-                                            "depth_km_raw":  18.65,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 5 km SE of Quilcene, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714071671",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714071671\u0026format=geojson"
                                         }
                      }
                  ]
