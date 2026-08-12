@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-12T23:25:18Z",
+    "generated_at_utc":  "2026-08-12T23:26:16Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -53,7 +53,7 @@
                                             "id":  "ci40671506",
                                             "time_utc":  "2026-08-12T22:30:25Z",
                                             "time_et":  "2026-08-12T18:30:25-04:00",
-                                            "updated_utc":  "2026-08-12T22:41:32Z",
+                                            "updated_utc":  "2026-08-12T23:25:18Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.89,
                                             "place":  "18 km WSW of Johannesburg, CA",
@@ -88,7 +88,7 @@
                                             "id":  "tx2026pvbofx",
                                             "time_utc":  "2026-08-12T22:26:19Z",
                                             "time_et":  "2026-08-12T18:26:19-04:00",
-                                            "updated_utc":  "2026-08-12T23:24:43Z",
+                                            "updated_utc":  "2026-08-12T23:25:11Z",
                                             "magnitude":  "2.0",
                                             "magnitude_raw":  2,
                                             "place":  "39 km WSW of Ackerly, Texas",
@@ -320,35 +320,70 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci40671474",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.632333333333,
+                                                              34.3736666666667,
+                                                              4.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40671474",
+                                            "time_utc":  "2026-08-12T20:59:28Z",
+                                            "time_et":  "2026-08-12T16:59:28-04:00",
+                                            "updated_utc":  "2026-08-12T23:25:06Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.16,
+                                            "place":  "11 km SSW of Valencia, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.2",
+                                            "depth_km_raw":  4.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 11 km SSW of Valencia, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671474",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671474\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40671466",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.628829956055,
-                                                              34.3883323669434,
-                                                              4.3
+                                                              -118.631333333333,
+                                                              34.3848333333333,
+                                                              4.5
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40671466",
                                             "time_utc":  "2026-08-12T20:56:29Z",
                                             "time_et":  "2026-08-12T16:56:29-04:00",
-                                            "updated_utc":  "2026-08-12T23:24:42Z",
-                                            "magnitude":  "2.7",
-                                            "magnitude_raw":  2.69,
-                                            "place":  "9 km SW of Valencia, CA",
+                                            "updated_utc":  "2026-08-12T23:24:59Z",
+                                            "magnitude":  "2.6",
+                                            "magnitude_raw":  2.59,
+                                            "place":  "10 km SW of Valencia, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.3",
-                                            "depth_km_raw":  4.3,
+                                            "depth_km":  "4.5",
+                                            "depth_km_raw":  4.5,
                                             "felt_reports":  96,
                                             "cdi":  3.8,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  148,
+                                            "significance":  140,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.7 - 9 km SW of Valencia, CA",
+                                            "title":  "M 2.6 - 10 km SW of Valencia, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671466",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671466\u0026format=geojson"
                                         }
