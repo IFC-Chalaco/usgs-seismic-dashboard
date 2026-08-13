@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-13T18:37:24Z",
+    "generated_at_utc":  "2026-08-13T18:38:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75417647",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.144668579102,
+                                                              37.7518348693848,
+                                                              5.02
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75417647",
+                                            "time_utc":  "2026-08-13T18:34:26Z",
+                                            "time_et":  "2026-08-13T14:34:26-04:00",
+                                            "updated_utc":  "2026-08-13T18:37:43Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.21,
+                                            "place":  "3 km NNE of San Leandro, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5.02,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  75,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 3 km NNE of San Leandro, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417647",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417647\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40672010",
@@ -36,6 +71,76 @@
                                             "title":  "M 1.1 - 9 km WSW of Bombay Beach, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672010",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672010\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714078391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.9865,
+                                                              48.6533333333333,
+                                                              17.32
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714078391",
+                                            "time_utc":  "2026-08-13T18:10:55Z",
+                                            "time_et":  "2026-08-13T14:10:55-04:00",
+                                            "updated_utc":  "2026-08-13T18:37:27Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.11,
+                                            "place":  "6 km NNW of Orcas, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "17.3",
+                                            "depth_km_raw":  17.32,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 6 km NNW of Orcas, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714078391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714078391\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714078381",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.680166666667,
+                                                              42.0293333333333,
+                                                              -1.57
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714078381",
+                                            "time_utc":  "2026-08-13T18:03:14Z",
+                                            "time_et":  "2026-08-13T14:03:14-04:00",
+                                            "updated_utc":  "2026-08-13T18:37:56Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.03,
+                                            "place":  "6 km W of Merrill, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.6",
+                                            "depth_km_raw":  -1.57,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "explosion",
+                                            "title":  "M 2.0 Explosion - 6 km W of Merrill, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714078381",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714078381\u0026format=geojson"
                                         }
                      },
                      {
@@ -45816,41 +45921,6 @@
                                             "title":  "M 1.0 Quarry Blast - 13 km W of Mojave, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667338",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40667338\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40667330",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.219666666667,
-                                                              32.4,
-                                                              9.49
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40667330",
-                                            "time_utc":  "2026-08-06T18:37:24Z",
-                                            "time_et":  "2026-08-06T14:37:24-04:00",
-                                            "updated_utc":  "2026-08-06T19:29:27Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.17,
-                                            "place":  "6 km NNW of Delta, B.C., MX",
-                                            "country":  "Mexico",
-                                            "depth_km":  "9.5",
-                                            "depth_km_raw":  9.49,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  72,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 6 km NNW of Delta, B.C., MX",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667330",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40667330\u0026format=geojson"
                                         }
                      }
                  ]
