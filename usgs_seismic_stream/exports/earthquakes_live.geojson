@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-13T19:22:16Z",
+    "generated_at_utc":  "2026-08-13T19:39:19Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci40672066",
+                         "id":  "nc75417682",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.665,
-                                                              35.8713333333333,
-                                                              12.23
+                                                              -122.793663024902,
+                                                              38.8196678161621,
+                                                              2.92
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci40672066",
-                                            "time_utc":  "2026-08-13T19:04:10Z",
-                                            "time_et":  "2026-08-13T15:04:10-04:00",
-                                            "updated_utc":  "2026-08-13T19:07:33Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.85,
-                                            "place":  "23 km ESE of Little Lake, CA",
+                                            "id":  "nc75417682",
+                                            "time_utc":  "2026-08-13T19:36:45Z",
+                                            "time_et":  "2026-08-13T15:36:45-04:00",
+                                            "updated_utc":  "2026-08-13T19:38:24Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "6 km NW of The Geysers, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "12.2",
-                                            "depth_km_raw":  12.23,
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.92,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  11,
+                                            "significance":  18,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 23 km ESE of Little Lake, CA",
+                                            "title":  "M 1.1 - 6 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417682",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417682\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40672066",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.665666666667,
+                                                              35.8768333333333,
+                                                              11.24
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40672066",
+                                            "time_utc":  "2026-08-13T19:04:10Z",
+                                            "time_et":  "2026-08-13T15:04:10-04:00",
+                                            "updated_utc":  "2026-08-13T19:35:32Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.82,
+                                            "place":  "23 km ESE of Little Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.2",
+                                            "depth_km_raw":  11.24,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 23 km ESE of Little Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672066",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672066\u0026format=geojson"
                                         }
@@ -320,66 +355,31 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "tx2026pwongg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.543,
-                                                              30.832,
-                                                              0.9069
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pwongg",
-                                            "time_utc":  "2026-08-13T18:01:41Z",
-                                            "time_et":  "2026-08-13T14:01:41-04:00",
-                                            "updated_utc":  "2026-08-13T19:00:15Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "25 km SE of Balmorhea, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "0.9",
-                                            "depth_km_raw":  0.9069,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 25 km SE of Balmorhea, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pwongg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pwongg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "ci40672002",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.94,
-                                                              33.6615,
-                                                              11.57
+                                                              -116.9405,
+                                                              33.6651666666667,
+                                                              12.02
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40672002",
                                             "time_utc":  "2026-08-13T17:49:27Z",
                                             "time_et":  "2026-08-13T13:49:27-04:00",
-                                            "updated_utc":  "2026-08-13T17:52:59Z",
+                                            "updated_utc":  "2026-08-13T19:24:58Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.62,
                                             "place":  "10 km SSE of Hemet, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "11.6",
-                                            "depth_km_raw":  11.57,
+                                            "depth_km":  "12.0",
+                                            "depth_km_raw":  12.02,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  6,
                                             "event_type":  "earthquake",
@@ -788,20 +788,20 @@
                                             "id":  "nc75417582",
                                             "time_utc":  "2026-08-13T16:07:22Z",
                                             "time_et":  "2026-08-13T12:07:22-04:00",
-                                            "updated_utc":  "2026-08-13T18:41:41Z",
+                                            "updated_utc":  "2026-08-13T19:31:16Z",
                                             "magnitude":  "2.8",
                                             "magnitude_raw":  2.82,
                                             "place":  "3 km N of San Leandro, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.3",
                                             "depth_km_raw":  6.3,
-                                            "felt_reports":  35,
+                                            "felt_reports":  36,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  134,
+                                            "significance":  135,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.8 - 3 km N of San Leandro, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417582",
@@ -849,31 +849,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.151168823242,
-                                                              37.7591667175293,
-                                                              5.15
+                                                              -122.150166666667,
+                                                              37.7551666666667,
+                                                              5.55
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nc75417557",
                                             "time_utc":  "2026-08-13T15:30:04Z",
                                             "time_et":  "2026-08-13T11:30:04-04:00",
-                                            "updated_utc":  "2026-08-13T19:17:20Z",
+                                            "updated_utc":  "2026-08-13T19:34:51Z",
                                             "magnitude":  "3.8",
                                             "magnitude_raw":  3.84,
-                                            "place":  "4 km N of San Leandro, CA",
+                                            "place":  "3 km N of San Leandro, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.2",
-                                            "depth_km_raw":  5.15,
-                                            "felt_reports":  7515,
+                                            "depth_km":  "5.6",
+                                            "depth_km_raw":  5.55,
+                                            "felt_reports":  7549,
                                             "cdi":  3.8,
-                                            "mmi":  4.272,
+                                            "mmi":  4.227,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  607,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.8 - 4 km N of San Leandro, CA",
+                                            "title":  "M 3.8 - 3 km N of San Leandro, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417557",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417557\u0026format=geojson"
                                         }
@@ -3404,31 +3404,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.652333333333,
-                                                              34.366,
-                                                              8.29
+                                                              -117.6525,
+                                                              34.3661666666667,
+                                                              9.04
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40671626",
                                             "time_utc":  "2026-08-13T05:43:32Z",
                                             "time_et":  "2026-08-13T01:43:32-04:00",
-                                            "updated_utc":  "2026-08-13T05:47:00Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.07,
+                                            "updated_utc":  "2026-08-13T19:30:30Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
                                             "place":  "2 km WNW of Wrightwood, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.29,
+                                            "depth_km":  "9.0",
+                                            "depth_km_raw":  9.04,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  17,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 2 km WNW of Wrightwood, CA",
+                                            "title":  "M 1.0 - 2 km WNW of Wrightwood, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671626",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671626\u0026format=geojson"
                                         }
@@ -37468,14 +37468,14 @@
                                             "id":  "uu80147521",
                                             "time_utc":  "2026-08-07T23:55:23Z",
                                             "time_et":  "2026-08-07T19:55:23-04:00",
-                                            "updated_utc":  "2026-08-12T05:53:25Z",
+                                            "updated_utc":  "2026-08-13T19:36:19Z",
                                             "magnitude":  "2.9",
                                             "magnitude_raw":  2.86,
                                             "place":  "6 km NNW of Saratoga Springs, Utah",
                                             "country":  "United States of America",
                                             "depth_km":  "6.7",
                                             "depth_km_raw":  6.66,
-                                            "felt_reports":  550,
+                                            "felt_reports":  551,
                                             "cdi":  4.2,
                                             "mmi":  null,
                                             "alert":  null,
@@ -45956,111 +45956,6 @@
                                             "title":  "M 1.8 - 5 km SE of Bishop, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75412782",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75412782\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pjvppg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.622,
-                                                              32.094,
-                                                              8.5693
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pjvppg",
-                                            "time_utc":  "2026-08-06T19:37:20Z",
-                                            "time_et":  "2026-08-06T15:37:20-04:00",
-                                            "updated_utc":  "2026-08-06T22:00:27Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "16 km ESE of Stanton, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.6",
-                                            "depth_km_raw":  8.5693,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 16 km ESE of Stanton, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pjvppg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pjvppg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714073241",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -124.309166666667,
-                                                              42.2706666666667,
-                                                              7.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714073241",
-                                            "time_utc":  "2026-08-06T19:31:50Z",
-                                            "time_et":  "2026-08-06T15:31:50-04:00",
-                                            "updated_utc":  "2026-08-06T21:32:48Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.79,
-                                            "place":  "7 km E of Pistol River, Oregon",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.1",
-                                            "depth_km_raw":  7.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  49,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 7 km E of Pistol River, Oregon",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714073241",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714073241\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40667378",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.3175,
-                                                              34.0318333333333,
-                                                              7.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40667378",
-                                            "time_utc":  "2026-08-06T19:22:59Z",
-                                            "time_et":  "2026-08-06T15:22:59-04:00",
-                                            "updated_utc":  "2026-08-06T19:36:51Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.83,
-                                            "place":  "11 km S of Joshua Tree, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.3",
-                                            "depth_km_raw":  7.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  11,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 11 km S of Joshua Tree, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667378",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40667378\u0026format=geojson"
                                         }
                      }
                  ]
