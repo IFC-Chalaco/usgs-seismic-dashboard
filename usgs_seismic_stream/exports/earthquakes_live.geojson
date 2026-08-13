@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-13T14:01:18Z",
+    "generated_at_utc":  "2026-08-13T14:02:17Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1821,6 +1821,41 @@
                                             "title":  "M 0.8 - 6 km SE of Loma Linda, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671602",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671602\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80148516",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.888833333333,
+                                                              38.5126666666667,
+                                                              1.87
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80148516",
+                                            "time_utc":  "2026-08-13T03:44:34Z",
+                                            "time_et":  "2026-08-12T23:44:34-04:00",
+                                            "updated_utc":  "2026-08-13T14:01:17Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.36,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.87,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  28,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148516",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80148516\u0026format=geojson"
                                         }
                      },
                      {
