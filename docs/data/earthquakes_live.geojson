@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-14T18:31:15Z",
+    "generated_at_utc":  "2026-08-14T18:35:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -561,6 +561,41 @@
                                             "title":  "M 0.9 - 5 km WSW of Idyllwild, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672594",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672594\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714079161",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.618,
+                                                              47.5298333333333,
+                                                              -0.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714079161",
+                                            "time_utc":  "2026-08-14T16:00:43Z",
+                                            "time_et":  "2026-08-14T12:00:43-04:00",
+                                            "updated_utc":  "2026-08-14T18:34:19Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.16,
+                                            "place":  "3 km SSW of Four Lakes, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.7",
+                                            "depth_km_raw":  -0.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.2 Explosion - 3 km SSW of Four Lakes, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714079161",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714079161\u0026format=geojson"
                                         }
                      },
                      {
@@ -45046,41 +45081,6 @@
                                             "title":  "M 1.2 Quarry Blast - 3 km NW of Green Acres, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668194",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668194\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75413567",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.187835693359,
-                                                              36.5740013122559,
-                                                              3.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75413567",
-                                            "time_utc":  "2026-08-07T18:34:44Z",
-                                            "time_et":  "2026-08-07T14:34:44-04:00",
-                                            "updated_utc":  "2026-08-07T18:38:37Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.92,
-                                            "place":  "6 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.7",
-                                            "depth_km_raw":  3.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  57,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 6 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413567",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75413567\u0026format=geojson"
                                         }
                      }
                  ]
