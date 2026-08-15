@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-15T23:01:59Z",
+    "generated_at_utc":  "2026-08-15T23:02:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75419062",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.781669616699,
+                                                              38.8343315124512,
+                                                              1.89
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75419062",
+                                            "time_utc":  "2026-08-15T23:00:02Z",
+                                            "time_et":  "2026-08-15T19:00:02-04:00",
+                                            "updated_utc":  "2026-08-15T23:02:03Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.18,
+                                            "place":  "5 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.9",
+                                            "depth_km_raw":  1.89,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 5 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419062",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419062\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026qapdby",
@@ -42666,41 +42701,6 @@
                                             "title":  "M 1.4 - 1 km NW of San Jacinto, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669026",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669026\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40669018",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.012833333333,
-                                                              35.7378333333333,
-                                                              10.52
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40669018",
-                                            "time_utc":  "2026-08-08T23:01:39Z",
-                                            "time_et":  "2026-08-08T19:01:39-04:00",
-                                            "updated_utc":  "2026-08-09T13:59:02Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.57,
-                                            "place":  "21 km WNW of Inyokern, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.5",
-                                            "depth_km_raw":  10.52,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  5,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 21 km WNW of Inyokern, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669018",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669018\u0026format=geojson"
                                         }
                      }
                  ]
