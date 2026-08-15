@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-14T23:46:06Z",
+    "generated_at_utc":  "2026-08-15T00:00:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026pyvmcu",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.117,
+                                                              31.574,
+                                                              2.5198
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026pyvmcu",
+                                            "time_utc":  "2026-08-14T23:40:44Z",
+                                            "time_et":  "2026-08-14T19:40:44-04:00",
+                                            "updated_utc":  "2026-08-14T23:46:43Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "42 km NW of Toyah, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.5198,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 42 km NW of Toyah, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pyvmcu",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pyvmcu\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75418427",
@@ -4769,29 +4804,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.028333333333,
-                                                              33.178,
-                                                              6.06
+                                                              -116.031,
+                                                              33.1783333333333,
+                                                              5.84
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40672322",
                                             "time_utc":  "2026-08-14T07:28:56Z",
                                             "time_et":  "2026-08-14T03:28:56-04:00",
-                                            "updated_utc":  "2026-08-14T07:32:25Z",
+                                            "updated_utc":  "2026-08-14T23:51:08Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
+                                            "magnitude_raw":  0.96,
                                             "place":  "10 km ENE of Ocotillo Wells, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.06,
+                                            "depth_km":  "5.8",
+                                            "depth_km_raw":  5.84,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  15,
+                                            "significance":  14,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.0 - 10 km ENE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672322",
@@ -6388,15 +6423,15 @@
                                             "id":  "tx2026pwzswu",
                                             "time_utc":  "2026-08-13T23:40:03Z",
                                             "time_et":  "2026-08-13T19:40:03-04:00",
-                                            "updated_utc":  "2026-08-14T07:12:41Z",
+                                            "updated_utc":  "2026-08-14T23:50:43Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.5,
                                             "place":  "13 km SE of Pearsall, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "7.4",
                                             "depth_km_raw":  7.4418,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
+                                            "felt_reports":  1,
+                                            "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
@@ -45326,76 +45361,6 @@
                                             "title":  "M 1.5 - 17 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147526",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147526\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80147521",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.930833333333,
-                                                              40.4033333333333,
-                                                              6.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80147521",
-                                            "time_utc":  "2026-08-07T23:55:23Z",
-                                            "time_et":  "2026-08-07T19:55:23-04:00",
-                                            "updated_utc":  "2026-08-13T19:36:19Z",
-                                            "magnitude":  "2.9",
-                                            "magnitude_raw":  2.86,
-                                            "place":  "6 km NNW of Saratoga Springs, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.7",
-                                            "depth_km_raw":  6.66,
-                                            "felt_reports":  551,
-                                            "cdi":  4.2,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  357,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.9 - 6 km NNW of Saratoga Springs, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147521",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147521\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80147516",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.881833333333,
-                                                              38.5145,
-                                                              2.6
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80147516",
-                                            "time_utc":  "2026-08-07T23:54:41Z",
-                                            "time_et":  "2026-08-07T19:54:41-04:00",
-                                            "updated_utc":  "2026-08-08T11:19:56Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.34,
-                                            "place":  "17 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.6,
-                                            "felt_reports":  18,
-                                            "cdi":  2.5,
-                                            "mmi":  3.87,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  32,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 17 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147516",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147516\u0026format=geojson"
                                         }
                      }
                  ]
