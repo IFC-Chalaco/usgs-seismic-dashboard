@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-15T07:47:25Z",
+    "generated_at_utc":  "2026-08-15T08:01:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75418667",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.932662963867,
+                                                              38.7789993286133,
+                                                              4.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75418667",
+                                            "time_utc":  "2026-08-15T07:49:55Z",
+                                            "time_et":  "2026-08-15T03:49:55-04:00",
+                                            "updated_utc":  "2026-08-15T07:51:33Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.13,
+                                            "place":  "8 km ESE of Cloverdale, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.3",
+                                            "depth_km_raw":  4.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 8 km ESE of Cloverdale, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418667",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418667\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673042",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.9425,
+                                                              33.6618333333333,
+                                                              11.82
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673042",
+                                            "time_utc":  "2026-08-15T07:48:47Z",
+                                            "time_et":  "2026-08-15T03:48:47-04:00",
+                                            "updated_utc":  "2026-08-15T07:52:16Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.32,
+                                            "place":  "10 km SSE of Hemet, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.8",
+                                            "depth_km_raw":  11.82,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  2,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 10 km SSE of Hemet, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673042",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673042\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75418662",
@@ -88,7 +158,7 @@
                                             "id":  "nc75418652",
                                             "time_utc":  "2026-08-15T07:29:29Z",
                                             "time_et":  "2026-08-15T03:29:29-04:00",
-                                            "updated_utc":  "2026-08-15T07:31:08Z",
+                                            "updated_utc":  "2026-08-15T07:52:22Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.12,
                                             "place":  "3 km NW of The Geysers, CA",
@@ -438,7 +508,7 @@
                                             "id":  "nc75418617",
                                             "time_utc":  "2026-08-15T05:19:55Z",
                                             "time_et":  "2026-08-15T01:19:55-04:00",
-                                            "updated_utc":  "2026-08-15T06:27:21Z",
+                                            "updated_utc":  "2026-08-15T07:52:21Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.66,
                                             "place":  "5 km NW of Pinnacles, CA",
@@ -9433,14 +9503,14 @@
                                             "id":  "nc75417557",
                                             "time_utc":  "2026-08-13T15:30:04Z",
                                             "time_et":  "2026-08-13T11:30:04-04:00",
-                                            "updated_utc":  "2026-08-15T05:31:52Z",
+                                            "updated_utc":  "2026-08-15T07:52:46Z",
                                             "magnitude":  "3.8",
                                             "magnitude_raw":  3.84,
                                             "place":  "3 km N of San Leandro, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "5.6",
                                             "depth_km_raw":  5.55,
-                                            "felt_reports":  7863,
+                                            "felt_reports":  7864,
                                             "cdi":  3.8,
                                             "mmi":  4.225,
                                             "alert":  "green",
@@ -44626,146 +44696,6 @@
                                             "title":  "M 1.1 - 16 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147646",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147646\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90204568",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -110.217666666667,
-                                                              45.3115,
-                                                              2.89
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90204568",
-                                            "time_utc":  "2026-08-08T07:58:36Z",
-                                            "time_et":  "2026-08-08T03:58:36-04:00",
-                                            "updated_utc":  "2026-08-10T20:09:14Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.38,
-                                            "place":  "37 km ESE of Pray, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.9",
-                                            "depth_km_raw":  2.89,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 37 km ESE of Pray, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204568",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204568\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75413927",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.81600189209,
-                                                              38.8279991149902,
-                                                              2.17
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75413927",
-                                            "time_utc":  "2026-08-08T07:55:52Z",
-                                            "time_et":  "2026-08-08T03:55:52-04:00",
-                                            "updated_utc":  "2026-08-08T07:57:28Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.74,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.17,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413927",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75413927\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75413922",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.815002441406,
-                                                              38.8279991149902,
-                                                              2.01
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75413922",
-                                            "time_utc":  "2026-08-08T07:53:42Z",
-                                            "time_et":  "2026-08-08T03:53:42-04:00",
-                                            "updated_utc":  "2026-08-08T07:59:13Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.49,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.0",
-                                            "depth_km_raw":  2.01,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  34,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413922",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75413922\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pmpsus",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.383,
-                                                              31.641,
-                                                              6.4075
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pmpsus",
-                                            "time_utc":  "2026-08-08T07:53:32Z",
-                                            "time_et":  "2026-08-08T03:53:32-04:00",
-                                            "updated_utc":  "2026-08-08T08:10:46Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.6,
-                                            "place":  "59 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.4",
-                                            "depth_km_raw":  6.4075,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  104,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 59 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pmpsus",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pmpsus\u0026format=geojson"
                                         }
                      }
                  ]
