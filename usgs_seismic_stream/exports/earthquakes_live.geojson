@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-15T17:49:00Z",
+    "generated_at_utc":  "2026-08-15T18:00:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -23490,6 +23490,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "mb90204843",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.485333333333,
+                                                              44.8006666666667,
+                                                              7.27
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90204843",
+                                            "time_utc":  "2026-08-11T21:48:26Z",
+                                            "time_et":  "2026-08-11T17:48:26-04:00",
+                                            "updated_utc":  "2026-08-15T17:57:14Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.45,
+                                            "place":  "23 km W of Hebgen Lake Estates, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.3",
+                                            "depth_km_raw":  7.27,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 23 km W of Hebgen Lake Estates, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204843",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204843\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75416252",
                          "geometry":  {
                                           "type":  "Point",
@@ -43576,76 +43611,6 @@
                                             "title":  "M 1.1 - 11 km WNW of Big Bear Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668770",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668770\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714073582",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -124.312333333333,
-                                                              42.2746666666667,
-                                                              6.26
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714073582",
-                                            "time_utc":  "2026-08-08T17:58:51Z",
-                                            "time_et":  "2026-08-08T13:58:51-04:00",
-                                            "updated_utc":  "2026-08-11T21:24:20Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "6 km E of Pistol River, Oregon",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.3",
-                                            "depth_km_raw":  6.26,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km E of Pistol River, Oregon",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714073582",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714073582\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40668754",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.721,
-                                                              33.2858333333333,
-                                                              13.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40668754",
-                                            "time_utc":  "2026-08-08T17:53:10Z",
-                                            "time_et":  "2026-08-08T13:53:10-04:00",
-                                            "updated_utc":  "2026-08-09T14:01:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.32,
-                                            "place":  "6 km NE of Lake Henshaw, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.7",
-                                            "depth_km_raw":  13.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 6 km NE of Lake Henshaw, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668754",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40668754\u0026format=geojson"
                                         }
                      }
                  ]
