@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T15:51:36Z",
+    "generated_at_utc":  "2026-08-16T15:59:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -88,7 +88,7 @@
                                             "id":  "nc75419442",
                                             "time_utc":  "2026-08-16T15:08:46Z",
                                             "time_et":  "2026-08-16T11:08:46-04:00",
-                                            "updated_utc":  "2026-08-16T15:10:24Z",
+                                            "updated_utc":  "2026-08-16T15:57:20Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.73,
                                             "place":  "7 km NW of The Geysers, CA",
@@ -141,6 +141,41 @@
                                             "title":  "M 1.3 - 20 km ESE of Little Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673850",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673850\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528688",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.3213333333333,
+                                                              18.1488333333333,
+                                                              6.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528688",
+                                            "time_utc":  "2026-08-16T15:06:23Z",
+                                            "time_et":  "2026-08-16T11:06:23-04:00",
+                                            "updated_utc":  "2026-08-16T15:54:26Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.05,
+                                            "place":  "16 km WNW of Puerto Real, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  143,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.1 - 16 km WNW of Puerto Real, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528688",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528688\u0026format=geojson"
                                         }
                      },
                      {
@@ -7631,6 +7666,41 @@
                                             "title":  "M 1.1 - 7 km N of Moreno Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672938",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672938\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40672930",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.933166666667,
+                                                              31.5035,
+                                                              14.11
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40672930",
+                                            "time_utc":  "2026-08-15T01:05:14Z",
+                                            "time_et":  "2026-08-14T21:05:14-04:00",
+                                            "updated_utc":  "2026-08-16T15:51:24Z",
+                                            "magnitude":  "3.3",
+                                            "magnitude_raw":  3.25,
+                                            "place":  "42 km SW of Maneadero, B.C., MX",
+                                            "country":  "Mexico",
+                                            "depth_km":  "14.1",
+                                            "depth_km_raw":  14.11,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  162,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.3 - 42 km SW of Maneadero, B.C., MX",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672930",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672930\u0026format=geojson"
                                         }
                      },
                      {
