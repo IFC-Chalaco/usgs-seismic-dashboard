@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T08:49:28Z",
+    "generated_at_utc":  "2026-08-16T09:04:12Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673706",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.841,
+                                                              36.064,
+                                                              2.65
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673706",
+                                            "time_utc":  "2026-08-16T08:57:36Z",
+                                            "time_et":  "2026-08-16T04:57:36-04:00",
+                                            "updated_utc":  "2026-08-16T09:01:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.59,
+                                            "place":  "10 km ENE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.65,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 10 km ENE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673706",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673706\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40673698",
@@ -928,7 +963,7 @@
                                             "id":  "nc75419277",
                                             "time_utc":  "2026-08-16T06:01:27Z",
                                             "time_et":  "2026-08-16T02:01:27-04:00",
-                                            "updated_utc":  "2026-08-16T07:07:24Z",
+                                            "updated_utc":  "2026-08-16T08:52:23Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.46,
                                             "place":  "19 km SW of Toms Place, CA",
@@ -41686,41 +41721,6 @@
                                             "title":  "M 0.1 - 8 km NNE of Odessa, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ponwhe",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ponwhe\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026pmqm",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.1765,
-                                                              35.46066667,
-                                                              6.26
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026pmqm",
-                                            "time_utc":  "2026-08-09T08:59:32Z",
-                                            "time_et":  "2026-08-09T04:59:32-04:00",
-                                            "updated_utc":  "2026-08-10T14:25:49Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.69,
-                                            "place":  "16 km E of Hinton, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.3",
-                                            "depth_km_raw":  6.26,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  7,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 16 km E of Hinton, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pmqm",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026pmqm\u0026format=geojson"
                                         }
                      }
                  ]
