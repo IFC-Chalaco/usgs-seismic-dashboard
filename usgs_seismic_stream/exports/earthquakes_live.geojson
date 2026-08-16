@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T04:58:08Z",
+    "generated_at_utc":  "2026-08-16T05:06:57Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci40673554",
+                         "id":  "ci40673562",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.551002502441,
-                                                              32.9949989318848,
-                                                              -0.7
+                                                              -116.692666666667,
+                                                              33.408,
+                                                              10.79
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci40673554",
-                                            "time_utc":  "2026-08-16T04:54:07Z",
-                                            "time_et":  "2026-08-16T00:54:07-04:00",
-                                            "updated_utc":  "2026-08-16T04:57:09Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.52,
-                                            "place":  "10 km SSE of Julian, CA",
+                                            "id":  "ci40673562",
+                                            "time_utc":  "2026-08-16T04:54:16Z",
+                                            "time_et":  "2026-08-16T00:54:16-04:00",
+                                            "updated_utc":  "2026-08-16T04:57:46Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.53,
+                                            "place":  "15 km NNW of Warner Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "-0.7",
-                                            "depth_km_raw":  -0.7,
+                                            "depth_km":  "10.8",
+                                            "depth_km_raw":  10.79,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  4,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 10 km SSE of Julian, CA",
+                                            "title":  "M 0.5 - 15 km NNW of Warner Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673562",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673562\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673554",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.434166666667,
+                                                              33.0058333333333,
+                                                              6.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673554",
+                                            "time_utc":  "2026-08-16T04:54:07Z",
+                                            "time_et":  "2026-08-16T00:54:07-04:00",
+                                            "updated_utc":  "2026-08-16T04:57:42Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.02,
+                                            "place":  "18 km ESE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 18 km ESE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673554",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673554\u0026format=geojson"
                                         }
@@ -53,7 +88,7 @@
                                             "id":  "tx2026qbbjvl",
                                             "time_utc":  "2026-08-16T04:50:31Z",
                                             "time_et":  "2026-08-16T00:50:31-04:00",
-                                            "updated_utc":  "2026-08-16T04:54:50Z",
+                                            "updated_utc":  "2026-08-16T05:04:15Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.6,
                                             "place":  "59 km SSW of Whites City, New Mexico",
@@ -88,20 +123,20 @@
                                             "id":  "us6000tl5f",
                                             "time_utc":  "2026-08-16T04:34:05Z",
                                             "time_et":  "2026-08-16T00:34:05-04:00",
-                                            "updated_utc":  "2026-08-16T04:53:27Z",
+                                            "updated_utc":  "2026-08-16T05:03:50Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.6,
                                             "place":  "5 km N of Jackson, Wyoming",
                                             "country":  "United States of America",
                                             "depth_km":  "5.8",
                                             "depth_km_raw":  5.765,
-                                            "felt_reports":  17,
+                                            "felt_reports":  22,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  110,
+                                            "significance":  111,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.6 - 5 km N of Jackson, Wyoming",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl5f",
@@ -180,41 +215,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "tx2026qazpun",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.411,
-                                                              31.767,
-                                                              1.9866
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qazpun",
-                                            "time_utc":  "2026-08-16T03:55:44Z",
-                                            "time_et":  "2026-08-15T23:55:44-04:00",
-                                            "updated_utc":  "2026-08-16T04:06:02Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.3,
-                                            "place":  "45 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.0",
-                                            "depth_km_raw":  1.9866,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  81,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.3 - 45 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qazpun",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qazpun\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "tx2026qazqpe",
                          "geometry":  {
                                           "type":  "Point",
@@ -246,6 +246,41 @@
                                             "title":  "M 2.1 - 54 km W of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qazqpe",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qazqpe\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qazpun",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.18,
+                                                              31.704,
+                                                              4.5901
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qazpun",
+                                            "time_utc":  "2026-08-16T03:55:41Z",
+                                            "time_et":  "2026-08-15T23:55:41-04:00",
+                                            "updated_utc":  "2026-08-16T05:05:53Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "55 km W of Mentone, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.6",
+                                            "depth_km_raw":  4.5901,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 55 km W of Mentone, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qazpun",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qazpun\u0026format=geojson"
                                         }
                      },
                      {
