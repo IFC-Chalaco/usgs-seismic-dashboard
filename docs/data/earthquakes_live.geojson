@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T10:15:32Z",
+    "generated_at_utc":  "2026-08-16T10:16:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.332832336426,
-                                                              32.9393348693848,
-                                                              8.85
+                                                              -116.335,
+                                                              32.9356666666667,
+                                                              8.22
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40673762",
                                             "time_utc":  "2026-08-16T10:12:02Z",
                                             "time_et":  "2026-08-16T06:12:02-04:00",
-                                            "updated_utc":  "2026-08-16T10:14:07Z",
+                                            "updated_utc":  "2026-08-16T10:15:23Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  1.01,
-                                            "place":  "23 km NE of Pine Valley, CA",
+                                            "magnitude_raw":  0.66,
+                                            "place":  "22 km NE of Pine Valley, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.85,
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.22,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  16,
+                                            "significance":  7,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 23 km NE of Pine Valley, CA",
+                                            "title":  "M 0.7 - 22 km NE of Pine Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673762",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673762\u0026format=geojson"
                                         }
@@ -176,6 +176,41 @@
                                             "title":  "M 1.6 - 15 km WNW of Nelson, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923371",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923371\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "usd0015e7e",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -109.2716,
+                                                              31.2009,
+                                                              16.424
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "usd0015e7e",
+                                            "time_utc":  "2026-08-16T09:57:38Z",
+                                            "time_et":  "2026-08-16T05:57:38-04:00",
+                                            "updated_utc":  "2026-08-16T10:15:30Z",
+                                            "magnitude":  "4.0",
+                                            "magnitude_raw":  4,
+                                            "place":  "30 km ESE of Agua Prieta, Mexico",
+                                            "country":  "Mexico",
+                                            "depth_km":  "16.4",
+                                            "depth_km_raw":  16.424,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  246,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 4.0 - 30 km ESE of Agua Prieta, Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7e",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015e7e\u0026format=geojson"
                                         }
                      },
                      {
