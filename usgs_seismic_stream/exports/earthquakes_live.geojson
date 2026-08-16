@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T15:47:37Z",
+    "generated_at_utc":  "2026-08-16T15:48:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75419457",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.753997802734,
+                                                              38.7879981994629,
+                                                              4.67
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75419457",
+                                            "time_utc":  "2026-08-16T15:45:36Z",
+                                            "time_et":  "2026-08-16T11:45:36-04:00",
+                                            "updated_utc":  "2026-08-16T15:47:13Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.3,
+                                            "place":  "1 km N of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.67,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 1 km N of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419457",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419457\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673858",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.807167053223,
+                                                              35.3053321838379,
+                                                              6.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673858",
+                                            "time_utc":  "2026-08-16T15:45:27Z",
+                                            "time_et":  "2026-08-16T11:45:27-04:00",
+                                            "updated_utc":  "2026-08-16T15:48:07Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.96,
+                                            "place":  "17 km WSW of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.8",
+                                            "depth_km_raw":  6.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  59,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 17 km WSW of Johannesburg, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673858",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673858\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75419442",
