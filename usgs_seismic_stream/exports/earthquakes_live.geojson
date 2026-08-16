@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T19:35:52Z",
+    "generated_at_utc":  "2026-08-16T19:36:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673978",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.932334899902,
+                                                              34.7919998168945,
+                                                              11.34
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673978",
+                                            "time_utc":  "2026-08-16T19:34:03Z",
+                                            "time_et":  "2026-08-16T15:34:03-04:00",
+                                            "updated_utc":  "2026-08-16T19:36:09Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.8,
+                                            "place":  "4 km SSE of Frazier Park, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.3",
+                                            "depth_km_raw":  11.34,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  50,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 4 km SSE of Frazier Park, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673978",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673978\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40673970",
