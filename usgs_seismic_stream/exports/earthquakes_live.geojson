@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-16T07:54:38Z",
+    "generated_at_utc":  "2026-08-16T08:05:48Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40673674",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.284833333333,
+                                                              34.0911666666667,
+                                                              7.98
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40673674",
+                                            "time_utc":  "2026-08-16T07:56:45Z",
+                                            "time_et":  "2026-08-16T03:56:45-04:00",
+                                            "updated_utc":  "2026-08-16T08:00:12Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
+                                            "place":  "2 km W of Silver Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  7.98,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 2 km W of Silver Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673674",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673674\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci40673666",
@@ -41861,76 +41896,6 @@
                                             "title":  "M 0.3 - 21 km S of Stanton, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026polwgc",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026polwgc\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90204658",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.524333333333,
-                                                              46.9113333333333,
-                                                              11.76
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90204658",
-                                            "time_utc":  "2026-08-09T08:03:14Z",
-                                            "time_et":  "2026-08-09T04:03:14-04:00",
-                                            "updated_utc":  "2026-08-10T18:14:35Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.63,
-                                            "place":  "12 km ESE of Lincoln, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "11.8",
-                                            "depth_km_raw":  11.76,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 12 km ESE of Lincoln, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204658",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204658\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80147976",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.224166666667,
-                                                              41.5913333333333,
-                                                              -1.07
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80147976",
-                                            "time_utc":  "2026-08-09T07:55:12Z",
-                                            "time_et":  "2026-08-09T03:55:12-04:00",
-                                            "updated_utc":  "2026-08-10T14:20:33Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.72,
-                                            "place":  "8 km SSW of Randolph, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-1.1",
-                                            "depth_km_raw":  -1.07,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  46,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 8 km SSW of Randolph, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147976",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80147976\u0026format=geojson"
                                         }
                      }
                  ]
