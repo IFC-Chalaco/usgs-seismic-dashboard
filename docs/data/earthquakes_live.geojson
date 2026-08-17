@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-17T21:30:42Z",
+    "generated_at_utc":  "2026-08-17T21:49:29Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -95.22416687,
-                                                              35.93155289,
-                                                              0.5932
+                                                              -95.17166667,
+                                                              35.91016667,
+                                                              0
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ok2026qcfe",
-                                            "time_utc":  "2026-08-17T21:27:37Z",
-                                            "time_et":  "2026-08-17T17:27:37-04:00",
-                                            "updated_utc":  "2026-08-17T21:29:18Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.78,
-                                            "place":  "7 km W of Hulbert, Oklahoma",
+                                            "time_utc":  "2026-08-17T21:27:35Z",
+                                            "time_et":  "2026-08-17T17:27:35-04:00",
+                                            "updated_utc":  "2026-08-17T21:45:07Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.4,
+                                            "place":  "3 km SW of Hulbert, Oklahoma",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.6",
-                                            "depth_km_raw":  0.5932,
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  49,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 7 km W of Hulbert, Oklahoma",
+                                            "significance":  30,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.4 Quarry Blast - 3 km SW of Hulbert, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qcfe",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026qcfe\u0026format=geojson"
                                         }
@@ -193,7 +193,7 @@
                                             "id":  "nc75420242",
                                             "time_utc":  "2026-08-17T20:56:05Z",
                                             "time_et":  "2026-08-17T16:56:05-04:00",
-                                            "updated_utc":  "2026-08-17T20:57:44Z",
+                                            "updated_utc":  "2026-08-17T21:37:19Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.26,
                                             "place":  "7 km ESE of Cloverdale, CA",
@@ -788,7 +788,7 @@
                                             "id":  "nc75420167",
                                             "time_utc":  "2026-08-17T18:06:58Z",
                                             "time_et":  "2026-08-17T14:06:58-04:00",
-                                            "updated_utc":  "2026-08-17T19:07:20Z",
+                                            "updated_utc":  "2026-08-17T21:47:25Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.3,
                                             "place":  "4 km SW of Half Moon Bay, CA",
@@ -1125,41 +1125,6 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "tx2026qduyaz",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.513,
-                                                              32.105,
-                                                              2.203
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qduyaz",
-                                            "time_utc":  "2026-08-17T16:46:33Z",
-                                            "time_et":  "2026-08-17T12:46:33-04:00",
-                                            "updated_utc":  "2026-08-17T17:00:25Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
-                                            "place":  "13 km W of Forsan, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.203,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 13 km W of Forsan, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qduyaz",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qduyaz\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
                          "id":  "ci40674514",
                          "geometry":  {
                                           "type":  "Point",
@@ -1296,6 +1261,41 @@
                                             "title":  "M 0.9 - 8 km W of Tecate, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674490",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674490\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qdudte",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -99.005,
+                                                              28.812,
+                                                              7.5671
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qdudte",
+                                            "time_utc":  "2026-08-17T16:22:57Z",
+                                            "time_et":  "2026-08-17T12:22:57-04:00",
+                                            "updated_utc":  "2026-08-17T21:33:26Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "12 km SE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.6",
+                                            "depth_km_raw":  7.5671,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 12 km SE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qdudte",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qdudte\u0026format=geojson"
                                         }
                      },
                      {
@@ -4804,31 +4804,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.1755,
-                                                              34.0278333333333,
-                                                              4.79
+                                                              -117.173833333333,
+                                                              34.0271666666667,
+                                                              4.65
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40674138",
                                             "time_utc":  "2026-08-17T00:54:56Z",
                                             "time_et":  "2026-08-16T20:54:56-04:00",
-                                            "updated_utc":  "2026-08-17T00:58:25Z",
+                                            "updated_utc":  "2026-08-17T21:30:31Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.97,
+                                            "magnitude_raw":  0.89,
                                             "place":  "3 km SSE of Redlands, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.8",
-                                            "depth_km_raw":  4.79,
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.65,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  14,
+                                            "significance":  12,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 3 km SSE of Redlands, CA",
+                                            "title":  "M 0.9 - 3 km SSE of Redlands, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674138",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674138\u0026format=geojson"
                                         }
@@ -12710,6 +12710,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "mb90205143",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.907,
+                                                              45.679,
+                                                              3.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90205143",
+                                            "time_utc":  "2026-08-15T13:40:52Z",
+                                            "time_et":  "2026-08-15T09:40:52-04:00",
+                                            "updated_utc":  "2026-08-17T21:40:41Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.03,
+                                            "place":  "2 km NNW of Pony, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.8",
+                                            "depth_km_raw":  3.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 2 km NNW of Pony, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90205143",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90205143\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40673162",
                          "geometry":  {
                                           "type":  "Point",
@@ -13056,6 +13091,41 @@
                                             "title":  "M 1.6 - 8 km ENE of Lopez Point, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418757",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418757\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026pzvzlk",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.821,
+                                                              32.134,
+                                                              7.8369
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026pzvzlk",
+                                            "time_utc":  "2026-08-15T13:00:39Z",
+                                            "time_et":  "2026-08-15T09:00:39-04:00",
+                                            "updated_utc":  "2026-08-17T21:46:32Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "3 km W of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.8369,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 3 km W of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pzvzlk",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pzvzlk\u0026format=geojson"
                                         }
                      },
                      {
@@ -15265,6 +15335,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ok2026pxgh",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -95.98983333,
+                                                              34.67866667,
+                                                              5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026pxgh",
+                                            "time_utc":  "2026-08-15T04:21:06Z",
+                                            "time_et":  "2026-08-15T00:21:06-04:00",
+                                            "updated_utc":  "2026-08-17T21:36:57Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.31,
+                                            "place":  "4 km NE of Wardville, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.0",
+                                            "depth_km_raw":  5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 4 km NE of Wardville, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pxgh",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026pxgh\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026pzelri",
                          "geometry":  {
                                           "type":  "Point",
@@ -16140,6 +16245,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026pyubuo",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.961,
+                                                              28.905,
+                                                              4.9233
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026pyubuo",
+                                            "time_utc":  "2026-08-14T22:58:22Z",
+                                            "time_et":  "2026-08-14T18:58:22-04:00",
+                                            "updated_utc":  "2026-08-17T21:31:26Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "13 km E of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.9",
+                                            "depth_km_raw":  4.9233,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 13 km E of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pyubuo",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pyubuo\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "uu80148866",
                          "geometry":  {
                                           "type":  "Point",
@@ -16665,6 +16805,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "mb90205123",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.306,
+                                                              45.2393333333333,
+                                                              -2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90205123",
+                                            "time_utc":  "2026-08-14T20:43:02Z",
+                                            "time_et":  "2026-08-14T16:43:02-04:00",
+                                            "updated_utc":  "2026-08-17T21:32:41Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.22,
+                                            "place":  "18 km WSW of Alder, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-2.0",
+                                            "depth_km_raw":  -2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.2 Quarry Blast - 18 km WSW of Alder, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90205123",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90205123\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75418367",
                          "geometry":  {
                                           "type":  "Point",
@@ -17124,27 +17299,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.707833333333,
-                                                              32.5553333333333,
-                                                              3.62
+                                                              -116.703333333333,
+                                                              32.5571666666667,
+                                                              3.56
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40672850",
                                             "time_utc":  "2026-08-14T19:45:22Z",
                                             "time_et":  "2026-08-14T15:45:22-04:00",
-                                            "updated_utc":  "2026-08-14T19:48:45Z",
+                                            "updated_utc":  "2026-08-17T21:35:04Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.97,
                                             "place":  "7 km W of Tecate, B.C., MX",
                                             "country":  "Mexico",
                                             "depth_km":  "3.6",
-                                            "depth_km_raw":  3.62,
+                                            "depth_km_raw":  3.56,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  14,
                                             "event_type":  "earthquake",
@@ -43821,41 +43996,6 @@
                                             "title":  "M 1.3 - 6 km NNE of Beaumont, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670122",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670122\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415422",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.806335449219,
-                                                              38.828498840332,
-                                                              1.45
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415422",
-                                            "time_utc":  "2026-08-10T21:47:51Z",
-                                            "time_et":  "2026-08-10T17:47:51-04:00",
-                                            "updated_utc":  "2026-08-10T21:49:29Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.07,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.5",
-                                            "depth_km_raw":  1.45,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415422",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415422\u0026format=geojson"
                                         }
                      }
                  ]
