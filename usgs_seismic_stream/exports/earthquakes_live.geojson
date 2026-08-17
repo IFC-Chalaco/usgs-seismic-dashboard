@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-17T22:56:56Z",
+    "generated_at_utc":  "2026-08-17T22:57:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -7771,6 +7771,41 @@
                                             "title":  "M 0.1 - 20 km ESE of Little Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673794",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673794\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90205313",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.482333333333,
+                                                              44.9135,
+                                                              7.23
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90205313",
+                                            "time_utc":  "2026-08-16T12:03:07Z",
+                                            "time_et":  "2026-08-16T08:03:07-04:00",
+                                            "updated_utc":  "2026-08-17T22:56:49Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.17,
+                                            "place":  "28 km NW of Hebgen Lake Estates, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.23,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 28 km NW of Hebgen Lake Estates, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90205313",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90205313\u0026format=geojson"
                                         }
                      },
                      {
