@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-17T17:05:19Z",
+    "generated_at_utc":  "2026-08-17T17:08:58Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1996,6 +1996,41 @@
                                             "title":  "M 1.1 - 2 km SE of Concord, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419937",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419937\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80149096",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.000166666667,
+                                                              44.761,
+                                                              8.62
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80149096",
+                                            "time_utc":  "2026-08-17T08:21:34Z",
+                                            "time_et":  "2026-08-17T04:21:34-04:00",
+                                            "updated_utc":  "2026-08-17T17:05:26Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.22,
+                                            "place":  "13 km NE of West Yellowstone, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.62,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 13 km NE of West Yellowstone, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149096",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80149096\u0026format=geojson"
                                         }
                      },
                      {
@@ -7718,20 +7753,20 @@
                                             "id":  "nc75419292",
                                             "time_utc":  "2026-08-16T06:41:37Z",
                                             "time_et":  "2026-08-16T02:41:37-04:00",
-                                            "updated_utc":  "2026-08-16T10:07:20Z",
+                                            "updated_utc":  "2026-08-17T17:04:47Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.58,
                                             "place":  "7 km SW of Atascadero, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.6",
                                             "depth_km_raw":  6.64,
-                                            "felt_reports":  48,
+                                            "felt_reports":  51,
                                             "cdi":  2.6,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  115,
+                                            "significance":  116,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.6 - 7 km SW of Atascadero, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419292",
@@ -42211,41 +42246,6 @@
                                             "title":  "M 0.7 - 9 km ENE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669922",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40669922\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415232",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.820167541504,
-                                                              38.8064994812012,
-                                                              2.96
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415232",
-                                            "time_utc":  "2026-08-10T17:05:20Z",
-                                            "time_et":  "2026-08-10T13:05:20-04:00",
-                                            "updated_utc":  "2026-08-10T17:06:57Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1.02,
-                                            "place":  "6 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.0",
-                                            "depth_km_raw":  2.96,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  16,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 6 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415232",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415232\u0026format=geojson"
                                         }
                      }
                  ]
