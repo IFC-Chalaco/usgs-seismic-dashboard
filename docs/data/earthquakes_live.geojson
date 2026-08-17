@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-17T18:52:01Z",
+    "generated_at_utc":  "2026-08-17T18:53:00Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -110,6 +110,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci40674594",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -114.9965,
+                                                              33.055,
+                                                              -0.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40674594",
+                                            "time_utc":  "2026-08-17T18:14:37Z",
+                                            "time_et":  "2026-08-17T14:14:37-04:00",
+                                            "updated_utc":  "2026-08-17T18:51:38Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.18,
+                                            "place":  "45 km NE of Holtville, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.2",
+                                            "depth_km_raw":  -0.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.2 Quarry Blast - 45 km NE of Holtville, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674594",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674594\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci40674586",
                          "geometry":  {
                                           "type":  "Point",
@@ -176,6 +211,41 @@
                                             "title":  "M 1.3 - 4 km SW of Half Moon Bay, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420167",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420167\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528818",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9606666666667,
+                                                              17.9473333333333,
+                                                              12.82
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528818",
+                                            "time_utc":  "2026-08-17T18:03:07Z",
+                                            "time_et":  "2026-08-17T14:03:07-04:00",
+                                            "updated_utc":  "2026-08-17T18:52:23Z",
+                                            "magnitude":  "2.6",
+                                            "magnitude_raw":  2.6,
+                                            "place":  "6 km WSW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.82,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  104,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.6 - 6 km WSW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528818",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528818\u0026format=geojson"
                                         }
                      },
                      {
