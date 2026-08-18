@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T11:18:44Z",
+    "generated_at_utc":  "2026-08-18T11:40:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -44,31 +44,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -98.965,
-                                                              28.893,
-                                                              5.6598
+                                                              -98.949,
+                                                              28.839,
+                                                              8.342
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qffajf",
-                                            "time_utc":  "2026-08-18T10:55:26Z",
-                                            "time_et":  "2026-08-18T06:55:26-04:00",
-                                            "updated_utc":  "2026-08-18T10:58:01Z",
+                                            "time_utc":  "2026-08-18T10:55:25Z",
+                                            "time_et":  "2026-08-18T06:55:25-04:00",
+                                            "updated_utc":  "2026-08-18T11:39:36Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.9,
-                                            "place":  "12 km E of Pearsall, Texas",
+                                            "place":  "15 km ESE of Pearsall, Texas",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.7",
-                                            "depth_km_raw":  5.6598,
+                                            "depth_km":  "8.3",
+                                            "depth_km_raw":  8.342,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  56,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 12 km E of Pearsall, Texas",
+                                            "title":  "M 1.9 - 15 km ESE of Pearsall, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qffajf",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qffajf\u0026format=geojson"
                                         }
@@ -438,7 +438,7 @@
                                             "id":  "nc75420517",
                                             "time_utc":  "2026-08-18T08:46:24Z",
                                             "time_et":  "2026-08-18T04:46:24-04:00",
-                                            "updated_utc":  "2026-08-18T09:07:21Z",
+                                            "updated_utc":  "2026-08-18T11:32:21Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.22,
                                             "place":  "3 km NW of Pinnacles, CA",
@@ -1755,6 +1755,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026qeqhaw",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.909,
+                                                              32.108,
+                                                              8.6182
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qeqhaw",
+                                            "time_utc":  "2026-08-18T03:30:37Z",
+                                            "time_et":  "2026-08-17T23:30:37-04:00",
+                                            "updated_utc":  "2026-08-18T11:36:47Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.8,
+                                            "place":  "11 km WSW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.6182,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 11 km WSW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qeqhaw",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qeqhaw\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026qeqetu",
                          "geometry":  {
                                           "type":  "Point",
@@ -1961,6 +1996,41 @@
                                             "title":  "M 1.4 - 8 km NNW of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528880",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41528880\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qepify",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.853,
+                                                              32.079,
+                                                              8.0322
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qepify",
+                                            "time_utc":  "2026-08-18T03:05:38Z",
+                                            "time_et":  "2026-08-17T23:05:38-04:00",
+                                            "updated_utc":  "2026-08-18T11:19:54Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "8 km SW of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.0",
+                                            "depth_km_raw":  8.0322,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 8 km SW of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qepify",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qepify\u0026format=geojson"
                                         }
                      },
                      {
@@ -44101,181 +44171,6 @@
                                             "title":  "M 1.9 - 7 km SE of Pinnacles, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415792",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415792\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40670434",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.364333333333,
-                                                              35.4725,
-                                                              26.17
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40670434",
-                                            "time_utc":  "2026-08-11T11:35:01Z",
-                                            "time_et":  "2026-08-11T07:35:01-04:00",
-                                            "updated_utc":  "2026-08-11T15:50:48Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "9 km WSW of Shafter, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "26.2",
-                                            "depth_km_raw":  26.17,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 9 km WSW of Shafter, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670434",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670434\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pskdsl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.237,
-                                                              31.545,
-                                                              1.8958
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pskdsl",
-                                            "time_utc":  "2026-08-11T11:32:02Z",
-                                            "time_et":  "2026-08-11T07:32:02-04:00",
-                                            "updated_utc":  "2026-08-11T17:24:08Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "10 km W of Pyote, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.9",
-                                            "depth_km_raw":  1.8958,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 10 km W of Pyote, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pskdsl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pskdsl\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415782",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.17733001709,
-                                                              36.5688323974609,
-                                                              3.41
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415782",
-                                            "time_utc":  "2026-08-11T11:31:09Z",
-                                            "time_et":  "2026-08-11T07:31:09-04:00",
-                                            "updated_utc":  "2026-08-11T11:32:43Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.21,
-                                            "place":  "5 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.4",
-                                            "depth_km_raw":  3.41,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  23,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 5 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415782",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415782\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415777",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.181167602539,
-                                                              36.5568351745605,
-                                                              -0.24
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415777",
-                                            "time_utc":  "2026-08-11T11:29:57Z",
-                                            "time_et":  "2026-08-11T07:29:57-04:00",
-                                            "updated_utc":  "2026-08-11T11:31:33Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.47,
-                                            "place":  "4 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.2",
-                                            "depth_km_raw":  -0.24,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  33,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 4 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415777",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415777\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40670426",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.335,
-                                                              33.269,
-                                                              2.61
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40670426",
-                                            "time_utc":  "2026-08-11T11:27:02Z",
-                                            "time_et":  "2026-08-11T07:27:02-04:00",
-                                            "updated_utc":  "2026-08-11T13:09:36Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.46,
-                                            "place":  "4 km ENE of Borrego Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.61,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  3,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 4 km ENE of Borrego Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670426",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670426\u0026format=geojson"
                                         }
                      }
                  ]
