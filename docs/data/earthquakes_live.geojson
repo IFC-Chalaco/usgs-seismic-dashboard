@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T07:55:36Z",
+    "generated_at_utc":  "2026-08-18T08:19:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41529040",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.812666666667,
+                                                              35.3148333333333,
+                                                              7.19
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41529040",
+                                            "time_utc":  "2026-08-18T08:00:00Z",
+                                            "time_et":  "2026-08-18T04:00:00-04:00",
+                                            "updated_utc":  "2026-08-18T08:03:25Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.14,
+                                            "place":  "17 km WSW of Johannesburg, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.2",
+                                            "depth_km_raw":  7.19,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 17 km WSW of Johannesburg, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529040",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529040\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75420502",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.237503051758,
+                                                              39.3141670227051,
+                                                              3.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75420502",
+                                            "time_utc":  "2026-08-18T07:58:31Z",
+                                            "time_et":  "2026-08-18T03:58:31-04:00",
+                                            "updated_utc":  "2026-08-18T08:00:08Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.27,
+                                            "place":  "6 km NNW of Redwood Valley, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  25,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 6 km NNW of Redwood Valley, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420502",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420502\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75420497",
@@ -88,7 +158,7 @@
                                             "id":  "nc75420487",
                                             "time_utc":  "2026-08-18T07:34:58Z",
                                             "time_et":  "2026-08-18T03:34:58-04:00",
-                                            "updated_utc":  "2026-08-18T07:41:33Z",
+                                            "updated_utc":  "2026-08-18T07:57:23Z",
                                             "magnitude":  "2.5",
                                             "magnitude_raw":  2.54,
                                             "place":  "7 km NW of Avenal, CA",
@@ -1024,31 +1094,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.438,
-                                                              31.661,
-                                                              4.0242
+                                                              -104.413,
+                                                              31.686,
+                                                              6.0999
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qeqbno",
                                             "time_utc":  "2026-08-18T03:24:15Z",
                                             "time_et":  "2026-08-17T23:24:15-04:00",
-                                            "updated_utc":  "2026-08-18T04:02:08Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "57 km S of Whites City, New Mexico",
+                                            "updated_utc":  "2026-08-18T08:14:47Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "54 km S of Whites City, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.0",
-                                            "depth_km_raw":  4.0242,
+                                            "depth_km":  "6.1",
+                                            "depth_km_raw":  6.0999,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  68,
+                                            "significance":  56,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 57 km S of Whites City, New Mexico",
+                                            "title":  "M 1.9 - 54 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qeqbno",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qeqbno\u0026format=geojson"
                                         }
@@ -1059,31 +1129,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -104.439,
-                                                              31.662,
-                                                              4.4371
+                                                              -104.413,
+                                                              31.677,
+                                                              6.0999
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qepvrs",
                                             "time_utc":  "2026-08-18T03:17:26Z",
                                             "time_et":  "2026-08-17T23:17:26-04:00",
-                                            "updated_utc":  "2026-08-18T04:01:23Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "57 km S of Whites City, New Mexico",
+                                            "updated_utc":  "2026-08-18T07:55:44Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2,
+                                            "place":  "55 km S of Whites City, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.4",
-                                            "depth_km_raw":  4.4371,
+                                            "depth_km":  "6.1",
+                                            "depth_km_raw":  6.0999,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  68,
+                                            "significance":  62,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 57 km S of Whites City, New Mexico",
+                                            "title":  "M 2.0 - 55 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qepvrs",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qepvrs\u0026format=geojson"
                                         }
@@ -44451,111 +44521,6 @@
                                             "title":  "M 0.5 - 14 km NNE of Tecate, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670338",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670338\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714075152",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.001833333333,
-                                                              46.89,
-                                                              11.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714075152",
-                                            "time_utc":  "2026-08-11T08:03:22Z",
-                                            "time_et":  "2026-08-11T04:03:22-04:00",
-                                            "updated_utc":  "2026-08-11T20:16:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.37,
-                                            "place":  "14 km N of Ashford, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "11.3",
-                                            "depth_km_raw":  11.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 14 km N of Ashford, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714075152",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714075152\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80148271",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -109.886,
-                                                              41.56,
-                                                              -1.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80148271",
-                                            "time_utc":  "2026-08-11T08:00:28Z",
-                                            "time_et":  "2026-08-11T04:00:28-04:00",
-                                            "updated_utc":  "2026-08-13T01:55:54Z",
-                                            "magnitude":  "3.3",
-                                            "magnitude_raw":  3.29,
-                                            "place":  "2 km NW of Little America, Wyoming",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-1.7",
-                                            "depth_km_raw":  -1.73,
-                                            "felt_reports":  1,
-                                            "cdi":  2,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  167,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.3 - 2 km NW of Little America, Wyoming",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148271",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80148271\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415662",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.811164855957,
-                                                              38.8231658935547,
-                                                              2.54
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415662",
-                                            "time_utc":  "2026-08-11T07:59:58Z",
-                                            "time_et":  "2026-08-11T03:59:58-04:00",
-                                            "updated_utc":  "2026-08-11T08:01:33Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.54,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415662",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415662\u0026format=geojson"
                                         }
                      }
                  ]
