@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T16:52:50Z",
+    "generated_at_utc":  "2026-08-18T16:53:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41529344",
+                         "id":  "ci41529352",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.07266998291,
-                                                              33.1016654968262,
-                                                              8.45
+                                                              -115.942166666667,
+                                                              32.8998333333333,
+                                                              6.48
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41529344",
-                                            "time_utc":  "2026-08-18T16:49:13Z",
-                                            "time_et":  "2026-08-18T12:49:13-04:00",
-                                            "updated_utc":  "2026-08-18T16:51:18Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.19,
-                                            "place":  "7 km SE of Ocotillo Wells, CA",
+                                            "id":  "ci41529352",
+                                            "time_utc":  "2026-08-18T16:49:31Z",
+                                            "time_et":  "2026-08-18T12:49:31-04:00",
+                                            "updated_utc":  "2026-08-18T16:52:50Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.77,
+                                            "place":  "19 km NNE of Ocotillo, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.5",
-                                            "depth_km_raw":  8.45,
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.48,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  22,
+                                            "significance":  9,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 7 km SE of Ocotillo Wells, CA",
+                                            "title":  "M 0.8 - 19 km NNE of Ocotillo, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529352",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529352\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41529344",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.0555,
+                                                              33.114,
+                                                              13.88
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41529344",
+                                            "time_utc":  "2026-08-18T16:49:13Z",
+                                            "time_et":  "2026-08-18T12:49:13-04:00",
+                                            "updated_utc":  "2026-08-18T16:52:54Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.93,
+                                            "place":  "8 km ESE of Ocotillo Wells, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.9",
+                                            "depth_km_raw":  13.88,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  13,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 8 km ESE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529344",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529344\u0026format=geojson"
                                         }
@@ -176,6 +211,41 @@
                                             "title":  "M 1.7 - 12 km ESE of Balmorhea, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfqgfq",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qfqgfq\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528918",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.8475,
+                                                              19.0803333333333,
+                                                              33.93
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528918",
+                                            "time_utc":  "2026-08-18T16:33:26Z",
+                                            "time_et":  "2026-08-18T12:33:26-04:00",
+                                            "updated_utc":  "2026-08-18T16:53:03Z",
+                                            "magnitude":  "3.4",
+                                            "magnitude_raw":  3.42,
+                                            "place":  "82 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "33.9",
+                                            "depth_km_raw":  33.93,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  180,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.4 - 82 km N of Charlotte Amalie, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528918",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528918\u0026format=geojson"
                                         }
                      },
                      {
@@ -333,7 +403,7 @@
                                             "id":  "nc75420667",
                                             "time_utc":  "2026-08-18T16:07:51Z",
                                             "time_et":  "2026-08-18T12:07:51-04:00",
-                                            "updated_utc":  "2026-08-18T16:09:29Z",
+                                            "updated_utc":  "2026-08-18T16:52:19Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.58,
                                             "place":  "7 km W of Cobb, CA",
