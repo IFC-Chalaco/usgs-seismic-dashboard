@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T20:43:52Z",
+    "generated_at_utc":  "2026-08-18T20:50:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "nc75420807",
                                             "time_utc":  "2026-08-18T20:41:40Z",
                                             "time_et":  "2026-08-18T16:41:40-04:00",
-                                            "updated_utc":  "2026-08-18T20:43:16Z",
+                                            "updated_utc":  "2026-08-18T20:43:19Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.78,
                                             "place":  "10 km WNW of The Geysers, CA",
@@ -928,7 +928,7 @@
                                             "id":  "nc75420692",
                                             "time_utc":  "2026-08-18T17:00:59Z",
                                             "time_et":  "2026-08-18T13:00:59-04:00",
-                                            "updated_utc":  "2026-08-18T20:07:35Z",
+                                            "updated_utc":  "2026-08-18T20:47:26Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.49,
                                             "place":  "15 km WNW of Cantua Creek, CA",
@@ -19574,27 +19574,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.3905,
-                                                              34.1973333333333,
-                                                              12.68
+                                                              -117.392,
+                                                              34.1965,
+                                                              13.21
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci40673274",
                                             "time_utc":  "2026-08-15T17:21:49Z",
                                             "time_et":  "2026-08-15T13:21:49-04:00",
-                                            "updated_utc":  "2026-08-15T17:32:34Z",
+                                            "updated_utc":  "2026-08-18T20:48:26Z",
                                             "magnitude":  "1.2",
-                                            "magnitude_raw":  1.23,
+                                            "magnitude_raw":  1.22,
                                             "place":  "3 km SSE of Devore, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "12.7",
-                                            "depth_km_raw":  12.68,
+                                            "depth_km":  "13.2",
+                                            "depth_km_raw":  13.21,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  23,
                                             "event_type":  "earthquake",
@@ -46236,6 +46236,41 @@
                                             "title":  "M 0.8 - 23 km SSE of Midland, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ptcvua",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ptcvua\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci40670730",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.336666666667,
+                                                              35.0601666666667,
+                                                              -1.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci40670730",
+                                            "time_utc":  "2026-08-11T20:54:22Z",
+                                            "time_et":  "2026-08-11T16:54:22-04:00",
+                                            "updated_utc":  "2026-08-12T17:19:27Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "13 km SE of Tehachapi, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.0",
+                                            "depth_km_raw":  -1.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.1 Quarry Blast - 13 km SE of Tehachapi, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670730",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40670730\u0026format=geojson"
                                         }
                      }
                  ]
