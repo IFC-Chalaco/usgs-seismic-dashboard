@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T02:01:58Z",
+    "generated_at_utc":  "2026-08-18T02:02:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75420382",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.807830810547,
+                                                              38.8368339538574,
+                                                              2.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75420382",
+                                            "time_utc":  "2026-08-18T02:00:34Z",
+                                            "time_et":  "2026-08-17T22:00:34-04:00",
+                                            "updated_utc":  "2026-08-18T02:02:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.66,
+                                            "place":  "8 km WNW of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.1",
+                                            "depth_km_raw":  2.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km WNW of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420382",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420382\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026qemutg",
@@ -11,20 +46,20 @@
                                           "coordinates":  [
                                                               -104.124,
                                                               31.737,
-                                                              4.2202
+                                                              4.2222
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qemutg",
                                             "time_utc":  "2026-08-18T01:45:51Z",
                                             "time_et":  "2026-08-17T21:45:51-04:00",
-                                            "updated_utc":  "2026-08-18T01:52:07Z",
+                                            "updated_utc":  "2026-08-18T02:02:13Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.2,
                                             "place":  "49 km W of Mentone, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "4.2",
-                                            "depth_km_raw":  4.2202,
+                                            "depth_km_raw":  4.2222,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -53,7 +88,7 @@
                                             "id":  "tx2026qemkxe",
                                             "time_utc":  "2026-08-18T01:36:38Z",
                                             "time_et":  "2026-08-17T21:36:38-04:00",
-                                            "updated_utc":  "2026-08-18T01:41:06Z",
+                                            "updated_utc":  "2026-08-18T02:01:48Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.5,
                                             "place":  "58 km S of Whites City, New Mexico",
