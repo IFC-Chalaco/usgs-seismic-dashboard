@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T21:06:26Z",
+    "generated_at_utc":  "2026-08-18T21:07:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -6581,6 +6581,41 @@
                                             "title":  "M 0.9 - 9 km ESE of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528712",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41528712\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714080931",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.722333333333,
+                                                              46.8681666666667,
+                                                              -0.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714080931",
+                                            "time_utc":  "2026-08-17T21:00:07Z",
+                                            "time_et":  "2026-08-17T17:00:07-04:00",
+                                            "updated_utc":  "2026-08-18T21:06:00Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.32,
+                                            "place":  "9 km ESE of Princeton, Idaho",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.8",
+                                            "depth_km_raw":  -0.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  83,
+                                            "event_type":  "explosion",
+                                            "title":  "M 2.3 Explosion - 9 km ESE of Princeton, Idaho",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714080931",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714080931\u0026format=geojson"
                                         }
                      },
                      {
