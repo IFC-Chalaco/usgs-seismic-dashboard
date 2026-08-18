@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T04:00:04Z",
+    "generated_at_utc":  "2026-08-18T04:12:53Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41528920",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.723503112793,
+                                                              33.6501655578613,
+                                                              12.54
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41528920",
+                                            "time_utc":  "2026-08-18T04:09:30Z",
+                                            "time_et":  "2026-08-18T00:09:30-04:00",
+                                            "updated_utc":  "2026-08-18T04:11:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "10 km S of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.5",
+                                            "depth_km_raw":  12.54,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 10 km S of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528920",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41528920\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41528904",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.723,
+                                                              33.649,
+                                                              12.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41528904",
+                                            "time_utc":  "2026-08-18T04:06:13Z",
+                                            "time_et":  "2026-08-18T00:06:13-04:00",
+                                            "updated_utc":  "2026-08-18T04:09:42Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.54,
+                                            "place":  "10 km S of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.5",
+                                            "depth_km_raw":  12.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 10 km S of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528904",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41528904\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75420422",
@@ -53,7 +123,7 @@
                                             "id":  "nc75420402",
                                             "time_utc":  "2026-08-18T03:40:51Z",
                                             "time_et":  "2026-08-17T23:40:51-04:00",
-                                            "updated_utc":  "2026-08-18T03:42:27Z",
+                                            "updated_utc":  "2026-08-18T04:07:24Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.12,
                                             "place":  "6 km NNW of Pinnacles, CA",
@@ -106,6 +176,41 @@
                                             "title":  "M 2.2 - 54 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qeqgyt",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qeqgyt\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000tlkd",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -68.6594,
+                                                              19.2141,
+                                                              35
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000tlkd",
+                                            "time_utc":  "2026-08-18T03:33:08Z",
+                                            "time_et":  "2026-08-17T23:33:08-04:00",
+                                            "updated_utc":  "2026-08-18T04:10:53Z",
+                                            "magnitude":  "2.8",
+                                            "magnitude_raw":  2.8,
+                                            "place":  "48 km ENE of Miches, Dominican Republic",
+                                            "country":  "Dominican Republic",
+                                            "depth_km":  "35.0",
+                                            "depth_km_raw":  35,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  121,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.8 - 48 km ENE of Miches, Dominican Republic",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkd",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tlkd\u0026format=geojson"
                                         }
                      },
                      {
@@ -186,20 +291,20 @@
                                           "coordinates":  [
                                                               -104.438,
                                                               31.661,
-                                                              4.0212
+                                                              4.0242
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qeqbno",
                                             "time_utc":  "2026-08-18T03:24:15Z",
                                             "time_et":  "2026-08-17T23:24:15-04:00",
-                                            "updated_utc":  "2026-08-18T03:28:33Z",
+                                            "updated_utc":  "2026-08-18T04:02:08Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.1,
                                             "place":  "57 km S of Whites City, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "4.0",
-                                            "depth_km_raw":  4.0212,
+                                            "depth_km_raw":  4.0242,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -221,20 +326,20 @@
                                           "coordinates":  [
                                                               -104.439,
                                                               31.662,
-                                                              4.4402
+                                                              4.4371
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qepvrs",
                                             "time_utc":  "2026-08-18T03:17:26Z",
                                             "time_et":  "2026-08-17T23:17:26-04:00",
-                                            "updated_utc":  "2026-08-18T03:22:16Z",
+                                            "updated_utc":  "2026-08-18T04:01:23Z",
                                             "magnitude":  "2.1",
                                             "magnitude_raw":  2.1,
                                             "place":  "57 km S of Whites City, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "4.4",
-                                            "depth_km_raw":  4.4402,
+                                            "depth_km_raw":  4.4371,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -44556,41 +44661,6 @@
                                             "title":  "M 0.6 - 13 km E of Wilkeson, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714075132",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714075132\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90204818",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.962666666667,
-                                                              45.0146666666667,
-                                                              5.45
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90204818",
-                                            "time_utc":  "2026-08-11T04:02:40Z",
-                                            "time_et":  "2026-08-11T00:02:40-04:00",
-                                            "updated_utc":  "2026-08-12T17:14:49Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.65,
-                                            "place":  "31 km S of Virginia City, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.45,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 31 km S of Virginia City, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90204818",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90204818\u0026format=geojson"
                                         }
                      }
                  ]
