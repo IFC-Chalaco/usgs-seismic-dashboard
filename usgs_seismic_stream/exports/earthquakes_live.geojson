@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T10:16:46Z",
+    "generated_at_utc":  "2026-08-18T10:22:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1226,6 +1226,41 @@
                                             "title":  "M 1.2 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420422",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420422\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528873",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.3335,
+                                                              18.3795,
+                                                              14.63
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528873",
+                                            "time_utc":  "2026-08-18T03:53:42Z",
+                                            "time_et":  "2026-08-17T23:53:42-04:00",
+                                            "updated_utc":  "2026-08-18T10:21:25Z",
+                                            "magnitude":  "2.4",
+                                            "magnitude_raw":  2.37,
+                                            "place":  "9 km WNW of Rincón, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.6",
+                                            "depth_km_raw":  14.63,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  86,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.4 - 9 km WNW of Rincón, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528873",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528873\u0026format=geojson"
                                         }
                      },
                      {
@@ -44136,111 +44171,6 @@
                                             "title":  "M 2.1 - 6 km NNW of Pinnacles, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415727",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415722",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.171165466309,
-                                                              36.5670013427734,
-                                                              4.23
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415722",
-                                            "time_utc":  "2026-08-11T10:21:01Z",
-                                            "time_et":  "2026-08-11T06:21:01-04:00",
-                                            "updated_utc":  "2026-08-12T07:02:23Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.6,
-                                            "place":  "5 km NNW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.2",
-                                            "depth_km_raw":  4.23,
-                                            "felt_reports":  2,
-                                            "cdi":  3.4,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  105,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 5 km NNW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415722",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415722\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415712",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.200500488281,
-                                                              36.5651664733887,
-                                                              2.64
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415712",
-                                            "time_utc":  "2026-08-11T10:20:41Z",
-                                            "time_et":  "2026-08-11T06:20:41-04:00",
-                                            "updated_utc":  "2026-08-12T06:46:36Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.57,
-                                            "place":  "6 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.6",
-                                            "depth_km_raw":  2.64,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  102,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 6 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415712",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415712\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415717",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.182333333333,
-                                                              36.5778333333333,
-                                                              4.62
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415717",
-                                            "time_utc":  "2026-08-11T10:19:08Z",
-                                            "time_et":  "2026-08-11T06:19:08-04:00",
-                                            "updated_utc":  "2026-08-12T10:26:17Z",
-                                            "magnitude":  "3.9",
-                                            "magnitude_raw":  3.94,
-                                            "place":  "6 km NW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.6",
-                                            "depth_km_raw":  4.62,
-                                            "felt_reports":  34,
-                                            "cdi":  4.3,
-                                            "mmi":  4.49,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  253,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.9 - 6 km NW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415717",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415717\u0026format=geojson"
                                         }
                      }
                  ]
