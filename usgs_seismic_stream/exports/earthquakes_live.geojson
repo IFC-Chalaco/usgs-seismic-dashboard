@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T10:22:37Z",
+    "generated_at_utc":  "2026-08-18T10:23:37Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -351,6 +351,41 @@
                                             "title":  "M 0.9 - 14 km S of Joshua Tree, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529048",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529048\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71528888",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -64.8353333333333,
+                                                              18.1481666666667,
+                                                              16.48
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528888",
+                                            "time_utc":  "2026-08-18T08:02:38Z",
+                                            "time_et":  "2026-08-18T04:02:38-04:00",
+                                            "updated_utc":  "2026-08-18T10:22:34Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.53,
+                                            "place":  "20 km SSW of Cruz Bay, U.S. Virgin Islands",
+                                            "country":  "U.S. Virgin Islands",
+                                            "depth_km":  "16.5",
+                                            "depth_km_raw":  16.48,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  98,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 20 km SSW of Cruz Bay, U.S. Virgin Islands",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528888",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528888\u0026format=geojson"
                                         }
                      },
                      {
@@ -44136,41 +44171,6 @@
                                             "title":  "M 1.8 - 6 km NW of Pinnacles, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415732",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415732\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75415727",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.176330566406,
-                                                              36.5794982910156,
-                                                              4.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75415727",
-                                            "time_utc":  "2026-08-11T10:22:08Z",
-                                            "time_et":  "2026-08-11T06:22:08-04:00",
-                                            "updated_utc":  "2026-08-11T11:27:23Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.14,
-                                            "place":  "6 km NNW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.9",
-                                            "depth_km_raw":  4.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  70,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 6 km NNW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415727",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75415727\u0026format=geojson"
                                         }
                      }
                  ]
