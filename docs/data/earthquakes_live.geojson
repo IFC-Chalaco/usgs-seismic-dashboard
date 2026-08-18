@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-18T11:15:46Z",
+    "generated_at_utc":  "2026-08-18T11:16:45Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -596,6 +596,41 @@
                                             "title":  "M 0.9 - 14 km S of Joshua Tree, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529048",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529048\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qezueu",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.192,
+                                                              32.312,
+                                                              1.8488
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qezueu",
+                                            "time_utc":  "2026-08-18T08:17:36Z",
+                                            "time_et":  "2026-08-18T04:17:36-04:00",
+                                            "updated_utc":  "2026-08-18T11:16:19Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "10 km E of Coahoma, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.8",
+                                            "depth_km_raw":  1.8488,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 10 km E of Coahoma, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qezueu",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qezueu\u0026format=geojson"
                                         }
                      },
                      {
