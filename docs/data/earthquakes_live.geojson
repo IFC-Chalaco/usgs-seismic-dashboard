@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T06:21:04Z",
+    "generated_at_utc":  "2026-08-19T06:21:53Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714082101",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.339332580566,
+                                                              49.4296684265137,
+                                                              -0.63
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714082101",
+                                            "time_utc":  "2026-08-19T06:17:48Z",
+                                            "time_et":  "2026-08-19T02:17:48-04:00",
+                                            "updated_utc":  "2026-08-19T06:20:58Z",
+                                            "magnitude":  "3.2",
+                                            "magnitude_raw":  3.16,
+                                            "place":  "18 km ENE of Okanagan Falls, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "-0.6",
+                                            "depth_km_raw":  -0.63,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  154,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.2 - 18 km ENE of Okanagan Falls, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714082101",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714082101\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41529864",
