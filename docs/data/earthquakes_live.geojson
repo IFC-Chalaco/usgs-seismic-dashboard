@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T21:38:50Z",
+    "generated_at_utc":  "2026-08-19T21:39:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -40,35 +40,70 @@
                      },
                      {
                          "type":  "Feature",
-                         "id":  "ci41530656",
+                         "id":  "ci41530664",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.35383605957,
-                                                              33.3333320617676,
-                                                              10.36
+                                                              -115.960998535156,
+                                                              33.7843322753906,
+                                                              8.6
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41530656",
-                                            "time_utc":  "2026-08-19T21:35:16Z",
-                                            "time_et":  "2026-08-19T17:35:16-04:00",
-                                            "updated_utc":  "2026-08-19T21:37:21Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "9 km NNE of Borrego Springs, CA",
+                                            "id":  "ci41530664",
+                                            "time_utc":  "2026-08-19T21:36:29Z",
+                                            "time_et":  "2026-08-19T17:36:29-04:00",
+                                            "updated_utc":  "2026-08-19T21:38:35Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.26,
+                                            "place":  "23 km ENE of Coachella, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "10.4",
-                                            "depth_km_raw":  10.36,
+                                            "depth_km":  "8.6",
+                                            "depth_km_raw":  8.6,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  19,
+                                            "significance":  25,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 9 km NNE of Borrego Springs, CA",
+                                            "title":  "M 1.3 - 23 km ENE of Coachella, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530664",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41530664\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41530656",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.361333333333,
+                                                              33.3338333333333,
+                                                              9.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41530656",
+                                            "time_utc":  "2026-08-19T21:35:16Z",
+                                            "time_et":  "2026-08-19T17:35:16-04:00",
+                                            "updated_utc":  "2026-08-19T21:38:45Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.88,
+                                            "place":  "9 km N of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.8",
+                                            "depth_km_raw":  9.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 9 km N of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530656",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41530656\u0026format=geojson"
                                         }
