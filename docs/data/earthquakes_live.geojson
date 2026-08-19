@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T18:03:22Z",
+    "generated_at_utc":  "2026-08-19T18:04:20Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -5636,6 +5636,41 @@
                                             "title":  "M 2.2 - 8 km E of Loomis, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714081971",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714081971\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714081961",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.11,
+                                                              46.1886666666667,
+                                                              21.74
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714081961",
+                                            "time_utc":  "2026-08-18T23:31:25Z",
+                                            "time_et":  "2026-08-18T19:31:25-04:00",
+                                            "updated_utc":  "2026-08-19T18:03:22Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.74,
+                                            "place":  "8 km WNW of West Longview, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "21.7",
+                                            "depth_km_raw":  21.74,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km WNW of West Longview, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714081961",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714081961\u0026format=geojson"
                                         }
                      },
                      {
