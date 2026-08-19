@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T21:12:01Z",
+    "generated_at_utc":  "2026-08-19T21:37:53Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80149471",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -111.446333333333,
+                                                              42.5445,
+                                                              8.22
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80149471",
+                                            "time_utc":  "2026-08-19T21:17:23Z",
+                                            "time_et":  "2026-08-19T17:17:23-04:00",
+                                            "updated_utc":  "2026-08-19T21:36:52Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.56,
+                                            "place":  "9 km NW of Georgetown, Idaho",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.22,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  37,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 9 km NW of Georgetown, Idaho",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149471",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80149471\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75421477",
@@ -36,6 +71,41 @@
                                             "title":  "M 0.9 - 10 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421477",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75421477\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41530608",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.903666666667,
+                                                              36.059,
+                                                              7.11
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41530608",
+                                            "time_utc":  "2026-08-19T20:59:33Z",
+                                            "time_et":  "2026-08-19T16:59:33-04:00",
+                                            "updated_utc":  "2026-08-19T21:13:08Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.85,
+                                            "place":  "10 km E of Porterville, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.11,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  53,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 10 km E of Porterville, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530608",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41530608\u0026format=geojson"
                                         }
                      },
                      {
@@ -4253,20 +4323,20 @@
                                             "id":  "ci41529896",
                                             "time_utc":  "2026-08-19T07:31:35Z",
                                             "time_et":  "2026-08-19T03:31:35-04:00",
-                                            "updated_utc":  "2026-08-19T20:05:16Z",
+                                            "updated_utc":  "2026-08-19T21:26:01Z",
                                             "magnitude":  "3.6",
                                             "magnitude_raw":  3.64,
                                             "place":  "14 km N of Warner Springs, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "4.7",
                                             "depth_km_raw":  4.73,
-                                            "felt_reports":  160,
+                                            "felt_reports":  161,
                                             "cdi":  3.4,
                                             "mmi":  3.384,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  258,
+                                            "significance":  259,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.6 - 14 km N of Warner Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529896",
@@ -30433,7 +30503,7 @@
                                             "id":  "nc75418657",
                                             "time_utc":  "2026-08-15T07:30:46Z",
                                             "time_et":  "2026-08-15T03:30:46-04:00",
-                                            "updated_utc":  "2026-08-19T19:52:45Z",
+                                            "updated_utc":  "2026-08-19T21:32:22Z",
                                             "magnitude":  "1.1",
                                             "magnitude_raw":  1.11,
                                             "place":  "18 km SW of Toms Place, CA",
@@ -46551,111 +46621,6 @@
                                             "title":  "M 1.0 Quarry Blast - 7 km SE of Mill Creek, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ptbz",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026ptbz\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90205073",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.7365,
-                                                              45.0853333333333,
-                                                              -2
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90205073",
-                                            "time_utc":  "2026-08-12T21:36:59Z",
-                                            "time_et":  "2026-08-12T17:36:59-04:00",
-                                            "updated_utc":  "2026-08-17T21:04:07Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.07,
-                                            "place":  "28 km SE of Virginia City, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-2.0",
-                                            "depth_km_raw":  -2,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.1 Quarry Blast - 28 km SE of Virginia City, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90205073",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90205073\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71528323",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8408333333333,
-                                                              17.9303333333333,
-                                                              12.92
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71528323",
-                                            "time_utc":  "2026-08-12T21:34:12Z",
-                                            "time_et":  "2026-08-12T17:34:12-04:00",
-                                            "updated_utc":  "2026-08-12T21:54:55Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "7 km SE of Maria Antonia, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "12.9",
-                                            "depth_km_raw":  12.92,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  68,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 7 km SE of Maria Antonia, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528323",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528323\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80148446",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.885833333333,
-                                                              38.5081666666667,
-                                                              2.44
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80148446",
-                                            "time_utc":  "2026-08-12T21:18:21Z",
-                                            "time_et":  "2026-08-12T17:18:21-04:00",
-                                            "updated_utc":  "2026-08-12T22:00:54Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.81,
-                                            "place":  "16 km NE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.4",
-                                            "depth_km_raw":  2.44,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 16 km NE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148446",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80148446\u0026format=geojson"
                                         }
                      }
                  ]
