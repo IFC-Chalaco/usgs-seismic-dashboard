@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T13:08:31Z",
+    "generated_at_utc":  "2026-08-19T13:09:31Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00923508",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.5174,
+                                                              38.4511,
+                                                              7.503
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00923508",
+                                            "time_utc":  "2026-08-19T13:04:52Z",
+                                            "time_et":  "2026-08-19T09:04:52-04:00",
+                                            "updated_utc":  "2026-08-19T13:08:12Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.69,
+                                            "place":  "75 km NE of Tonopah, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.5",
+                                            "depth_km_raw":  7.503,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  44,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 75 km NE of Tonopah, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923508",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923508\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75421212",
@@ -45011,41 +45046,6 @@
                                             "title":  "M 0.9 - 17 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40671066",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40671066\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75416822",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.818496704102,
-                                                              38.8106651306152,
-                                                              3.31
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75416822",
-                                            "time_utc":  "2026-08-12T13:08:56Z",
-                                            "time_et":  "2026-08-12T09:08:56-04:00",
-                                            "updated_utc":  "2026-08-12T13:10:32Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.75,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.3",
-                                            "depth_km_raw":  3.31,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416822",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75416822\u0026format=geojson"
                                         }
                      }
                  ]
