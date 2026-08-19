@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T00:30:25Z",
+    "generated_at_utc":  "2026-08-19T00:56:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -180,6 +180,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "pr71528943",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.7373333333333,
+                                                              17.989,
+                                                              14.1
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71528943",
+                                            "time_utc":  "2026-08-18T23:52:50Z",
+                                            "time_et":  "2026-08-18T19:52:50-04:00",
+                                            "updated_utc":  "2026-08-19T00:35:57Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.33,
+                                            "place":  "2 km WSW of Tallaboa, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.1",
+                                            "depth_km_raw":  14.1,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  84,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 2 km WSW of Tallaboa, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528943",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528943\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75420917",
                          "geometry":  {
                                           "type":  "Point",
@@ -333,7 +368,7 @@
                                             "id":  "nc75420902",
                                             "time_utc":  "2026-08-18T23:08:45Z",
                                             "time_et":  "2026-08-18T19:08:45-04:00",
-                                            "updated_utc":  "2026-08-18T23:10:23Z",
+                                            "updated_utc":  "2026-08-19T00:37:21Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.66,
                                             "place":  "4 km NW of Pinnacles, CA",
@@ -403,7 +438,7 @@
                                             "id":  "nn00923466",
                                             "time_utc":  "2026-08-18T23:06:02Z",
                                             "time_et":  "2026-08-18T19:06:02-04:00",
-                                            "updated_utc":  "2026-08-18T23:08:45Z",
+                                            "updated_utc":  "2026-08-19T00:46:51Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.61,
                                             "place":  "34 km E of Lovelock, Nevada",
@@ -414,11 +449,11 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  40,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 34 km E of Lovelock, Nevada",
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.6 Explosion - 34 km E of Lovelock, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923466",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923466\u0026format=geojson"
                                         }
@@ -7368,20 +7403,20 @@
                                             "id":  "ci41528744",
                                             "time_utc":  "2026-08-17T22:16:08Z",
                                             "time_et":  "2026-08-17T18:16:08-04:00",
-                                            "updated_utc":  "2026-08-18T00:46:04Z",
+                                            "updated_utc":  "2026-08-19T00:43:01Z",
                                             "magnitude":  "2.4",
                                             "magnitude_raw":  2.42,
                                             "place":  "7 km ESE of Palomar Observatory, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "16.0",
                                             "depth_km_raw":  16.02,
-                                            "felt_reports":  8,
+                                            "felt_reports":  9,
                                             "cdi":  2.7,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  92,
+                                            "significance":  93,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.4 - 7 km ESE of Palomar Observatory, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528744",
@@ -45886,76 +45921,6 @@
                                             "title":  "M 1.5 - 37 km WSW of Mentone, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ptlqob",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ptlqob\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026ptkpel",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.985,
-                                                              31.634,
-                                                              6.1127
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026ptkpel",
-                                            "time_utc":  "2026-08-12T00:50:12Z",
-                                            "time_et":  "2026-08-11T20:50:12-04:00",
-                                            "updated_utc":  "2026-08-12T07:51:06Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "37 km WSW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.1127,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 37 km WSW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ptkpel",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ptkpel\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00923203",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.9054,
-                                                              38.3758,
-                                                              8.2668
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00923203",
-                                            "time_utc":  "2026-08-12T00:39:00Z",
-                                            "time_et":  "2026-08-11T20:39:00-04:00",
-                                            "updated_utc":  "2026-08-13T02:04:12Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.69,
-                                            "place":  "29 km SW of Hawthorne, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.2668,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 29 km SW of Hawthorne, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923203",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923203\u0026format=geojson"
                                         }
                      }
                  ]
