@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T09:01:24Z",
+    "generated_at_utc":  "2026-08-19T09:02:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00923503",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.4708,
+                                                              38.4955,
+                                                              2.845
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00923503",
+                                            "time_utc":  "2026-08-19T08:59:15Z",
+                                            "time_et":  "2026-08-19T04:59:15-04:00",
+                                            "updated_utc":  "2026-08-19T09:01:49Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.52,
+                                            "place":  "81 km NE of Tonopah, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.845,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 81 km NE of Tonopah, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923503",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923503\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75421127",
