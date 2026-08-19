@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-19T17:55:17Z",
+    "generated_at_utc":  "2026-08-19T17:56:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41530400",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.730333333333,
+                                                              34.1573333333333,
+                                                              9.64
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41530400",
+                                            "time_utc":  "2026-08-19T17:51:47Z",
+                                            "time_et":  "2026-08-19T13:51:47-04:00",
+                                            "updated_utc":  "2026-08-19T17:55:24Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.64,
+                                            "place":  "7 km N of Claremont, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.6",
+                                            "depth_km_raw":  9.64,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 7 km N of Claremont, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530400",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41530400\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026qholzd",
@@ -1409,27 +1444,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.468166666667,
-                                                              33.4876666666667,
-                                                              13.71
+                                                              -116.470166666667,
+                                                              33.4866666666667,
+                                                              14.55
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41530064",
                                             "time_utc":  "2026-08-19T11:52:00Z",
                                             "time_et":  "2026-08-19T07:52:00-04:00",
-                                            "updated_utc":  "2026-08-19T11:55:31Z",
+                                            "updated_utc":  "2026-08-19T17:55:39Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.66,
                                             "place":  "20 km ESE of Anza, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "13.7",
-                                            "depth_km_raw":  13.71,
+                                            "depth_km":  "14.6",
+                                            "depth_km_raw":  14.55,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  7,
                                             "event_type":  "earthquake",
