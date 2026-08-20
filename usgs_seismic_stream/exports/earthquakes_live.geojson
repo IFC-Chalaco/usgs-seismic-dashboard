@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-20T09:11:04Z",
+    "generated_at_utc":  "2026-08-20T09:28:44Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41531032",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.739666666667,
+                                                              33.675,
+                                                              13.42
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41531032",
+                                            "time_utc":  "2026-08-20T09:09:06Z",
+                                            "time_et":  "2026-08-20T05:09:06-04:00",
+                                            "updated_utc":  "2026-08-20T09:12:35Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.14,
+                                            "place":  "7 km SSW of Idyllwild, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.4",
+                                            "depth_km_raw":  13.42,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 7 km SSW of Idyllwild, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531032",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41531032\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75421692",
@@ -18,7 +53,7 @@
                                             "id":  "nc75421692",
                                             "time_utc":  "2026-08-20T09:01:49Z",
                                             "time_et":  "2026-08-20T05:01:49-04:00",
-                                            "updated_utc":  "2026-08-20T09:03:25Z",
+                                            "updated_utc":  "2026-08-20T09:22:24Z",
                                             "magnitude":  "1.3",
                                             "magnitude_raw":  1.33,
                                             "place":  "15 km NNE of Chualar, CA",
@@ -46096,216 +46131,6 @@
                                             "title":  "M 1.1 - 7 km W of Kiowa, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ptzl",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026ptzl\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75417437",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.173332214355,
-                                                              36.5736656188965,
-                                                              4.1
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75417437",
-                                            "time_utc":  "2026-08-13T09:26:27Z",
-                                            "time_et":  "2026-08-13T05:26:27-04:00",
-                                            "updated_utc":  "2026-08-13T09:28:05Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.92,
-                                            "place":  "5 km NNW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.1",
-                                            "depth_km_raw":  4.1,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  57,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 5 km NNW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417437",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417437\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pvxjlz",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.968,
-                                                              31.613,
-                                                              8.2916
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pvxjlz",
-                                            "time_utc":  "2026-08-13T09:24:21Z",
-                                            "time_et":  "2026-08-13T05:24:21-04:00",
-                                            "updated_utc":  "2026-08-13T12:33:01Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.2,
-                                            "place":  "36 km WSW of Mentone, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.2916,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  74,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 36 km WSW of Mentone, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pvxjlz",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pvxjlz\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75417432",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.880668640137,
-                                                              38.8428344726562,
-                                                              2.51
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75417432",
-                                            "time_utc":  "2026-08-13T09:22:26Z",
-                                            "time_et":  "2026-08-13T05:22:26-04:00",
-                                            "updated_utc":  "2026-08-13T09:24:03Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.63,
-                                            "place":  "13 km ENE of Cloverdale, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.51,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 13 km ENE of Cloverdale, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417432",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417432\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pvxhir",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.491,
-                                                              31.383,
-                                                              2.3059
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pvxhir",
-                                            "time_utc":  "2026-08-13T09:22:06Z",
-                                            "time_et":  "2026-08-13T05:22:06-04:00",
-                                            "updated_utc":  "2026-08-13T14:28:55Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "4 km S of Pecos, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.3",
-                                            "depth_km_raw":  2.3059,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 4 km S of Pecos, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pvxhir",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pvxhir\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75417427",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.255668640137,
-                                                              40.8448333740234,
-                                                              13.11
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75417427",
-                                            "time_utc":  "2026-08-13T09:19:59Z",
-                                            "time_et":  "2026-08-13T05:19:59-04:00",
-                                            "updated_utc":  "2026-08-13T09:21:33Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.88,
-                                            "place":  "21 km NNE of Shasta Lake, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.1",
-                                            "depth_km_raw":  13.11,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  54,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 21 km NNE of Shasta Lake, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417427",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75417427\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71528358",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.8171666666667,
-                                                              17.9841666666667,
-                                                              18.04
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71528358",
-                                            "time_utc":  "2026-08-13T09:19:34Z",
-                                            "time_et":  "2026-08-13T05:19:34-04:00",
-                                            "updated_utc":  "2026-08-13T10:23:27Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.2,
-                                            "place":  "1 km SSE of Indios, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "18.0",
-                                            "depth_km_raw":  18.04,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  74,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 1 km SSE of Indios, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528358",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71528358\u0026format=geojson"
                                         }
                      }
                  ]
