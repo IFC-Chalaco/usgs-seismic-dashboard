@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-20T23:33:00Z",
+    "generated_at_utc":  "2026-08-20T23:53:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -635,35 +635,70 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci10249086",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.511,
+                                                              33.0311666666667,
+                                                              13.76
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci10249086",
+                                            "time_utc":  "2026-08-20T20:47:11Z",
+                                            "time_et":  "2026-08-20T16:47:11-04:00",
+                                            "updated_utc":  "2026-08-20T23:47:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.64,
+                                            "place":  "10 km ESE of Julian, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "13.8",
+                                            "depth_km_raw":  13.76,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 10 km ESE of Julian, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10249086",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10249086\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41531432",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.724666666667,
-                                                              33.1973333333333,
-                                                              5.35
+                                                              -116.513,
+                                                              33.0273333333333,
+                                                              15.09
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41531432",
                                             "time_utc":  "2026-08-20T20:46:39Z",
                                             "time_et":  "2026-08-20T16:46:39-04:00",
-                                            "updated_utc":  "2026-08-20T20:50:09Z",
+                                            "updated_utc":  "2026-08-20T23:42:25Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.81,
-                                            "place":  "6 km SE of Lake Henshaw, CA",
+                                            "magnitude_raw":  0.65,
+                                            "place":  "10 km SE of Julian, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.4",
-                                            "depth_km_raw":  5.35,
+                                            "depth_km":  "15.1",
+                                            "depth_km_raw":  15.09,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  10,
+                                            "significance":  6,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km SE of Lake Henshaw, CA",
+                                            "title":  "M 0.7 - 10 km SE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531432",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41531432\u0026format=geojson"
                                         }
@@ -48161,181 +48196,6 @@
                                             "title":  "M 1.8 - 44 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxaeol",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pxaeol\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pxadez",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.153,
-                                                              31.549,
-                                                              6.0999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pxadez",
-                                            "time_utc":  "2026-08-13T23:52:03Z",
-                                            "time_et":  "2026-08-13T19:52:03-04:00",
-                                            "updated_utc":  "2026-08-14T08:46:43Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.5,
-                                            "place":  "42 km NW of Toyah, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.1",
-                                            "depth_km_raw":  6.0999,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  35,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 42 km NW of Toyah, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxadez",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pxadez\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40672186",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.601,
-                                                              33.5895,
-                                                              13.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40672186",
-                                            "time_utc":  "2026-08-13T23:43:55Z",
-                                            "time_et":  "2026-08-13T19:43:55-04:00",
-                                            "updated_utc":  "2026-08-17T15:50:02Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.18,
-                                            "place":  "8 km ENE of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.0",
-                                            "depth_km_raw":  13.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 8 km ENE of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672186",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672186\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90205028",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -113.813333333333,
-                                                              47.7653333333333,
-                                                              4.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90205028",
-                                            "time_utc":  "2026-08-13T23:43:03Z",
-                                            "time_et":  "2026-08-13T19:43:03-04:00",
-                                            "updated_utc":  "2026-08-15T18:12:44Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.32,
-                                            "place":  "18 km S of Swan Lake, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.7",
-                                            "depth_km_raw":  4.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 18 km S of Swan Lake, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90205028",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90205028\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "us6000tkkg",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.4049,
-                                                              46.5132,
-                                                              5
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "us6000tkkg",
-                                            "time_utc":  "2026-08-13T23:42:48Z",
-                                            "time_et":  "2026-08-13T19:42:48-04:00",
-                                            "updated_utc":  "2026-08-15T21:52:26Z",
-                                            "magnitude":  "2.6",
-                                            "magnitude_raw":  2.6,
-                                            "place":  "7 km WNW of Amidon, North Dakota",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.0",
-                                            "depth_km_raw":  5,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  104,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.6 - 7 km WNW of Amidon, North Dakota",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkkg",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkkg\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pwzswu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.987,
-                                                              28.815,
-                                                              7.4418
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pwzswu",
-                                            "time_utc":  "2026-08-13T23:40:03Z",
-                                            "time_et":  "2026-08-13T19:40:03-04:00",
-                                            "updated_utc":  "2026-08-14T23:50:43Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.5,
-                                            "place":  "13 km SE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.4",
-                                            "depth_km_raw":  7.4418,
-                                            "felt_reports":  1,
-                                            "cdi":  2,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  96,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 13 km SE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pwzswu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pwzswu\u0026format=geojson"
                                         }
                      }
                  ]
