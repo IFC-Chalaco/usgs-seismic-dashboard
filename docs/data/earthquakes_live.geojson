@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-21T23:23:43Z",
+    "generated_at_utc":  "2026-08-21T23:45:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41532696",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.674833333333,
+                                                              35.8268333333333,
+                                                              8.14
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41532696",
+                                            "time_utc":  "2026-08-21T23:32:18Z",
+                                            "time_et":  "2026-08-21T19:32:18-04:00",
+                                            "updated_utc":  "2026-08-21T23:35:47Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.98,
+                                            "place":  "23 km N of Ridgecrest, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.1",
+                                            "depth_km_raw":  8.14,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  60,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 23 km N of Ridgecrest, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532696",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41532696\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41532672",
@@ -1068,14 +1103,14 @@
                                             "id":  "nc75422572",
                                             "time_utc":  "2026-08-21T18:32:59Z",
                                             "time_et":  "2026-08-21T14:32:59-04:00",
-                                            "updated_utc":  "2026-08-21T21:42:22Z",
+                                            "updated_utc":  "2026-08-21T23:31:42Z",
                                             "magnitude":  "2.2",
                                             "magnitude_raw":  2.17,
                                             "place":  "6 km ENE of Vallejo, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "3.1",
                                             "depth_km_raw":  3.09,
-                                            "felt_reports":  2,
+                                            "felt_reports":  3,
                                             "cdi":  2.7,
                                             "mmi":  null,
                                             "alert":  null,
@@ -5793,7 +5828,7 @@
                                             "id":  "pr71529188",
                                             "time_utc":  "2026-08-21T02:41:18Z",
                                             "time_et":  "2026-08-20T22:41:18-04:00",
-                                            "updated_utc":  "2026-08-21T11:02:23Z",
+                                            "updated_utc":  "2026-08-21T23:43:16Z",
                                             "magnitude":  "3.4",
                                             "magnitude_raw":  3.4,
                                             "place":  "104 km N of Charlotte Amalie, U.S. Virgin Islands",
@@ -12513,7 +12548,7 @@
                                             "id":  "pr71529063",
                                             "time_utc":  "2026-08-20T01:49:53Z",
                                             "time_et":  "2026-08-19T21:49:53-04:00",
-                                            "updated_utc":  "2026-08-20T02:04:39Z",
+                                            "updated_utc":  "2026-08-21T23:32:54Z",
                                             "magnitude":  "3.4",
                                             "magnitude_raw":  3.42,
                                             "place":  "67 km NE of Cruz Bay, U.S. Virgin Islands",
@@ -47846,41 +47881,6 @@
                                             "title":  "M 0.8 - 2 km N of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418467",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418467\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pyvhfj",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.388,
-                                                              31.213,
-                                                              5.5359
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pyvhfj",
-                                            "time_utc":  "2026-08-14T23:34:50Z",
-                                            "time_et":  "2026-08-14T19:34:50-04:00",
-                                            "updated_utc":  "2026-08-17T14:38:06Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.8,
-                                            "place":  "22 km SE of Lindsay, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.5359,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  121,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 22 km SE of Lindsay, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pyvhfj",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pyvhfj\u0026format=geojson"
                                         }
                      }
                  ]
