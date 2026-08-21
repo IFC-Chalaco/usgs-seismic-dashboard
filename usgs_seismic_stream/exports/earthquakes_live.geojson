@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-21T13:02:07Z",
+    "generated_at_utc":  "2026-08-21T13:03:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -7421,6 +7421,41 @@
                                             "title":  "M 0.8 - 26 km SSW of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530928",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41530928\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026qgnm",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -96.65183333,
+                                                              35.79866667,
+                                                              8.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026qgnm",
+                                            "time_utc":  "2026-08-20T06:12:20Z",
+                                            "time_et":  "2026-08-20T02:12:20-04:00",
+                                            "updated_utc":  "2026-08-21T13:02:16Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.94,
+                                            "place":  "5 km N of Stroud, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.5",
+                                            "depth_km_raw":  8.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  14,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 5 km N of Stroud, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qgnm",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026qgnm\u0026format=geojson"
                                         }
                      },
                      {
@@ -47111,41 +47146,6 @@
                                             "title":  "M 1.3 - 18 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pyaqqd",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pyaqqd\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40672466",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.711,
-                                                              33.5376666666667,
-                                                              6.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40672466",
-                                            "time_utc":  "2026-08-14T13:01:49Z",
-                                            "time_et":  "2026-08-14T09:01:49-04:00",
-                                            "updated_utc":  "2026-08-14T19:32:23Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.1,
-                                            "place":  "4 km WSW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.3",
-                                            "depth_km_raw":  6.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.1 - 4 km WSW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672466",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40672466\u0026format=geojson"
                                         }
                      }
                  ]
