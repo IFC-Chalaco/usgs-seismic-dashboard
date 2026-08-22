@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-22T18:04:28Z",
+    "generated_at_utc":  "2026-08-22T18:31:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75423067",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.476829528809,
+                                                              37.609001159668,
+                                                              9.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75423067",
+                                            "time_utc":  "2026-08-22T18:24:54Z",
+                                            "time_et":  "2026-08-22T14:24:54-04:00",
+                                            "updated_utc":  "2026-08-22T18:26:30Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.82,
+                                            "place":  "1 km ESE of Pacifica, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.1",
+                                            "depth_km_raw":  9.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  51,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 1 km ESE of Pacifica, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423067",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75423067\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41533048",
@@ -3028,14 +3063,14 @@
                                             "id":  "ci41532736",
                                             "time_utc":  "2026-08-22T01:22:12Z",
                                             "time_et":  "2026-08-21T21:22:12-04:00",
-                                            "updated_utc":  "2026-08-22T18:02:35Z",
+                                            "updated_utc":  "2026-08-22T18:07:45Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.26,
                                             "place":  "6 km SSW of Encino, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "7.3",
                                             "depth_km_raw":  7.3,
-                                            "felt_reports":  41,
+                                            "felt_reports":  42,
                                             "cdi":  3.2,
                                             "mmi":  null,
                                             "alert":  null,
@@ -46481,146 +46516,6 @@
                                             "title":  "M 1.2 - 3 km NNE of San Leandro, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418912",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418912\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673290",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.071333333333,
-                                                              33.2568333333333,
-                                                              4.98
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673290",
-                                            "time_utc":  "2026-08-15T18:30:25Z",
-                                            "time_et":  "2026-08-15T14:30:25-04:00",
-                                            "updated_utc":  "2026-08-17T22:31:08Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.65,
-                                            "place":  "12 km WSW of Salton City, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.0",
-                                            "depth_km_raw":  4.98,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 12 km WSW of Salton City, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673290",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673290\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026pyih",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.883,
-                                                              35.10566667,
-                                                              7.64
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026pyih",
-                                            "time_utc":  "2026-08-15T18:29:19Z",
-                                            "time_et":  "2026-08-15T14:29:19-04:00",
-                                            "updated_utc":  "2026-08-17T19:58:55Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.29,
-                                            "place":  "6 km S of Amber, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.6",
-                                            "depth_km_raw":  7.64,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.3 - 6 km S of Amber, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pyih",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026pyih\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026qagons",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.997,
-                                                              31.669,
-                                                              3.1982
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qagons",
-                                            "time_utc":  "2026-08-15T18:19:49Z",
-                                            "time_et":  "2026-08-15T14:19:49-04:00",
-                                            "updated_utc":  "2026-08-17T16:59:06Z",
-                                            "magnitude":  "2.5",
-                                            "magnitude_raw":  2.5,
-                                            "place":  "37 km SSE of Midland, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.2",
-                                            "depth_km_raw":  3.1982,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  96,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.5 - 37 km SSE of Midland, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qagons",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qagons\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75418897",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.078330993652,
-                                                              37.6451683044434,
-                                                              3.88
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75418897",
-                                            "time_utc":  "2026-08-15T18:11:49Z",
-                                            "time_et":  "2026-08-15T14:11:49-04:00",
-                                            "updated_utc":  "2026-08-15T19:17:24Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.66,
-                                            "place":  "0 km NW of Hayward, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.9",
-                                            "depth_km_raw":  3.88,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  42,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 0 km NW of Hayward, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418897",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418897\u0026format=geojson"
                                         }
                      }
                  ]
