@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-22T10:45:17Z",
+    "generated_at_utc":  "2026-08-22T11:00:04Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714083092",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.93399810791,
+                                                              46.7639999389648,
+                                                              -0.93
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714083092",
+                                            "time_utc":  "2026-08-22T10:54:24Z",
+                                            "time_et":  "2026-08-22T06:54:24-04:00",
+                                            "updated_utc":  "2026-08-22T10:57:15Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.55,
+                                            "place":  "7 km E of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.9",
+                                            "depth_km_raw":  -0.93,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  100,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.5 - 7 km E of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714083092",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714083092\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75422907",
@@ -18,7 +53,7 @@
                                             "id":  "nc75422907",
                                             "time_utc":  "2026-08-22T10:34:43Z",
                                             "time_et":  "2026-08-22T06:34:43-04:00",
-                                            "updated_utc":  "2026-08-22T10:36:17Z",
+                                            "updated_utc":  "2026-08-22T10:52:21Z",
                                             "magnitude":  "2.0",
                                             "magnitude_raw":  2.01,
                                             "place":  "6 km NNW of Pinnacles, CA",
@@ -158,20 +193,20 @@
                                             "id":  "us6000tms8",
                                             "time_utc":  "2026-08-22T10:19:13Z",
                                             "time_et":  "2026-08-22T06:19:13-04:00",
-                                            "updated_utc":  "2026-08-22T10:43:24Z",
+                                            "updated_utc":  "2026-08-22T10:59:18Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.1,
                                             "place":  "10 km ESE of San Mateo, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  2,
-                                            "cdi":  2.7,
+                                            "felt_reports":  5,
+                                            "cdi":  3.6,
                                             "mmi":  4.376,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  259,
+                                            "significance":  260,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.1 - 10 km ESE of San Mateo, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tms8",
@@ -1121,6 +1156,41 @@
                                             "title":  "M 2.0 - 12 km WSW of Salton City, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532800",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41532800\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71529288",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8283333333333,
+                                                              18.0088333333333,
+                                                              12.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71529288",
+                                            "time_utc":  "2026-08-22T03:38:59Z",
+                                            "time_et":  "2026-08-21T23:38:59-04:00",
+                                            "updated_utc":  "2026-08-22T10:59:31Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.21,
+                                            "place":  "1 km NNW of Indios, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  75,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 1 km NNW of Indios, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529288",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529288\u0026format=geojson"
                                         }
                      },
                      {
@@ -46516,76 +46586,6 @@
                                             "title":  "M 1.5 - 8 km ESE of Redwood Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418727",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418727\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673106",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.921833333333,
-                                                              33.892,
-                                                              14.37
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673106",
-                                            "time_utc":  "2026-08-15T10:48:21Z",
-                                            "time_et":  "2026-08-15T06:48:21-04:00",
-                                            "updated_utc":  "2026-08-15T16:53:09Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.22,
-                                            "place":  "6 km SW of Banning, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.4",
-                                            "depth_km_raw":  14.37,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  1,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 6 km SW of Banning, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673106",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673106\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673098",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.923333333333,
-                                                              33.8903333333333,
-                                                              13.52
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673098",
-                                            "time_utc":  "2026-08-15T10:46:08Z",
-                                            "time_et":  "2026-08-15T06:46:08-04:00",
-                                            "updated_utc":  "2026-08-15T16:53:05Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.49,
-                                            "place":  "6 km SW of Banning, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.5",
-                                            "depth_km_raw":  13.52,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 6 km SW of Banning, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673098",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673098\u0026format=geojson"
                                         }
                      }
                  ]
