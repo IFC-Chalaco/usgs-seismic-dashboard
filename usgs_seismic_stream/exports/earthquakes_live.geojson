@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-22T23:23:06Z",
+    "generated_at_utc":  "2026-08-22T23:24:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -631,6 +631,41 @@
                                             "title":  "M 0.5 - 20 km ESE of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533088",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41533088\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us6000tmvw",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -74.7374,
+                                                              40.7396,
+                                                              11.334
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us6000tmvw",
+                                            "time_utc":  "2026-08-22T19:50:47Z",
+                                            "time_et":  "2026-08-22T15:50:47-04:00",
+                                            "updated_utc":  "2026-08-22T23:23:07Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.1,
+                                            "place":  "6 km SW of Chester, New Jersey",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.3",
+                                            "depth_km_raw":  11.334,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 6 km SW of Chester, New Jersey",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmvw",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tmvw\u0026format=geojson"
                                         }
                      },
                      {
