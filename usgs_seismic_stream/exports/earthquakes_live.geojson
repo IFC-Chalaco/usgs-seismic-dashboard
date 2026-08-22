@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-22T11:21:32Z",
+    "generated_at_utc":  "2026-08-22T11:25:06Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -320,26 +320,61 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026qmlzzz",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.995,
+                                                              31.674,
+                                                              3.6027
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qmlzzz",
+                                            "time_utc":  "2026-08-22T09:57:36Z",
+                                            "time_et":  "2026-08-22T05:57:36-04:00",
+                                            "updated_utc":  "2026-08-22T11:21:11Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "36 km SSE of Midland, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.6027,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 36 km SSE of Midland, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmlzzz",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qmlzzz\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "tx2026qmlyez",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -101.501,
+                                                              -101.494,
                                                               32.116,
-                                                              2.4016
+                                                              2.4201
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qmlyez",
-                                            "time_utc":  "2026-08-22T09:55:29Z",
-                                            "time_et":  "2026-08-22T05:55:29-04:00",
-                                            "updated_utc":  "2026-08-22T09:59:21Z",
+                                            "time_utc":  "2026-08-22T09:55:28Z",
+                                            "time_et":  "2026-08-22T05:55:28-04:00",
+                                            "updated_utc":  "2026-08-22T11:21:07Z",
                                             "magnitude":  "1.2",
                                             "magnitude_raw":  1.2,
                                             "place":  "12 km W of Forsan, Texas",
                                             "country":  "United States of America",
                                             "depth_km":  "2.4",
-                                            "depth_km_raw":  2.4016,
+                                            "depth_km_raw":  2.4201,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
