@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-22T14:48:42Z",
+    "generated_at_utc":  "2026-08-22T15:00:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -718,20 +718,20 @@
                                             "id":  "us6000tms8",
                                             "time_utc":  "2026-08-22T10:19:13Z",
                                             "time_et":  "2026-08-22T06:19:13-04:00",
-                                            "updated_utc":  "2026-08-22T14:29:19Z",
+                                            "updated_utc":  "2026-08-22T14:56:55Z",
                                             "magnitude":  "4.1",
                                             "magnitude_raw":  4.1,
                                             "place":  "10 km ESE of San Mateo, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  20,
+                                            "felt_reports":  21,
                                             "cdi":  3.8,
                                             "mmi":  4.499,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  266,
+                                            "significance":  267,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.1 - 10 km ESE of San Mateo, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tms8",
@@ -1086,6 +1086,41 @@
                                             "title":  "M 3.4 - 116 km N of Charlotte Amalie, U.S. Virgin Islands",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529353",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529353\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71529348",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -68.5321666666667,
+                                                              18.004,
+                                                              66.43
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71529348",
+                                            "time_utc":  "2026-08-22T08:59:30Z",
+                                            "time_et":  "2026-08-22T04:59:30-04:00",
+                                            "updated_utc":  "2026-08-22T14:59:39Z",
+                                            "magnitude":  "3.3",
+                                            "magnitude_raw":  3.27,
+                                            "place":  "42 km S of Boca de Yuma, Dominican Republic",
+                                            "country":  "Dominican Republic",
+                                            "depth_km":  "66.4",
+                                            "depth_km_raw":  66.43,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  165,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.3 - 42 km S of Boca de Yuma, Dominican Republic",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529348",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529348\u0026format=geojson"
                                         }
                      },
                      {
@@ -46376,146 +46411,6 @@
                                             "title":  "M 1.0 - 7 km ESE of Cloverdale, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418827",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418827\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673210",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.426666666667,
-                                                              33.5501666666667,
-                                                              6.01
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673210",
-                                            "time_utc":  "2026-08-15T15:00:14Z",
-                                            "time_et":  "2026-08-15T11:00:14-04:00",
-                                            "updated_utc":  "2026-08-16T14:25:13Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.53,
-                                            "place":  "17 km SW of La Quinta, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.0",
-                                            "depth_km_raw":  6.01,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 17 km SW of La Quinta, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673210",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673210\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673202",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.244833333333,
-                                                              32.9196666666667,
-                                                              8.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673202",
-                                            "time_utc":  "2026-08-15T14:59:51Z",
-                                            "time_et":  "2026-08-15T10:59:51-04:00",
-                                            "updated_utc":  "2026-08-16T14:29:53Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.65,
-                                            "place":  "27 km SSW of Ocotillo Wells, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.3",
-                                            "depth_km_raw":  8.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 27 km SSW of Ocotillo Wells, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673202",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673202\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026pzzuvy",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -103.239,
-                                                              32.015,
-                                                              5.8435
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026pzzuvy",
-                                            "time_utc":  "2026-08-15T14:56:09Z",
-                                            "time_et":  "2026-08-15T10:56:09-04:00",
-                                            "updated_utc":  "2026-08-17T15:07:58Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "11 km SSW of Jal, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.8",
-                                            "depth_km_raw":  5.8435,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 11 km SSW of Jal, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pzzuvy",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026pzzuvy\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75418807",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.15966796875,
-                                                              36.5386657714844,
-                                                              4.87
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75418807",
-                                            "time_utc":  "2026-08-15T14:48:52Z",
-                                            "time_et":  "2026-08-15T10:48:52-04:00",
-                                            "updated_utc":  "2026-08-15T17:17:23Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.17,
-                                            "place":  "2 km WNW of Pinnacles, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.9",
-                                            "depth_km_raw":  4.87,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  21,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 2 km WNW of Pinnacles, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418807",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75418807\u0026format=geojson"
                                         }
                      }
                  ]
