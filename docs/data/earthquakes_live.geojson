@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T20:35:36Z",
+    "generated_at_utc":  "2026-08-23T20:36:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41534504",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.836166381836,
+                                                              36.0660018920898,
+                                                              3.24
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41534504",
+                                            "time_utc":  "2026-08-23T20:33:18Z",
+                                            "time_et":  "2026-08-23T16:33:18-04:00",
+                                            "updated_utc":  "2026-08-23T20:35:20Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.08,
+                                            "place":  "10 km ENE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.24,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 10 km ENE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534504",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41534504\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41534496",
@@ -6003,14 +6038,14 @@
                                             "id":  "ci41533416",
                                             "time_utc":  "2026-08-23T07:59:55Z",
                                             "time_et":  "2026-08-23T03:59:55-04:00",
-                                            "updated_utc":  "2026-08-23T20:09:57Z",
+                                            "updated_utc":  "2026-08-23T20:34:58Z",
                                             "magnitude":  "4.0",
                                             "magnitude_raw":  3.96,
                                             "place":  "10 km ENE of Coso Junction, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "2.8",
                                             "depth_km_raw":  2.83,
-                                            "felt_reports":  6,
+                                            "felt_reports":  7,
                                             "cdi":  3.4,
                                             "mmi":  4.366,
                                             "alert":  null,
@@ -48756,41 +48791,6 @@
                                             "title":  "M 1.7 - 6 km SE of Ontario, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674010",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674010\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40674002",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.589,
-                                                              34.0115,
-                                                              5.59
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40674002",
-                                            "time_utc":  "2026-08-16T20:35:29Z",
-                                            "time_et":  "2026-08-16T16:35:29-04:00",
-                                            "updated_utc":  "2026-08-18T06:29:22Z",
-                                            "magnitude":  "2.8",
-                                            "magnitude_raw":  2.78,
-                                            "place":  "6 km SE of Ontario, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.6",
-                                            "depth_km_raw":  5.59,
-                                            "felt_reports":  128,
-                                            "cdi":  3.8,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  168,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.8 - 6 km SE of Ontario, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674002",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674002\u0026format=geojson"
                                         }
                      }
                  ]
