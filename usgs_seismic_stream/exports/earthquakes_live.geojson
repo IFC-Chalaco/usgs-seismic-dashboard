@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T08:05:01Z",
+    "generated_at_utc":  "2026-08-23T08:06:02Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41533432",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.838668823242,
+                                                              36.0629997253418,
+                                                              3.18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41533432",
+                                            "time_utc":  "2026-08-23T08:03:10Z",
+                                            "time_et":  "2026-08-23T04:03:10-04:00",
+                                            "updated_utc":  "2026-08-23T08:05:16Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.71,
+                                            "place":  "10 km ENE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  45,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 10 km ENE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533432",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41533432\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41533424",
@@ -18,7 +53,7 @@
                                             "id":  "ci41533424",
                                             "time_utc":  "2026-08-23T08:01:15Z",
                                             "time_et":  "2026-08-23T04:01:15-04:00",
-                                            "updated_utc":  "2026-08-23T08:03:29Z",
+                                            "updated_utc":  "2026-08-23T08:05:02Z",
                                             "magnitude":  "3.5",
                                             "magnitude_raw":  3.54,
                                             "place":  "11 km ENE of Coso Junction, CA",
@@ -27,7 +62,7 @@
                                             "depth_km_raw":  2.41,
                                             "felt_reports":  null,
                                             "cdi":  null,
-                                            "mmi":  null,
+                                            "mmi":  3.664,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
@@ -88,7 +123,7 @@
                                             "id":  "ci41533416",
                                             "time_utc":  "2026-08-23T07:59:55Z",
                                             "time_et":  "2026-08-23T03:59:55-04:00",
-                                            "updated_utc":  "2026-08-23T08:03:43Z",
+                                            "updated_utc":  "2026-08-23T08:05:26Z",
                                             "magnitude":  "3.8",
                                             "magnitude_raw":  3.76,
                                             "place":  "10 km ENE of Coso Junction, CA",
@@ -45641,41 +45676,6 @@
                                             "title":  "M 0.9 - 9 km WNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419347",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419347\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci40673682",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.840666666667,
-                                                              36.0663333333333,
-                                                              2.72
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci40673682",
-                                            "time_utc":  "2026-08-16T08:04:36Z",
-                                            "time_et":  "2026-08-16T04:04:36-04:00",
-                                            "updated_utc":  "2026-08-16T13:58:21Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.54,
-                                            "place":  "10 km ENE of Coso Junction, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.72,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  4,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 10 km ENE of Coso Junction, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673682",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673682\u0026format=geojson"
                                         }
                      }
                  ]
