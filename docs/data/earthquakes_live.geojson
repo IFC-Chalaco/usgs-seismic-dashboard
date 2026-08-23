@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T11:26:47Z",
+    "generated_at_utc":  "2026-08-23T11:27:46Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3361,6 +3361,41 @@
                                             "title":  "M 0.7 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423427",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75423427\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71529483",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.8573333333333,
+                                                              17.9086666666667,
+                                                              10.81
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71529483",
+                                            "time_utc":  "2026-08-23T07:32:19Z",
+                                            "time_et":  "2026-08-23T03:32:19-04:00",
+                                            "updated_utc":  "2026-08-23T11:26:18Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.11,
+                                            "place":  "8 km SSE of Maria Antonia, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "10.8",
+                                            "depth_km_raw":  10.81,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 8 km SSE of Maria Antonia, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529483",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529483\u0026format=geojson"
                                         }
                      },
                      {
