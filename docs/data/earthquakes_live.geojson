@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T09:05:24Z",
+    "generated_at_utc":  "2026-08-23T09:06:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75423502",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.170669555664,
+                                                              36.6003341674805,
+                                                              3.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75423502",
+                                            "time_utc":  "2026-08-23T09:04:17Z",
+                                            "time_et":  "2026-08-23T05:04:17-04:00",
+                                            "updated_utc":  "2026-08-23T09:05:54Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.29,
+                                            "place":  "8 km NNW of Pinnacles, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  3.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  26,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 8 km NNW of Pinnacles, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423502",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75423502\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75423497",
