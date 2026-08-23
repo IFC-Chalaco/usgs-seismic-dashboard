@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T11:02:57Z",
+    "generated_at_utc":  "2026-08-23T11:03:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41533952",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.842834472656,
+                                                              36.0605010986328,
+                                                              2.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41533952",
+                                            "time_utc":  "2026-08-23T11:01:19Z",
+                                            "time_et":  "2026-08-23T07:01:19-04:00",
+                                            "updated_utc":  "2026-08-23T11:03:22Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.16,
+                                            "place":  "10 km E of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  2.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 10 km E of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533952",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41533952\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41533944",
@@ -47566,41 +47601,6 @@
                                             "title":  "M 1.4 - 7 km NE of Imperial, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673786",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40673786\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ok2026pzpb",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -97.61016667,
-                                                              35.28,
-                                                              12.93
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ok2026pzpb",
-                                            "time_utc":  "2026-08-16T11:02:47Z",
-                                            "time_et":  "2026-08-16T07:02:47-04:00",
-                                            "updated_utc":  "2026-08-17T18:16:33Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.61,
-                                            "place":  "3 km NNW of Newcastle, Oklahoma",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.9",
-                                            "depth_km_raw":  12.93,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  6,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 3 km NNW of Newcastle, Oklahoma",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pzpb",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026pzpb\u0026format=geojson"
                                         }
                      }
                  ]
