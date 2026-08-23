@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-23T13:44:34Z",
+    "generated_at_utc":  "2026-08-23T13:48:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75423612",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.796501159668,
+                                                              35.4978332519531,
+                                                              6.68
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75423612",
+                                            "time_utc":  "2026-08-23T13:44:11Z",
+                                            "time_et":  "2026-08-23T09:44:11-04:00",
+                                            "updated_utc":  "2026-08-23T13:45:44Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.16,
+                                            "place":  "10 km SW of Templeton, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.68,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 10 km SW of Templeton, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423612",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75423612\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41534152",
@@ -4253,7 +4288,7 @@
                                             "id":  "uw714084142",
                                             "time_utc":  "2026-08-23T07:10:49Z",
                                             "time_et":  "2026-08-23T03:10:49-04:00",
-                                            "updated_utc":  "2026-08-23T07:12:32Z",
+                                            "updated_utc":  "2026-08-23T13:46:45Z",
                                             "magnitude":  "1.7",
                                             "magnitude_raw":  1.68,
                                             "place":  "22 km S of Morton, Washington",
@@ -4264,7 +4299,7 @@
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  43,
                                             "event_type":  "earthquake",
@@ -48126,41 +48161,6 @@
                                             "title":  "M 1.8 - 57 km S of Whites City, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qbtjkj",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qbtjkj\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80149026",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.915333333333,
-                                                              40.3873333333333,
-                                                              3.68
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80149026",
-                                            "time_utc":  "2026-08-16T13:46:13Z",
-                                            "time_et":  "2026-08-16T09:46:13-04:00",
-                                            "updated_utc":  "2026-08-17T15:24:34Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.72,
-                                            "place":  "4 km NNW of Saratoga Springs, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.7",
-                                            "depth_km_raw":  3.68,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 4 km NNW of Saratoga Springs, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149026",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80149026\u0026format=geojson"
                                         }
                      }
                  ]
