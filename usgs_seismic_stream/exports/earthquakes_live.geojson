@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T05:14:19Z",
+    "generated_at_utc":  "2026-08-24T05:15:21Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75424007",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.804496765137,
+                                                              38.8223342895508,
+                                                              3.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75424007",
+                                            "time_utc":  "2026-08-24T05:12:50Z",
+                                            "time_et":  "2026-08-24T01:12:50-04:00",
+                                            "updated_utc":  "2026-08-24T05:14:25Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.17,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  21,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424007",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75424007\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75423997",
