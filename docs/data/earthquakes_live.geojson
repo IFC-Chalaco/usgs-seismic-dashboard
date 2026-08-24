@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T17:20:28Z",
+    "generated_at_utc":  "2026-08-24T17:21:27Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -2608,7 +2608,7 @@
                                             "id":  "nc75424047",
                                             "time_utc":  "2026-08-24T08:57:38Z",
                                             "time_et":  "2026-08-24T04:57:38-04:00",
-                                            "updated_utc":  "2026-08-24T12:42:22Z",
+                                            "updated_utc":  "2026-08-24T17:20:10Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.25,
                                             "place":  "19 km SW of Toms Place, CA",
@@ -12644,31 +12644,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.251335144043,
-                                                              46.3561668395996,
-                                                              6.59
+                                                              -122.250666666667,
+                                                              46.3505,
+                                                              7.49
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714084142",
                                             "time_utc":  "2026-08-23T07:10:49Z",
                                             "time_et":  "2026-08-23T03:10:49-04:00",
-                                            "updated_utc":  "2026-08-23T13:46:45Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.68,
-                                            "place":  "22 km S of Morton, Washington",
+                                            "updated_utc":  "2026-08-24T17:20:49Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.15,
+                                            "place":  "23 km S of Morton, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.6",
-                                            "depth_km_raw":  6.59,
+                                            "depth_km":  "7.5",
+                                            "depth_km_raw":  7.49,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  43,
+                                            "significance":  20,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 22 km S of Morton, Washington",
+                                            "title":  "M 1.2 - 23 km S of Morton, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714084142",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714084142\u0026format=geojson"
                                         }
@@ -17781,6 +17781,41 @@
                                             "title":  "M 0.7 - 8 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422862",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75422862\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qmioot",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.173,
+                                                              32.108,
+                                                              6.958
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qmioot",
+                                            "time_utc":  "2026-08-22T08:13:50Z",
+                                            "time_et":  "2026-08-22T04:13:50-04:00",
+                                            "updated_utc":  "2026-08-24T17:20:23Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "15 km NW of Midland, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  6.958,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 15 km NW of Midland, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmioot",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qmioot\u0026format=geojson"
                                         }
                      },
                      {
