@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T17:55:54Z",
+    "generated_at_utc":  "2026-08-24T17:56:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -6896,6 +6896,41 @@
                                             "title":  "M 0.7 - 10 km E of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534320",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41534320\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714084512",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.570333333333,
+                                                              46.9526666666667,
+                                                              3.27
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714084512",
+                                            "time_utc":  "2026-08-23T17:30:39Z",
+                                            "time_et":  "2026-08-23T13:30:39-04:00",
+                                            "updated_utc":  "2026-08-24T17:55:43Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "23 km SSE of Greenwater, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.3",
+                                            "depth_km_raw":  3.27,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 23 km SSE of Greenwater, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714084512",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714084512\u0026format=geojson"
                                         }
                      },
                      {
