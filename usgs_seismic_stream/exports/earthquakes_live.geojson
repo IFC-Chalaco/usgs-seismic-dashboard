@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T13:09:43Z",
+    "generated_at_utc":  "2026-08-24T13:10:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -9,31 +9,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.836669921875,
-                                                              36.0603332519531,
-                                                              2.12
+                                                              -117.838833333333,
+                                                              36.0585,
+                                                              2.47
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41535128",
                                             "time_utc":  "2026-08-24T13:06:32Z",
                                             "time_et":  "2026-08-24T09:06:32-04:00",
-                                            "updated_utc":  "2026-08-24T13:08:34Z",
+                                            "updated_utc":  "2026-08-24T13:10:02Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
+                                            "magnitude_raw":  0.79,
                                             "place":  "10 km E of Coso Junction, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.12,
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.47,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  15,
+                                            "significance":  10,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 10 km E of Coso Junction, CA",
+                                            "title":  "M 0.8 - 10 km E of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41535128",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41535128\u0026format=geojson"
                                         }
@@ -48756,41 +48756,6 @@
                                             "title":  "M 0.4 - 2 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420022",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420022\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75420017",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.765502929688,
-                                                              38.8231658935547,
-                                                              2.16
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75420017",
-                                            "time_utc":  "2026-08-17T13:09:33Z",
-                                            "time_et":  "2026-08-17T09:09:33-04:00",
-                                            "updated_utc":  "2026-08-17T16:47:23Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.12,
-                                            "place":  "4 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.16,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420017",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420017\u0026format=geojson"
                                         }
                      }
                  ]
