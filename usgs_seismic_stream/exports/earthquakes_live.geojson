@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T22:26:09Z",
+    "generated_at_utc":  "2026-08-24T22:27:08Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41535616",
+                         "id":  "ok2026qpbo",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.847663879395,
-                                                              36.0686683654785,
-                                                              1.84
+                                                              -97.69430542,
+                                                              36.81806564,
+                                                              1.6249
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41535616",
-                                            "time_utc":  "2026-08-24T22:22:55Z",
-                                            "time_et":  "2026-08-24T18:22:55-04:00",
-                                            "updated_utc":  "2026-08-24T22:25:20Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "9 km ENE of Coso Junction, CA",
+                                            "id":  "ok2026qpbo",
+                                            "time_utc":  "2026-08-24T22:23:28Z",
+                                            "time_et":  "2026-08-24T18:23:28-04:00",
+                                            "updated_utc":  "2026-08-24T22:25:41Z",
+                                            "magnitude":  "2.5",
+                                            "magnitude_raw":  2.49,
+                                            "place":  "3 km ENE of Medford, Oklahoma",
                                             "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.84,
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.6249,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  61,
+                                            "significance":  95,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 9 km ENE of Coso Junction, CA",
+                                            "title":  "M 2.5 - 3 km ENE of Medford, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qpbo",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026qpbo\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41535616",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.847166666667,
+                                                              36.0683333333333,
+                                                              2.17
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41535616",
+                                            "time_utc":  "2026-08-24T22:22:55Z",
+                                            "time_et":  "2026-08-24T18:22:55-04:00",
+                                            "updated_utc":  "2026-08-24T22:26:28Z",
+                                            "magnitude":  "1.8",
+                                            "magnitude_raw":  1.78,
+                                            "place":  "9 km ENE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.2",
+                                            "depth_km_raw":  2.17,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  49,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.8 - 9 km ENE of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41535616",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41535616\u0026format=geojson"
                                         }
