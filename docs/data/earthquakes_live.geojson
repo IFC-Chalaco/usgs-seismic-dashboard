@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T18:19:37Z",
+    "generated_at_utc":  "2026-08-24T18:20:35Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75424302",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.799331665039,
+                                                              38.8315010070801,
+                                                              1.99
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75424302",
+                                            "time_utc":  "2026-08-24T18:17:35Z",
+                                            "time_et":  "2026-08-24T14:17:35-04:00",
+                                            "updated_utc":  "2026-08-24T18:19:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.25,
+                                            "place":  "7 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  1.99,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 7 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424302",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75424302\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75424297",
@@ -2110,30 +2145,30 @@
                                           "type":  "Point",
                                           "coordinates":  [
                                                               -103.708,
-                                                              32.058,
-                                                              8.0821
+                                                              32.052,
+                                                              8.3813
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qqfzxc",
-                                            "time_utc":  "2026-08-24T11:14:17Z",
-                                            "time_et":  "2026-08-24T07:14:17-04:00",
-                                            "updated_utc":  "2026-08-24T12:01:18Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
+                                            "time_utc":  "2026-08-24T11:14:18Z",
+                                            "time_et":  "2026-08-24T07:14:18-04:00",
+                                            "updated_utc":  "2026-08-24T18:19:42Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
                                             "place":  "39 km ESE of Malaga, New Mexico",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.1",
-                                            "depth_km_raw":  8.0821,
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.3813,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  62,
+                                            "significance":  68,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 39 km ESE of Malaga, New Mexico",
+                                            "title":  "M 2.1 - 39 km ESE of Malaga, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qqfzxc",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qqfzxc\u0026format=geojson"
                                         }
@@ -6694,31 +6729,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.139167785645,
-                                                              46.2104988098145,
-                                                              8.48
+                                                              -122.154666666667,
+                                                              46.206,
+                                                              7
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "uw714084542",
-                                            "time_utc":  "2026-08-23T18:29:00Z",
-                                            "time_et":  "2026-08-23T14:29:00-04:00",
-                                            "updated_utc":  "2026-08-23T19:09:51Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.08,
-                                            "place":  "40 km SSE of Morton, Washington",
+                                            "time_utc":  "2026-08-23T18:29:01Z",
+                                            "time_et":  "2026-08-23T14:29:01-04:00",
+                                            "updated_utc":  "2026-08-24T18:19:21Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.72,
+                                            "place":  "39 km NE of Amboy, Washington",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.5",
-                                            "depth_km_raw":  8.48,
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  7,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  18,
+                                            "significance":  8,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 40 km SSE of Morton, Washington",
+                                            "title":  "M 0.7 - 39 km NE of Amboy, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714084542",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714084542\u0026format=geojson"
                                         }
@@ -8716,6 +8751,41 @@
                                             "title":  "M 0.8 - 10 km E of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534072",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41534072\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80149851",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.8875,
+                                                              38.5073333333333,
+                                                              2.53
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80149851",
+                                            "time_utc":  "2026-08-23T12:18:17Z",
+                                            "time_et":  "2026-08-23T08:18:17-04:00",
+                                            "updated_utc":  "2026-08-24T18:19:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.6,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.5",
+                                            "depth_km_raw":  2.53,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149851",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80149851\u0026format=geojson"
                                         }
                      },
                      {
