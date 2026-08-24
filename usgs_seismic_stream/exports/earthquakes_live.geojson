@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T06:33:17Z",
+    "generated_at_utc":  "2026-08-24T06:34:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41534840",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.165832519531,
+                                                              34.0528335571289,
+                                                              10.88
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41534840",
+                                            "time_utc":  "2026-08-24T06:31:16Z",
+                                            "time_et":  "2026-08-24T02:31:16-04:00",
+                                            "updated_utc":  "2026-08-24T06:33:18Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.06,
+                                            "place":  "2 km ESE of Redlands, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.9",
+                                            "depth_km_raw":  10.88,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 2 km ESE of Redlands, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534840",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41534840\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41534824",
