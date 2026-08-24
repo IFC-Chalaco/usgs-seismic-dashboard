@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T00:06:49Z",
+    "generated_at_utc":  "2026-08-24T00:29:05Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41534688",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.840333333333,
+                                                              36.0688333333333,
+                                                              4.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41534688",
+                                            "time_utc":  "2026-08-24T00:12:43Z",
+                                            "time_et":  "2026-08-23T20:12:43-04:00",
+                                            "updated_utc":  "2026-08-24T00:16:17Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.85,
+                                            "place":  "10 km ENE of Coso Junction, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 10 km ENE of Coso Junction, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534688",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41534688\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75423907",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.287002563477,
+                                                              37.9995002746582,
+                                                              5.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75423907",
+                                            "time_utc":  "2026-08-24T00:05:20Z",
+                                            "time_et":  "2026-08-23T20:05:20-04:00",
+                                            "updated_utc":  "2026-08-24T00:06:54Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.19,
+                                            "place":  "1 km ESE of Pinole, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.7",
+                                            "depth_km_raw":  5.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 1 km ESE of Pinole, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423907",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75423907\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026qpjiqg",
@@ -48966,41 +49036,6 @@
                                             "title":  "M 1.9 - 23 km NNW of Westbrook, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qcoovu",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qcoovu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026qcomja",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.117,
-                                                              32.56,
-                                                              8.1055
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qcomja",
-                                            "time_utc":  "2026-08-17T00:27:27Z",
-                                            "time_et":  "2026-08-16T20:27:27-04:00",
-                                            "updated_utc":  "2026-08-18T10:33:39Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.3,
-                                            "place":  "24 km NNW of Westbrook, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.1",
-                                            "depth_km_raw":  8.1055,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  26,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 24 km NNW of Westbrook, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qcomja",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qcomja\u0026format=geojson"
                                         }
                      }
                  ]
