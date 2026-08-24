@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-24T11:50:54Z",
+    "generated_at_utc":  "2026-08-24T12:05:03Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41535064",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.640333333333,
+                                                              33.4185,
+                                                              6.52
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41535064",
+                                            "time_utc":  "2026-08-24T11:55:29Z",
+                                            "time_et":  "2026-08-24T07:55:29-04:00",
+                                            "updated_utc":  "2026-08-24T11:59:05Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.1,
+                                            "place":  "15 km N of Warner Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.52,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 15 km N of Warner Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41535064",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41535064\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75424122",
@@ -53,7 +88,7 @@
                                             "id":  "nc75424117",
                                             "time_utc":  "2026-08-24T11:33:00Z",
                                             "time_et":  "2026-08-24T07:33:00-04:00",
-                                            "updated_utc":  "2026-08-24T11:34:35Z",
+                                            "updated_utc":  "2026-08-24T11:52:24Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.26,
                                             "place":  "2 km N of The Geysers, CA",
@@ -184,22 +219,22 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -103.707,
+                                                              -103.708,
                                                               32.058,
-                                                              8.1137
+                                                              8.0821
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "tx2026qqfzxc",
                                             "time_utc":  "2026-08-24T11:14:17Z",
                                             "time_et":  "2026-08-24T07:14:17-04:00",
-                                            "updated_utc":  "2026-08-24T11:22:08Z",
+                                            "updated_utc":  "2026-08-24T12:01:18Z",
                                             "magnitude":  "2.0",
                                             "magnitude_raw":  2,
                                             "place":  "39 km ESE of Malaga, New Mexico",
                                             "country":  "United States of America",
                                             "depth_km":  "8.1",
-                                            "depth_km_raw":  8.1137,
+                                            "depth_km_raw":  8.0821,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
@@ -2000,6 +2035,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "tx2026qppzmp",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.084,
+                                                              32.404,
+                                                              6.6895
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qppzmp",
+                                            "time_utc":  "2026-08-24T03:11:05Z",
+                                            "time_et":  "2026-08-23T23:11:05-04:00",
+                                            "updated_utc":  "2026-08-24T11:53:04Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.1,
+                                            "place":  "37 km WSW of Ackerly, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.6895,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 37 km WSW of Ackerly, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qppzmp",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qppzmp\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41534760",
                          "geometry":  {
                                           "type":  "Point",
@@ -2381,6 +2451,41 @@
                                             "title":  "M 3.4 - 91 km NE of Punta Cana, Dominican Republic",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529588",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529588\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026qnmj",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -95.99283333,
+                                                              34.67883333,
+                                                              7.67
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026qnmj",
+                                            "time_utc":  "2026-08-24T01:34:44Z",
+                                            "time_et":  "2026-08-23T21:34:44-04:00",
+                                            "updated_utc":  "2026-08-24T12:03:42Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.47,
+                                            "place":  "4 km NE of Wardville, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.7",
+                                            "depth_km_raw":  7.67,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  33,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 4 km NE of Wardville, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qnmj",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026qnmj\u0026format=geojson"
                                         }
                      },
                      {
@@ -48581,111 +48686,6 @@
                                             "title":  "M 2.5 - 12 km SSW of Lompoc, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674370",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40674370\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026qdlgtu",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.136,
-                                                              31.542,
-                                                              8.9709
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qdlgtu",
-                                            "time_utc":  "2026-08-17T11:54:57Z",
-                                            "time_et":  "2026-08-17T07:54:57-04:00",
-                                            "updated_utc":  "2026-08-17T14:36:41Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "41 km NW of Toyah, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.0",
-                                            "depth_km_raw":  8.9709,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  44,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 41 km NW of Toyah, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qdlgtu",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qdlgtu\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75419992",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.804664611816,
-                                                              38.8219985961914,
-                                                              3.12
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75419992",
-                                            "time_utc":  "2026-08-17T11:52:14Z",
-                                            "time_et":  "2026-08-17T07:52:14-04:00",
-                                            "updated_utc":  "2026-08-17T11:53:47Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.83,
-                                            "place":  "6 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.1",
-                                            "depth_km_raw":  3.12,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  11,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 6 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419992",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419992\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75419987",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.804168701172,
-                                                              38.8223342895508,
-                                                              3.13
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75419987",
-                                            "time_utc":  "2026-08-17T11:51:58Z",
-                                            "time_et":  "2026-08-17T07:51:58-04:00",
-                                            "updated_utc":  "2026-08-17T13:22:19Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.54,
-                                            "place":  "6 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "3.1",
-                                            "depth_km_raw":  3.13,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 6 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419987",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75419987\u0026format=geojson"
                                         }
                      }
                  ]
