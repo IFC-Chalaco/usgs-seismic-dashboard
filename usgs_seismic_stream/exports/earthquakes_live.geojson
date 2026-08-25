@@ -1,39 +1,109 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-25T16:59:17Z",
+    "generated_at_utc":  "2026-08-25T17:22:15Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "nn00923880",
+                         "id":  "ci41536176",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.6193,
-                                                              37.4673,
-                                                              0.6019
+                                                              -116.637666666667,
+                                                              33.4131666666667,
+                                                              6.65
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "nn00923880",
-                                            "time_utc":  "2026-08-25T16:38:15Z",
-                                            "time_et":  "2026-08-25T12:38:15-04:00",
-                                            "updated_utc":  "2026-08-25T16:42:15Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.7,
-                                            "place":  "22 km SSE of Rachel, Nevada",
+                                            "id":  "ci41536176",
+                                            "time_utc":  "2026-08-25T17:02:56Z",
+                                            "time_et":  "2026-08-25T13:02:56-04:00",
+                                            "updated_utc":  "2026-08-25T17:06:28Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.54,
+                                            "place":  "15 km N of Warner Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "0.6",
-                                            "depth_km_raw":  0.6019,
+                                            "depth_km":  "6.7",
+                                            "depth_km_raw":  6.65,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  44,
+                                            "significance":  4,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 22 km SSE of Rachel, Nevada",
+                                            "title":  "M 0.5 - 15 km N of Warner Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536176",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536176\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41536168",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.995333333333,
+                                                              33.9966666666667,
+                                                              15.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41536168",
+                                            "time_utc":  "2026-08-25T17:00:32Z",
+                                            "time_et":  "2026-08-25T13:00:32-04:00",
+                                            "updated_utc":  "2026-08-25T17:03:57Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.59,
+                                            "place":  "5 km E of Calimesa, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "15.1",
+                                            "depth_km_raw":  15.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 5 km E of Calimesa, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536168",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536168\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00923880",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.7932,
+                                                              37.3581,
+                                                              12.7981
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00923880",
+                                            "time_utc":  "2026-08-25T16:38:19Z",
+                                            "time_et":  "2026-08-25T12:38:19-04:00",
+                                            "updated_utc":  "2026-08-25T17:06:29Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.73,
+                                            "place":  "32 km S of Rachel, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.8",
+                                            "depth_km_raw":  12.7981,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  46,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 32 km S of Rachel, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923880",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923880\u0026format=geojson"
                                         }
@@ -1943,14 +2013,14 @@
                                             "id":  "uw714085652",
                                             "time_utc":  "2026-08-25T06:05:04Z",
                                             "time_et":  "2026-08-25T02:05:04-04:00",
-                                            "updated_utc":  "2026-08-25T14:15:30Z",
+                                            "updated_utc":  "2026-08-25T17:02:16Z",
                                             "magnitude":  "2.3",
                                             "magnitude_raw":  2.32,
                                             "place":  "4 km NW of Waterville, Washington",
                                             "country":  "United States of America",
                                             "depth_km":  "3.3",
                                             "depth_km_raw":  3.29,
-                                            "felt_reports":  15,
+                                            "felt_reports":  16,
                                             "cdi":  3.4,
                                             "mmi":  null,
                                             "alert":  null,
@@ -52501,111 +52571,6 @@
                                             "title":  "M 0.3 - 16 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149196",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80149196\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75420697",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.22566986084,
-                                                              37.3953323364258,
-                                                              2.7
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75420697",
-                                            "time_utc":  "2026-08-18T17:05:06Z",
-                                            "time_et":  "2026-08-18T13:05:06-04:00",
-                                            "updated_utc":  "2026-08-18T20:07:22Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.94,
-                                            "place":  "2 km NE of Portola Valley, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.7,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  58,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 2 km NE of Portola Valley, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420697",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420697\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41529376",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.852833333333,
-                                                              34.3376666666667,
-                                                              -1.55
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41529376",
-                                            "time_utc":  "2026-08-18T17:03:48Z",
-                                            "time_et":  "2026-08-18T13:03:48-04:00",
-                                            "updated_utc":  "2026-08-18T18:55:36Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  1,
-                                            "place":  "9 km N of Big Bear City, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-1.6",
-                                            "depth_km_raw":  -1.55,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 1.0 Quarry Blast - 9 km N of Big Bear City, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529376",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529376\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75420692",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -120.471333333333,
-                                                              36.5456666666667,
-                                                              10.48
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75420692",
-                                            "time_utc":  "2026-08-18T17:00:59Z",
-                                            "time_et":  "2026-08-18T13:00:59-04:00",
-                                            "updated_utc":  "2026-08-18T22:42:25Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.49,
-                                            "place":  "15 km WNW of Cantua Creek, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.5",
-                                            "depth_km_raw":  10.48,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  34,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 15 km WNW of Cantua Creek, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420692",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420692\u0026format=geojson"
                                         }
                      }
                  ]
