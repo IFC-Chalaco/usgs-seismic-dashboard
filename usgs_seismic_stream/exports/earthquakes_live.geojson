@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-25T20:36:55Z",
+    "generated_at_utc":  "2026-08-25T20:52:16Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41536424",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.860166666667,
+                                                              34.3033333333333,
+                                                              3.56
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41536424",
+                                            "time_utc":  "2026-08-25T20:40:06Z",
+                                            "time_et":  "2026-08-25T16:40:06-04:00",
+                                            "updated_utc":  "2026-08-25T20:43:38Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.24,
+                                            "place":  "5 km NNW of Big Bear City, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.6",
+                                            "depth_km_raw":  3.56,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 5 km NNW of Big Bear City, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536424",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536424\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026qsubll",
@@ -53,20 +88,20 @@
                                             "id":  "ci41536408",
                                             "time_utc":  "2026-08-25T20:17:07Z",
                                             "time_et":  "2026-08-25T16:17:07-04:00",
-                                            "updated_utc":  "2026-08-25T20:28:25Z",
+                                            "updated_utc":  "2026-08-25T20:47:37Z",
                                             "magnitude":  "3.0",
                                             "magnitude_raw":  3,
                                             "place":  "12 km NNE of Ocotillo Wells, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "2.9",
                                             "depth_km_raw":  2.88,
-                                            "felt_reports":  1,
-                                            "cdi":  1,
+                                            "felt_reports":  4,
+                                            "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  139,
+                                            "significance":  140,
                                             "event_type":  "earthquake",
                                             "title":  "M 3.0 - 12 km NNE of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536408",
@@ -106,6 +141,41 @@
                                             "title":  "M 1.0 - 18 km SSW of Ocotillo Wells, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536400",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536400\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71529788",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -65.6966666666667,
+                                                              17.8766666666667,
+                                                              3.15
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71529788",
+                                            "time_utc":  "2026-08-25T19:47:01Z",
+                                            "time_et":  "2026-08-25T15:47:01-04:00",
+                                            "updated_utc":  "2026-08-25T20:42:41Z",
+                                            "magnitude":  "2.7",
+                                            "magnitude_raw":  2.67,
+                                            "place":  "24 km SE of Emajagua, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.15,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  110,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.7 - 24 km SE of Emajagua, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529788",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529788\u0026format=geojson"
                                         }
                      },
                      {
@@ -53376,146 +53446,6 @@
                                             "title":  "M 0.8 - 6 km NNW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420847",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420847\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026qfylzr",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.995,
-                                                              31.958,
-                                                              6.665
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026qfylzr",
-                                            "time_utc":  "2026-08-18T20:42:20Z",
-                                            "time_et":  "2026-08-18T16:42:20-04:00",
-                                            "updated_utc":  "2026-08-19T18:06:59Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.7,
-                                            "place":  "8 km ESE of Midland, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.7",
-                                            "depth_km_raw":  6.665,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 8 km ESE of Midland, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfylzr",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qfylzr\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75420807",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.860664367676,
-                                                              38.8201675415039,
-                                                              2.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75420807",
-                                            "time_utc":  "2026-08-18T20:41:40Z",
-                                            "time_et":  "2026-08-18T16:41:40-04:00",
-                                            "updated_utc":  "2026-08-18T21:37:20Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.78,
-                                            "place":  "10 km WNW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.3",
-                                            "depth_km_raw":  2.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 10 km WNW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420807",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75420807\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714081751",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.041666666667,
-                                                              46.1021666666667,
-                                                              12.25
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714081751",
-                                            "time_utc":  "2026-08-18T20:38:28Z",
-                                            "time_et":  "2026-08-18T16:38:28-04:00",
-                                            "updated_utc":  "2026-08-18T22:03:11Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.94,
-                                            "place":  "37 km NE of Amboy, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.3",
-                                            "depth_km_raw":  12.25,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  14,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 37 km NE of Amboy, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714081751",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714081751\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41529576",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.500833333333,
-                                                              33.872,
-                                                              -0.53
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41529576",
-                                            "time_utc":  "2026-08-18T20:37:13Z",
-                                            "time_et":  "2026-08-18T16:37:13-04:00",
-                                            "updated_utc":  "2026-08-19T19:44:17Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.87,
-                                            "place":  "2 km ESE of Home Gardens, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.5",
-                                            "depth_km_raw":  -0.53,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "quarry blast",
-                                            "title":  "M 0.9 Quarry Blast - 2 km ESE of Home Gardens, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529576",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41529576\u0026format=geojson"
                                         }
                      }
                  ]
