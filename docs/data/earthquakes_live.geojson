@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-25T19:39:56Z",
+    "generated_at_utc":  "2026-08-25T19:40:57Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -5574,29 +5574,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.847166666667,
-                                                              36.0683333333333,
-                                                              2.17
+                                                              -117.847333333333,
+                                                              36.0693333333333,
+                                                              2.32
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41535616",
                                             "time_utc":  "2026-08-24T22:22:55Z",
                                             "time_et":  "2026-08-24T18:22:55-04:00",
-                                            "updated_utc":  "2026-08-24T22:26:28Z",
+                                            "updated_utc":  "2026-08-25T19:40:17Z",
                                             "magnitude":  "1.8",
-                                            "magnitude_raw":  1.78,
+                                            "magnitude_raw":  1.8,
                                             "place":  "9 km ENE of Coso Junction, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.17,
+                                            "depth_km":  "2.3",
+                                            "depth_km_raw":  2.32,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  49,
+                                            "significance":  50,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.8 - 9 km ENE of Coso Junction, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41535616",
@@ -5916,6 +5916,41 @@
                                             "title":  "M 0.6 - 39 km SSW of Los Ybanez, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qrarfq",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qrarfq\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026qraqat",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -102.115,
+                                                              32.409,
+                                                              6.4209
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026qraqat",
+                                            "time_utc":  "2026-08-24T21:36:31Z",
+                                            "time_et":  "2026-08-24T17:36:31-04:00",
+                                            "updated_utc":  "2026-08-25T19:40:05Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.2,
+                                            "place":  "39 km SSW of Los Ybanez, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.4",
+                                            "depth_km_raw":  6.4209,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.2 - 39 km SSW of Los Ybanez, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qraqat",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026qraqat\u0026format=geojson"
                                         }
                      },
                      {
