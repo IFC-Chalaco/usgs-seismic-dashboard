@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-25T20:52:16Z",
+    "generated_at_utc":  "2026-08-25T21:00:11Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75425037",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.808670043945,
+                                                              38.8326683044434,
+                                                              2.17
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75425037",
+                                            "time_utc":  "2026-08-25T20:52:42Z",
+                                            "time_et":  "2026-08-25T16:52:42-04:00",
+                                            "updated_utc":  "2026-08-25T20:54:16Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.71,
+                                            "place":  "8 km W of Cobb, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.2",
+                                            "depth_km_raw":  2.17,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km W of Cobb, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425037",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75425037\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41536424",
@@ -79,31 +114,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.069000244141,
-                                                              33.2394981384277,
-                                                              2.88
+                                                              -116.066833333333,
+                                                              33.2393333333333,
+                                                              4.3
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41536408",
                                             "time_utc":  "2026-08-25T20:17:07Z",
                                             "time_et":  "2026-08-25T16:17:07-04:00",
-                                            "updated_utc":  "2026-08-25T20:47:37Z",
-                                            "magnitude":  "3.0",
-                                            "magnitude_raw":  3,
-                                            "place":  "12 km NNE of Ocotillo Wells, CA",
+                                            "updated_utc":  "2026-08-25T20:53:34Z",
+                                            "magnitude":  "3.1",
+                                            "magnitude_raw":  3.06,
+                                            "place":  "12 km WSW of Salton City, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "2.9",
-                                            "depth_km_raw":  2.88,
+                                            "depth_km":  "4.3",
+                                            "depth_km_raw":  4.3,
                                             "felt_reports":  4,
                                             "cdi":  2,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  140,
+                                            "significance":  145,
                                             "event_type":  "earthquake",
-                                            "title":  "M 3.0 - 12 km NNE of Ocotillo Wells, CA",
+                                            "title":  "M 3.1 - 12 km WSW of Salton City, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536408",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536408\u0026format=geojson"
                                         }
@@ -456,6 +491,41 @@
                                             "title":  "M 1.3 - 10 km NNW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536344",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536344\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41536336",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.326,
+                                                              33.3158333333333,
+                                                              11.63
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41536336",
+                                            "time_utc":  "2026-08-25T19:07:57Z",
+                                            "time_et":  "2026-08-25T15:07:57-04:00",
+                                            "updated_utc":  "2026-08-25T20:56:42Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.44,
+                                            "place":  "8 km NE of Borrego Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.6",
+                                            "depth_km_raw":  11.63,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 8 km NE of Borrego Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536336",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536336\u0026format=geojson"
                                         }
                      },
                      {
