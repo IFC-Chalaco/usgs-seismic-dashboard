@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-26T18:20:17Z",
+    "generated_at_utc":  "2026-08-26T18:21:13Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75425527",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.814834594727,
+                                                              38.8256683349609,
+                                                              2.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75425527",
+                                            "time_utc":  "2026-08-26T18:18:41Z",
+                                            "time_et":  "2026-08-26T14:18:41-04:00",
+                                            "updated_utc":  "2026-08-26T18:20:18Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.1",
+                                            "depth_km_raw":  2.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425527",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75425527\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41536936",
@@ -36,6 +71,41 @@
                                             "title":  "M 1.2 - 9 km NNW of Idyllwild, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536936",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41536936\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71529998",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.0646666666667,
+                                                              17.9655,
+                                                              14.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71529998",
+                                            "time_utc":  "2026-08-26T17:49:07Z",
+                                            "time_et":  "2026-08-26T13:49:07-04:00",
+                                            "updated_utc":  "2026-08-26T18:20:04Z",
+                                            "magnitude":  "2.6",
+                                            "magnitude_raw":  2.6,
+                                            "place":  "2 km WSW of La Parguera, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "14.1",
+                                            "depth_km_raw":  14.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  104,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.6 - 2 km WSW of La Parguera, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529998",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71529998\u0026format=geojson"
                                         }
                      },
                      {
