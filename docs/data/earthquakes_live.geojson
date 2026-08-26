@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-26T08:58:59Z",
+    "generated_at_utc":  "2026-08-26T08:59:57Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75425337",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.132164001465,
+                                                              37.8946647644043,
+                                                              14.51
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75425337",
+                                            "time_utc":  "2026-08-26T08:57:23Z",
+                                            "time_et":  "2026-08-26T04:57:23-04:00",
+                                            "updated_utc":  "2026-08-26T08:59:02Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  1.95,
+                                            "place":  "2 km NW of Lafayette, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "14.5",
+                                            "depth_km_raw":  14.51,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  58,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 2 km NW of Lafayette, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425337",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75425337\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41536696",
@@ -51661,76 +51696,6 @@
                                             "title":  "M 1.4 - 3 km WNW of Redway, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421132",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75421132\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00923503",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.4708,
-                                                              38.4955,
-                                                              2.845
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00923503",
-                                            "time_utc":  "2026-08-19T08:59:15Z",
-                                            "time_et":  "2026-08-19T04:59:15-04:00",
-                                            "updated_utc":  "2026-08-19T09:01:49Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.52,
-                                            "place":  "81 km NE of Tonopah, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.8",
-                                            "depth_km_raw":  2.845,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 81 km NE of Tonopah, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923503",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923503\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75421127",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.846168518066,
-                                                              38.8240013122559,
-                                                              2.21
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75421127",
-                                            "time_utc":  "2026-08-19T08:58:27Z",
-                                            "time_et":  "2026-08-19T04:58:27-04:00",
-                                            "updated_utc":  "2026-08-19T09:32:22Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.98,
-                                            "place":  "9 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.2",
-                                            "depth_km_raw":  2.21,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  15,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.0 - 9 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421127",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75421127\u0026format=geojson"
                                         }
                      }
                  ]
