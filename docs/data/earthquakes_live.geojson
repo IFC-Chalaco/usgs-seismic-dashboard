@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-28T21:33:51Z",
+    "generated_at_utc":  "2026-08-28T21:34:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -211,6 +211,41 @@
                                             "title":  "M 2.6 - 17 km SSW of Beatty, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923949",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00923949\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80151096",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.888,
+                                                              38.5101666666667,
+                                                              2.69
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80151096",
+                                            "time_utc":  "2026-08-28T20:58:51Z",
+                                            "time_et":  "2026-08-28T16:58:51-04:00",
+                                            "updated_utc":  "2026-08-28T21:33:17Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.27,
+                                            "place":  "16 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.69,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 16 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80151096",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80151096\u0026format=geojson"
                                         }
                      },
                      {
