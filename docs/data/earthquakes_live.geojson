@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-27T23:53:13Z",
+    "generated_at_utc":  "2026-08-28T00:26:28Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -44,31 +44,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.520833333333,
-                                                              33.1573333333333,
-                                                              7.94
+                                                              -116.521666666667,
+                                                              33.16,
+                                                              7.07
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41537840",
                                             "time_utc":  "2026-08-27T23:43:10Z",
                                             "time_et":  "2026-08-27T19:43:10-04:00",
-                                            "updated_utc":  "2026-08-27T23:46:29Z",
+                                            "updated_utc":  "2026-08-28T00:14:09Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.54,
+                                            "magnitude_raw":  0.38,
                                             "place":  "12 km NE of Julian, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "7.9",
-                                            "depth_km_raw":  7.94,
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.07,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  4,
+                                            "significance":  2,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.5 - 12 km NE of Julian, CA",
+                                            "title":  "M 0.4 - 12 km NE of Julian, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537840",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41537840\u0026format=geojson"
                                         }
@@ -613,7 +613,7 @@
                                             "id":  "nc75426092",
                                             "time_utc":  "2026-08-27T21:22:41Z",
                                             "time_et":  "2026-08-27T17:22:41-04:00",
-                                            "updated_utc":  "2026-08-27T22:07:25Z",
+                                            "updated_utc":  "2026-08-27T23:57:22Z",
                                             "magnitude":  "2.0",
                                             "magnitude_raw":  2.03,
                                             "place":  "23 km NE of Pinnacles, CA",
@@ -52326,41 +52326,6 @@
                                             "title":  "M 0.6 - 6 km WSW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531632",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41531632\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41531624",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.449833333333,
-                                                              35.524,
-                                                              4.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41531624",
-                                            "time_utc":  "2026-08-21T00:22:26Z",
-                                            "time_et":  "2026-08-20T20:22:26-04:00",
-                                            "updated_utc":  "2026-08-21T01:07:26Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.9,
-                                            "place":  "23 km ESE of Ridgecrest, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.7",
-                                            "depth_km_raw":  4.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  12,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.9 - 23 km ESE of Ridgecrest, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531624",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41531624\u0026format=geojson"
                                         }
                      }
                  ]
