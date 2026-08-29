@@ -61,7 +61,7 @@ jobs:
 
       - name: Open or update stale issue
         if: steps.freshness.outputs.is_stale == 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           STALE_TITLE: ${{ steps.freshness.outputs.title }}
           STALE_BODY: ${{ steps.freshness.outputs.body }}
@@ -98,7 +98,7 @@ jobs:
 
       - name: Request recovery refresh
         if: steps.freshness.outputs.is_stale == 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const workflow_id = "usgs-earthquake-refresh.yml";
@@ -130,7 +130,7 @@ jobs:
 
       - name: Close stale issue when healthy
         if: steps.freshness.outputs.is_stale != 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           STALE_TITLE: ${{ steps.freshness.outputs.title }}
         with:
