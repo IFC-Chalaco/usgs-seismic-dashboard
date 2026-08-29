@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-08-29T03:20:46Z",
+    "generated_at_utc":  "2026-08-29T03:21:45Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41538552",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.915,
+                                                              33.6505,
+                                                              11.56
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41538552",
+                                            "time_utc":  "2026-08-29T03:16:55Z",
+                                            "time_et":  "2026-08-28T23:16:55-04:00",
+                                            "updated_utc":  "2026-08-29T03:20:18Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.66,
+                                            "place":  "11 km S of Valle Vista, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.6",
+                                            "depth_km_raw":  11.56,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 11 km S of Valle Vista, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538552",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41538552\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75426662",
@@ -228,20 +263,20 @@
                                             "id":  "nc75426637",
                                             "time_utc":  "2026-08-29T02:41:09Z",
                                             "time_et":  "2026-08-28T22:41:09-04:00",
-                                            "updated_utc":  "2026-08-29T03:18:40Z",
+                                            "updated_utc":  "2026-08-29T03:21:15Z",
                                             "magnitude":  "4.8",
                                             "magnitude_raw":  4.84,
                                             "place":  "95 km W of Petrolia, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "2.3",
                                             "depth_km_raw":  2.31,
-                                            "felt_reports":  191,
+                                            "felt_reports":  196,
                                             "cdi":  4.3,
                                             "mmi":  3.321,
                                             "alert":  "green",
                                             "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  443,
+                                            "significance":  445,
                                             "event_type":  "earthquake",
                                             "title":  "M 4.8 - 95 km W of Petrolia, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426637",
