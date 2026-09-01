@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-01T11:57:48Z",
+    "generated_at_utc":  "2026-09-01T11:58:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -456,6 +456,41 @@
                                             "title":  "M 0.9 - 18 km WSW of Johannesburg, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540080",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41540080\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026rcrh",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.64333333,
+                                                              35.02616667,
+                                                              7.01
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026rcrh",
+                                            "time_utc":  "2026-09-01T09:06:24Z",
+                                            "time_et":  "2026-09-01T05:06:24-04:00",
+                                            "updated_utc":  "2026-09-01T11:58:18Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "1 km WSW of Dibble, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  7.01,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 1 km WSW of Dibble, Oklahoma",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026rcrh",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026rcrh\u0026format=geojson"
                                         }
                      },
                      {
