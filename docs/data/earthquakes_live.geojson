@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-03T19:59:52Z",
+    "generated_at_utc":  "2026-09-03T20:00:54Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75429327",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.106163024902,
+                                                              36.5458335876465,
+                                                              8.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75429327",
+                                            "time_utc":  "2026-09-03T19:58:23Z",
+                                            "time_et":  "2026-09-03T15:58:23-04:00",
+                                            "updated_utc":  "2026-09-03T20:00:01Z",
+                                            "magnitude":  "2.4",
+                                            "magnitude_raw":  2.35,
+                                            "place":  "4 km ENE of Pinnacles, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  85,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.4 - 4 km ENE of Pinnacles, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75429327",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75429327\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "tx2026rjgbvo",
@@ -71,6 +106,76 @@
                                             "title":  "M 2.4 - 16 km NE of Milford, Utah",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80153991",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80153991\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80153986",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.893333333333,
+                                                              38.5071666666667,
+                                                              2.92
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80153986",
+                                            "time_utc":  "2026-09-03T19:37:13Z",
+                                            "time_et":  "2026-09-03T15:37:13-04:00",
+                                            "updated_utc":  "2026-09-03T19:59:39Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.72,
+                                            "place":  "15 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.9",
+                                            "depth_km_raw":  2.92,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  46,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 15 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80153986",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80153986\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026rjfite",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.587,
+                                                              31.537,
+                                                              0
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026rjfite",
+                                            "time_utc":  "2026-09-03T19:19:25Z",
+                                            "time_et":  "2026-09-03T15:19:25-04:00",
+                                            "updated_utc":  "2026-09-03T20:00:16Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "15 km NW of Pecos, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 15 km NW of Pecos, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rjfite",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026rjfite\u0026format=geojson"
                                         }
                      },
                      {
@@ -613,14 +718,14 @@
                                             "id":  "nc75429272",
                                             "time_utc":  "2026-09-03T17:33:27Z",
                                             "time_et":  "2026-09-03T13:33:27-04:00",
-                                            "updated_utc":  "2026-09-03T19:52:20Z",
+                                            "updated_utc":  "2026-09-03T19:59:59Z",
                                             "magnitude":  "3.3",
                                             "magnitude_raw":  3.34,
                                             "place":  "3 km ESE of Larkfield-Wikiup, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "7.4",
                                             "depth_km_raw":  7.44,
-                                            "felt_reports":  1685,
+                                            "felt_reports":  1694,
                                             "cdi":  3.4,
                                             "mmi":  3.644,
                                             "alert":  null,
