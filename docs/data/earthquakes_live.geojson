@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-08T00:36:39Z",
+    "generated_at_utc":  "2026-09-08T00:37:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026rqyqom",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.622,
+                                                              30.912,
+                                                              4.7049
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026rqyqom",
+                                            "time_utc":  "2026-09-08T00:33:05Z",
+                                            "time_et":  "2026-09-07T20:33:05-04:00",
+                                            "updated_utc":  "2026-09-08T00:36:48Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "14 km SE of Balmorhea, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.7",
+                                            "depth_km_raw":  4.7049,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 14 km SE of Balmorhea, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rqyqom",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026rqyqom\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41542592",
@@ -36191,41 +36226,6 @@
                                             "title":  "M 0.1 - 15 km SSE of Eunice, New Mexico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026recsip",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026recsip\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75427982",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.807167053223,
-                                                              38.8250007629395,
-                                                              2.69
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75427982",
-                                            "time_utc":  "2026-09-01T00:36:18Z",
-                                            "time_et":  "2026-08-31T20:36:18-04:00",
-                                            "updated_utc":  "2026-09-01T01:07:20Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "7 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.69,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 7 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427982",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75427982\u0026format=geojson"
                                         }
                      }
                  ]
