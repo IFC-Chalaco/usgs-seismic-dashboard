@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-09T17:34:07Z",
+    "generated_at_utc":  "2026-09-09T17:35:07Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75432592",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.850997924805,
+                                                              38.8498344421387,
+                                                              0.77
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75432592",
+                                            "time_utc":  "2026-09-09T17:32:43Z",
+                                            "time_et":  "2026-09-09T13:32:43-04:00",
+                                            "updated_utc":  "2026-09-09T17:34:18Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "11 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.8",
+                                            "depth_km_raw":  0.77,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  17,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 11 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432592",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75432592\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75432577",
@@ -3544,31 +3579,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.462,
-                                                              32.8293333333333,
-                                                              9.16
+                                                              -115.458666666667,
+                                                              32.8123333333333,
+                                                              8.16
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41543264",
                                             "time_utc":  "2026-09-09T05:02:48Z",
                                             "time_et":  "2026-09-09T01:02:48-04:00",
-                                            "updated_utc":  "2026-09-09T05:06:27Z",
+                                            "updated_utc":  "2026-09-09T17:34:29Z",
                                             "magnitude":  "1.8",
-                                            "magnitude_raw":  1.82,
-                                            "place":  "8 km WNW of Holtville, CA",
+                                            "magnitude_raw":  1.76,
+                                            "place":  "7 km W of Holtville, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "9.2",
-                                            "depth_km_raw":  9.16,
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.16,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  51,
+                                            "significance":  48,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 8 km WNW of Holtville, CA",
+                                            "title":  "M 1.8 - 7 km W of Holtville, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543264",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41543264\u0026format=geojson"
                                         }
