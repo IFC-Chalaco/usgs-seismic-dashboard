@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-10T00:22:19Z",
+    "generated_at_utc":  "2026-09-10T00:23:18Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41543832",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.0185,
+                                                              33.6645,
+                                                              10.32
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41543832",
+                                            "time_utc":  "2026-09-10T00:18:55Z",
+                                            "time_et":  "2026-09-09T20:18:55-04:00",
+                                            "updated_utc":  "2026-09-10T00:22:22Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.63,
+                                            "place":  "8 km SE of Winchester, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.3",
+                                            "depth_km_raw":  10.32,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  6,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 8 km SE of Winchester, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543832",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41543832\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41543824",
