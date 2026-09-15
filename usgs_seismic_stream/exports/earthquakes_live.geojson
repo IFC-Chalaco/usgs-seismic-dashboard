@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-15T00:34:48Z",
+    "generated_at_utc":  "2026-09-15T00:58:20Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41332919",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -119.22533416748,
+                                                              33.9933319091797,
+                                                              2.2
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41332919",
+                                            "time_utc":  "2026-09-15T00:47:18Z",
+                                            "time_et":  "2026-09-14T20:47:18-04:00",
+                                            "updated_utc":  "2026-09-15T00:49:23Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.03,
+                                            "place":  "17 km S of Port Hueneme, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.2",
+                                            "depth_km_raw":  2.2,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 17 km S of Port Hueneme, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41332919",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41332919\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75435832",
@@ -18,7 +53,7 @@
                                             "id":  "nc75435832",
                                             "time_utc":  "2026-09-15T00:02:45Z",
                                             "time_et":  "2026-09-14T20:02:45-04:00",
-                                            "updated_utc":  "2026-09-15T00:04:18Z",
+                                            "updated_utc":  "2026-09-15T00:52:22Z",
                                             "magnitude":  "1.6",
                                             "magnitude_raw":  1.6,
                                             "place":  "1 km ESE of The Geysers, CA",
@@ -1191,6 +1226,41 @@
                                             "title":  "M 1.1 - 15 km NNE of Tres Pinos, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435687",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75435687\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41332743",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.969666666667,
+                                                              34.229,
+                                                              2.75
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41332743",
+                                            "time_utc":  "2026-09-14T18:14:19Z",
+                                            "time_et":  "2026-09-14T14:14:19-04:00",
+                                            "updated_utc":  "2026-09-15T00:52:39Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.69,
+                                            "place":  "6 km WSW of Big Bear Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.8",
+                                            "depth_km_raw":  2.75,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  7,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 6 km WSW of Big Bear Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41332743",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41332743\u0026format=geojson"
                                         }
                      },
                      {
