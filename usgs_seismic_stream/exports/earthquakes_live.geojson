@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-19T21:19:49Z",
+    "generated_at_utc":  "2026-09-19T21:35:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41335255",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.7205,
+                                                              33.324,
+                                                              2.66
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41335255",
+                                            "time_utc":  "2026-09-19T21:25:41Z",
+                                            "time_et":  "2026-09-19T17:25:41-04:00",
+                                            "updated_utc":  "2026-09-19T21:29:04Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.1,
+                                            "place":  "3 km SSE of Bombay Beach, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.66,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  19,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 3 km SSE of Bombay Beach, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335255",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41335255\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75438597",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.804336547852,
+                                                              38.8255004882812,
+                                                              2.67
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75438597",
+                                            "time_utc":  "2026-09-19T21:18:13Z",
+                                            "time_et":  "2026-09-19T17:18:13-04:00",
+                                            "updated_utc":  "2026-09-19T21:19:51Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.07,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.67,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  18,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438597",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75438597\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ok2026skmd",
@@ -88,7 +158,7 @@
                                             "id":  "nc75438577",
                                             "time_utc":  "2026-09-19T20:40:18Z",
                                             "time_et":  "2026-09-19T16:40:18-04:00",
-                                            "updated_utc":  "2026-09-19T21:07:22Z",
+                                            "updated_utc":  "2026-09-19T21:22:23Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.35,
                                             "place":  "2 km NW of The Geysers, CA",
@@ -316,6 +386,41 @@
                                             "title":  "M 1.6 - 3 km SSE of Compton, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335183",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41335183\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71533138",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9475,
+                                                              17.945,
+                                                              6.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71533138",
+                                            "time_utc":  "2026-09-19T19:33:09Z",
+                                            "time_et":  "2026-09-19T15:33:09-04:00",
+                                            "updated_utc":  "2026-09-19T21:28:42Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "5 km SW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 5 km SW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533138",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71533138\u0026format=geojson"
                                         }
                      },
                      {
@@ -40216,251 +40321,6 @@
                                             "title":  "M 0.6 - 12 km S of Kelseyville, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434497",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75434497\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026rzxilb",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.158,
-                                                              31.636,
-                                                              5.5359
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026rzxilb",
-                                            "time_utc":  "2026-09-12T21:33:47Z",
-                                            "time_et":  "2026-09-12T17:33:47-04:00",
-                                            "updated_utc":  "2026-09-14T15:55:58Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "49 km NW of Toyah, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "5.5",
-                                            "depth_km_raw":  5.5359,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  68,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 49 km NW of Toyah, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rzxilb",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026rzxilb\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75434482",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.763496398926,
-                                                              38.8278350830078,
-                                                              1.84
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75434482",
-                                            "time_utc":  "2026-09-12T21:33:19Z",
-                                            "time_et":  "2026-09-12T17:33:19-04:00",
-                                            "updated_utc":  "2026-09-12T22:07:23Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.7,
-                                            "place":  "4 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.84,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 4 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434482",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75434482\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41546392",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.310666666667,
-                                                              33.9245,
-                                                              19.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41546392",
-                                            "time_utc":  "2026-09-12T21:29:52Z",
-                                            "time_et":  "2026-09-12T17:29:52-04:00",
-                                            "updated_utc":  "2026-09-16T17:04:30Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.72,
-                                            "place":  "4 km ENE of Hawthorne, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "19.7",
-                                            "depth_km_raw":  19.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  46,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 4 km ENE of Hawthorne, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546392",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41546392\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10253742",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.329666666667,
-                                                              33.9366666666667,
-                                                              21.86
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10253742",
-                                            "time_utc":  "2026-09-12T21:29:46Z",
-                                            "time_et":  "2026-09-12T17:29:46-04:00",
-                                            "updated_utc":  "2026-09-16T17:10:48Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.43,
-                                            "place":  "2 km E of Lennox, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "21.9",
-                                            "depth_km_raw":  21.86,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  31,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 2 km E of Lennox, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10253742",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10253742\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci10253758",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.416166666667,
-                                                              33.9618333333333,
-                                                              27.76
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci10253758",
-                                            "time_utc":  "2026-09-12T21:29:45Z",
-                                            "time_et":  "2026-09-12T17:29:45-04:00",
-                                            "updated_utc":  "2026-09-16T19:13:21Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.45,
-                                            "place":  "4 km ESE of Marina del Rey, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "27.8",
-                                            "depth_km_raw":  27.76,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  32,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 4 km ESE of Marina del Rey, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci10253758",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci10253758\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75434462",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.766830444336,
-                                                              38.8203315734863,
-                                                              1.47
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75434462",
-                                            "time_utc":  "2026-09-12T21:27:33Z",
-                                            "time_et":  "2026-09-12T17:27:33-04:00",
-                                            "updated_utc":  "2026-09-12T21:52:22Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "4 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.5",
-                                            "depth_km_raw":  1.47,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 4 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434462",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75434462\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41546376",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -118.3225,
-                                                              33.9406666666667,
-                                                              19.65
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41546376",
-                                            "time_utc":  "2026-09-12T21:25:01Z",
-                                            "time_et":  "2026-09-12T17:25:01-04:00",
-                                            "updated_utc":  "2026-09-16T21:02:27Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.57,
-                                            "place":  "3 km E of Lennox, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "19.7",
-                                            "depth_km_raw":  19.65,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  38,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 3 km E of Lennox, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546376",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41546376\u0026format=geojson"
                                         }
                      }
                  ]
