@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-19T13:35:49Z",
+    "generated_at_utc":  "2026-09-19T13:36:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71533003",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9486666666667,
+                                                              17.9626666666667,
+                                                              6.04
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71533003",
+                                            "time_utc":  "2026-09-19T13:25:06Z",
+                                            "time_et":  "2026-09-19T09:25:06-04:00",
+                                            "updated_utc":  "2026-09-19T13:34:59Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.23,
+                                            "place":  "4 km WSW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "6.0",
+                                            "depth_km_raw":  6.04,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  77,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 4 km WSW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533003",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71533003\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41335063",
