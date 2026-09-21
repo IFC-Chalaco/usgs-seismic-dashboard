@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-21T14:03:00Z",
+    "generated_at_utc":  "2026-09-21T14:03:59Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1366,6 +1366,41 @@
                                             "title":  "M 1.6 - 2 km SSE of Yauco, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533788",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71533788\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80157611",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -110.431666666667,
+                                                              44.6561666666667,
+                                                              5.26
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80157611",
+                                            "time_utc":  "2026-09-21T05:54:03Z",
+                                            "time_et":  "2026-09-21T01:54:03-04:00",
+                                            "updated_utc":  "2026-09-21T14:02:51Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.86,
+                                            "place":  "41 km SSE of Mammoth, Wyoming",
+                                            "country":  "United States of America",
+                                            "depth_km":  "5.3",
+                                            "depth_km_raw":  5.26,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 41 km SSE of Mammoth, Wyoming",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157611",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80157611\u0026format=geojson"
                                         }
                      },
                      {
