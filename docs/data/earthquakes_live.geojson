@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-22T19:10:26Z",
+    "generated_at_utc":  "2026-09-22T19:11:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75440092",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.786666870117,
+                                                              38.8134994506836,
+                                                              3.13
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75440092",
+                                            "time_utc":  "2026-09-22T19:08:56Z",
+                                            "time_et":  "2026-09-22T15:08:56-04:00",
+                                            "updated_utc":  "2026-09-22T19:10:32Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.14,
+                                            "place":  "5 km NNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.1",
+                                            "depth_km_raw":  3.13,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 5 km NNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440092",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75440092\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75440082",
@@ -184,31 +219,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -119.7903,
-                                                              39.6037,
-                                                              5.9169
+                                                              -119.7882,
+                                                              39.6007,
+                                                              5.2223
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "nn00924728",
                                             "time_utc":  "2026-09-22T18:32:32Z",
                                             "time_et":  "2026-09-22T14:32:32-04:00",
-                                            "updated_utc":  "2026-09-22T18:34:06Z",
+                                            "updated_utc":  "2026-09-22T19:10:34Z",
                                             "magnitude":  "1.8",
                                             "magnitude_raw":  1.84,
-                                            "place":  "1 km NW of Sun Valley, Nevada",
+                                            "place":  "1 km WNW of Sun Valley, Nevada",
                                             "country":  "United States of America",
-                                            "depth_km":  "5.9",
-                                            "depth_km_raw":  5.9169,
+                                            "depth_km":  "5.2",
+                                            "depth_km_raw":  5.2223,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  52,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 1 km NW of Sun Valley, Nevada",
+                                            "title":  "M 1.8 - 1 km WNW of Sun Valley, Nevada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924728",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00924728\u0026format=geojson"
                                         }
