@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-22T11:36:03Z",
+    "generated_at_utc":  "2026-09-22T11:37:02Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -12531,6 +12531,41 @@
                                             "title":  "M 1.5 - 22 km NNW of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335423",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41335423\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026snkcoh",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -103.675,
+                                                              32.079,
+                                                              7.1252
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026snkcoh",
+                                            "time_utc":  "2026-09-20T05:57:32Z",
+                                            "time_et":  "2026-09-20T01:57:32-04:00",
+                                            "updated_utc":  "2026-09-22T11:36:07Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.8,
+                                            "place":  "40 km ESE of Malaga, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.1",
+                                            "depth_km_raw":  7.1252,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  10,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 40 km ESE of Malaga, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026snkcoh",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026snkcoh\u0026format=geojson"
                                         }
                      },
                      {
