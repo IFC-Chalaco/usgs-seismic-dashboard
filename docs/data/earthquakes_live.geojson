@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-23T21:43:20Z",
+    "generated_at_utc":  "2026-09-23T21:44:20Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41338023",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -116.759666666667,
+                                                              33.587,
+                                                              12.43
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41338023",
+                                            "time_utc":  "2026-09-23T21:39:58Z",
+                                            "time_et":  "2026-09-23T17:39:58-04:00",
+                                            "updated_utc":  "2026-09-23T21:43:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.58,
+                                            "place":  "9 km WNW of Anza, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.4",
+                                            "depth_km_raw":  12.43,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  5,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.6 - 9 km WNW of Anza, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338023",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41338023\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41338015",
