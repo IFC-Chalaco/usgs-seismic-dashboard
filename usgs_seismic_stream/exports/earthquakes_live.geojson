@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-23T04:54:01Z",
+    "generated_at_utc":  "2026-09-23T04:55:01Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00924760",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.5917,
+                                                              37.272,
+                                                              3.4199
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00924760",
+                                            "time_utc":  "2026-09-23T04:50:09Z",
+                                            "time_et":  "2026-09-23T00:50:09-04:00",
+                                            "updated_utc":  "2026-09-23T04:54:09Z",
+                                            "magnitude":  "1.7",
+                                            "magnitude_raw":  1.66,
+                                            "place":  "53 km S of Silver Peak, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.4199,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  42,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.7 - 53 km S of Silver Peak, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924760",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00924760\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41337439",
@@ -43156,41 +43191,6 @@
                                             "title":  "M 0.7 - 8 km N of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333455",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41333455\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41333447",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.778666666667,
-                                                              36.0276666666667,
-                                                              1.54
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41333447",
-                                            "time_utc":  "2026-09-16T04:54:16Z",
-                                            "time_et":  "2026-09-16T00:54:16-04:00",
-                                            "updated_utc":  "2026-09-16T12:52:38Z",
-                                            "magnitude":  "1.4",
-                                            "magnitude_raw":  1.4,
-                                            "place":  "15 km NE of Little Lake, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.5",
-                                            "depth_km_raw":  1.54,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  30,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.4 - 15 km NE of Little Lake, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333447",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41333447\u0026format=geojson"
                                         }
                      }
                  ]
