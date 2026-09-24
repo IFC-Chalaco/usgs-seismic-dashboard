@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-24T08:29:52Z",
+    "generated_at_utc":  "2026-09-24T08:30:48Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75440762",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.825500488281,
+                                                              38.8101654052734,
+                                                              16.79
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75440762",
+                                            "time_utc":  "2026-09-24T08:28:25Z",
+                                            "time_et":  "2026-09-24T04:28:25-04:00",
+                                            "updated_utc":  "2026-09-24T08:30:00Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.87,
+                                            "place":  "7 km WNW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.8",
+                                            "depth_km_raw":  16.79,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 7 km WNW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440762",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75440762\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41338343",
@@ -36,6 +71,41 @@
                                             "title":  "M 2.0 - 20 km NW of Tehachapi, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338343",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41338343\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80157906",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.905333333333,
+                                                              38.5095,
+                                                              0.07
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80157906",
+                                            "time_utc":  "2026-09-24T08:07:08Z",
+                                            "time_et":  "2026-09-24T04:07:08-04:00",
+                                            "updated_utc":  "2026-09-24T08:29:58Z",
+                                            "magnitude":  "2.0",
+                                            "magnitude_raw":  2.02,
+                                            "place":  "15 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.1",
+                                            "depth_km_raw":  0.07,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  63,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.0 - 15 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157906",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80157906\u0026format=geojson"
                                         }
                      },
                      {
