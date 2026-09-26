@@ -1,39 +1,109 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-26T06:59:30Z",
+    "generated_at_utc":  "2026-09-26T07:00:25Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41339327",
+                         "id":  "ci41339335",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -117.001335144043,
-                                                              34.3293342590332,
-                                                              8.7
+                                                              -116.638999938965,
+                                                              33.4158325195312,
+                                                              6.52
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41339327",
-                                            "time_utc":  "2026-09-26T06:55:48Z",
-                                            "time_et":  "2026-09-26T02:55:48-04:00",
-                                            "updated_utc":  "2026-09-26T06:58:25Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.51,
-                                            "place":  "13 km NW of Big Bear Lake, CA",
+                                            "id":  "ci41339335",
+                                            "time_utc":  "2026-09-26T06:57:32Z",
+                                            "time_et":  "2026-09-26T02:57:32-04:00",
+                                            "updated_utc":  "2026-09-26T06:59:35Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.04,
+                                            "place":  "15 km N of Warner Springs, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.7,
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.52,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  35,
+                                            "significance":  16,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 13 km NW of Big Bear Lake, CA",
+                                            "title":  "M 1.0 - 15 km N of Warner Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339335",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41339335\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75442282",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.810165405273,
+                                                              38.8226661682129,
+                                                              2.95
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75442282",
+                                            "time_utc":  "2026-09-26T06:57:11Z",
+                                            "time_et":  "2026-09-26T02:57:11-04:00",
+                                            "updated_utc":  "2026-09-26T06:58:46Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.31,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.0",
+                                            "depth_km_raw":  2.95,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442282",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75442282\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41339327",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.000333333333,
+                                                              34.3295,
+                                                              9.06
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41339327",
+                                            "time_utc":  "2026-09-26T06:55:48Z",
+                                            "time_et":  "2026-09-26T02:55:48-04:00",
+                                            "updated_utc":  "2026-09-26T06:59:07Z",
+                                            "magnitude":  "1.4",
+                                            "magnitude_raw":  1.38,
+                                            "place":  "13 km NW of Big Bear Lake, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.1",
+                                            "depth_km_raw":  9.06,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  29,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.4 - 13 km NW of Big Bear Lake, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339327",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41339327\u0026format=geojson"
                                         }
