@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-28T19:28:33Z",
+    "generated_at_utc":  "2026-09-28T19:29:32Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00924997",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.0961,
+                                                              38.7131,
+                                                              15.9509
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00924997",
+                                            "time_utc":  "2026-09-28T19:25:18Z",
+                                            "time_et":  "2026-09-28T15:25:18-04:00",
+                                            "updated_utc":  "2026-09-28T19:27:51Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.93,
+                                            "place":  "55 km S of Kingston, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "16.0",
+                                            "depth_km_raw":  15.9509,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  57,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 55 km S of Kingston, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924997",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00924997\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41340343",
@@ -499,27 +534,27 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.418333333333,
-                                                              33.5235,
-                                                              11.63
+                                                              -116.4205,
+                                                              33.5226666666667,
+                                                              11.41
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41340279",
                                             "time_utc":  "2026-09-28T17:06:35Z",
                                             "time_et":  "2026-09-28T13:06:35-04:00",
-                                            "updated_utc":  "2026-09-28T17:10:08Z",
+                                            "updated_utc":  "2026-09-28T19:28:07Z",
                                             "magnitude":  "1.0",
                                             "magnitude_raw":  0.58,
                                             "place":  "19 km SSW of La Quinta, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "11.6",
-                                            "depth_km_raw":  11.63,
+                                            "depth_km":  "11.4",
+                                            "depth_km_raw":  11.41,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
                                             "significance":  5,
                                             "event_type":  "earthquake",
