@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-30T15:29:04Z",
+    "generated_at_utc":  "2026-09-30T15:30:05Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3273,14 +3273,14 @@
                                             "id":  "uw714111952",
                                             "time_utc":  "2026-09-29T21:05:56Z",
                                             "time_et":  "2026-09-29T17:05:56-04:00",
-                                            "updated_utc":  "2026-09-30T15:23:00Z",
+                                            "updated_utc":  "2026-09-30T15:28:14Z",
                                             "magnitude":  "4.2",
                                             "magnitude_raw":  4.15,
                                             "place":  "6 km WNW of Wauna, Washington",
                                             "country":  "United States of America",
                                             "depth_km":  "27.9",
                                             "depth_km_raw":  27.92,
-                                            "felt_reports":  9125,
+                                            "felt_reports":  9127,
                                             "cdi":  3.8,
                                             "mmi":  3.452,
                                             "alert":  "green",
@@ -4271,6 +4271,41 @@
                                             "title":  "M 2.6 - 6 km W of Yountville, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444432",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75444432\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026tervju",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -104.429,
+                                                              31.672,
+                                                              7.4841
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026tervju",
+                                            "time_utc":  "2026-09-29T16:06:34Z",
+                                            "time_et":  "2026-09-29T12:06:34-04:00",
+                                            "updated_utc":  "2026-09-30T15:28:26Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "56 km S of Whites City, New Mexico",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.5",
+                                            "depth_km_raw":  7.4841,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 56 km S of Whites City, New Mexico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tervju",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026tervju\u0026format=geojson"
                                         }
                      },
                      {
