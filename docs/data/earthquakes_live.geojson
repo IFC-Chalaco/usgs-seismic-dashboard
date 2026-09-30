@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-09-30T23:47:51Z",
+    "generated_at_utc":  "2026-09-30T23:48:50Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -36,6 +36,41 @@
                                             "title":  "M 1.4 - 8 km ENE of El Centro, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341271",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41341271\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00925102",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.5308,
+                                                              35.4721,
+                                                              0
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00925102",
+                                            "time_utc":  "2026-09-30T23:32:05Z",
+                                            "time_et":  "2026-09-30T19:32:05-04:00",
+                                            "updated_utc":  "2026-09-30T23:47:34Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.62,
+                                            "place":  "39 km SSE of Sandy Valley, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  40,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.6 Explosion - 39 km SSE of Sandy Valley, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925102",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00925102\u0026format=geojson"
                                         }
                      },
                      {
