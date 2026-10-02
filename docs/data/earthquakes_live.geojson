@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-02T06:25:38Z",
+    "generated_at_utc":  "2026-10-02T06:59:43Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75442726",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.814498901367,
+                                                              38.8288345336914,
+                                                              1.98
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75442726",
+                                            "time_utc":  "2026-10-02T06:35:25Z",
+                                            "time_et":  "2026-10-02T02:35:25-04:00",
+                                            "updated_utc":  "2026-10-02T06:37:01Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.73,
+                                            "place":  "8 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.0",
+                                            "depth_km_raw":  1.98,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  8,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.7 - 8 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442726",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75442726\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41341951",
@@ -526,6 +561,76 @@
                                             "title":  "M 1.1 - 4 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442671",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75442671\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026tjcdst",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.97,
+                                                              28.842,
+                                                              7.0388
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026tjcdst",
+                                            "time_utc":  "2026-10-02T01:35:47Z",
+                                            "time_et":  "2026-10-01T21:35:47-04:00",
+                                            "updated_utc":  "2026-10-02T06:48:17Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "13 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.0",
+                                            "depth_km_raw":  7.0388,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  74,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.2 - 13 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tjcdst",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026tjcdst\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026tjccst",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.975,
+                                                              28.858,
+                                                              7.3725
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026tjccst",
+                                            "time_utc":  "2026-10-02T01:34:37Z",
+                                            "time_et":  "2026-10-01T21:34:37-04:00",
+                                            "updated_utc":  "2026-10-02T06:55:28Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "12 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.4",
+                                            "depth_km_raw":  7.3725,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 12 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tjccst",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026tjccst\u0026format=geojson"
                                         }
                      },
                      {
@@ -36996,146 +37101,6 @@
                                             "title":  "M 0.1 - 32 km SW of Garden City, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026swrknk",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026swrknk\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026swqosl",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.922,
-                                                              28.818,
-                                                              6.4132
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026swqosl",
-                                            "time_utc":  "2026-09-25T06:52:46Z",
-                                            "time_et":  "2026-09-25T02:52:46-04:00",
-                                            "updated_utc":  "2026-09-25T10:52:46Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "18 km ESE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.4",
-                                            "depth_km_raw":  6.4132,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 18 km ESE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026swqosl",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026swqosl\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41338847",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.443166666667,
-                                                              32.7761666666667,
-                                                              13.99
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41338847",
-                                            "time_utc":  "2026-09-25T06:49:36Z",
-                                            "time_et":  "2026-09-25T02:49:36-04:00",
-                                            "updated_utc":  "2026-09-25T16:57:35Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.45,
-                                            "place":  "7 km WSW of Holtville, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "14.0",
-                                            "depth_km_raw":  13.99,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  32,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 7 km WSW of Holtville, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338847",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41338847\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026swqkrf",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.98,
-                                                              28.857,
-                                                              7.7714
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026swqkrf",
-                                            "time_utc":  "2026-09-25T06:48:03Z",
-                                            "time_et":  "2026-09-25T02:48:03-04:00",
-                                            "updated_utc":  "2026-09-25T07:27:07Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.9,
-                                            "place":  "11 km ESE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.8",
-                                            "depth_km_raw":  7.7714,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  56,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 11 km ESE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026swqkrf",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026swqkrf\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41338839",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -115.442,
-                                                              32.7656666666667,
-                                                              15.92
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41338839",
-                                            "time_utc":  "2026-09-25T06:46:27Z",
-                                            "time_et":  "2026-09-25T02:46:27-04:00",
-                                            "updated_utc":  "2026-09-25T16:48:44Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "8 km SW of Holtville, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "15.9",
-                                            "depth_km_raw":  15.92,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 8 km SW of Holtville, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338839",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41338839\u0026format=geojson"
                                         }
                      }
                  ]
