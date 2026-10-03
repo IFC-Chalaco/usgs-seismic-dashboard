@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-03T01:15:12Z",
+    "generated_at_utc":  "2026-10-03T01:30:13Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71535433",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.9578333333333,
+                                                              17.9385,
+                                                              7.28
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71535433",
+                                            "time_utc":  "2026-10-03T00:52:37Z",
+                                            "time_et":  "2026-10-02T20:52:37-04:00",
+                                            "updated_utc":  "2026-10-03T01:14:27Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "6 km SW of Guánica, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "7.3",
+                                            "depth_km_raw":  7.28,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 6 km SW of Guánica, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535433",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71535433\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41342335",
@@ -38186,76 +38221,6 @@
                                             "title":  "M 1.0 - 17 km W of Taft, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339223",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41339223\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75442122",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.759330749512,
-                                                              38.8211669921875,
-                                                              1.75
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75442122",
-                                            "time_utc":  "2026-09-26T01:29:37Z",
-                                            "time_et":  "2026-09-25T21:29:37-04:00",
-                                            "updated_utc":  "2026-09-26T01:31:12Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.71,
-                                            "place":  "3 km W of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.75,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  8,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.7 - 3 km W of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442122",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75442122\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41339215",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.405833333333,
-                                                              33.4076666666667,
-                                                              10.66
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41339215",
-                                            "time_utc":  "2026-09-26T01:25:24Z",
-                                            "time_et":  "2026-09-25T21:25:24-04:00",
-                                            "updated_utc":  "2026-09-28T13:59:02Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.38,
-                                            "place":  "17 km N of Borrego Springs, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "10.7",
-                                            "depth_km_raw":  10.66,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  2,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.4 - 17 km N of Borrego Springs, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339215",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41339215\u0026format=geojson"
                                         }
                      }
                  ]
