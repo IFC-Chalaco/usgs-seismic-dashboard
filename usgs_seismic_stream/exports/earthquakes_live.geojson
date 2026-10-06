@@ -1,39 +1,74 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-06T20:22:34Z",
+    "generated_at_utc":  "2026-10-06T20:23:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ok2026tplk",
+                         "id":  "nn00925389",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -97.42749023,
-                                                              34.48321915,
-                                                              6.366
+                                                              -115.3201,
+                                                              38.9312,
+                                                              5.5727
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ok2026tplk",
-                                            "time_utc":  "2026-10-06T20:00:11Z",
-                                            "time_et":  "2026-10-06T16:00:11-04:00",
-                                            "updated_utc":  "2026-10-06T20:03:25Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.94,
-                                            "place":  "3 km E of Tatums, Oklahoma",
+                                            "id":  "nn00925389",
+                                            "time_utc":  "2026-10-06T20:16:49Z",
+                                            "time_et":  "2026-10-06T16:16:49-04:00",
+                                            "updated_utc":  "2026-10-06T20:21:55Z",
+                                            "magnitude":  "3.7",
+                                            "magnitude_raw":  3.69,
+                                            "place":  "22 km W of Preston, Nevada",
                                             "country":  "United States of America",
-                                            "depth_km":  "6.4",
-                                            "depth_km_raw":  6.366,
+                                            "depth_km":  "5.6",
+                                            "depth_km_raw":  5.5727,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  58,
+                                            "significance":  209,
                                             "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 3 km E of Tatums, Oklahoma",
+                                            "title":  "M 3.7 - 22 km W of Preston, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925389",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00925389\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ok2026tplk",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -97.23283333,
+                                                              34.50766667,
+                                                              0
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ok2026tplk",
+                                            "time_utc":  "2026-10-06T20:00:11Z",
+                                            "time_et":  "2026-10-06T16:00:11-04:00",
+                                            "updated_utc":  "2026-10-06T20:20:14Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.63,
+                                            "place":  "10 km W of Davis, Oklahoma",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.6 Quarry Blast - 10 km W of Davis, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026tplk",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026tplk\u0026format=geojson"
                                         }
@@ -9696,6 +9731,41 @@
                                             "title":  "M 0.3 - 11 km NW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343183",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41343183\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026togszs",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -101.729,
+                                                              32.017,
+                                                              8.2275
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026togszs",
+                                            "time_utc":  "2026-10-04T21:16:36Z",
+                                            "time_et":  "2026-10-04T17:16:36-04:00",
+                                            "updated_utc":  "2026-10-06T20:22:37Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.9,
+                                            "place":  "13 km SSE of Stanton, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.2",
+                                            "depth_km_raw":  8.2275,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  12,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.9 - 13 km SSE of Stanton, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026togszs",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026togszs\u0026format=geojson"
                                         }
                      },
                      {
@@ -38186,41 +38256,6 @@
                                             "title":  "M 0.9 - 4 km W of Cobb, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444527",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75444527\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026tfahtn",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -104.297,
-                                                              31.659,
-                                                              7.1765
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026tfahtn",
-                                            "time_utc":  "2026-09-29T20:22:15Z",
-                                            "time_et":  "2026-09-29T16:22:15-04:00",
-                                            "updated_utc":  "2026-09-29T21:49:02Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "57 km S of Whites City, New Mexico",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.2",
-                                            "depth_km_raw":  7.1765,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 57 km S of Whites City, New Mexico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tfahtn",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026tfahtn\u0026format=geojson"
                                         }
                      }
                  ]
