@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-11T22:02:37Z",
+    "generated_at_utc":  "2026-10-11T22:03:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -29541,6 +29541,41 @@
                                             "title":  "M 1.5 - 5 km SSW of Redlands, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343423",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41343423\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "mb90210108",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.625,
+                                                              44.654,
+                                                              10.14
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "mb90210108",
+                                            "time_utc":  "2026-10-05T10:43:17Z",
+                                            "time_et":  "2026-10-05T06:43:17-04:00",
+                                            "updated_utc":  "2026-10-11T22:02:47Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1,
+                                            "place":  "3 km NW of Lima, Montana",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.1",
+                                            "depth_km_raw":  10.14,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  15,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 3 km NW of Lima, Montana",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90210108",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90210108\u0026format=geojson"
                                         }
                      },
                      {
