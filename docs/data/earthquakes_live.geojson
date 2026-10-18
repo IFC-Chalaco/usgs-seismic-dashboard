@@ -1,39 +1,109 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-18T16:40:39Z",
+    "generated_at_utc":  "2026-10-18T17:18:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "uw714121692",
+                         "id":  "ci41349015",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -122.449501037598,
-                                                              46.7458343505859,
-                                                              21.62
+                                                              -117.669166666667,
+                                                              35.8448333333333,
+                                                              9.73
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "uw714121692",
-                                            "time_utc":  "2026-10-18T16:34:55Z",
-                                            "time_et":  "2026-10-18T12:34:55-04:00",
-                                            "updated_utc":  "2026-10-18T16:37:33Z",
-                                            "magnitude":  "2.2",
-                                            "magnitude_raw":  2.16,
-                                            "place":  "13 km WSW of Alder, Washington",
+                                            "id":  "ci41349015",
+                                            "time_utc":  "2026-10-18T17:12:30Z",
+                                            "time_et":  "2026-10-18T13:12:30-04:00",
+                                            "updated_utc":  "2026-10-18T17:16:02Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.01,
+                                            "place":  "24 km ESE of Little Lake, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "21.6",
-                                            "depth_km_raw":  21.62,
+                                            "depth_km":  "9.7",
+                                            "depth_km_raw":  9.73,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  72,
+                                            "significance":  16,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.2 - 13 km WSW of Alder, Washington",
+                                            "title":  "M 1.0 - 24 km ESE of Little Lake, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349015",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41349015\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00925908",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.9896,
+                                                              39.3515,
+                                                              9.0145
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00925908",
+                                            "time_utc":  "2026-10-18T16:55:49Z",
+                                            "time_et":  "2026-10-18T12:55:49-04:00",
+                                            "updated_utc":  "2026-10-18T16:58:09Z",
+                                            "magnitude":  "2.4",
+                                            "magnitude_raw":  2.35,
+                                            "place":  "21 km ESE of Silver Springs, Nevada",
+                                            "country":  "United States of America",
+                                            "depth_km":  "9.0",
+                                            "depth_km_raw":  9.0145,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  85,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.4 - 21 km ESE of Silver Springs, Nevada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925908",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00925908\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714121692",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.431,
+                                                              46.7451666666667,
+                                                              25.11
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714121692",
+                                            "time_utc":  "2026-10-18T16:34:55Z",
+                                            "time_et":  "2026-10-18T12:34:55-04:00",
+                                            "updated_utc":  "2026-10-18T16:42:43Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.64,
+                                            "place":  "12 km WSW of Alder, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "25.1",
+                                            "depth_km_raw":  25.11,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  41,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 12 km WSW of Alder, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121692",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714121692\u0026format=geojson"
                                         }
@@ -123,7 +193,7 @@
                                             "id":  "nc75451621",
                                             "time_utc":  "2026-10-18T16:18:54Z",
                                             "time_et":  "2026-10-18T12:18:54-04:00",
-                                            "updated_utc":  "2026-10-18T16:37:23Z",
+                                            "updated_utc":  "2026-10-18T16:52:20Z",
                                             "magnitude":  "1.9",
                                             "magnitude_raw":  1.85,
                                             "place":  "14 km S of Tres Pinos, CA",
@@ -324,31 +394,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -118.626,
-                                                              34.39,
-                                                              3.01
+                                                              -118.6225,
+                                                              34.3871666666667,
+                                                              3.15
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41348975",
                                             "time_utc":  "2026-10-18T15:32:02Z",
                                             "time_et":  "2026-10-18T11:32:02-04:00",
-                                            "updated_utc":  "2026-10-18T15:49:41Z",
-                                            "magnitude":  "2.1",
-                                            "magnitude_raw":  2.1,
-                                            "place":  "9 km SW of Valencia, CA",
+                                            "updated_utc":  "2026-10-18T17:06:29Z",
+                                            "magnitude":  "2.2",
+                                            "magnitude_raw":  2.2,
+                                            "place":  "9 km SSW of Valencia, CA",
                                             "country":  "United States of America",
-                                            "depth_km":  "3.0",
-                                            "depth_km_raw":  3.01,
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.15,
                                             "felt_reports":  5,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  69,
+                                            "significance":  76,
                                             "event_type":  "earthquake",
-                                            "title":  "M 2.1 - 9 km SW of Valencia, CA",
+                                            "title":  "M 2.2 - 9 km SSW of Valencia, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348975",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41348975\u0026format=geojson"
                                         }
@@ -635,6 +705,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uw714121642",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.955,
+                                                              46.8083333333333,
+                                                              6.46
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714121642",
+                                            "time_utc":  "2026-10-18T12:52:45Z",
+                                            "time_et":  "2026-10-18T08:52:45-04:00",
+                                            "updated_utc":  "2026-10-18T16:45:57Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.12,
+                                            "place":  "8 km NE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "6.5",
+                                            "depth_km_raw":  6.46,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  0,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.1 - 8 km NE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121642",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714121642\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "ci41348919",
                          "geometry":  {
                                           "type":  "Point",
@@ -911,6 +1016,41 @@
                                             "title":  "M 0.8 - 8 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451531",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75451531\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714121612",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.909666666667,
+                                                              46.8791666666667,
+                                                              11.16
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714121612",
+                                            "time_utc":  "2026-10-18T10:51:39Z",
+                                            "time_et":  "2026-10-18T06:51:39-04:00",
+                                            "updated_utc":  "2026-10-18T16:51:12Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.41,
+                                            "place":  "16 km NE of Ashford, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.2",
+                                            "depth_km_raw":  11.16,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  3,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.4 - 16 km NE of Ashford, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121612",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714121612\u0026format=geojson"
                                         }
                      },
                      {
@@ -2459,29 +2599,29 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.2505,
-                                                              32.5493333333333,
-                                                              21.51
+                                                              -115.2495,
+                                                              32.5525,
+                                                              21.37
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41348687",
                                             "time_utc":  "2026-10-18T00:34:52Z",
                                             "time_et":  "2026-10-17T20:34:52-04:00",
-                                            "updated_utc":  "2026-10-18T00:38:17Z",
+                                            "updated_utc":  "2026-10-18T16:50:17Z",
                                             "magnitude":  "1.7",
-                                            "magnitude_raw":  1.73,
+                                            "magnitude_raw":  1.7,
                                             "place":  "10 km E of Puebla, B.C., MX",
                                             "country":  "Mexico",
-                                            "depth_km":  "21.5",
-                                            "depth_km_raw":  21.51,
+                                            "depth_km":  "21.4",
+                                            "depth_km_raw":  21.37,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  46,
+                                            "significance":  44,
                                             "event_type":  "earthquake",
                                             "title":  "M 1.7 - 10 km E of Puebla, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348687",
@@ -3431,6 +3571,41 @@
                                             "title":  "M 0.8 - 6 km NW of The Geysers, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451021",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75451021\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714121302",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.337,
+                                                              48.1541666666667,
+                                                              11.82
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714121302",
+                                            "time_utc":  "2026-10-17T16:41:25Z",
+                                            "time_et":  "2026-10-17T12:41:25-04:00",
+                                            "updated_utc":  "2026-10-18T16:58:06Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.34,
+                                            "place":  "22 km ESE of Darrington, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "11.8",
+                                            "depth_km_raw":  11.82,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  84,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.3 - 22 km ESE of Darrington, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121302",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714121302\u0026format=geojson"
                                         }
                      },
                      {
@@ -5500,6 +5675,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "ci41348391",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.656833333333,
+                                                              33.817,
+                                                              4.12
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41348391",
+                                            "time_utc":  "2026-10-16T20:43:23Z",
+                                            "time_et":  "2026-10-16T16:43:23-04:00",
+                                            "updated_utc":  "2026-10-18T16:40:34Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  1.03,
+                                            "place":  "10 km SW of Corona, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "4.1",
+                                            "depth_km_raw":  4.12,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  16,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.0 - 10 km SW of Corona, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41348391",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41348391\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nn00925852",
                          "geometry":  {
                                           "type":  "Point",
@@ -6843,14 +7053,14 @@
                                             "id":  "us6000u2pb",
                                             "time_utc":  "2026-10-16T10:46:48Z",
                                             "time_et":  "2026-10-16T06:46:48-04:00",
-                                            "updated_utc":  "2026-10-17T10:51:25Z",
+                                            "updated_utc":  "2026-10-18T16:40:59Z",
                                             "magnitude":  "4.0",
                                             "magnitude_raw":  4,
                                             "place":  "31 km NNE of Banff, Canada",
                                             "country":  "Canada",
                                             "depth_km":  "8.3",
                                             "depth_km_raw":  8.336,
-                                            "felt_reports":  30,
+                                            "felt_reports":  31,
                                             "cdi":  3.8,
                                             "mmi":  3.857,
                                             "alert":  "green",
@@ -30451,181 +30661,6 @@
                                             "title":  "M 0.2 - 4 km WSW of Anza, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346471",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41346471\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41346463",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.7595,
-                                                              33.5803333333333,
-                                                              12.59
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41346463",
-                                            "time_utc":  "2026-10-11T17:11:18Z",
-                                            "time_et":  "2026-10-11T13:11:18-04:00",
-                                            "updated_utc":  "2026-10-11T20:35:54Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.8,
-                                            "place":  "8 km WNW of Anza, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "12.6",
-                                            "depth_km_raw":  12.59,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  10,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 8 km WNW of Anza, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346463",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41346463\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr71536478",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -64.4933333333333,
-                                                              18.8593333333333,
-                                                              13.72
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr71536478",
-                                            "time_utc":  "2026-10-11T17:09:50Z",
-                                            "time_et":  "2026-10-11T13:09:50-04:00",
-                                            "updated_utc":  "2026-10-12T14:22:59Z",
-                                            "magnitude":  "3.0",
-                                            "magnitude_raw":  3.03,
-                                            "place":  "66 km NNE of Cruz Bay, U.S. Virgin Islands",
-                                            "country":  "U.S. Virgin Islands",
-                                            "depth_km":  "13.7",
-                                            "depth_km_raw":  13.72,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  141,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.0 - 66 km NNE of Cruz Bay, U.S. Virgin Islands",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536478",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71536478\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026uaular",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.97,
-                                                              28.84,
-                                                              8.7546
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026uaular",
-                                            "time_utc":  "2026-10-11T17:03:27Z",
-                                            "time_et":  "2026-10-11T13:03:27-04:00",
-                                            "updated_utc":  "2026-10-12T20:11:29Z",
-                                            "magnitude":  "2.0",
-                                            "magnitude_raw":  2,
-                                            "place":  "13 km ESE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.8",
-                                            "depth_km_raw":  8.7546,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  62,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 2.0 - 13 km ESE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uaular",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026uaular\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00925643",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -117.8965,
-                                                              38.1539,
-                                                              1.3545
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00925643",
-                                            "time_utc":  "2026-10-11T16:49:01Z",
-                                            "time_et":  "2026-10-11T12:49:01-04:00",
-                                            "updated_utc":  "2026-10-14T00:42:56Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.6,
-                                            "place":  "32 km SE of Mina, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.4",
-                                            "depth_km_raw":  1.3545,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  39,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.6 - 32 km SE of Mina, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925643",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00925643\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714118412",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -121.632666666667,
-                                                              48.0091666666667,
-                                                              8.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714118412",
-                                            "time_utc":  "2026-10-11T16:48:21Z",
-                                            "time_et":  "2026-10-11T12:48:21-04:00",
-                                            "updated_utc":  "2026-10-13T04:13:50Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.76,
-                                            "place":  "14 km SE of Verlot, Washington",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.7",
-                                            "depth_km_raw":  8.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  9,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.8 - 14 km SE of Verlot, Washington",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714118412",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714118412\u0026format=geojson"
                                         }
                      }
                  ]
