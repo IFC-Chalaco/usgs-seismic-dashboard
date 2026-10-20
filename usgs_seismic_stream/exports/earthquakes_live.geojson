@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-20T19:39:40Z",
+    "generated_at_utc":  "2026-10-20T19:40:39Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -18,7 +18,7 @@
                                             "id":  "ci41349839",
                                             "time_utc":  "2026-10-20T19:36:33Z",
                                             "time_et":  "2026-10-20T15:36:33-04:00",
-                                            "updated_utc":  "2026-10-20T19:38:38Z",
+                                            "updated_utc":  "2026-10-20T19:40:18Z",
                                             "magnitude":  "1.5",
                                             "magnitude_raw":  1.46,
                                             "place":  "3 km SE of Home Gardens, CA",
@@ -106,6 +106,41 @@
                                             "title":  "M 1.0 - 9 km ENE of Moreno Valley, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349823",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41349823\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714122532",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -121.684833333333,
+                                                              48.3008333333333,
+                                                              -0.96
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714122532",
+                                            "time_utc":  "2026-10-20T19:00:58Z",
+                                            "time_et":  "2026-10-20T15:00:58-04:00",
+                                            "updated_utc":  "2026-10-20T19:40:01Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.93,
+                                            "place":  "3 km ENE of Swede Heaven, Washington",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-1.0",
+                                            "depth_km_raw":  -0.96,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  13,
+                                            "event_type":  "explosion",
+                                            "title":  "M 0.9 Explosion - 3 km ENE of Swede Heaven, Washington",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714122532",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714122532\u0026format=geojson"
                                         }
                      },
                      {
