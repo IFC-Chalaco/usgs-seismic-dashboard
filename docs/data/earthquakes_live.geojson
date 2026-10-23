@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-23T15:20:55Z",
+    "generated_at_utc":  "2026-10-23T15:21:55Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1611,6 +1611,41 @@
                                             "title":  "M 2.1 - 49 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uvsvdk",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026uvsvdk\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80161541",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.913833333333,
+                                                              38.5106666666667,
+                                                              3.39
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80161541",
+                                            "time_utc":  "2026-10-23T02:51:33Z",
+                                            "time_et":  "2026-10-22T22:51:33-04:00",
+                                            "updated_utc":  "2026-10-23T15:20:52Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.24,
+                                            "place":  "15 km NE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.39,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  24,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 15 km NE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161541",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80161541\u0026format=geojson"
                                         }
                      },
                      {
