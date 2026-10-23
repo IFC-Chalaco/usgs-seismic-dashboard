@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-23T22:18:41Z",
+    "generated_at_utc":  "2026-10-23T22:19:40Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -1191,6 +1191,41 @@
                                             "title":  "M 1.5 - 50 km NW of Toyah, Texas",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uwpbfe",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026uwpbfe\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026uwoxfe",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.952,
+                                                              28.838,
+                                                              8.4171
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026uwoxfe",
+                                            "time_utc":  "2026-10-23T13:54:59Z",
+                                            "time_et":  "2026-10-23T09:54:59-04:00",
+                                            "updated_utc":  "2026-10-23T22:18:26Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.1,
+                                            "place":  "15 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.4",
+                                            "depth_km_raw":  8.4171,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  68,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 15 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026uwoxfe",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026uwoxfe\u0026format=geojson"
                                         }
                      },
                      {
