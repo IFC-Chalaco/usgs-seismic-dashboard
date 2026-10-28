@@ -1,8 +1,78 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-28T00:29:43Z",
+    "generated_at_utc":  "2026-10-28T01:49:57Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41567976",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.391166687012,
+                                                              34.1901664733887,
+                                                              12.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41567976",
+                                            "time_utc":  "2026-10-28T01:37:55Z",
+                                            "time_et":  "2026-10-27T21:37:55-04:00",
+                                            "updated_utc":  "2026-10-28T01:40:00Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.21,
+                                            "place":  "4 km SSE of Devore, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "12.7",
+                                            "depth_km_raw":  12.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  23,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 4 km SSE of Devore, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41567976",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41567976\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75458777",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.84400177002,
+                                                              38.8401679992676,
+                                                              0.71
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75458777",
+                                            "time_utc":  "2026-10-28T00:33:43Z",
+                                            "time_et":  "2026-10-27T20:33:43-04:00",
+                                            "updated_utc":  "2026-10-28T00:35:19Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.84,
+                                            "place":  "10 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.7",
+                                            "depth_km_raw":  0.71,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  11,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.8 - 10 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75458777",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75458777\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75458772",
@@ -71,6 +141,41 @@
                                             "title":  "M 2.3 - 5 km WSW of Fuig, Puerto Rico",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537748",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71537748\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us7000ttki",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -127.0544,
+                                                              40.4803,
+                                                              10
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000ttki",
+                                            "time_utc":  "2026-10-27T23:34:22Z",
+                                            "time_et":  "2026-10-27T19:34:22-04:00",
+                                            "updated_utc":  "2026-10-28T00:41:51Z",
+                                            "magnitude":  "2.8",
+                                            "magnitude_raw":  2.8,
+                                            "place":  "236 km W of Ferndale, California",
+                                            "country":  "United States of America",
+                                            "depth_km":  "10.0",
+                                            "depth_km_raw":  10,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  121,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.8 - 236 km W of Ferndale, California",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttki",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttki\u0026format=geojson"
                                         }
                      },
                      {
@@ -753,20 +858,20 @@
                                             "id":  "nc75455701",
                                             "time_utc":  "2026-10-27T19:38:01Z",
                                             "time_et":  "2026-10-27T15:38:01-04:00",
-                                            "updated_utc":  "2026-10-27T21:03:29Z",
+                                            "updated_utc":  "2026-10-28T01:02:12Z",
                                             "magnitude":  "2.6",
                                             "magnitude_raw":  2.63,
                                             "place":  "14 km E of Seven Trees, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "6.8",
                                             "depth_km_raw":  6.77,
-                                            "felt_reports":  6,
+                                            "felt_reports":  7,
                                             "cdi":  3.1,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  108,
+                                            "significance":  109,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.6 - 14 km E of Seven Trees, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455701",
@@ -6970,6 +7075,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "us7000ttl8",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -74.6294,
+                                                              45.9532,
+                                                              11.386
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000ttl8",
+                                            "time_utc":  "2026-10-26T08:04:10Z",
+                                            "time_et":  "2026-10-26T04:04:10-04:00",
+                                            "updated_utc":  "2026-10-28T01:07:14Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.5,
+                                            "place":  "22 km SSE of La Conception, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "11.4",
+                                            "depth_km_raw":  11.386,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  35,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 22 km SSE of La Conception, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttl8",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttl8\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75455011",
                          "geometry":  {
                                           "type":  "Point",
@@ -13021,6 +13161,41 @@
                                             "title":  "M 2.3 - 17 km SE of Lake Pillsbury, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454451",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75454451\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "us7000ttkz",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -78.2442,
+                                                              44.6705,
+                                                              10.798
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "us7000ttkz",
+                                            "time_utc":  "2026-10-24T23:41:42Z",
+                                            "time_et":  "2026-10-24T19:41:42-04:00",
+                                            "updated_utc":  "2026-10-28T00:52:02Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.2,
+                                            "place":  "26 km N of Lakefield, Canada",
+                                            "country":  "Canada",
+                                            "depth_km":  "10.8",
+                                            "depth_km_raw":  10.798,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  22,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.2 - 26 km N of Lakefield, Canada",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttkz",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttkz\u0026format=geojson"
                                         }
                      },
                      {
@@ -34931,391 +35106,6 @@
                                             "title":  "M 2.4 - 42 km WNW of Hérouxville, Canada",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rv",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u3rv\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80161146",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.912833333333,
-                                                              38.5136666666667,
-                                                              2.5
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80161146",
-                                            "time_utc":  "2026-10-21T01:40:14Z",
-                                            "time_et":  "2026-10-20T21:40:14-04:00",
-                                            "updated_utc":  "2026-10-21T13:55:24Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.17,
-                                            "place":  "15 km NNE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.5",
-                                            "depth_km_raw":  2.5,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  21,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 15 km NNE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161146",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80161146\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41349927",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.492666666667,
-                                                              33.1355,
-                                                              13.47
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41349927",
-                                            "time_utc":  "2026-10-21T01:34:27Z",
-                                            "time_et":  "2026-10-20T21:34:27-04:00",
-                                            "updated_utc":  "2026-10-21T13:19:47Z",
-                                            "magnitude":  "1.2",
-                                            "magnitude_raw":  1.2,
-                                            "place":  "12 km ENE of Julian, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "13.5",
-                                            "depth_km_raw":  13.47,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  22,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.2 - 12 km ENE of Julian, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349927",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41349927\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90211093",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.095833333333,
-                                                              44.747,
-                                                              8.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90211093",
-                                            "time_utc":  "2026-10-21T01:33:47Z",
-                                            "time_et":  "2026-10-20T21:33:47-04:00",
-                                            "updated_utc":  "2026-10-22T19:12:57Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.16,
-                                            "place":  "7 km ESE of Hebgen Lake Estates, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.1",
-                                            "depth_km_raw":  8.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.2 - 7 km ESE of Hebgen Lake Estates, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90211093",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90211093\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90211088",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -114.001,
-                                                              47.9406666666667,
-                                                              2.73
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90211088",
-                                            "time_utc":  "2026-10-21T01:22:12Z",
-                                            "time_et":  "2026-10-20T21:22:12-04:00",
-                                            "updated_utc":  "2026-10-22T19:10:27Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.84,
-                                            "place":  "3 km NE of Bear Dance, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.7",
-                                            "depth_km_raw":  2.73,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  52,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 3 km NE of Bear Dance, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90211088",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90211088\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nn00926029",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -119.0182,
-                                                              39.3424,
-                                                              7.4677
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nn00926029",
-                                            "time_utc":  "2026-10-21T01:19:52Z",
-                                            "time_et":  "2026-10-20T21:19:52-04:00",
-                                            "updated_utc":  "2026-10-21T17:17:20Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.75,
-                                            "place":  "19 km ESE of Silver Springs, Nevada",
-                                            "country":  "United States of America",
-                                            "depth_km":  "7.5",
-                                            "depth_km_raw":  7.4677,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  47,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 19 km ESE of Silver Springs, Nevada",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926029",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00926029\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "mb90211083",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -111.1005,
-                                                              44.746,
-                                                              9.57
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "mb90211083",
-                                            "time_utc":  "2026-10-21T01:12:35Z",
-                                            "time_et":  "2026-10-20T21:12:35-04:00",
-                                            "updated_utc":  "2026-10-22T19:06:56Z",
-                                            "magnitude":  "1.0",
-                                            "magnitude_raw":  0.02,
-                                            "place":  "7 km ESE of Hebgen Lake Estates, Montana",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.6",
-                                            "depth_km_raw":  9.57,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  0,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 0.0 - 7 km ESE of Hebgen Lake Estates, Montana",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/mb90211083",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=mb90211083\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026urxxvk",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -98.957,
-                                                              28.822,
-                                                              8.9093
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026urxxvk",
-                                            "time_utc":  "2026-10-21T01:04:53Z",
-                                            "time_et":  "2026-10-20T21:04:53-04:00",
-                                            "updated_utc":  "2026-10-21T13:18:14Z",
-                                            "magnitude":  "1.9",
-                                            "magnitude_raw":  1.9,
-                                            "place":  "15 km ESE of Pearsall, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "8.9",
-                                            "depth_km_raw":  8.9093,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  56,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.9 - 15 km ESE of Pearsall, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026urxxvk",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026urxxvk\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "ci41349919",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -116.162,
-                                                              33.8593333333333,
-                                                              9.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "ci41349919",
-                                            "time_utc":  "2026-10-21T01:02:07Z",
-                                            "time_et":  "2026-10-20T21:02:07-04:00",
-                                            "updated_utc":  "2026-10-21T13:25:59Z",
-                                            "magnitude":  "1.3",
-                                            "magnitude_raw":  1.32,
-                                            "place":  "16 km NNE of Indio, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "9.1",
-                                            "depth_km_raw":  9.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  27,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.3 - 16 km NNE of Indio, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349919",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41349919\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "pr2026294000",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -66.2581,
-                                                              19.3051,
-                                                              69
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "pr2026294000",
-                                            "time_utc":  "2026-10-21T00:55:24Z",
-                                            "time_et":  "2026-10-20T20:55:24-04:00",
-                                            "updated_utc":  "2026-10-21T02:20:42Z",
-                                            "magnitude":  "3.7",
-                                            "magnitude_raw":  3.65,
-                                            "place":  "93 km N of Brenas, Puerto Rico",
-                                            "country":  "Puerto Rico",
-                                            "depth_km":  "69.0",
-                                            "depth_km_raw":  69,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  205,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 3.7 - 93 km N of Brenas, Puerto Rico",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026294000",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026294000\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75452731",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.790664672852,
-                                                              38.8346672058105,
-                                                              2.11
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75452731",
-                                            "time_utc":  "2026-10-21T00:55:04Z",
-                                            "time_et":  "2026-10-20T20:55:04-04:00",
-                                            "updated_utc":  "2026-10-21T00:56:40Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "6 km WNW of Cobb, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.11,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 6 km WNW of Cobb, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452731",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75452731\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80161141",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.602833333333,
-                                                              38.3946666666667,
-                                                              4.09
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80161141",
-                                            "time_utc":  "2026-10-21T00:49:14Z",
-                                            "time_et":  "2026-10-20T20:49:14-04:00",
-                                            "updated_utc":  "2026-10-21T14:06:49Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.1,
-                                            "place":  "13 km NNE of Beaver, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "4.1",
-                                            "depth_km_raw":  4.09,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  19,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 13 km NNE of Beaver, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161141",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80161141\u0026format=geojson"
                                         }
                      }
                  ]
