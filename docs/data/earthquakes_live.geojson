@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-10-29T20:33:41Z",
+    "generated_at_utc":  "2026-10-29T20:44:31Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -2661,6 +2661,41 @@
                                             "title":  "M 1.2 - 3 km S of Carson, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714131881",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714131881\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "tx2026vhcwut",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -98.956,
+                                                              28.854,
+                                                              7.7656
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "tx2026vhcwut",
+                                            "time_utc":  "2026-10-29T07:41:41Z",
+                                            "time_et":  "2026-10-29T03:41:41-04:00",
+                                            "updated_utc":  "2026-10-29T20:34:49Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.9,
+                                            "place":  "14 km ESE of Pearsall, Texas",
+                                            "country":  "United States of America",
+                                            "depth_km":  "7.8",
+                                            "depth_km_raw":  7.7656,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  56,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 14 km ESE of Pearsall, Texas",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026vhcwut",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026vhcwut\u0026format=geojson"
                                         }
                      },
                      {
@@ -33601,76 +33636,6 @@
                                             "title":  "M 0.4 - 16 km NNE of Amboy, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124432",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714124432\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "nc75453556",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.814834594727,
-                                                              38.8281669616699,
-                                                              2.08
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "nc75453556",
-                                            "time_utc":  "2026-10-22T20:34:51Z",
-                                            "time_et":  "2026-10-22T16:34:51-04:00",
-                                            "updated_utc":  "2026-10-22T20:36:29Z",
-                                            "magnitude":  "1.1",
-                                            "magnitude_raw":  1.09,
-                                            "place":  "8 km NW of The Geysers, CA",
-                                            "country":  "United States of America",
-                                            "depth_km":  "2.1",
-                                            "depth_km_raw":  2.08,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "automatic",
-                                            "tsunami":  0,
-                                            "significance":  18,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.1 - 8 km NW of The Geysers, CA",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453556",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75453556\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uw714124412",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -122.6795,
-                                                              45.0113333333333,
-                                                              -0.29
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uw714124412",
-                                            "time_utc":  "2026-10-22T20:33:18Z",
-                                            "time_et":  "2026-10-22T16:33:18-04:00",
-                                            "updated_utc":  "2026-10-22T21:08:54Z",
-                                            "magnitude":  "1.6",
-                                            "magnitude_raw":  1.62,
-                                            "place":  "3 km SSW of Scotts Mills, Oregon",
-                                            "country":  "United States of America",
-                                            "depth_km":  "-0.3",
-                                            "depth_km_raw":  -0.29,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  40,
-                                            "event_type":  "explosion",
-                                            "title":  "M 1.6 Explosion - 3 km SSW of Scotts Mills, Oregon",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124412",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714124412\u0026format=geojson"
                                         }
                      }
                  ]
