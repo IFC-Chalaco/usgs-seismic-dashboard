@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-04T18:35:32Z",
+    "generated_at_utc":  "2026-11-04T18:36:30Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -3501,6 +3501,41 @@
                                             "title":  "M 1.5 - 4 km NE of Beaumont, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572152",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41572152\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uw714134211",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -123.444166666667,
+                                                              45.6583333333333,
+                                                              -0.69
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uw714134211",
+                                            "time_utc":  "2026-11-03T19:41:38Z",
+                                            "time_et":  "2026-11-03T14:41:38-05:00",
+                                            "updated_utc":  "2026-11-04T18:35:30Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.57,
+                                            "place":  "26 km W of Banks, Oregon",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.7",
+                                            "depth_km_raw":  -0.69,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  38,
+                                            "event_type":  "explosion",
+                                            "title":  "M 1.6 Explosion - 26 km W of Banks, Oregon",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714134211",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714134211\u0026format=geojson"
                                         }
                      },
                      {
