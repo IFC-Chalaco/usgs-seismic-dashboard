@@ -1,6 +1,6 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-05T19:07:54Z",
+    "generated_at_utc":  "2026-11-05T19:08:52Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
@@ -180,6 +180,41 @@
                      },
                      {
                          "type":  "Feature",
+                         "id":  "uu80163016",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.917166666667,
+                                                              38.5131666666667,
+                                                              3.37
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80163016",
+                                            "time_utc":  "2026-11-05T18:10:52Z",
+                                            "time_et":  "2026-11-05T13:10:52-05:00",
+                                            "updated_utc":  "2026-11-05T19:08:09Z",
+                                            "magnitude":  "2.1",
+                                            "magnitude_raw":  2.09,
+                                            "place":  "15 km NNE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.37,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  67,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 2.1 - 15 km NNE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163016",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80163016\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
                          "id":  "nc75462817",
                          "geometry":  {
                                           "type":  "Point",
@@ -219,31 +254,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -95.06710052,
-                                                              35.61107635,
-                                                              4.856
+                                                              -95.08416667,
+                                                              35.59266667,
+                                                              0
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ok2026vsct",
-                                            "time_utc":  "2026-11-05T18:05:01Z",
-                                            "time_et":  "2026-11-05T13:05:01-05:00",
-                                            "updated_utc":  "2026-11-05T18:07:06Z",
-                                            "magnitude":  "1.5",
-                                            "magnitude_raw":  1.53,
-                                            "place":  "1 km S of Paradise Hill, Oklahoma",
+                                            "time_utc":  "2026-11-05T18:05:00Z",
+                                            "time_et":  "2026-11-05T13:05:00-05:00",
+                                            "updated_utc":  "2026-11-05T19:05:20Z",
+                                            "magnitude":  "1.2",
+                                            "magnitude_raw":  1.16,
+                                            "place":  "1 km NNE of Notiechtown, Oklahoma",
                                             "country":  "United States of America",
-                                            "depth_km":  "4.9",
-                                            "depth_km_raw":  4.856,
+                                            "depth_km":  "0.0",
+                                            "depth_km_raw":  0,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  36,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.5 - 1 km S of Paradise Hill, Oklahoma",
+                                            "significance":  21,
+                                            "event_type":  "quarry blast",
+                                            "title":  "M 1.2 Quarry Blast - 1 km NNE of Notiechtown, Oklahoma",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026vsct",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026vsct\u0026format=geojson"
                                         }
