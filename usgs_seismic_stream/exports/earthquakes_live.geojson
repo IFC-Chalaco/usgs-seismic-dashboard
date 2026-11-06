@@ -1,37 +1,247 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-05T22:56:38Z",
+    "generated_at_utc":  "2026-11-06T00:08:38Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
                      {
                          "type":  "Feature",
-                         "id":  "ci41358999",
+                         "id":  "nc75462927",
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -115.29,
-                                                              32.2381666666667,
-                                                              10.74
+                                                              -122.810997009277,
+                                                              38.8213348388672,
+                                                              3.44
                                                           ]
                                       },
                          "properties":  {
-                                            "id":  "ci41358999",
-                                            "time_utc":  "2026-11-05T22:39:59Z",
-                                            "time_et":  "2026-11-05T17:39:59-05:00",
-                                            "updated_utc":  "2026-11-05T22:43:31Z",
-                                            "magnitude":  "2.3",
-                                            "magnitude_raw":  2.29,
-                                            "place":  "11 km W of Alberto Oviedo Mota, B.C., MX",
-                                            "country":  "Mexico",
-                                            "depth_km":  "10.7",
-                                            "depth_km_raw":  10.74,
+                                            "id":  "nc75462927",
+                                            "time_utc":  "2026-11-05T23:58:38Z",
+                                            "time_et":  "2026-11-05T18:58:38-05:00",
+                                            "updated_utc":  "2026-11-06T00:00:14Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.48,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.4",
+                                            "depth_km_raw":  3.44,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
                                             "status":  "automatic",
                                             "tsunami":  0,
-                                            "significance":  81,
+                                            "significance":  4,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.5 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462927",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75462927\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75462922",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.810836791992,
+                                                              38.8224983215332,
+                                                              3.24
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75462922",
+                                            "time_utc":  "2026-11-05T23:56:54Z",
+                                            "time_et":  "2026-11-05T18:56:54-05:00",
+                                            "updated_utc":  "2026-11-05T23:58:29Z",
+                                            "magnitude":  "1.0",
+                                            "magnitude_raw":  0.26,
+                                            "place":  "7 km NW of The Geysers, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "3.2",
+                                            "depth_km_raw":  3.24,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  1,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 0.3 - 7 km NW of The Geysers, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462922",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75462922\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nn00926708",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -118.8704,
+                                                              38.1821,
+                                                              0.1477
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nn00926708",
+                                            "time_utc":  "2026-11-05T23:53:38Z",
+                                            "time_et":  "2026-11-05T18:53:38-05:00",
+                                            "updated_utc":  "2026-11-05T23:56:07Z",
+                                            "magnitude":  "1.6",
+                                            "magnitude_raw":  1.6,
+                                            "place":  "28 km ENE of Mono City, California",
+                                            "country":  "United States of America",
+                                            "depth_km":  "0.1",
+                                            "depth_km_raw":  0.1477,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  39,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.6 - 28 km ENE of Mono City, California",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926708",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00926708\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75462912",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -120.509330749512,
+                                                              35.9743347167969,
+                                                              -0.47
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75462912",
+                                            "time_utc":  "2026-11-05T23:46:47Z",
+                                            "time_et":  "2026-11-05T18:46:47-05:00",
+                                            "updated_utc":  "2026-11-06T00:07:22Z",
+                                            "magnitude":  "1.1",
+                                            "magnitude_raw":  1.13,
+                                            "place":  "11 km NW of Parkfield, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "-0.5",
+                                            "depth_km_raw":  -0.47,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  20,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.1 - 11 km NW of Parkfield, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462912",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75462912\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "pr71538538",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -66.4078333333333,
+                                                              17.8445,
+                                                              9.29
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr71538538",
+                                            "time_utc":  "2026-11-05T23:09:33Z",
+                                            "time_et":  "2026-11-05T18:09:33-05:00",
+                                            "updated_utc":  "2026-11-05T23:32:38Z",
+                                            "magnitude":  "3.0",
+                                            "magnitude_raw":  2.95,
+                                            "place":  "13 km S of Santa Isabel, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "9.3",
+                                            "depth_km_raw":  9.29,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  134,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.0 - 13 km S of Santa Isabel, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538538",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71538538\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "uu80163106",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -112.921,
+                                                              38.5181666666667,
+                                                              2.69
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "uu80163106",
+                                            "time_utc":  "2026-11-05T23:00:52Z",
+                                            "time_et":  "2026-11-05T18:00:52-05:00",
+                                            "updated_utc":  "2026-11-05T23:29:37Z",
+                                            "magnitude":  "1.9",
+                                            "magnitude_raw":  1.94,
+                                            "place":  "15 km NNE of Milford, Utah",
+                                            "country":  "United States of America",
+                                            "depth_km":  "2.7",
+                                            "depth_km_raw":  2.69,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  58,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.9 - 15 km NNE of Milford, Utah",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163106",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80163106\u0026format=geojson"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41358999",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -115.288666666667,
+                                                              32.2413333333333,
+                                                              11.39
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41358999",
+                                            "time_utc":  "2026-11-05T22:39:59Z",
+                                            "time_et":  "2026-11-05T17:39:59-05:00",
+                                            "updated_utc":  "2026-11-05T23:09:36Z",
+                                            "magnitude":  "2.3",
+                                            "magnitude_raw":  2.34,
+                                            "place":  "11 km W of Alberto Oviedo Mota, B.C., MX",
+                                            "country":  "Mexico",
+                                            "depth_km":  "11.4",
+                                            "depth_km_raw":  11.39,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  84,
                                             "event_type":  "earthquake",
                                             "title":  "M 2.3 - 11 km W of Alberto Oviedo Mota, B.C., MX",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358999",
@@ -289,31 +499,31 @@
                          "geometry":  {
                                           "type":  "Point",
                                           "coordinates":  [
-                                                              -116.4305,
-                                                              33.4163333333333,
-                                                              12.38
+                                                              -116.426166666667,
+                                                              33.4168333333333,
+                                                              12.42
                                                           ]
                                       },
                          "properties":  {
                                             "id":  "ci41358919",
                                             "time_utc":  "2026-11-05T20:17:34Z",
                                             "time_et":  "2026-11-05T15:17:34-05:00",
-                                            "updated_utc":  "2026-11-05T20:20:57Z",
+                                            "updated_utc":  "2026-11-05T22:58:14Z",
                                             "magnitude":  "1.0",
-                                            "magnitude_raw":  0.64,
+                                            "magnitude_raw":  0.53,
                                             "place":  "19 km NNW of Borrego Springs, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "12.4",
-                                            "depth_km_raw":  12.38,
+                                            "depth_km_raw":  12.42,
                                             "felt_reports":  null,
                                             "cdi":  null,
                                             "mmi":  null,
                                             "alert":  null,
-                                            "status":  "automatic",
+                                            "status":  "reviewed",
                                             "tsunami":  0,
-                                            "significance":  6,
+                                            "significance":  4,
                                             "event_type":  "earthquake",
-                                            "title":  "M 0.6 - 19 km NNW of Borrego Springs, CA",
+                                            "title":  "M 0.5 - 19 km NNW of Borrego Springs, CA",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358919",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41358919\u0026format=geojson"
                                         }
@@ -3518,14 +3728,14 @@
                                             "id":  "nc75462637",
                                             "time_utc":  "2026-11-05T04:56:02Z",
                                             "time_et":  "2026-11-04T23:56:02-05:00",
-                                            "updated_utc":  "2026-11-05T22:54:45Z",
+                                            "updated_utc":  "2026-11-06T00:02:44Z",
                                             "magnitude":  "5.0",
                                             "magnitude_raw":  4.96,
                                             "place":  "111 km W of Petrolia, CA",
                                             "country":  "United States of America",
                                             "depth_km":  "10.0",
                                             "depth_km_raw":  10,
-                                            "felt_reports":  141,
+                                            "felt_reports":  142,
                                             "cdi":  3.8,
                                             "mmi":  2.816,
                                             "alert":  "green",
@@ -40391,76 +40601,6 @@
                                             "title":  "M 0.9 - 11 km SE of Ashford, Washington",
                                             "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uw714132481",
                                             "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw714132481\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "uu80162096",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -112.913833333333,
-                                                              38.5178333333333,
-                                                              1.83
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "uu80162096",
-                                            "time_utc":  "2026-10-30T00:03:12Z",
-                                            "time_et":  "2026-10-29T20:03:12-04:00",
-                                            "updated_utc":  "2026-10-30T14:39:40Z",
-                                            "magnitude":  "1.7",
-                                            "magnitude_raw":  1.65,
-                                            "place":  "15 km NNE of Milford, Utah",
-                                            "country":  "United States of America",
-                                            "depth_km":  "1.8",
-                                            "depth_km_raw":  1.83,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  42,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.7 - 15 km NNE of Milford, Utah",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/uu80162096",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80162096\u0026format=geojson"
-                                        }
-                     },
-                     {
-                         "type":  "Feature",
-                         "id":  "tx2026viijji",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -101.714,
-                                                              31.695,
-                                                              6.7627
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  "tx2026viijji",
-                                            "time_utc":  "2026-10-29T23:31:38Z",
-                                            "time_et":  "2026-10-29T19:31:38-04:00",
-                                            "updated_utc":  "2026-11-04T22:32:39Z",
-                                            "magnitude":  "1.8",
-                                            "magnitude_raw":  1.8,
-                                            "place":  "28 km SW of Garden City, Texas",
-                                            "country":  "United States of America",
-                                            "depth_km":  "6.8",
-                                            "depth_km_raw":  6.7627,
-                                            "felt_reports":  null,
-                                            "cdi":  null,
-                                            "mmi":  null,
-                                            "alert":  null,
-                                            "status":  "reviewed",
-                                            "tsunami":  0,
-                                            "significance":  50,
-                                            "event_type":  "earthquake",
-                                            "title":  "M 1.8 - 28 km SW of Garden City, Texas",
-                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026viijji",
-                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026viijji\u0026format=geojson"
                                         }
                      }
                  ]
