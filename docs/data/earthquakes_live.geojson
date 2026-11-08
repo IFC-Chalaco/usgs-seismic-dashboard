@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-08T00:34:51Z",
+    "generated_at_utc":  "2026-11-08T00:35:51Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "nc75463772",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -122.70866394043,
+                                                              38.776668548584,
+                                                              1.62
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "nc75463772",
+                                            "time_utc":  "2026-11-08T00:33:26Z",
+                                            "time_et":  "2026-11-07T19:33:26-05:00",
+                                            "updated_utc":  "2026-11-08T00:34:59Z",
+                                            "magnitude":  "1.5",
+                                            "magnitude_raw":  1.53,
+                                            "place":  "1 km W of Anderson Springs, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "1.6",
+                                            "depth_km_raw":  1.62,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  36,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.5 - 1 km W of Anderson Springs, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/nc75463772",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75463772\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75463747",
