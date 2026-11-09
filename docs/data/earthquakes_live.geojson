@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-09T08:47:49Z",
+    "generated_at_utc":  "2026-11-09T08:48:49Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "pr2026313000",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -67.4155,
+                                                              18.9358,
+                                                              18
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "pr2026313000",
+                                            "time_utc":  "2026-11-09T07:19:15Z",
+                                            "time_et":  "2026-11-09T02:19:15-05:00",
+                                            "updated_utc":  "2026-11-09T08:47:42Z",
+                                            "magnitude":  "3.5",
+                                            "magnitude_raw":  3.51,
+                                            "place":  "59 km NW of San Antonio, Puerto Rico",
+                                            "country":  "Puerto Rico",
+                                            "depth_km":  "18.0",
+                                            "depth_km_raw":  18,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "reviewed",
+                                            "tsunami":  0,
+                                            "significance":  190,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 3.5 - 59 km NW of San Antonio, Puerto Rico",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026313000",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026313000\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "nc75464332",
