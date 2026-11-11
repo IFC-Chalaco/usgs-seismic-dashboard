@@ -1,8 +1,43 @@
 ﻿{
     "type":  "FeatureCollection",
-    "generated_at_utc":  "2026-11-11T23:30:24Z",
+    "generated_at_utc":  "2026-11-11T23:31:24Z",
     "source_map_url":  "https://earthquake.usgs.gov/earthquakes/map/?extent=14.64737,-144.22852\u0026extent=56.31654,-45.79102\u0026range=week\u0026magnitude=all",
     "features":  [
+                     {
+                         "type":  "Feature",
+                         "id":  "ci41361095",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              -117.83517,
+                                                              33.86683,
+                                                              8.5
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "id":  "ci41361095",
+                                            "time_utc":  "2026-11-11T23:28:29Z",
+                                            "time_et":  "2026-11-11T18:28:29-05:00",
+                                            "updated_utc":  "2026-11-11T23:30:35Z",
+                                            "magnitude":  "1.3",
+                                            "magnitude_raw":  1.34,
+                                            "place":  "3 km SW of Yorba Linda, CA",
+                                            "country":  "United States of America",
+                                            "depth_km":  "8.5",
+                                            "depth_km_raw":  8.5,
+                                            "felt_reports":  null,
+                                            "cdi":  null,
+                                            "mmi":  null,
+                                            "alert":  null,
+                                            "status":  "automatic",
+                                            "tsunami":  0,
+                                            "significance":  28,
+                                            "event_type":  "earthquake",
+                                            "title":  "M 1.3 - 3 km SW of Yorba Linda, CA",
+                                            "detail_url":  "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361095",
+                                            "detail_api":  "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41361095\u0026format=geojson"
+                                        }
+                     },
                      {
                          "type":  "Feature",
                          "id":  "ci41361087",
